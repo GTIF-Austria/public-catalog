@@ -4,7 +4,10 @@
   "description": "",
   "endpoint": "https://endpoint.com",
   "assets_endpoint": "https://assets_endpoint.com",
-  "collections": [],
+  "collections": [
+    "collection1",
+    "collection2"
+  ],
   "default_base_layers": "",
   "default_overlay_layers": ""
 }
