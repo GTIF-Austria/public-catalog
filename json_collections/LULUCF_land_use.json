@@ -38,10 +38,20 @@
             }
           ]
         }
-      ]
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
     }
   ],
   "License": "MIT",
   "Image": "/image.png",
-  "Legend": "/legend.png"
+  "Legend": "/legend.png",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  }
 }
