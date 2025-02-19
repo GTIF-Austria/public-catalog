@@ -1,9 +1,9 @@
 {
-  "id": "",
-  "title": "",
+  "id": "catalog_test_json",
+  "title": "catalog",
   "description": "",
-  "endpoint": "",
-  "assets_endpoint": "",
+  "endpoint": "https://endpoint.com",
+  "assets_endpoint": "https://assets_endpoint.com",
   "collections": [],
   "default_base_layers": "",
   "default_overlay_layers": ""
