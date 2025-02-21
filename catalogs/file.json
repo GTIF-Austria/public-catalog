@@ -1,0 +1,13 @@
+{
+  "id": "catalog_test_json",
+  "title": "catalog",
+  "description": "",
+  "endpoint": "https://endpoint.com",
+  "assets_endpoint": "https://assets_endpoint.com",
+  "collections": [
+    "collection1",
+    "collection2"
+  ],
+  "default_base_layers": "",
+  "default_overlay_layers": ""
+}
