@@ -10,14 +10,14 @@
     "Colorlegend": {
         "title": "Land cover classes",
         "range": [
-            "#334f21",
+             "#334f21",
             "#538135",
             "#659c40",
-            "#bf8f00",
+             "#bf8f00",
             "#dede62",
             "#cfb05c",
             "#b1954e",
-            "#d99f00",
+             "#d99f00",
             "#5abe2f",
             "#71e93a",
             "#2f5496",
