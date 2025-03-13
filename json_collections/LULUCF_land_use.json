@@ -22,12 +22,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Bbox": [
-        11,
-        46.5,
-        15.5,
-        48.9
-      ],
+      "Bbox": [],
       "TimeEntries": [
         {
           "Time": "2018",
@@ -53,5 +48,19 @@
   "Citation": {
     "DOI": "",
     "Citation": ""
-  }
+  },
+  "Subtitle": "",
+  "Subcollections": [],
+  "Services": [],
+  "References": [],
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "CollectionGroup": ""
 }
