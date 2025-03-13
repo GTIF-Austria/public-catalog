@@ -1,0 +1,8 @@
+{
+    "stroke-width": 1,
+    "stroke-color": "#000000",
+    "fill-color": "#00000000",
+    "tooltip": [
+        {"id": "NAME", "title": "Gemeinde: "}
+    ]
+}

@@ -1,34 +1,32 @@
-# This is a basic workflow takes care of building and deploying
-# catalog when pushing to main branch
 
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
 
+
+name: Preview catalog
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch: 
-
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
+  preview_changed_files:
+    runs-on: ubuntu-latest 
     permissions:
-      contents: write
-      pages: write
-      pull-requests: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+     contents: write
+     pages: write
+     pull-requests: write
+    name: Deploy changed-files
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+            submodules: 'true'
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install json2yaml
-          pip install eodash_catalog==0.1.7
+          pip install eodash_catalog pyyaml
       - name: Convert JSON to YAML
         run: |
           mkdir -p collections
@@ -39,6 +37,16 @@ jobs:
           for file in json_indicators/*.json; do
             json2yaml "$file" > "indicators/$(basename "$file" .json).yaml"
           done
+      - name: changed-files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
+        # with:
+        #   since_last_remote_commit: true 
+      - name: List all changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: python .github/update_catalog.py
       - name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
@@ -47,12 +55,9 @@ jobs:
           SH_INSTANCE_ID_POLARTEP: ${{ secrets.SH_INSTANCE_ID_POLARTEP }}
           SH_CLIENT_ID_POLARTEP: ${{ secrets.SH_CLIENT_ID_POLARTEP }}
           SH_CLIENT_SECRET_POLARTEP: ${{ secrets.SH_CLIENT_SECRET_POLARTEP }}
-        # actually run the catalog generation
-        run: eodash_catalog
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        run: |
+           eodash_catalog
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
         with:
-          folder: ./build
-          branch: gh-pages
-          clean-exclude: pr-preview
-          force: false
+          source-dir: ./build/

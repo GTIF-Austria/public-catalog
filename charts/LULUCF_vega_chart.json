@@ -1,0 +1,92 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": {
+            "expr": "'2023 land cover in '+data('LULUCF_stats')[0].name"
+        },
+        "anchor": "start",
+        "fontSize": 12,
+        "fontWeight": "bold"
+    },
+    "description": "Bar chart displaying land use in 2023 with interactive highlighting.",
+    "data": {"name": "LULUCF_stats"},
+    "transform": [
+        {
+            "fold": [
+                "forestland",
+                "cropland",
+                "grassland",
+                "wetlands",
+                "settlements",
+                "other lands"
+            ],
+            "as": ["land_type", "area"]
+        },
+        {
+            "calculate": "datum.land_type === 'forestland' ? 'Forestland' : datum.land_type === 'cropland' ? 'Cropland' : datum.land_type === 'grassland' ? 'Grassland' : datum.land_type === 'wetlands' ? 'Wetlands' : datum.land_type === 'settlements' ? 'Settlements' : 'Other lands'",
+            "as": "land_type_capitalized"
+        },
+        {
+          "calculate": "datum.area / 1000",
+          "as": "area_kha"
+        }
+    ],
+    "mark": {"type": "bar", "tooltip": true, "cursor": "pointer"},
+    "encoding": {
+        "x": {
+            "field": "land_type_capitalized",
+            "type": "nominal",
+            "title": "Land Type",
+            "sort": "-y"
+        },
+        "y": {"field": "area_kha", "type": "quantitative", "title": "Area (kha)"},
+        "color": {
+            "field": "land_type",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "forestland",
+                    "grassland",
+                    "cropland",
+                    "other lands",
+                    "settlements",
+                    "wetlands"
+                ],
+                "range": [
+                    "#334F22",
+                    "#479B26",
+                    "#B88E14",
+                    "#7F7F7F",
+                    "#723B0A",
+                    "#1A4A92"
+                ]
+            },
+            "legend": null
+        },
+        "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.6},
+        "tooltip": [
+            {
+                "field": "land_type_capitalized",
+                "type": "nominal",
+                "title": "Land Type"
+            },
+            {
+                "field": "area_kha",
+                "type": "quantitative",
+                "format": ",.2f",
+                "title": "Area (kha)"
+            }
+        ]
+    },
+    "params": [
+        {
+            "name": "hover",
+            "select": {
+                "type": "point",
+                "fields": ["land_type"],
+                "on": "mouseover",
+                "clear": "mouseout"
+            }
+        }
+    ]
+}
