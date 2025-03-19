@@ -1,6 +1,6 @@
 {
     "Name": "land_use",
-    "Title": "LULUCF Time Series",
+    "Title": "LULUCF Time Series test",
     "EodashIdentifier": "LULUCF",
     "Description": "TBD",
     "Themes": ["TBD"],
