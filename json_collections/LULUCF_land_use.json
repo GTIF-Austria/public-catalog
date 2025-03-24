@@ -85,7 +85,7 @@
       "Attribution": "Developed within FFG project GHG-KIT [contract #FO999893432] https://ghg-kit.at/",
       "TimeEntries": [
         {
-          "Time": "2015",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "Time": "2016",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "Time": "2017",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "Time": "2018",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "Time": "2019",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "Time": "2020",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "Time": "01-01-2021",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -148,7 +148,7 @@
           ]
         },
         {
-          "Time": "01-01-2022",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -157,7 +157,7 @@
           ]
         },
         {
-          "Time": "01-01-2023",
+          "Time": "",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -169,7 +169,13 @@
       "EndPoint": "",
       "Type": "byoc",
       "CollectionId": "",
-      "LayerId": ""
+      "LayerId": "",
+      "BBox": [
+        -32.217073419467425,
+        20.291126738256843,
+        -1.8937626439657436,
+        39.35467188875852
+      ]
     }
   ],
   "Subtitle": "this a new subtitle",
