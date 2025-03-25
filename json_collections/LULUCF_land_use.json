@@ -85,7 +85,7 @@
       "Attribution": "Developed within FFG project GHG-KIT [contract #FO999893432] https://ghg-kit.at/",
       "TimeEntries": [
         {
-          "Time": "2015-01-01T00:00",
+          "Time": "2015",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -95,7 +95,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2016-01-01T00:00",
+          "Time": "2016",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -105,7 +105,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2017-01-01T00:00",
+          "Time": "2017",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -115,7 +115,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2018-01-01T00:00",
+          "Time": "2018",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -125,7 +125,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2019-01-01T00:00",
+          "Time": "2019",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -135,7 +135,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2020-01-01T00:00",
+          "Time": "2020",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -145,7 +145,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2021-01-01T00:00",
+          "Time": "2021",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -155,7 +155,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2022-01-01T00:00",
+          "Time": "2022",
           "Assets": [
             {
               "Identifier": "LULUCF",
@@ -165,7 +165,7 @@
           "Attribution": ""
         },
         {
-          "Time": "2023-01-01T00:00",
+          "Time": "2023",
           "Assets": [
             {
               "Identifier": "LULUCF",
