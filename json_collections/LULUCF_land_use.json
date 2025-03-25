@@ -170,12 +170,7 @@
       "Type": "byoc",
       "CollectionId": "",
       "LayerId": "",
-      "BBox": [
-        -103.31261552704282,
-        53.0019571583795,
-        -43.66936295335971,
-        78.08556919851327
-      ]
+      "BBox": null
     }
   ],
   "Subtitle": "this a new subtitle",
