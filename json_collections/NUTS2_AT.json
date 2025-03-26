@@ -4,7 +4,8 @@
   "EodashIdentifier": "NUTS2_AT",
   "Description": "NUTS2 Statistik Austria 2016",
   "Themes": [
-    "TBD"
+    "Air",
+    "Atmosphere"
   ],
   "Tags": [
     "land use"
@@ -13,8 +14,11 @@
     "Spaceborne": {
       "Satellite": [
         "Combined"
-      ]
-    }
+      ],
+      "Sensor": []
+    },
+    "InSitu": [],
+    "Other": []
   },
   "Agency": [
     "None"
@@ -23,7 +27,12 @@
     {
       "Name": "GeoJSON source",
       "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/NUTS2_styles.json",
-      "Bbox": [9.5, 44.5, 18.0, 49.9],
+      "Bbox": [
+        9.5,
+        44.5,
+        18,
+        49.9
+      ],
       "TimeEntries": [
         {
           "Time": "2016",
@@ -32,9 +41,35 @@
               "Identifier": "NUTS2_AT",
               "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/LULUCF/NUTS2.geojson"
             }
-          ]
+          ],
+          "Attribution": ""
         }
-      ]
+      ],
+      "Attribution": ""
     }
-  ]
+  ],
+  "Subtitle": "",
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": "",
+    "Publications": []
+  },
+  "Image": "",
+  "Legend": "",
+  "Subcollections": [],
+  "Services": [],
+  "References": [],
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "CollectionGroup": ""
 }
