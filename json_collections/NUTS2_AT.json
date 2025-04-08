@@ -4,7 +4,8 @@
   "EodashIdentifier": "NUTS2_AT_EODASH_ID",
   "Description": "NUTS2 Statistik Austria 2016",
   "Themes": [
-    "TBD"
+    "test",
+    "test2"
   ],
   "Tags": [
     "land use"
