@@ -1,7 +1,7 @@
 {
   "Name": "NUTS2_AT",
   "Title": "NUTS2 Austria (Gemeinden)",
-  "EodashIdentifier": "NUTS2_AT",
+  "EodashIdentifier": "NUTS2_AT_EODASH_ID",
   "Description": "NUTS2 Statistik Austria 2016",
   "Themes": [
     "TBD"
