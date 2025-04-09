@@ -1,9 +1,9 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
+  "Name": "my super new dataste",
+  "Title": "Super data",
+  "EodashIdentifier": "superid1",
   "Subtitle": "",
-  "Description": "",
+  "Description": "descrtption",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +26,17 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://somestyle.com",
+      "TimeEntries": [],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
