@@ -29,7 +29,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://github.com/GTIF-Austria/public-assets/blob/main/assets/styles/DHI1.json?raw=true",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/DHI1.json",
       "Bbox": [
         9.978753668096008,
         45.791503409256876,
@@ -56,13 +56,15 @@
               "Identifier": "settlementdistance",
               "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/DHI/WSF_EucDist_Austria_3857_COG_fix.tif"
             }
-          ]
+          ],
+          "Attribution": ""
         }
       ],
       "EndPoint": "",
       "Type": "byoc",
       "CollectionId": "",
-      "LayerId": ""
+      "LayerId": "",
+      "Attribution": ""
     }
   ],
   "Services": [],
