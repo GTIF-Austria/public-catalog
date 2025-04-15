@@ -1,9 +1,9 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
+  "Name": "building_stock_update",
+  "Title": "Building stock update",
+  "EodashIdentifier": "UBI1",
   "Subtitle": "",
-  "Description": "",
+  "Description": "Great description TBD",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +26,33 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/ubicube.json",
+      "Bbox": [
+        16.81310827113081,
+        47.9215061741687,
+        16.86388694219738,
+        47.96013779058797
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "ubi_detections",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/ubicube/ubicube_buildings_epsg4326.geojson"
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
