@@ -1,9 +1,9 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
+  "Name": "new_dataste",
+  "Title": "New Dataset from New source",
+  "EodashIdentifier": "ESA_NEWDS1",
   "Subtitle": "",
-  "Description": "",
+  "Description": "# New dataset\nInteresting description",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -26,7 +26,23 @@
   "Image": "",
   "Legend": "",
   "Subcollections": [],
-  "Resources": [],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GFC_Garissa_FloodExtent/style.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "random geojson",
+              "File": "https://gist.githubusercontent.com/wavded/1200773/raw/e122cf709898c09758aecfef349964a8d73a83f3/sample.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "Services": [],
   "References": [],
   "Colorlegend": {
