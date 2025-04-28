@@ -23,7 +23,7 @@
     {
       "Name": "GeoJSON source",
       "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/NUTS2_styles.json",
-      "Bbox": [9.5, 44.5, 18.0, 49.9],
+      "Bbox": [9.5, 44.5, 18.0, 49.99],
       "TimeEntries": [
         {
           "Time": "2016",
