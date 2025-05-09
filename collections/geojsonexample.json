@@ -1,3 +1,42 @@
 {
-  "Name": "geojson_example"
+  "Name": "geojson_example",
+  "Title": "GeoJSON Example",
+  "EodashIdentifier": "geojson_example1",
+  "Description": "# Great description",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GFC_Garissa_FloodExtent/style.json",
+      "Bbox": [
+        84.54012806830312,
+        -8.034375000000011,
+        128.98751334044823,
+        28.56562499999999
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "geojsonfile",
+              "File": "https://gist.githubusercontent.com/wavded/1200773/raw/e122cf709898c09758aecfef349964a8d73a83f3/sample.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
