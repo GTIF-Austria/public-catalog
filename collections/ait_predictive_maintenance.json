@@ -1,0 +1,89 @@
+{
+  "Name": "predictive_maintenance",
+  "Title": "Predictive Maintenance",
+  "EodashIdentifier": "AIT1",
+  "Subtitle": "",
+  "Description": "To be defined",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [],
+      "Sensor": []
+    },
+    "InSitu": [],
+    "Other": []
+  },
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": "",
+    "Publications": []
+  },
+  "Image": "",
+  "Legend": "",
+  "Subcollections": [],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT1.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "overview",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/A14_overview.geojson"
+            }
+          ],
+          "Attribution": ""
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": "",
+      "Bbox": [
+        9.607703910147158,
+        47.28857258754364,
+        9.763577928600249,
+        47.452296376710194
+      ],
+      "Attribution": ""
+    }
+  ],
+  "Services": [],
+  "References": [],
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "CollectionGroup": "",
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/AIT1_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/AIT1_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/csv time series/{{feature}}.csv",
+        "Type": "text/csv",
+        "Method": "GET"
+      },
+      {
+        "Identifier": "reference_points",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/geojson/{{feature}}.geojson",
+        "Type": "application/geo+json",
+        "Flatstyle": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT1_subfeatures.json"
+      }
+    ]
+  }
+}
