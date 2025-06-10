@@ -1,3 +1,42 @@
 {
-  "Name": "GLO_hori_sum"
+  "Name": "GLO_hori_sum",
+  "Title": "GLO hori sum",
+  "EodashIdentifier": "GLO",
+  "Description": "To be defined",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "GLO",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/WR02.json",
+      "Bbox": [
+        10.146189699764948,
+        46.506125141798016,
+        16.533628494875593,
+        48.67412444086842
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "GLO",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/WR02/GLO_hori_sum_2006-2023.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
