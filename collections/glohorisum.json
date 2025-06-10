@@ -14,8 +14,8 @@
     "DOI": "",
     "Citation": ""
   },
-  "Image": "",
-  "Legend": "assets/wr02_preview.jpg",
+  "Image": "assets/wr02_preview.jpg",
+  "Legend": "",
   "Resources": [
     {
       "Name": "COG source",
