@@ -18,7 +18,7 @@
   "Legend": "",
   "Resources": [
     {
-      "Name": "GLO",
+      "Name": "COG source",
       "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/WR02.json",
       "Bbox": [
         10.146189699764948,
