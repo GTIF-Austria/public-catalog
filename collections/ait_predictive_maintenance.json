@@ -54,13 +54,13 @@
     "EndPoints": [
       {
         "Identifier": "timeseries",
-        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/csv time series/{{feature}}.csv",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/AIT/A14/csv time series/{{feature}}.csv",
         "Type": "text/csv",
         "Method": "GET"
       },
       {
         "Identifier": "reference_points",
-        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/geojson/{{feature}}.geojson",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/AIT/A14/geojson/{{feature}}.geojson",
         "Type": "application/geo+json",
         "Flatstyle": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT1_subfeatures.json"
       }
