@@ -1,0 +1,34 @@
+{
+  "Name": "GTIME Layer",
+  "Title": "GTIME Layer",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "GTIME Layer",
+      "Bbox": [
+        9.5,
+        44.5,
+        18,
+        49.5
+      ],
+      "EndPoint": "http://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_3band_cog.tif",
+      "Type": "byoc",
+      "CollectionId": "gtime",
+      "LayerId": "gtime-layer"
+    }
+  ],
+  "EodashIdentifier": "GTIME Layer",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
+}
