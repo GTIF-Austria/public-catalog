@@ -11,7 +11,7 @@
   "Image": "assets/LULUCF_preview.jpg",
   "Process": {
     "Name": "LULUCF_statistics",
-    "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/forms/LULUCF_comparison_form.json",
+    "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/forms/LULUCF_form_comparison.json",
     "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/charts/LULUCF_comparison_vega_chart.json",
     "EndPoints": [
       {
