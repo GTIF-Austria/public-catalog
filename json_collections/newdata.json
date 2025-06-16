@@ -1,0 +1,74 @@
+{
+  "Name": "new_dataste",
+  "Title": "New Dataset from New source",
+  "EodashIdentifier": "ESA_NEWDS1",
+  "Subtitle": "",
+  "Description": "# New dataset\nInteresting description",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [],
+      "Sensor": []
+    },
+    "InSitu": [],
+    "Other": []
+  },
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": "",
+    "Publications": []
+  },
+  "Image": "",
+  "Legend": "",
+  "Subcollections": [],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GFC_Garissa_FloodExtent/style.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "random geojson",
+              "File": "https://gist.githubusercontent.com/wavded/1200773/raw/e122cf709898c09758aecfef349964a8d73a83f3/sample.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Services": [],
+  "References": [],
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "CollectionGroup": "",
+  "Process": {
+    "Name": "",
+    "JsonForm": "",
+    "VegaDefinition": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json",
+        "EndPoint": "",
+        "Method": "GET",
+        "Body": "",
+        "Flatstyle": ""
+      }
+    ]
+  }
+}
