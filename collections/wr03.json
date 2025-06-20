@@ -1,9 +1,8 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
-  "Subtitle": "",
-  "Description": "",
+  "Name": "wr03",
+  "Title": "WR03",
+  "EodashIdentifier": "wr03",
+  "Description": "TBD",
   "Themes": [],
   "Tags": [],
   "DataSource": {
