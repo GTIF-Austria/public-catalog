@@ -2,5 +2,27 @@
   "Name": "ubicube1",
   "Title": "ubicube1",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "http://127.0.0.1:9091/style.json",
+      "Bbox": [
+        12.81127393677465,
+        46.715594511938455,
+        16.914174644333855,
+        48.95096800088451
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "ubicube",
+              "File": "https://gtif-multitemporal-footprints.s3.eu-central-1.amazonaws.com/ubicube_multitemporal_footprints.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
