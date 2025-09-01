@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/UndeadFairy/public-catalog/refs/heads/UndeadFairy/test1/styles/test_style.json",
+      "Style": "https://raw.githubusercontent.com/UndeadFairy/public-catalog/refs/heads/UndeadFairy/test1/styles/test_style2.json",
       "Bbox": [
         11.075463125968927,
         44.23103071527723,
