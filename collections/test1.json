@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer-geosphere/citytemperaturetest/styles/city_temperature_style.json",
+      "Style": "https://raw.githubusercontent.com/UndeadFairy/public-catalog/refs/heads/UndeadFairy/test1/styles/test_style.json",
       "Bbox": [
         11.075463125968927,
         44.23103071527723,
