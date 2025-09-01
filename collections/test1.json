@@ -2,5 +2,27 @@
   "Name": "test1",
   "Title": "test1",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer-geosphere/citytemperaturetest/styles/city_temperature_style.json",
+      "Bbox": [
+        11.075463125968927,
+        44.23103071527723,
+        19.28204856796547,
+        50.87933225866693
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2019-06-29",
+          "Assets": [
+            {
+              "Identifier": "01",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/20190629_00h00_h15.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
