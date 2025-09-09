@@ -1,6 +1,28 @@
 {
-  "Name": "Data Editor Test Collect",
+  "Name": "Data_Editor_Test_Collect",
   "Title": "Data Editor Test Collect",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer[…]e/citytemperaturetest/styles/city_temperature_style.json",
+      "Bbox": [
+        9.400857276395682,
+        45.28386078834313,
+        17.34544501248279,
+        49.25320347223509
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "Test_COG_Resource",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190627_00h00_h02.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
