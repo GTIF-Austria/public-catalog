@@ -7,10 +7,10 @@
       "Name": "COG source",
       "Style": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer-geosphere/citytemperaturetest/styles/city_temperature_style.json",
       "Bbox": [
-        9.400857276395682,
-        45.28386078834313,
-        17.34544501248279,
-        49.25320347223509
+        10.191967305445715,
+        46.18190067359607,
+        17.363755873224115,
+        49.37605860714443
       ],
       "TimeEntries": [
         {
