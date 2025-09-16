@@ -1,0 +1,28 @@
+{
+  "Name": "Data_Editor_Tutorial",
+  "Title": "Data Editor Test 1",
+  "Description": "This collection is to demonstrate the Data Editor.",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02//tutorial-files/style_example.json",
+      "Bbox": [
+        14.814043690350857,
+        46.19139468138212,
+        17.921904623329205,
+        49.824527884723004
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "Tutorial_COG_Ressource",
+              "File": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02//tutorial-files/example.tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
