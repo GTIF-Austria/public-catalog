@@ -1,0 +1,20 @@
+{
+  "variables": {"strokeWidth": 1},
+  "fill-color": "yellow",
+  "stroke-color": "black",
+  "stroke-width": ["var", "strokeWidth"],
+  "jsonform": {
+    "type": "object",
+    "title": "Data configuration",
+    "properties": {
+      "strokeWidth": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "format": "range",
+        "default": 0
+      }
+    }
+  },
+  "tooltip": [{"id": "name", "title": "Projection: "}]
+}
