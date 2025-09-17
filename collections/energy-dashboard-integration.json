@@ -2,5 +2,27 @@
   "Name": "energy-dashboard-integration",
   "Title": "Power generation by renewable energy sources per federal state",
   "Description": "This collection gives an overview over different key metrics regarding renewable energy generation in Austria. It is an integration from the information provided on [Energie.gv.at](https://www.energie.gv.at). (Source: Energiebilanz der Statistik Austria 2023)",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/styles.json",
+      "Bbox": [
+        9.57871316243467,
+        46.224704537639916,
+        17.358516490178257,
+        49.04515814367677
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "geojsonfile",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_polygons_2020_2023.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
