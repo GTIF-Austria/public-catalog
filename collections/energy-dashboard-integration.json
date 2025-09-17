@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/styles.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/style.json",
       "Bbox": [
         9.57871316243467,
         46.224704537639916,
@@ -20,7 +20,8 @@
               "Identifier": "geojsonfile",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_polygons_2020_2023.geojson"
             }
-          ]
+          ],
+          "Attribution": ""
         }
       ]
     }
