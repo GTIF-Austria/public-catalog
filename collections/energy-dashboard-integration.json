@@ -1,6 +1,6 @@
 {
   "Name": "energy-dashboard-integration",
-  "Title": "energy-dashboard-integration",
-  "Description": "",
+  "Title": "Power generation by renewable energy sources per federal state",
+  "Description": "This collection gives an overview over different key metrics regarding renewable energy generation in Austria. It is an integration from the information provided on [Energie.gv.at](https://www.energie.gv.at). (Source: Energiebilanz der Statistik Austria 2023)",
   "Resources": []
 }
