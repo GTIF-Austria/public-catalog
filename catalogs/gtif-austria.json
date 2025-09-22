@@ -8,6 +8,7 @@
   "assets_endpoint": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main",
   "collections": [
     "LULUCF_land_use_indicator",
+    "ubi-footprints",
     "ait_predictive_maintenance",
     "gtime-layer",
     "city_temperature_indicator"
