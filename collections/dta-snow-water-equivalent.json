@@ -1,6 +1,13 @@
 {
-  "Name": "DTA Snow Water Equivalent",
-  "Title": "DTA Snow Water Equivalent",
-  "Description": "",
-  "Resources": []
+  "Name": "dta_swe",
+  "Title": "Snow Water Equivalent",
+  "Description": "**Snow Water Equivalent**: in mm, is the depth of water that would result if the snow mass melted completely ([Fierz et al., 2009](https://unesdoc.unesco.org/ark:/48223/pf0000186462)).  This is the precursor product (produced in the framework of the [Digital Twin of Alps](https://digitaltwinalps.com/) project) for SWE, serving as a reference dataset. Within the scope of the GTIF Austria, this daily dataset, based on the distributed full energy balance physical model GEOtop ([Endrizzi et al., 2014](https://gmd.copernicus.org/articles/7/2831/2014/gmd-7-2831-2014.html)), has been improved to account for snow observations. Layer produced by [Waterjade Srl](https://www.waterjade.com/en/mobygis-en/).\n",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub WMS",
+      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/",
+      "CollectionId": "fb8f2f00-55b3-42bd-aef5-6c6daeb37b4b",
+      "LayerId": "efa6f2fb-f71c-4738-b90f-ff400b5916fc"
+    }
+  ]
 }
