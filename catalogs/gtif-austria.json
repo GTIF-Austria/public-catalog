@@ -11,6 +11,7 @@
     "ait_predictive_maintenance",
     "gtime-layer",
     "city_temperature_indicator",
-    "dta_products"
+    "dta_products",
+    "dta-snow-products"
   ]
 }
