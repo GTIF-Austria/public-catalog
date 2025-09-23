@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "Sentinel Hub WMS",
-      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/",
+      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms",
       "CollectionId": "efa6f2fb-f71c-4738-b90f-ff400b5916fc",
       "LayerId": "SWE"
     }
