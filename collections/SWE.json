@@ -8,8 +8,8 @@
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/efa6f2fb-f71c-4738-b90f-ff400b5916fc",
       "LayerId": "SWE",
       "DateTimeInterval": {
-        "Start": "2020-01-01T00:00:00Z",
-        "End": "2021-12-31T00:00:00Z",
+        "Start": "2017-10-02T00:00:00Z",
+        "End": "2021-11-11T00:00:00Z",
         "Timedelta": {
           "days": 1
         }
