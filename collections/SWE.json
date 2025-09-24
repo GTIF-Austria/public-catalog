@@ -1,0 +1,39 @@
+{
+  "Name": "SWE",
+  "Title": "Snow Water Equivalent (SWE)",
+  "Description": "Snow Water Equivalent, in mm, represents the depth of water that would result if the snow mass melted completely ([Fierz et al., 2009](https://unesdoc.unesco.org/ark:/48223/pf0000186462)). Generated daily based on the distributed full energy balance physical model GEOtop ([Endrizzi et al., 2014](https://gmd.copernicus.org/articles/7/2831/2014/gmd-7-2831-2014.html)).",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub WMS",
+      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/efa6f2fb-f71c-4738-b90f-ff400b5916fc",
+      "LayerId": "SWE",
+      "DateTimeInterval": {
+        "Start": "2020-01-01T00:00:00Z",
+        "End": "2021-12-31T00:00:00Z",
+        "Timedelta": {
+          "days": 1
+        }
+      }
+    }
+  ],
+  "Colorlegend": {
+    "domain": [0, 2500],
+    "range": [
+      "xFFFFFF",
+      "0xF7FBFF",
+      "0xC9DBF0",
+      "0xA3CAE2",
+      "0x75AFD8",
+      "0x5D9DCE",
+      "0x5093C8",
+      "0x3371B8",
+      "0x2962B3",
+      "0x1E529F",
+      "0x163982",
+      "0x13316C"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "SWE / mm"
+  }
+}
