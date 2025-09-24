@@ -5,11 +5,12 @@
   "Resources": [
     {
       "Name": "Sentinel Hub WMS",
-      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/efa6f2fb-f71c-4738-b90f-ff400b5916fc",
+      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/",
+      "CollectionId": "efa6f2fb-f71c-4738-b90f-ff400b5916fc",
       "LayerId": "HS",
       "DateTimeInterval": {
-        "Start": "2020-01-01T00:00:00Z",
-        "End": "2021-12-31T00:00:00Z",
+        "Start": "2017-10-02T00:00:00Z",
+        "End": "2018-04-17T00:00:00Z",
         "Timedelta": {
           "days": 1
         }
