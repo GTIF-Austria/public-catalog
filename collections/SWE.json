@@ -1,5 +1,5 @@
 {
-  "Name": "SWE",
+  "Name": "dta_snow_water_equivalent",
   "Title": "Snow Water Equivalent (SWE)",
   "Description": "Snow Water Equivalent, in mm, represents the depth of water that would result if the snow mass melted completely ([Fierz et al., 2009](https://unesdoc.unesco.org/ark:/48223/pf0000186462)). Generated daily based on the distributed full energy balance physical model GEOtop ([Endrizzi et al., 2014](https://gmd.copernicus.org/articles/7/2831/2014/gmd-7-2831-2014.html)).",
   "Resources": [
@@ -20,17 +20,17 @@
     "domain": [0, 2500],
     "range": [
       "xFFFFFF",
-      "0xF7FBFF",
-      "0xC9DBF0",
-      "0xA3CAE2",
-      "0x75AFD8",
-      "0x5D9DCE",
-      "0x5093C8",
-      "0x3371B8",
-      "0x2962B3",
-      "0x1E529F",
-      "0x163982",
-      "0x13316C"
+      "#F7FBFF",
+      "#C9DBF0",
+      "#A3CAE2",
+      "#75AFD8",
+      "#5D9DCE",
+      "#5093C8",
+      "#3371B8",
+      "#2962B3",
+      "#1E529F",
+      "#163982",
+      "#13316C"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",

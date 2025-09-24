@@ -1,5 +1,5 @@
 {
-  "Name": "Sentinel Hub WMS",
+  "Name": "dta_snow_depth",
   "Title": "Snow Depth",
   "Description": "Snow depth, in cm, represents the total height of the snowpack, i.e., the vertical distance between the terrain and the snow surface ([Fierz et al., 2009](https://unesdoc.unesco.org/ark:/48223/pf0000186462)). Generated daily based on the distributed full energy balance physical model GEOtop ([Endrizzi et al., 2014](https://gmd.copernicus.org/articles/7/2831/2014/gmd-7-2831-2014.html)).",
   "Resources": [
@@ -18,7 +18,7 @@
   ],
   "Colorlegend": {
     "domain": [0, 250],
-    "range": ["0xffffff", "0x08519c"],
+    "range": ["#ffffff", "#08519c"],
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "HS / cm"
