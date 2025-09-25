@@ -13,9 +13,9 @@
     {
       "rel": "style",
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/th_cond_st.json",
-      "type": "text/vector-styles",
+      "type": "text/cog-styles",
       "asset:keys": [
-        "geoTIFF file"
+        "Cloud Optimized Geotiff (COG) Source"
       ]
     },
     {
@@ -25,7 +25,7 @@
       "title": "WR07-Geothermal-energy-potential"
     }
   ],
-  "endpointtype": "GeoJSON source",
+  "endpointtype": "COG source",
   "title": "WR07-Geothermal-energy-potential",
   "extent": {
     "spatial": {

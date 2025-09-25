@@ -15,7 +15,7 @@
       "href": "./WR07-Geothermal-energy-potential/collection.json",
       "type": "application/json",
       "title": "WR07-Geothermal-energy-potential",
-      "endpointtype": "GeoJSON source",
+      "endpointtype": "COG source",
       "id": "WR07-Geothermal-energy-potential"
     },
     {
