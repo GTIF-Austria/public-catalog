@@ -163,8 +163,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "cooling_degree_days",
       "heating_degree_days",
+      "cooling_degree_days",
       "city_temperature"
     ],
     "thumbnail": [

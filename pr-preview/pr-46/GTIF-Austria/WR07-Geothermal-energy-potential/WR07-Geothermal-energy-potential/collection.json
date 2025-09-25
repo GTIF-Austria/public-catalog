@@ -15,7 +15,7 @@
       "href": "https://hub-otc.eox.at/services/eoxhub-gateway/gtif-austria/workspace-ui/files/public/WR-07-Geothermal-Energy-Potential-Assessment/th_cond_st.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "COG file"
+        "GeoJSON file"
       ]
     },
     {
@@ -31,10 +31,10 @@
     "spatial": {
       "bbox": [
         [
-          9.530199019702652,
-          45.79575014746547,
-          17.56538409624239,
-          49.35591996530431
+          9.043330127674512,
+          46.078697048162596,
+          17.840827986583033,
+          49.042156796000896
         ]
       ]
     },
