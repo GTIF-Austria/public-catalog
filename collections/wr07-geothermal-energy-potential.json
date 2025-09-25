@@ -1,0 +1,28 @@
+{
+  "Name": "WR07-Geothermal-energy-potential",
+  "Title": "WR07-Geothermal-energy-potential",
+  "Description": "# Thermal Conductivity \n The ability of a ground to conduct heat from one location to another without the movement of the soil conducting the heat. It is expressed in watts per meter kelvin (W/mK). And it was calculated using remote sensing data  (Sentinel-1, Sentinel-3) and interpolated ground data  (bulk density, soil texture, slope DEM, organic content, land use map, natura2000) by applying a model of water distribution to the first meter of the soil profile. The thermal conductivity layer was calculated for the whole Austria for the year 2024.",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/th_cond_st.json",
+      "Bbox": [
+        8.512878507084203,
+        44.93938504277426,
+        18.780147090944837,
+        50.267684029762655
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "Cloud Optimized Geotiff (COG) Source",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/thermal_conductivity_2024_3857_1km.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
