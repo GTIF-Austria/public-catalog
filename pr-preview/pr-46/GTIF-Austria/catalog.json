@@ -68,10 +68,10 @@
     },
     {
       "rel": "child",
-      "href": "./WR07 - Geothermal energy potential/collection.json",
+      "href": "./WR07-Geothermal energy potential/collection.json",
       "type": "application/json",
-      "title": "WR07 - Geothermal energy potential",
-      "id": "WR07 - Geothermal energy potential"
+      "title": "WR07-Geothermal energy potential",
+      "id": "WR07-Geothermal energy potential"
     },
     {
       "rel": "self",
