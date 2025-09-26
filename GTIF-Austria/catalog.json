@@ -67,6 +67,21 @@
       "collection_group": "Capabilities"
     },
     {
+      "rel": "child",
+      "href": "./multitemporal-footprints/collection.json",
+      "type": "application/json",
+      "title": "multitemporal-footprints",
+      "code": "ubi-multitemporal",
+      "id": "multitemporal-footprints",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "subcode": "ubi-multitemporal",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/multitemporal_footprints/Extraction_partial.png"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
