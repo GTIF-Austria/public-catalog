@@ -83,10 +83,10 @@
     },
     {
       "rel": "child",
-      "href": "./Geothermal energy potential/collection.json",
+      "href": "./Geothermal-energy-potential/collection.json",
       "type": "application/json",
-      "title": "Geothermal energy potential",
-      "id": "Geothermal energy potential"
+      "title": "Geothermal-energy-potential",
+      "id": "Geothermal-energy-potential"
     },
     {
       "rel": "self",

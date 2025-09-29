@@ -1,14 +1,22 @@
 {
   "type": "Collection",
-  "id": "Geothermal energy potential",
+  "id": "Geothermal-energy-potential",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "##Thermal Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec.\n",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./Geothermal-energy-potential/collection.json",
+      "type": "application/json",
+      "title": "Geothermal-energy-potential",
+      "endpointtype": "COG source",
+      "id": "Geothermal-energy-potential"
     },
     {
       "rel": "xyz",
@@ -65,23 +73,29 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Geothermal energy potential",
+  "title": "Geothermal-energy-potential",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          8.561280520113318,
+          44.9533874238847,
+          18.947625077118264,
+          49.6818707213859
+        ],
+        [
+          8.561280520113318,
+          44.9533874238847,
+          18.947625077118264,
+          49.6818707213859
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-09-29T09:47:42.072733Z",
-          null
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
