@@ -82,6 +82,13 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Geothermal-energy-potential/collection.json",
+      "type": "application/json",
+      "title": "Geothermal-energy-potential",
+      "id": "Geothermal-energy-potential"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
