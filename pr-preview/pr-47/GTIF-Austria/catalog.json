@@ -86,7 +86,10 @@
       "href": "./Geothermal-energy-potential/collection.json",
       "type": "application/json",
       "title": "Geothermal-energy-potential",
-      "id": "Geothermal-energy-potential"
+      "id": "Geothermal-energy-potential",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geothermal_potential_energy_preview.png"
+      ]
     },
     {
       "rel": "self",

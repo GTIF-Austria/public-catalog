@@ -25,6 +25,7 @@
       "title": "Geothermal-energy-potential"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geothermal_potential_energy_preview.png",
   "endpointtype": "COG source",
   "title": "Geothermal-energy-potential",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geothermal_potential_energy_preview.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
