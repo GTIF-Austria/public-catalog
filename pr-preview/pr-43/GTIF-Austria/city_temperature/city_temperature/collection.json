@@ -19,14 +19,6 @@
       ]
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer-geosphere/citytemperatureoneindicator/styles/city_temperature_style.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "20190627_00h00_h23"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
