@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/gtif-tutorial-style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "GeoJsonFile2020"
+        "geojson2023"
       ]
     },
     {
@@ -31,10 +31,10 @@
     "spatial": {
       "bbox": [
         [
-          9.473564391680274,
-          46.268568916694534,
-          17.166171986028495,
-          49.041879127703616
+          9.509957155750214,
+          46.09373217074542,
+          17.31713806948506,
+          49.03915138847304
         ]
       ]
     },
@@ -42,7 +42,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
