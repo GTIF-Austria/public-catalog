@@ -2,5 +2,17 @@
   "Name": "gtif-tutorial-renewable-energy",
   "Title": "GTIF Tutorial Renewable Energy",
   "Description": "This **collection** is an example of how to integrate data.\n* This is easy and fun\n* You can do it as well",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/gtif-tutorial-style.json",
+      "Bbox": [
+        9.472031700392726,
+        46.0886579421351,
+        17.29123211334857,
+        49.26698656593209
+      ],
+      "TimeEntries": []
+    }
+  ]
 }
