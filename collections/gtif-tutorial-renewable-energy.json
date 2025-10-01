@@ -7,10 +7,10 @@
       "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/gtif-tutorial-style.json",
       "Bbox": [
-        9.509957155750214,
-        46.09373217074542,
-        17.31713806948506,
-        49.03915138847304
+        9.567608579954243,
+        46.181980349808114,
+        17.280905909206734,
+        48.94364923448247
       ],
       "TimeEntries": [
         {
@@ -28,6 +28,15 @@
             {
               "Identifier": "geojsonfile2021",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "geojson2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2022.geojson"
             }
           ]
         },
