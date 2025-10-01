@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "gtif-tutorial-renewable-energy",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "This collection is an example of how to integrate data.",
   "links": [
     {
       "rel": "root",
@@ -65,7 +65,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "gtif-tutorial-renewable-energy",
+  "title": "GTIF Tutorial Renewable Energy",
   "extent": {
     "spatial": {
       "bbox": [
@@ -80,7 +80,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-10-01T14:10:49.088582Z",
+          "2025-10-01T14:12:07.871213Z",
           null
         ]
       ]
