@@ -12,7 +12,17 @@
         17.29123211334857,
         49.26698656593209
       ],
-      "TimeEntries": []
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "GeoJsonFile2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2020.geojson"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
