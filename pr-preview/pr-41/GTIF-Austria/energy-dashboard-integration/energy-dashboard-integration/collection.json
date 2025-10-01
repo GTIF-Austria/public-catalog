@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_energy_per_federal_state_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "geojsonfile"
+        "geojson2023"
       ]
     },
     {
@@ -42,7 +42,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
