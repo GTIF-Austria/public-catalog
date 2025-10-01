@@ -7,10 +7,10 @@
       "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/gtif-tutorial-style.json",
       "Bbox": [
-        9.472031700392726,
-        46.0886579421351,
-        17.29123211334857,
-        49.26698656593209
+        9.473564391680274,
+        46.268568916694534,
+        17.166171986028495,
+        49.041879127703616
       ],
       "TimeEntries": [
         {
