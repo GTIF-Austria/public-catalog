@@ -32,15 +32,6 @@
           ]
         },
         {
-          "Time": "2022",
-          "Assets": [
-            {
-              "Identifier": "geojsonfile2022",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2022.geojson"
-            }
-          ]
-        },
-        {
           "Time": "2023",
           "Assets": [
             {
