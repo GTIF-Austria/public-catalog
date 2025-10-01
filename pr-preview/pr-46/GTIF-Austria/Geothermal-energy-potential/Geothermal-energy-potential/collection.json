@@ -15,7 +15,8 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/th_cond_st.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "Cloud Optimized Geotiff (COG) Source"
+        "conductivity",
+        "diffusivity"
       ]
     },
     {
