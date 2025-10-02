@@ -11,14 +11,6 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer-geosphere/citytemperatureoneindicator/styles/city_temperature_style.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "20190627_00h00_h23"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -39,18 +31,18 @@
     "spatial": {
       "bbox": [
         [
-          16.04,
-          47.94,
-          16.7,
-          48.48
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-06-27T00:00:00Z",
-          "2019-06-27T23:00:00Z"
+          "2019-06-24T00:00:00Z",
+          "2019-07-02T23:00:00Z"
         ]
       ]
     }
@@ -58,7 +50,7 @@
   "license": "other",
   "assets": {
     "geoparquet": {
-      "href": "./items.parquet",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/city_temperature_timeseries.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
       "roles": [
