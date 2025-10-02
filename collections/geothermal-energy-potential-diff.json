@@ -1,0 +1,50 @@
+{
+  "Name": "Geothermal-energy-potential",
+  "Title": "Geothermal-energy-potential",
+  "Description": "## Thermal Conductivity and Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
+  "Image": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/geothermal_potential_energy_preview.png",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/th_diff_st.json",
+      "Bbox": [
+        8.561280520113318,
+        44.9533874238847,
+        18.947625077118264,
+        49.6818707213859
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "Cloud Optimized Geotiff (COG) Source",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/thermal_diffusivity_2024_3857_1km.tif "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/th_cond_st.json",
+      "Bbox": [
+        8.561280520113318,
+        44.9533874238847,
+        18.947625077118264,
+        49.6818707213859
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "Cloud Optimized Geotiff (COG) Source",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/thermal_conductivity_2024_3857_1km.tif "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
