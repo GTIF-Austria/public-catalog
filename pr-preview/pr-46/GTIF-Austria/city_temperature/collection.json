@@ -164,8 +164,8 @@
   "summaries": {
     "subcode": [
       "cooling_degree_days",
-      "heating_degree_days",
-      "city_temperature"
+      "city_temperature",
+      "heating_degree_days"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
