@@ -1,0 +1,161 @@
+{
+  "type": "Collection",
+  "id": "predictive_maintenance",
+  "stac_version": "1.1.0",
+  "description": "The aim of this service is to provide satellite-derived geospatial indicators of the deformation status of roads, railways and bridges at well-defined instances in time. The service is based on interferometry measurements conducted in multiple Synthetic Aperture Radar satellite observations from the same location on Earth (InSAR). The European Ground Motion Service (EGMS) provides processed InSAR data from the Copernicus Sentinel-1 satellite mission. This data is combined with the geographic coordinates of the road infrastructure and its components such as bridges. The data is then grouped into clusters aligned with 50-meter intervals along the highway axis. For each zone, vertical settlements are calculated, and a linear trend is determined, along with an assessment of the data's reliability. Within the framework of the ESA - Green Transition Information Factories project the potentials of this capability are demonstrated on a corridor of approximately 45 km length. Any linear object of interest (road, railway, bridge, etc.) is represented by a series of points on the map along the axis of the infrastructure asset. For each of these points the measured ground movement is displayed, based on InSAR data provided by the EGMS. The points are color-coded, with white points showing no significant deformations, red points showing subsidence and blue points highlighting uplifts. Points are marked grey if no reliable data is available due to insignificant number of reflection points for the radar signal or unacceptably high scatter in the readings. The reliability of the point, as expressed by the number of available persistent scatterers in the segment, is expressed by the diameter of the circle used as a marker. If a particular point is selected, the location of all persistent scatterers which it represents can be displayed. Furthermore, the time history of deformations for the selected point may be plotted.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./predictive_maintenance/collection.json",
+      "type": "application/json",
+      "title": "Predictive Maintenance",
+      "endpointtype": "GeoJSON source",
+      "code": "AIT1",
+      "id": "predictive_maintenance",
+      "subcode": "AIT1"
+    },
+    {
+      "rel": "service",
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/csv time series/{{feature}}.csv",
+      "type": "text/csv",
+      "id": "timeseries",
+      "method": "GET"
+    },
+    {
+      "rel": "service",
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/geojson/{{feature}}.geojson",
+      "type": "application/geo+json",
+      "id": "reference_points",
+      "method": "GET",
+      "eox:flatstyle": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT1_subfeatures.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2022",
+      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg",
+  "subcode": "AIT1",
+  "eox:colorlegend": {
+    "title": "Ground movement",
+    "range": [
+      "#8b0000",
+      "#e6b31a",
+      "#ffffff",
+      "#87cefa",
+      "#00008b"
+    ],
+    "domain": [
+      "-20 to -10 mm",
+      "-10 to -5 mm",
+      "-5 to 5 mm",
+      "5 to 10 mm",
+      "10 to 20 mm"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/AIT1_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/AIT1_chart.json",
+  "title": "Predictive Maintenance",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.607703910147158,
+          47.28857258754364,
+          9.763577928600249,
+          47.452296376710194
+        ],
+        [
+          9.607703910147158,
+          47.28857258754364,
+          9.763577928600249,
+          47.452296376710194
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "AIT1"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
