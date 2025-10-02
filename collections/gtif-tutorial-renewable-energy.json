@@ -1,0 +1,55 @@
+{
+  "Name": "gtif-tutorial-renewable-energy",
+  "Title": "GTIF Tutorial Renewable Energy",
+  "Description": "This **collection** is an example of how to integrate data.\n* This is easy and fun\n* You can do it as well",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/gtif-tutorial-style.json",
+      "Bbox": [
+        9.567608579954243,
+        46.181980349808114,
+        17.280905909206734,
+        48.94364923448247
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "GeoJsonFile2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2021",
+          "Assets": [
+            {
+              "Identifier": "geojsonfile2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "geojson2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "geojson2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIF-Tutorial/renewable_Austria_states_2023.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
