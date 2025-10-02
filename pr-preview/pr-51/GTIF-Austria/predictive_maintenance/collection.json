@@ -22,14 +22,14 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance keyboard_arrow_right/v2/csv_single/{{feature}}.csv",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/v2/csv_single/{{feature}}.csv",
       "type": "text/csv",
       "id": "timeseries",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance keyboard_arrow_right/v2/geojson_single/{{feature}}.geojson",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/v2/geojson_single/{{feature}}.geojson",
       "type": "application/geo+json",
       "id": "reference_points",
       "method": "GET",
