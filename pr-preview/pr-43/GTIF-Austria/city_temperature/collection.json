@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "city_temperature_collection",
+  "id": "city_temperature",
   "stac_version": "1.1.0",
-  "description": "By integrating precise satellite-based data, air temperature is calculated on a 100-meter grid to simulate and forecast its spatial and hourly variations. The model integrates multiple high-resolution datasets to enhance forecast accuracy:\n* Satellite-based land cover data (e.g., Sentinel-2) to map surface properties and urban structures.\n* Building density and surface material analysis to account for urban heat storage and emission.\n* Vegetation and green space influence to assess cooling effects from parks and tree canopies.\n* Anthropogenic heat emissions from industry and residential heating/cooling.\n\n**Technical features**\n* Spatial gridding:\t100m\n* Temporal gridding:\t1 hour\n* Forecast range:\t+30 hours\n* Forecast time:\t00 UTC\n",
+  "description": "By integrating precise satellite-based data, air temperature is calculated on a 100-meter grid to simulate and forecast its spatial and hourly variations. The model integrates multiple high-resolution datasets to enhance forecast accuracy:\n* Satellite-based land cover data (e.g., Sentinel-2) to map surface properties and urban structures.\n* Building density and surface material analysis to account for urban heat storage and emission.\n* Vegetation and green space influence to assess cooling effects from parks and tree canopies.\n* Anthropogenic heat emissions from industry and residential heating/cooling.\n\n**Technical features**\n* Spatial gridding:\t100m\n* Temporal gridding:\t1 hour\n* Forecast range:\t+30 hours\n* Forecast time:\t00 UTC",
   "links": [
     {
       "rel": "root",
@@ -25,6 +25,44 @@
         "GeoSphere Austria"
       ],
       "subcode": "city_temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./cooling_degree_days/collection.json",
+      "type": "application/json",
+      "title": "Cooling Degree Days",
+      "endpointtype": "COG source",
+      "code": "cooling_degree_days",
+      "id": "cooling_degree_days",
+      "roles": [
+        "disable"
+      ],
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ],
+      "subcode": "cooling_degree_days"
+    },
+    {
+      "rel": "child",
+      "href": "./heating_degree_days/collection.json",
+      "type": "application/json",
+      "title": "Heating Degree Days",
+      "endpointtype": "COG source",
+      "code": "heating_degree_days",
+      "id": "heating_degree_days",
+      "roles": [
+        "disable"
+      ],
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ],
+      "subcode": "heating_degree_days"
     },
     {
       "rel": "xyz",
@@ -81,15 +119,9 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
-  "tags": [
-    "city_temperature"
-  ],
-  "agency": [
-    "GeoSphere Austria"
-  ],
-  "subcode": "city_temperature",
-  "title": "City temperature forecast",
+  "subcode": "city_temperature_indicator",
+  "collection_group": "Capabilities",
+  "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
   "extent": {
     "spatial": {
       "bbox": [
@@ -104,6 +136,18 @@
           -90.0,
           180.0,
           90.0
+        ],
+        [
+          16.04,
+          47.94,
+          16.7,
+          48.48
+        ],
+        [
+          16.04,
+          47.94,
+          16.7,
+          48.48
         ]
       ]
     },
@@ -111,7 +155,7 @@
       "interval": [
         [
           "2019-06-24T00:00:00Z",
-          "2019-07-02T23:00:00Z"
+          "2019-07-03T00:00:00Z"
         ]
       ]
     }
@@ -119,19 +163,12 @@
   "license": "other",
   "summaries": {
     "subcode": [
+      "heating_degree_days",
+      "cooling_degree_days",
       "city_temperature"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
