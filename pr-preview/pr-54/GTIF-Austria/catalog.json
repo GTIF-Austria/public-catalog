@@ -83,10 +83,10 @@
     },
     {
       "rel": "child",
-      "href": "./Evapotranspiration Monitoring/collection.json",
+      "href": "./Evapotranspiration_Monitoring/collection.json",
       "type": "application/json",
-      "title": "Evapotranspiration Monitoring",
-      "id": "Evapotranspiration Monitoring"
+      "title": "Evapotranspiration Monitoring Demonstrator for Austria",
+      "id": "Evapotranspiration_Monitoring"
     },
     {
       "rel": "self",
