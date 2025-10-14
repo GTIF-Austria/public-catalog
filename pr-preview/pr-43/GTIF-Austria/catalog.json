@@ -61,6 +61,9 @@
       "code": "city_temperature_indicator",
       "id": "city_temperature_indicator",
       "subcode": "city_temperature_indicator",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
+      ],
       "collection_group": "Capabilities"
     },
     {
