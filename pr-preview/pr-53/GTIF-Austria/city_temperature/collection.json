@@ -126,16 +126,16 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          16.04,
+          47.94,
+          16.7,
+          48.48
         ],
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          16.04,
+          47.94,
+          16.7,
+          48.48
         ],
         [
           16.04,
@@ -163,8 +163,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "heating_degree_days",
       "cooling_degree_days",
+      "heating_degree_days",
       "city_temperature"
     ],
     "thumbnail": [
