@@ -17,14 +17,6 @@
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
-  "tags": [
-    "city_temperature"
-  ],
-  "agency": [
-    "GeoSphere Austria"
-  ],
-  "subcode": "city_temperature",
   "endpointtype": "COG source",
   "title": "City temperature forecast",
   "extent": {
@@ -41,28 +33,11 @@
     "temporal": {
       "interval": [
         [
-          "2019-06-24T00:00:00Z",
-          "2019-07-02T23:00:00Z"
+          "2025-10-14T06:37:39.967360Z",
+          null
         ]
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "geoparquet": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/city_temperature_timeseries.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  "license": "other"
 }
