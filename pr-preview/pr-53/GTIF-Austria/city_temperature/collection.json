@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./city_temperature_collection/collection.json",
+      "href": "./citytemperature_collection/collection.json",
       "type": "application/json",
       "title": "City temperature forecast",
       "endpointtype": "COG source",
       "code": "city_temperature",
-      "id": "city_temperature_collection",
+      "id": "citytemperature_collection",
       "tags": [
         "city_temperature"
       ],
@@ -163,9 +163,9 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "cooling_degree_days",
       "heating_degree_days",
-      "city_temperature"
+      "city_temperature",
+      "cooling_degree_days"
     ],
     "thumbnail": [
       "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_preview2.png"
