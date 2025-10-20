@@ -55,11 +55,11 @@
     },
     {
       "rel": "child",
-      "href": "./city_temperature/collection.json",
+      "href": "./city_temperature_indicator/collection.json",
       "type": "application/json",
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
       "code": "city_temperature_indicator",
-      "id": "city_temperature",
+      "id": "city_temperature_indicator",
       "subcode": "city_temperature_indicator",
       "thumbnail": [
         "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_preview2.png"
