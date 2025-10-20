@@ -23,11 +23,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Geothermal Energy Potential"
+      "title": "Geothermal Energy Potential "
     }
   ],
   "endpointtype": "COG source",
-  "title": "Geothermal Energy Potential",
+  "title": "Geothermal Energy Potential ",
   "extent": {
     "spatial": {
       "bbox": [
