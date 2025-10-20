@@ -12,11 +12,11 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot_N2K.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot_fin.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "conductivity",
-        "conductivity_N2K"
+        "Natura2000"
       ]
     },
     {
@@ -32,10 +32,10 @@
     "spatial": {
       "bbox": [
         [
-          9.226830868419448,
-          45.71980544585128,
-          17.638568678143972,
-          49.154020744309854
+          8.979861011524196,
+          45.19668899273538,
+          17.994653933343773,
+          49.439275074944625
         ]
       ]
     },
