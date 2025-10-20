@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./Geothermal-energy-potential/collection.json",
       "type": "application/json",
-      "title": "Geothermal-energy-potential",
+      "title": "Geothermal-energy-potential2",
       "endpointtype": "COG source",
       "id": "Geothermal-energy-potential"
     },
@@ -73,7 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Geothermal-energy-potential",
+  "title": "Geothermal-energy-potential2",
   "extent": {
     "spatial": {
       "bbox": [
