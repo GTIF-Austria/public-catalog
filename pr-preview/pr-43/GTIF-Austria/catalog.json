@@ -83,11 +83,11 @@
     },
     {
       "rel": "child",
-      "href": "./citytemperature_collection/collection.json",
+      "href": "./citytemperaturecollection/collection.json",
       "type": "application/json",
       "title": "City temperature forecast",
       "code": "city_temperature",
-      "id": "citytemperature_collection",
+      "id": "citytemperaturecollection",
       "subcode": "city_temperature",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
