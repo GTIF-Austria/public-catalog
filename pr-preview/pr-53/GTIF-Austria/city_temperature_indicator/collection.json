@@ -163,9 +163,9 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "city_temperature",
+      "cooling_degree_days",
       "heating_degree_days",
-      "cooling_degree_days"
+      "city_temperature"
     ],
     "thumbnail": [
       "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_preview2.png"
