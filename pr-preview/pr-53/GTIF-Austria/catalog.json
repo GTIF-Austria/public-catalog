@@ -82,6 +82,39 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./citytemperature_collection/collection.json",
+      "type": "application/json",
+      "title": "City temperature forecast",
+      "code": "city_temperature",
+      "id": "citytemperature_collection",
+      "subcode": "city_temperature",
+      "thumbnail": [
+        "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_preview2.png"
+      ],
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cooling_degree_days/collection.json",
+      "type": "application/json",
+      "title": "Cooling Degree Days",
+      "code": "cooling_degree_days",
+      "id": "cooling_degree_days",
+      "subcode": "cooling_degree_days",
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
