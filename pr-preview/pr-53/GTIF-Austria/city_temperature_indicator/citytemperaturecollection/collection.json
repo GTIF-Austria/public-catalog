@@ -17,7 +17,7 @@
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria"
     }
   ],
-  "thumbnail": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_preview2.png",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
   "tags": [
     "city_temperature"
   ],
@@ -58,7 +58,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_preview2.png",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
