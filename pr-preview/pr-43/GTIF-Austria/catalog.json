@@ -82,6 +82,24 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./citytemperature_collection/collection.json",
+      "type": "application/json",
+      "title": "City temperature forecast",
+      "code": "city_temperature",
+      "id": "citytemperature_collection",
+      "subcode": "city_temperature",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
+      ],
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
