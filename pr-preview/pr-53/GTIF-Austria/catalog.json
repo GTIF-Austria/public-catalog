@@ -82,6 +82,21 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./cooling_degree_days/collection.json",
+      "type": "application/json",
+      "title": "Cooling Degree Days",
+      "code": "cooling_degree_days",
+      "id": "cooling_degree_days",
+      "subcode": "cooling_degree_days",
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
