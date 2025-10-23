@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/dneubauer-geosphere/public-catalog/refs/heads/dneubauer-geosphere/citytemperatureoneindicator/styles/cooling_degree_days_style.json",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/cooling_degree_days_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "20190703_00h00_h00"
