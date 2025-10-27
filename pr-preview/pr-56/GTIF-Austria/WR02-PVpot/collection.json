@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "WR02-PVpot",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Description needs to be added.",
   "links": [
     {
       "rel": "root",
@@ -65,7 +65,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "WR02-PVpot",
+  "title": "Site identification for solar energy",
   "extent": {
     "spatial": {
       "bbox": [
@@ -80,7 +80,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-10-27T11:25:42.674915Z",
+          "2025-10-27T11:29:39.988027Z",
           null
         ]
       ]
