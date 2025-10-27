@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "child",
+      "href": "./WR02-PVpot/collection.json",
+      "type": "application/json",
+      "title": "Site identification for solar energy",
+      "endpointtype": "COG source",
+      "id": "WR02-PVpot"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -70,18 +78,24 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          9.144373204774606,
+          45.32263166908202,
+          18.06091477860709,
+          50.13400803885565
+        ],
+        [
+          9.144373204774606,
+          45.32263166908202,
+          18.06091477860709,
+          50.13400803885565
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-10-27T11:29:39.988027Z",
-          null
+          "0001-01-01T00:00:00Z",
+          "0004-01-01T00:00:00Z"
         ]
       ]
     }
