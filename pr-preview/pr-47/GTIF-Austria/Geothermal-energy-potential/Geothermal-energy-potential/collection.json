@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/th_diff_st.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "Cloud Optimized Geotiff (COG) Source"
@@ -20,7 +20,7 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/th_cond_st.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/converted/thermal_conductivity_2024_3857_N2K_COG.tif",
       "type": "text/cog-styles",
       "asset:keys": [
         "Cloud Optimized Geotiff (COG) Source"
