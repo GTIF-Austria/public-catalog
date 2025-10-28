@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Geothermal-energy-potential",
   "stac_version": "1.1.0",
-  "description": "## Thermal Conductivity and Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
+  "description": "## Thermal  Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
   "links": [
     {
       "rel": "root",

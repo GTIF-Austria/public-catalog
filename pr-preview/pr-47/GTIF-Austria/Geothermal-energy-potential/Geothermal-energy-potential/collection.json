@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Geothermal-energy-potential",
   "stac_version": "1.1.0",
-  "description": "## Thermal Conductivity and Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
+  "description": "## Thermal  Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
   "links": [
     {
       "rel": "root",
@@ -15,15 +15,8 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot_fin2.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "Cloud Optimized Geotiff (COG) Source"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/converted/thermal_conductivity_2024_3857_N2K_COG.tif",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "Cloud Optimized Geotiff (COG) Source"
+        "DIffusivity",
+        "Natura2000"
       ]
     },
     {
