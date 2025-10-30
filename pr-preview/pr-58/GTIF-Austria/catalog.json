@@ -83,10 +83,10 @@
     },
     {
       "rel": "child",
-      "href": "./Solar Potential Nowcasting/collection.json",
+      "href": "./Solar-Potential-Nowcasting/collection.json",
       "type": "application/json",
       "title": "Solar Potential Nowcasting",
-      "id": "Solar Potential Nowcasting"
+      "id": "Solar-Potential-Nowcasting"
     },
     {
       "rel": "self",
