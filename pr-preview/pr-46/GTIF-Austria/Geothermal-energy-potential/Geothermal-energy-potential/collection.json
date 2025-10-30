@@ -20,14 +20,6 @@
       ]
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v1/vector_style.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "vector file "
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -40,10 +32,10 @@
     "spatial": {
       "bbox": [
         [
-          8.450306461994217,
-          44.97763832480591,
-          18.86986225538258,
-          49.780070568487545
+          9.531202171084608,
+          45.37377564328037,
+          18.365981367262602,
+          49.29204018510405
         ]
       ]
     },
