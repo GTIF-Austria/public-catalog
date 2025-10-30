@@ -85,7 +85,7 @@
       "rel": "child",
       "href": "./Solar-Potential-Nowcasting/collection.json",
       "type": "application/json",
-      "title": "Solar Potential Nowcasting",
+      "title": "Theoretical Solar Potential",
       "id": "Solar-Potential-Nowcasting"
     },
     {
