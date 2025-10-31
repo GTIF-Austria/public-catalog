@@ -85,7 +85,7 @@
       "rel": "child",
       "href": "./WR02-PVpot/collection.json",
       "type": "application/json",
-      "title": "Site identification for solar energy",
+      "title": "Solar Potential",
       "id": "WR02-PVpot"
     },
     {
