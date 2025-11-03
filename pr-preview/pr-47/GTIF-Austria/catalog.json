@@ -92,13 +92,6 @@
       ]
     },
     {
-      "rel": "child",
-      "href": "./austria_geothermal_stats/collection.json",
-      "type": "application/json",
-      "title": "Geothermal statistics",
-      "id": "austria_geothermal_stats"
-    },
-    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
