@@ -83,6 +83,13 @@
     },
     {
       "rel": "child",
+      "href": "./austria_geothermal_stats/collection.json",
+      "type": "application/json",
+      "title": "Geothermal statistics",
+      "id": "austria_geothermal_stats"
+    },
+    {
+      "rel": "child",
       "href": "./Geothermal-energy-potential/collection.json",
       "type": "application/json",
       "title": "Geothermal-energy-potential",
@@ -90,13 +97,6 @@
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/geothermal_potential_energy_preview.png"
       ]
-    },
-    {
-      "rel": "child",
-      "href": "./austria_geothermal_stats/collection.json",
-      "type": "application/json",
-      "title": "Geothermal statistics",
-      "id": "austria_geothermal_stats"
     },
     {
       "rel": "self",
