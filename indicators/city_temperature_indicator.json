@@ -12,5 +12,17 @@
   "Disable": [
     "coolingdegreedays",
     "heatingdegreedays"
-  ]
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
+    "EndPoints": [
+      {
+        "Identifier": "cogstats",
+        "Url": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/city_temperature_timeseries_old.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+        "Type": "application/json"
+      }
+    ],
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json"
+  }
 }
