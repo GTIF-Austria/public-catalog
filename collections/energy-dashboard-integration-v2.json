@@ -2,5 +2,10 @@
   "Name": "energy-dashboard-integration-v2",
   "Title": "energy-dashboard-integration-v2",
   "Description": "",
-  "Resources": []
+  "Resources": [],
+  "Subcollections": [
+    {
+      "Identifier": "energy-dashboard-integration"
+    }
+  ]
 }
