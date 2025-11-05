@@ -1,1 +1,28 @@
-{}
+{
+  "Name": "wr08_counties",
+  "Title": "Austrian Counties",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_counties_style.json",
+      "Bbox": [
+        9.829030006460831,
+        45.847514057368635,
+        17.374106338410485,
+        49.80764012230146
+      ],
+      "TimeEntries": [
+        {
+          "Time": "",
+          "Assets": [
+            {
+              "Identifier": "wr08-counties",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2020.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
