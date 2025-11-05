@@ -83,6 +83,20 @@
     },
     {
       "rel": "child",
+      "href": "./geothermal_energy_potential_diff/collection.json",
+      "type": "application/json",
+      "title": "Geothermal Energy Potential",
+      "id": "geothermal_energy_potential_diff",
+      "themes": [
+        "Land"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/geothermal_potential_energy_preview.png"
+      ],
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
       "href": "./Geothermal-energy-potential/collection.json",
       "type": "application/json",
       "title": "Geothermal-energy-potential",
