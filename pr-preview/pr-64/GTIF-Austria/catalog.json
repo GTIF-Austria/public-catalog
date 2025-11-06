@@ -96,6 +96,15 @@
       "id": "wr08_energy_data"
     },
     {
+      "rel": "child",
+      "href": "./wr08_energy_production_comparison/collection.json",
+      "type": "application/json",
+      "title": "Renewable Energy Production Comparison per Counties",
+      "code": "wr08_energy_production_comparison",
+      "id": "wr08_energy_production_comparison",
+      "subcode": "wr08_energy_production_comparison"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"

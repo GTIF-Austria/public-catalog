@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "wr08_energy_production_comparison",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./wr08_counties/collection.json",
+      "type": "application/json",
+      "title": "Austrian Counties",
+      "endpointtype": "GeoJSON source",
+      "id": "wr08_counties"
+    },
+    {
+      "rel": "child",
+      "href": "./wr08_energy_data/collection.json",
+      "type": "application/json",
+      "title": "WR08 Energy Data",
+      "endpointtype": "GeoJSON source",
+      "id": "wr08_energy_data"
+    },
+    {
+      "rel": "service",
+      "href": "data:application/json,[{/\"BDLNAME/\":/\"{{feature.values_.BDLNAME}}/\",/\"BDLNR/\":/\"{{feature.values_.BDLNR}}/\",/\"area_km2/\":{{feature.values_.area_km2}},/\"area_km2_N2K/\":{{feature.values_.area_km2_N2K}},/\"coverage_percent/\":{{feature.values_.coverage_percent}},/\"coverage_percent_N2K/\":{{feature.values_.coverage_percent_N2K}},/\"max_conductivity/\":{{feature.values_.max_conductivity}},/\"max_conductivity_N2K/\":{{feature.values_.max_conductivity_N2K}},/\"mean_conductivity/\":{{feature.values_.mean_conductivity}},/\"mean_conductivity_N2K/\":{{feature.values_.mean_conductivity_N2K}},/\"min_conductivity/\":{{feature.values_.min_conductivity}},/\"min_conductivity_N2K/\":{{feature.values_.min_conductivity_N2K}},/\"total_area/\":{{feature.values_.total_area}},/\"total_area_N2K/\":{{feature.values_.total_area_N2K}}}]",
+      "type": "application/geo+json",
+      "id": "wr08_energy_production_statistics",
+      "method": "GET"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    }
+  ],
+  "subcode": "wr08_energy_production_comparison",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_form.json",
+  "title": "Renewable Energy Production Comparison per Counties",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.829030006460831,
+          45.6898059850306,
+          17.374106338410485,
+          49.80764012230146
+        ],
+        [
+          9.829030006460831,
+          45.847514057368635,
+          17.374106338410485,
+          49.80764012230146
+        ],
+        [
+          10.054208301839774,
+          45.6898059850306,
+          17.02521368395977,
+          49.582473639520515
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
