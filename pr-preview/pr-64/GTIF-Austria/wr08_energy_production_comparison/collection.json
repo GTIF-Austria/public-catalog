@@ -42,6 +42,7 @@
   ],
   "subcode": "wr08_energy_production_comparison",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_form.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_vega_chart.json",
   "title": "Renewable Energy Production Comparison per Counties",
   "extent": {
     "spatial": {
