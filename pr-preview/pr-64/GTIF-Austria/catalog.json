@@ -89,6 +89,13 @@
       "id": "wr08_counties"
     },
     {
+      "rel": "child",
+      "href": "./wr08_energy_data/collection.json",
+      "type": "application/json",
+      "title": "WR08 Energy Data",
+      "id": "wr08_energy_data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
