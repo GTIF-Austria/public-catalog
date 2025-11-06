@@ -15,7 +15,7 @@
           "Assets": [
             {
               "Identifier": "overview",
-              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/A14_overview.geojson"
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/AIT/A14/A14_overview.geojson"
             }
           ]
         }
@@ -50,20 +50,32 @@
   "Process": {
     "Name": "timeseries",
     "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/AIT1_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/AIT1_chart.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/AIT_chart_v2.json",
     "EndPoints": [
       {
         "Identifier": "timeseries",
-        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/csv time series/{{feature}}.csv",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/AIT/A14/csv time series/{{feature}}.csv",
         "Type": "text/csv",
         "Method": "GET"
       },
       {
         "Identifier": "reference_points",
-        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/AIT/geojson/{{feature}}.geojson",
+        "Url": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/AIT/A14/geojson/{{feature}}.geojson",
         "Type": "application/geo+json",
         "Flatstyle": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT1_subfeatures.json"
       }
     ]
-  }
+  },
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Legend": ""
 }
