@@ -76,6 +76,9 @@
       "themes": [
         "Sustainable Cities"
       ],
+      "providers": [
+        "ubicube"
+      ],
       "subcode": "ubi-multitemporal",
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/multitemporal_footprints/Extraction_partial.png"

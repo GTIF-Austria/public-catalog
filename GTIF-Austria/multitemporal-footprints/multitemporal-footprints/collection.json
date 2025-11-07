@@ -53,6 +53,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "ubicube",
+      "url": "https://ubicube.eu"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

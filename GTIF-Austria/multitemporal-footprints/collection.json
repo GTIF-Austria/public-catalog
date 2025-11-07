@@ -21,6 +21,9 @@
       "themes": [
         "Sustainable Cities"
       ],
+      "providers": [
+        "ubicube"
+      ],
       "subcode": "ubi-multitemporal"
     },
     {
@@ -111,6 +114,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "ubicube",
+      "url": "https://ubicube.eu"
+    }
+  ],
   "summaries": {
     "subcode": [
       "ubi-multitemporal"
