@@ -11,14 +11,6 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/heating_degree_days_style.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "20190703_00h00_h00"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -48,8 +40,8 @@
     "temporal": {
       "interval": [
         [
-          "2019-06-24T00:00:00Z",
-          "2019-07-03T00:00:00Z"
+          "2019-06-24T07:00:00Z",
+          "2019-07-02T07:00:00Z"
         ]
       ]
     }
@@ -57,7 +49,7 @@
   "license": "other",
   "assets": {
     "geoparquet": {
-      "href": "./items.parquet",
+      "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/heating_degree_days_timeseries.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
       "roles": [
