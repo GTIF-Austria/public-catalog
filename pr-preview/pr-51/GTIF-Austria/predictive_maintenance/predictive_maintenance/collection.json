@@ -25,7 +25,7 @@
       "title": "Predictive Maintenance"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
   "subcode": "AIT1",
   "eox:colorlegend": {
     "title": "Ground movement",
@@ -79,7 +79,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
