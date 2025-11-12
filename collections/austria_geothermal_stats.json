@@ -1,0 +1,22 @@
+{
+  "Name": "austria_geothermal_stats",
+  "Title": "Geothermal statistics",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/mapstyle.json",
+      "Bbox": [9.5, 44.5, 18.0, 49.9],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "geothermal_stats",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/Austria_cond_24_simplified.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
