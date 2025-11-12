@@ -1,0 +1,25 @@
+{
+    "Name": "geothermal_energy_potential_diff",
+    "Title": "Geothermal Energy Potential",
+    "Description": "## Thermal  Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
+    "CollectionGroup": "Capabilities",
+    "Themes": [
+      "Land"
+    ],
+    "Process": {
+        "Name": "geothermal_statistics",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/form.json",
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/vega2.json",
+        "EndPoints": [
+            {
+                "Identifier": "geothermal_stats",
+                "Url": "data:application/json,[{\"BDLNAME\":\"{{feature.values_.BDLNAME}}\",\"BDLNR\":\"{{feature.values_.BDLNR}}\",\"area_km2\":{{feature.values_.area_km2}},\"area_km2_N2K\":{{feature.values_.area_km2_N2K}},\"coverage_percent\":{{feature.values_.coverage_percent}},\"coverage_percent_N2K\":{{feature.values_.coverage_percent_N2K}},\"max_diffusivity\":{{feature.values_.max_diffusivity}},\"max_diffusivity_N2K\":{{feature.values_.max_diffusivity_N2K}},\"mean_diffusivity\":{{feature.values_.mean_diffusivity}},\"mean_diffusivity_N2K\":{{feature.values_.mean_diffusivity_N2K}},\"min_diffusivity\":{{feature.values_.min_diffusivity}},\"min_diffusivity_N2K\":{{feature.values_.min_diffusivity_N2K}},\"total_area\":{{feature.values_.total_area}},\"total_area_N2K\":{{feature.values_.total_area_N2K}}}]",
+                "Type": "application/json"
+            }
+        ]
+    },
+    "Collections": [
+      "austria_geothermal_stats_diff",
+      "geothermal-energy-potential-diff"
+    ]
+  }

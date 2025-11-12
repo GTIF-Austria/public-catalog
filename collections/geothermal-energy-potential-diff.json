@@ -1,0 +1,33 @@
+{
+  "Name": "Geothermal-energy-potential",
+  "Title": "Geothermal-energy-potential",
+  "Description": "## Thermal  Diffusivity Model\nThe thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The model was calculated using remote sensing data  and interpolated ground data by applying a model of water distribution to the first meter of the soil profile. The thermal diffusivity layer was calculated for the whole Austria for the 2024.\n",
+  "Image": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/geothermal_potential_energy_preview.png",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot_fin2.json",
+      "Bbox": [
+        8.561280520113318,
+        44.9533874238847,
+        18.947625077118264,
+        49.6818707213859
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "diffusivity",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2/diff_best_stu_eu_65_n2k_3857_1km_COG_matched.tif"
+            },
+            {
+              "Identifier": "Natura2000",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2/NK2_3035_1km_24_3035_1km_3857_1km_COG_matched.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
