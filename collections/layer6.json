@@ -19,5 +19,17 @@
         48.98274278062928
       ]
     }
-  ]
+  ],
+  "Process": {
+    "Name": "test",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form.json",
+    "EndPoints": [
+      {
+        "Identifier": "test",
+        "Url": "https://eoapi.workspace.test1.hub-int.eox.at/vector/collections/public.gemeinden_timeseries_staging/items?filter=id={{feature.values_.id }}&f=csv&geom-column=#.csv",
+        "Type": "text/csv"
+      }
+    ],
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart.jso"
+  }
 }
