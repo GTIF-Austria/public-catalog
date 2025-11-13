@@ -1,0 +1,29 @@
+{
+    "Name": "air_eepot_w23_wocc",
+    "Title": "Air Energy potential",
+    "Themes": [
+        "sustainable-cities"
+    ],
+    "Description": "TBD",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/air/style.json",
+            "Bbox": [
+                16.04,
+                47.94,
+                16.7,
+                48.48
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20300101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.air_eepot_w23_wocc/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ]
+}
