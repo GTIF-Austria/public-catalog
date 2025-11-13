@@ -22,7 +22,7 @@
   ],
   "Process": {
     "Name": "test",
-    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form.json",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_layer6.json",
     "EndPoints": [
       {
         "Identifier": "test",
