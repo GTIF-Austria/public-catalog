@@ -19,6 +19,13 @@
       "id": "layer6"
     },
     {
+      "rel": "service",
+      "href": "https://eoapi.workspace.test1.hub-int.eox.at/vector/collections/public.gemeinden_timeseries_staging/items?filter=id={{feature.values_.id }}&f=csv&geom-column=#.csv",
+      "type": "text/csv",
+      "id": "test",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -73,6 +80,8 @@
       "title": "GTIF Austria"
     }
   ],
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart.jso",
   "title": "layer6",
   "extent": {
     "spatial": {
