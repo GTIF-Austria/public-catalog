@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "evapotranspiration-monitoring",
+  "stac_version": "1.1.0",
+  "description": "tmp",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_simple.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Evapotrans_monit_COG"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Evapotranspiration Monitoring Demonstrator for Austria"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "Evapotranspiration Monitoring Demonstrator for Austria",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.040413513663806,
+          45.860352891576,
+          17.397020060526515,
+          49.46746319842481
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

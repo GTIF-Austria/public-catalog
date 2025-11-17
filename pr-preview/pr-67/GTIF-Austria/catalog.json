@@ -88,7 +88,7 @@
       "rel": "child",
       "href": "./evapotranspiration-monitoring/collection.json",
       "type": "application/json",
-      "title": "evapotranspiration-monitoring",
+      "title": "Evapotranspiration Monitoring Demonstrator for Austria",
       "id": "evapotranspiration-monitoring"
     },
     {
