@@ -89,7 +89,10 @@
       "href": "./evapotranspiration-monitoring/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "id": "evapotranspiration-monitoring"
+      "id": "evapotranspiration-monitoring",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
+      ]
     },
     {
       "rel": "self",
