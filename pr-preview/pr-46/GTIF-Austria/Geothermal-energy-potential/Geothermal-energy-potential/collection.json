@@ -16,7 +16,8 @@
       "type": "text/cog-styles",
       "asset:keys": [
         "conductivity",
-        "Natura2000"
+        "Natura2000",
+        "diffusivity"
       ]
     },
     {
