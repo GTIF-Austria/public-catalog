@@ -5,12 +5,12 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_max5.json",
+      "Style": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria.json",
       "Bbox": [
-        9.281347118900012,
-        46.26404177737574,
-        17.26966228424581,
-        49.11037390062732
+        9.345646890192995,
+        46.18228408562923,
+        17.199086171721973,
+        49.31095465447381
       ],
       "DataProjection": {
         "name": "EPSG:31287",
