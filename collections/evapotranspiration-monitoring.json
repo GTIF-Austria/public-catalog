@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_max5.json",
+      "Style": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_simple.json",
       "Bbox": [
         9.345646890192995,
         46.18228408562923,
