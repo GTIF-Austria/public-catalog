@@ -25,6 +25,13 @@
       ]
     },
     {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.air_eepot_w23_wocc/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+      "type": "application/json",
+      "id": "timeseries",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -85,6 +92,8 @@
   "agency": [
     "ESA"
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/air_eepot_form_comparison.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/air_eepot_chart.json",
   "title": "Air Energy potential",
   "extent": {
     "spatial": {
