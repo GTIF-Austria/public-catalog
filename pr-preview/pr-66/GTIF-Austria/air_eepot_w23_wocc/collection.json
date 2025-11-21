@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "air_eepot_w23_wocc",
   "stac_version": "1.1.0",
-  "description": "TBD",
+  "description": "[download raw sdata](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/air_EEPOT_W23_woCC.csv)",
   "links": [
     {
       "rel": "root",
