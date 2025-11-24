@@ -24,8 +24,8 @@
         "09 - Water Bodies",
         "10 - Power Lines",
         "11 - Military",
-        "02 - Slope",
-        "01 - Elevation"
+        "01 - Elevation",
+        "02 - Slope"
       ]
     },
     {
