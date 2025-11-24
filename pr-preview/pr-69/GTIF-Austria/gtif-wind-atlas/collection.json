@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "child",
+      "href": "./gtif-wind-atlas/collection.json",
+      "type": "application/json",
+      "title": "GTIF Wind Atlas",
+      "endpointtype": "COG source",
+      "id": "gtif-wind-atlas"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -80,8 +88,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-24T15:30:25.186022Z",
-          null
+          "2025-11-24T15:37:35.122137Z",
+          "2025-11-24T15:37:35.122137Z"
         ]
       ]
     }
