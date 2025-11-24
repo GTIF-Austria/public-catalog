@@ -23,7 +23,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Geothermal Diffusivity"
+      "title": "Geothermal Energy Potential"
     }
   ],
   "endpointtype": "COG source",

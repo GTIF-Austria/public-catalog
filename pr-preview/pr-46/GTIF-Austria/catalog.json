@@ -92,13 +92,6 @@
       "id": "austria_geothermal_stats"
     },
     {
-      "rel": "child",
-      "href": "./Geothermal-diffusivity/collection.json",
-      "type": "application/json",
-      "title": "Geothermal Diffusivity",
-      "id": "Geothermal-diffusivity"
-    },
-    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
