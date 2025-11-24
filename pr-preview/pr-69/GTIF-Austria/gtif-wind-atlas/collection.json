@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "gtif-wind-atlas",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Description Windatlas Austria",
   "links": [
     {
       "rel": "root",
@@ -65,7 +65,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "gtif-wind-atlas",
+  "title": "GTIF Wind Atlas",
   "extent": {
     "spatial": {
       "bbox": [
@@ -80,7 +80,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-24T15:26:13.457284Z",
+          "2025-11-24T15:30:25.186022Z",
           null
         ]
       ]

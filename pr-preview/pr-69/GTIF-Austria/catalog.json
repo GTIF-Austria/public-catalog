@@ -98,7 +98,7 @@
       "rel": "child",
       "href": "./gtif-wind-atlas/collection.json",
       "type": "application/json",
-      "title": "gtif-wind-atlas",
+      "title": "GTIF Wind Atlas",
       "id": "gtif-wind-atlas"
     },
     {
