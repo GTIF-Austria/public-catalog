@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/gtif-wr-01-wind-atlas-style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "03A"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -23,21 +31,31 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          9.41002116668165,
+          46.282598741626764,
+          17.249824983234852,
+          49.08000036704142
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-11-24T15:37:35.122137Z",
-          null
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
