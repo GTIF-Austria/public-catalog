@@ -1,7 +1,7 @@
 {
   "Name": "gtif-site-itentification-wind",
   "Title": "Site Identification Wind",
-  "Description": "Description Site Identificatin Wind",
+  "Description": "Description Site Identification Wind",
   "Resources": [
     {
       "Name": "COG source",
