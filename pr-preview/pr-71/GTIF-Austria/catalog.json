@@ -98,7 +98,7 @@
       "rel": "child",
       "href": "./gtif-site-itentification-wind/collection.json",
       "type": "application/json",
-      "title": "gtif-site-itentification-wind",
+      "title": "Site Identification Wind",
       "id": "gtif-site-itentification-wind"
     },
     {

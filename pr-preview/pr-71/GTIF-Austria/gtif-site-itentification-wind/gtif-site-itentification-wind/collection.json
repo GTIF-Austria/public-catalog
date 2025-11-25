@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "gtif-site-itentification-wind",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Site Identificatin Wind Description",
   "links": [
     {
       "rel": "root",
@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "gtif-site-itentification-wind"
+      "title": "Site Identification Wind"
     }
   ],
   "endpointtype": "COG source",
-  "title": "gtif-site-itentification-wind",
+  "title": "Site Identification Wind",
   "extent": {
     "spatial": {
       "bbox": [
