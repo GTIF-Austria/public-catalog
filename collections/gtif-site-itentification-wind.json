@@ -19,6 +19,10 @@
             {
               "Identifier": "cog1-pwr-density-100m",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Results/p100_100_v1_matched.tif"
+            },
+            {
+              "Identifier": "cog2-02-elevation",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/dhm_merge_rasterbox_100m_matched.tif"
             }
           ]
         }
