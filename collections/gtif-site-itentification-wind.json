@@ -2,5 +2,27 @@
   "Name": "gtif-site-itentification-wind",
   "Title": "gtif-site-itentification-wind",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/gtif-wr-02-site-identification-wind-style.json",
+      "Bbox": [
+        9.447136136852075,
+        46.047972432720826,
+        17.23383907338992,
+        49.18213868756307
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "cog1-pwr-density-100m",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Results/p100_100_v1_matched.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
