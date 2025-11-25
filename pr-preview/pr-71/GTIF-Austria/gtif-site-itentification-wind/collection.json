@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "gtif-site-itentification-wind",
   "stac_version": "1.1.0",
-  "description": "Description Site Identificatin Wind",
+  "description": "Description Site Identification Wind",
   "links": [
     {
       "rel": "root",
