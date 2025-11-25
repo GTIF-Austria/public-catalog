@@ -16,16 +16,7 @@
       "type": "text/cog-styles",
       "asset:keys": [
         "01 - Elevation",
-        "02 - Slope",
-        "03A - Nature Preservation Areas",
-        "03B - Nature Preservation Areas",
-        "04 - Settlements",
-        "06 - Railways",
-        "07 - Roads",
-        "08 - Aviation",
-        "09 - Water Bodies",
-        "10 - Power Lines",
-        "11 - Military"
+        "02 - Slope"
       ]
     },
     {
