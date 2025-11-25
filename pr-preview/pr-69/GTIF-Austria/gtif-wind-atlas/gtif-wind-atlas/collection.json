@@ -15,8 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/gtif-wr-01-wind-atlas-style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "cog01-WM100_100",
-        "cog02-02-Slope"
+        "cog01-WM100-all-heights"
       ]
     },
     {
