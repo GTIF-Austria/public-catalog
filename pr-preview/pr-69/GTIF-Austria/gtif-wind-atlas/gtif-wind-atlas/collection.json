@@ -15,6 +15,8 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/gtif-wr-01-wind-atlas-style.json",
       "type": "text/cog-styles",
       "asset:keys": [
+        "01 - Elevation",
+        "02 - Slope",
         "03A - Nature Preservation Areas",
         "03B - Nature Preservation Areas",
         "04 - Settlements",
@@ -23,9 +25,7 @@
         "08 - Aviation",
         "09 - Water Bodies",
         "10 - Power Lines",
-        "11 - Military",
-        "01 - Elevation",
-        "02 - Slope"
+        "11 - Military"
       ]
     },
     {
