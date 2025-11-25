@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "gtif-site-itentification-wind",
   "stac_version": "1.1.0",
-  "description": "Site Identificatin Wind Description",
+  "description": "Description Site Identificatin Wind",
   "links": [
     {
       "rel": "root",
@@ -31,10 +31,10 @@
     "spatial": {
       "bbox": [
         [
-          9.447136136852075,
-          46.047972432720826,
-          17.23383907338992,
-          49.18213868756307
+          9.425247028117266,
+          46.15092956805772,
+          17.33428513130213,
+          49.22046434390927
         ]
       ]
     },
