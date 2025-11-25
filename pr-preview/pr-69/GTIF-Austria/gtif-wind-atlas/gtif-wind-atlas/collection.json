@@ -23,11 +23,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GTIF Wind Atlas"
+      "title": "Wind Atlas"
     }
   ],
   "endpointtype": "COG source",
-  "title": "GTIF Wind Atlas",
+  "title": "Wind Atlas",
   "extent": {
     "spatial": {
       "bbox": [

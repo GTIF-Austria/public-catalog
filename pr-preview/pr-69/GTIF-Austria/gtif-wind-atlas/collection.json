@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./gtif-wind-atlas/collection.json",
       "type": "application/json",
-      "title": "GTIF Wind Atlas",
+      "title": "Wind Atlas",
       "endpointtype": "COG source",
       "id": "gtif-wind-atlas"
     },
@@ -73,7 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "GTIF Wind Atlas",
+  "title": "Wind Atlas",
   "extent": {
     "spatial": {
       "bbox": [
