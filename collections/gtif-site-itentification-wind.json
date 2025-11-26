@@ -27,6 +27,10 @@
             {
               "Identifier": "cog03-02-slope",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/slope_merge_rasterbox_100m_matched.tif"
+            },
+            {
+              "Identifier": "cog04-03A-Nature preservation areas",
+              "File": ""
             }
           ]
         }
