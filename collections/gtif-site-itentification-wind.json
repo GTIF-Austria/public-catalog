@@ -51,6 +51,10 @@
             {
               "Identifier": "cog09-08-Aviation",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/08_OSM_airports_union_mask_31287_matched.tif"
+            },
+            {
+              "Identifier": "cog10-09-Water-Bodies",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/09_water_bodies_gt_10000m2_EPSG31287_mask_31287_matched.tif"
             }
           ]
         }
