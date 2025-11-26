@@ -39,6 +39,10 @@
             {
               "Identifier": "cog06-04-Settlements",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/04_Adressen_filtered_w_pot_residential_buildings_gt30m2_non-isolated_dist_31287_matched.tif"
+            },
+            {
+              "Identifier": "cog07-06-Railways",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/06_standard and narrow gauge_dist_31287_matched.tif"
             }
           ]
         }
