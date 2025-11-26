@@ -59,6 +59,10 @@
             {
               "Identifier": "cog11-10-Power-Lines",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/10_Leitungen_110kV_bis_380kV_dist_31287_matched.tif"
+            },
+            {
+              "Identifier": "cog12-11-Military-Areas",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Masks/11_OSM_Truppenübungsplätze_EPSG31287_mask_31287_matched.tif"
             }
           ]
         }
