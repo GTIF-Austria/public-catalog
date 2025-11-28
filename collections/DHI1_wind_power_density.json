@@ -2,34 +2,11 @@
   "Name": "wind_power_density",
   "Title": "Wind Energy Assessment",
   "EodashIdentifier": "DHI1",
-  "Subtitle": "",
   "Description": "Wind Power Density - The wind power density (w m 2 ) is a measure of the available wind resource. Higher wind power density indicates greater wind power potential.",
-  "Themes": [],
-  "Tags": [],
-  "DataSource": {
-    "Spaceborne": {
-      "Satellite": [],
-      "Sensor": []
-    },
-    "InSitu": [],
-    "Other": []
-  },
-  "Agency": [],
-  "License": "",
-  "Locations": [],
-  "Provider": [],
-  "Citation": {
-    "DOI": "",
-    "Citation": "",
-    "Publications": []
-  },
-  "Image": "",
-  "Legend": "",
-  "Subcollections": [],
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/DHI1.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/test/dhi_style.json",
       "Bbox": [
         9.978753668096008,
         45.791503409256876,
