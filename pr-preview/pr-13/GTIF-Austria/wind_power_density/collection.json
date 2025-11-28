@@ -16,26 +16,16 @@
       "type": "application/json",
       "title": "Wind Energy Assessment",
       "endpointtype": "COG source_byoc",
-      "subtitle": "",
       "code": "DHI1",
       "id": "wind_power_density",
-      "themes": [],
-      "tags": [],
-      "agency": [],
-      "subcode": "DHI1",
-      "collection_group": "",
-      "sensor": [],
-      "satellite": [],
-      "insituSources": [],
-      "otherSources": []
+      "subcode": "DHI1"
     },
     {
       "rel": "service",
-      "href": "./wind_power_density/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
+      "href": "",
+      "type": "",
+      "id": "",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -92,20 +82,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "sci:doi": "",
-  "sci:citation": "",
-  "subtitle": "",
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main//",
-  "themes": [],
-  "locations": true,
-  "tags": [],
-  "agency": [],
   "subcode": "DHI1",
-  "collection_group": "",
-  "sensor": [],
-  "satellite": [],
-  "insituSources": [],
-  "otherSources": [],
   "eox:colorlegend": {
     "title": "",
     "range": [],
@@ -142,29 +119,10 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "DHI1"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main//"
     ]
-  },
-  "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main//",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main//",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }

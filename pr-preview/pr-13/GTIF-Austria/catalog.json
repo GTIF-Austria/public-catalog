@@ -15,21 +15,9 @@
       "href": "./wind_power_density/collection.json",
       "type": "application/json",
       "title": "Wind Energy Assessment",
-      "subtitle": "",
       "code": "DHI1",
       "id": "wind_power_density",
-      "themes": [],
-      "subcode": "DHI1",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main//"
-      ],
-      "tags": [],
-      "agency": [],
-      "collection_group": "",
-      "sensor": [],
-      "satellite": [],
-      "insituSources": [],
-      "otherSources": []
+      "subcode": "DHI1"
     },
     {
       "rel": "self",
