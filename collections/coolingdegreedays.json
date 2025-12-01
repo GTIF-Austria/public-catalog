@@ -19,6 +19,8 @@
   "Agency": [
     "GeoSphere Austria"
   ],
-  "Tags": [],
+  "Tags": [
+    "city_temperature"
+  ],
   "Image": ""
 }
