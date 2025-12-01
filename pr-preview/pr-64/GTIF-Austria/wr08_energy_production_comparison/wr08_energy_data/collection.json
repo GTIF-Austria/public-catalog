@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_energy_data_styles.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "GeoJsonFile2020v2"
+        "GeoJsonFile2023v2"
       ]
     },
     {
@@ -31,10 +31,10 @@
     "spatial": {
       "bbox": [
         [
-          10.054208301839774,
-          45.6898059850306,
-          17.02521368395977,
-          49.582473639520515
+          9.639257023785476,
+          46.23240599962599,
+          17.259671286396884,
+          49.30759460471599
         ]
       ]
     },
@@ -42,7 +42,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
