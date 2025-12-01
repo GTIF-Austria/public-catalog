@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "mobility_ihr_pm25_pm10",
+  "stac_version": "1.1.0",
+  "description": "TBD",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mobility Impact on PM2.5 and PM10 Concentrations"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "mobility"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "endpointtype": "VectorTile source",
+  "title": "Mobility Impact on PM2.5 and PM10 Concentrations",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          16.04,
+          47.94,
+          16.7,
+          48.48
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-01T00:00:00Z",
+          "2022-12-18T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
