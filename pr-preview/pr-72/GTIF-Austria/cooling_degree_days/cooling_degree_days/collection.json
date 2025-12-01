@@ -17,6 +17,9 @@
       "title": "Cooling Degree Days"
     }
   ],
+  "tags": [
+    "city_temperature"
+  ],
   "agency": [
     "GeoSphere Austria"
   ],

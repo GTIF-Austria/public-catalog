@@ -116,6 +116,9 @@
       "type": "application/json",
       "title": "Cooling Degree Days",
       "id": "cooling_degree_days",
+      "tags": [
+        "city_temperature"
+      ],
       "agency": [
         "GeoSphere Austria"
       ]
