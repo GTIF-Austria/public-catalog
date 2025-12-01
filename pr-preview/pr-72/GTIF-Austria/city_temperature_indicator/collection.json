@@ -51,6 +51,9 @@
       "roles": [
         "disable"
       ],
+      "tags": [
+        "city_temperature"
+      ],
       "agency": [
         "GeoSphere Austria"
       ]

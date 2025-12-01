@@ -17,6 +17,9 @@
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria"
     }
   ],
+  "tags": [
+    "city_temperature"
+  ],
   "agency": [
     "GeoSphere Austria"
   ],
