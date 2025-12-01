@@ -28,10 +28,58 @@
     },
     {
       "rel": "service",
-      "href": "data:application/json,[{/\"BDLNAME/\":/\"{{feature.values_.BDLNAME}}/\",/\"BDLNR/\":/\"{{feature.values_.BDLNR}}/\",/\"area_km2/\":{{feature.values_.area_km2}},/\"area_km2_N2K/\":{{feature.values_.area_km2_N2K}},/\"coverage_percent/\":{{feature.values_.coverage_percent}},/\"coverage_percent_N2K/\":{{feature.values_.coverage_percent_N2K}},/\"max_conductivity/\":{{feature.values_.max_conductivity}},/\"max_conductivity_N2K/\":{{feature.values_.max_conductivity_N2K}},/\"mean_conductivity/\":{{feature.values_.mean_conductivity}},/\"mean_conductivity_N2K/\":{{feature.values_.mean_conductivity_N2K}},/\"min_conductivity/\":{{feature.values_.min_conductivity}},/\"min_conductivity_N2K/\":{{feature.values_.min_conductivity_N2K}},/\"total_area/\":{{feature.values_.total_area}},/\"total_area_N2K/\":{{feature.values_.total_area_N2K}}}]",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/features/{{feature}}.json",
       "type": "application/geo+json",
       "id": "wr08_energy_production_statistics",
       "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2022",
+      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "eox-osm",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",

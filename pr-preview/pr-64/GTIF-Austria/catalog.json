@@ -38,7 +38,7 @@
       "id": "predictive_maintenance",
       "subcode": "AIT1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg"
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg"
       ]
     },
     {
@@ -76,9 +76,22 @@
       "themes": [
         "Sustainable Cities"
       ],
+      "providers": [
+        "ubicube"
+      ],
       "subcode": "ubi-multitemporal",
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/multitemporal_footprints/Extraction_partial.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./evapotranspiration-monitoring/collection.json",
+      "type": "application/json",
+      "title": "Evapotranspiration Monitoring Demonstrator for Austria",
+      "id": "evapotranspiration-monitoring",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
       ]
     },
     {
