@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "citytemperaturecollection",
+  "id": "heating_degree_days",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -14,18 +14,14 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria"
+      "title": "Heating Degree Days"
     }
-  ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
-  "tags": [
-    "city_temperature"
   ],
   "agency": [
     "GeoSphere Austria"
   ],
   "endpointtype": "COG source",
-  "title": "City temperature forecast",
+  "title": "Heating Degree Days",
   "extent": {
     "spatial": {
       "bbox": [
@@ -40,8 +36,8 @@
     "temporal": {
       "interval": [
         [
-          "2019-06-24T00:00:00Z",
-          "2019-07-02T23:00:00Z"
+          "2019-06-24T07:00:00Z",
+          "2019-07-02T07:00:00Z"
         ]
       ]
     }
@@ -49,18 +45,11 @@
   "license": "other",
   "assets": {
     "geoparquet": {
-      "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_timeseries.parquet",
+      "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/heating_degree_days_timeseries.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
       ]
     }
   }

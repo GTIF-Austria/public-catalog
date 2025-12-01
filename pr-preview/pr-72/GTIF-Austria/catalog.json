@@ -60,10 +60,10 @@
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
       "code": "city_temperature_indicator",
       "id": "city_temperature_indicator",
-      "subcode": "city_temperature_indicator",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
       ],
+      "subcode": "city_temperature_indicator",
       "collection_group": "Capabilities"
     },
     {
@@ -96,10 +96,36 @@
     },
     {
       "rel": "child",
+      "href": "./citytemperaturecollection/collection.json",
+      "type": "application/json",
+      "title": "City temperature forecast",
+      "id": "citytemperaturecollection",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
+      ],
+      "tags": [
+        "city_temperature"
+      ],
+      "agency": [
+        "GeoSphere Austria"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./cooling_degree_days/collection.json",
       "type": "application/json",
       "title": "Cooling Degree Days",
       "id": "cooling_degree_days",
+      "agency": [
+        "GeoSphere Austria"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./heating_degree_days/collection.json",
+      "type": "application/json",
+      "title": "Heating Degree Days",
+      "id": "heating_degree_days",
       "agency": [
         "GeoSphere Austria"
       ]
