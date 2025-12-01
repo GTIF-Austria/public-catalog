@@ -29,7 +29,7 @@
     {
       "rel": "service",
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/features/{{feature}}.json",
-      "type": "application/geo+json",
+      "type": "application/json",
       "id": "wr08_energy_production_statistics",
       "method": "GET"
     },
