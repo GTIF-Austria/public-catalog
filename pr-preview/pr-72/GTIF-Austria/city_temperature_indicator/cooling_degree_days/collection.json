@@ -23,6 +23,7 @@
   "agency": [
     "GeoSphere Austria"
   ],
+  "subcode": "cooling_degree_days",
   "endpointtype": "COG source",
   "title": "Cooling Degree Days",
   "extent": {

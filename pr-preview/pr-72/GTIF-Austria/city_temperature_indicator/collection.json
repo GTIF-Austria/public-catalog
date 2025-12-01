@@ -32,6 +32,7 @@
       "type": "application/json",
       "title": "Cooling Degree Days",
       "endpointtype": "COG source",
+      "code": "cooling_degree_days",
       "id": "cooling_degree_days",
       "roles": [
         "disable"
@@ -41,7 +42,8 @@
       ],
       "agency": [
         "GeoSphere Austria"
-      ]
+      ],
+      "subcode": "cooling_degree_days"
     },
     {
       "rel": "child",
@@ -49,6 +51,7 @@
       "type": "application/json",
       "title": "Heating Degree Days",
       "endpointtype": "COG source",
+      "code": "heating_degree_days",
       "id": "heating_degree_days",
       "roles": [
         "disable"
@@ -58,7 +61,8 @@
       ],
       "agency": [
         "GeoSphere Austria"
-      ]
+      ],
+      "subcode": "heating_degree_days"
     },
     {
       "rel": "service",
@@ -168,7 +172,9 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "city_temperature"
+      "city_temperature",
+      "heating_degree_days",
+      "cooling_degree_days"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
