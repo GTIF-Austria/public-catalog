@@ -60,10 +60,10 @@
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
       "code": "city_temperature_indicator",
       "id": "city_temperature_indicator",
+      "subcode": "city_temperature_indicator",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
       ],
-      "subcode": "city_temperature_indicator",
       "collection_group": "Capabilities"
     },
     {
@@ -92,22 +92,6 @@
       "id": "evapotranspiration-monitoring",
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./citytemperaturecollection/collection.json",
-      "type": "application/json",
-      "title": "City temperature forecast",
-      "id": "citytemperaturecollection",
-      "thumbnail": [
-        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
-      ],
-      "tags": [
-        "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
       ]
     },
     {
