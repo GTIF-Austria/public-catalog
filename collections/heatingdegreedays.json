@@ -5,105 +5,15 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/heating_degree_days_style.json",
+      "Style": "",
       "Bbox": [
         16.04,
         47.94,
         16.7,
         48.48
       ],
-      "TimeEntries": [
-        {
-          "Time": "2019-06-24",
-          "Assets": [
-            {
-              "Identifier": "20190624_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190624_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-06-25",
-          "Assets": [
-            {
-              "Identifier": "20190625_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190625_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-06-26",
-          "Assets": [
-            {
-              "Identifier": "20190626_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190626_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-06-27",
-          "Assets": [
-            {
-              "Identifier": "20190627_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190627_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-06-28",
-          "Assets": [
-            {
-              "Identifier": "20190628_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190628_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-06-29",
-          "Assets": [
-            {
-              "Identifier": "20190629_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190629_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-06-30",
-          "Assets": [
-            {
-              "Identifier": "20190630_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190630_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-07-01",
-          "Assets": [
-            {
-              "Identifier": "20190701_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190701_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-07-02",
-          "Assets": [
-            {
-              "Identifier": "20190702_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190702_00h00_h00.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2019-07-03",
-          "Assets": [
-            {
-              "Identifier": "20190703_00h00_h00",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_data_2019/20190703_00h00_h00.tif"
-            }
-          ]
-        }
-      ]
+      "TimeEntries": [],
+      "ParquetSource": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/heating_degree_days_timeseries.parquet"
     }
   ],
   "Agency": [

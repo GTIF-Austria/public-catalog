@@ -33,7 +33,10 @@
   "Agency": [],
   "License": "",
   "Locations": [],
-  "Provider": ["ubicube"],
+  "Provider": [{
+    "Name": "ubicube",
+    "Url": "https://ubicube.eu"
+  }],
   "Citation": {
     "DOI": "",
     "Citation": ""
