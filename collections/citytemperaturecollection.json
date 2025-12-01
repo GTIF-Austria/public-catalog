@@ -22,5 +22,6 @@
   ],
   "Tags": [
     "city_temperature"
-  ]
+  ],
+  "EodashIdentifier": "city_temperature"
 }
