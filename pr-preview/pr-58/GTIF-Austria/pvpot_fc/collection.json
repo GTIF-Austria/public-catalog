@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Solar-Potential-Nowcasting",
+  "id": "pvpot_fc",
   "stac_version": "1.1.0",
-  "description": "The data layer *Theoretical Solar Potential* shows the results of the nowcasting for 2 hours on 23th october 2025 from 09:00 to 11:00. The time resolution is 15min.\n\nThe calculation of the theoretical solar potential (PVpot) is based on the method of [Jerez et al (2025)](https://www.nature.com/articles/ncomms10014). The meteorological input is given by GeoSphere Austria's radiation model *STRAHLGRID* in combination with GeoSphere Austria's nowcasting model *INCA*.\n\nThe theoretical solar potential ranges from 0 to 1. If the value of PVpot is equal to 1, the nominal PV production value specified by the system is achieved. If the cell temperature of the PV system is higher (lower) than 25°C and/or the global radiation is less (greater) than 1000 W/m², then the PV output is lower (greater) than the nominal power of the module. These threshold values can be adjusted to customer requirements.\n\nContact: solar@geosphere.at",
+  "description": "TBD",
   "links": [
     {
       "rel": "root",
@@ -19,9 +19,17 @@
       "id": "Solar-Potential-Nowcasting"
     },
     {
+      "rel": "child",
+      "href": "./Solar-Potential-Nowcasting-Glo-Run1/collection.json",
+      "type": "application/json",
+      "title": "Global Solar Radiation (Run 1)",
+      "endpointtype": "COG source",
+      "id": "Solar-Potential-Nowcasting-Glo-Run1"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2022",
       "roles": [
         "baselayer",
@@ -33,7 +41,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -45,7 +53,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -57,7 +65,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -73,15 +81,23 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Theoretical Solar Potential",
+  "subcode": "pvpot_fc",
+  "collection_group": "Capabilities",
+  "title": "Nowcasting of theoretical PV potential in Austria",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.662064185510863,
-          45.73145475761923,
-          18.761401868813746,
-          50.07148553381576
+          5.580038742944623,
+          43.590430355579336,
+          23.163823732022593,
+          50.54553807213256
+        ],
+        [
+          5.580038742944623,
+          43.590430355579336,
+          23.163823732022593,
+          50.54553807213256
         ],
         [
           8.662064185510863,

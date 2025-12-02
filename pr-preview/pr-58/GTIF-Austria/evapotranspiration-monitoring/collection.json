@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "GTIME Layer",
+  "id": "evapotranspiration-monitoring",
   "stac_version": "1.1.0",
-  "description": "The RGB colour model is used to visualize vegetation status and changes across three user-defined time periods (in this case: T1: 2018, T2: 2021, and T3: 2024). This vegetation change model is based on a semantic Earth Observation (EO) data cube, utilizing all available Sentinel-2 observations within each time frame. It calculates the percentage of vegetation presence among valid (cloud- and snow-free) observations. As a result, the model not only depicts changes over time but also reflects variations in vegetation intensity and transitions between vegetation and non-vegetation. Vegetation percentages are represented as integer values within the respective colour channels.",
+  "description": "**Evapotranspiration Monitoring Demonstrator for Austria**\nThe [UN World Water Report](https://unesdoc.unesco.org/ark:/48223/pf0000388948) draws attention to the increasing water consumption, which affects global food security and economic growth. Understanding hydrological processes, especially evapotranspiration (ET), is crucial for the functionality and sustainability of green spaces and influences water and energy balances. Actual evapotranspiration (ETa) is an important measure of water transfer from the Earth's surface and includes both soil evaporation and plant transpiration.\nThe methodology to perform evapotranspiration estimation is based on the use of [foundation models such as Prithvi](https://unesdoc.unesco.org/ark:/48223/pf0000388948) that performs a regression analysis of Sentinel-2 multispectral bands and climatic ancillary data (temperature, precipitation and other data), to retrieve an estimation of evapotranspiration measurements obtained from ECOSTRESS.\n\nECOSTRESS is showing lower resolution than the input Sentinel-2, which necessitates pre-processing impacting potentially the measurements. Moreover ECOSTRESS is showing some artefacts in its raw format, this has impact on the machine learning prediction and may reduce quality of the desired output.\n\n© 2025 Sistema GmbH. All rights reserved. When using data or information derived from the “High Resolution Evapotranspiration Service” in publications, websites, or other media, please include the following citation: \"Data provided by Sistema GmbH “High Resolution Evapotranspiration service”, part of the [GTIF-AT initiative](https://gtif-austria.info/narratives/evapotranspiration\\_maps).\"",
   "links": [
     {
       "rel": "root",
@@ -12,13 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./GTIME Layer/collection.json",
+      "href": "./evapotranspiration-monitoring/collection.json",
       "type": "application/json",
-      "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
+      "title": "Evapotranspiration Monitoring Demonstrator for Austria",
       "endpointtype": "COG source",
-      "code": "GTIME Layer",
-      "id": "GTIME Layer",
-      "subcode": "GTIME Layer"
+      "id": "evapotranspiration-monitoring"
     },
     {
       "rel": "xyz",
@@ -75,23 +73,22 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png",
-  "subcode": "GTIME Layer",
-  "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
+  "title": "Evapotranspiration Monitoring Demonstrator for Austria",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.0,
-          44.5,
-          18.0,
-          49.5
+          10.040413513663806,
+          45.860352891576,
+          17.397020060526515,
+          49.46746319842481
         ],
         [
-          9.0,
-          44.5,
-          18.0,
-          49.5
+          10.040413513663806,
+          45.860352891576,
+          17.397020060526515,
+          49.46746319842481
         ]
       ]
     },
@@ -106,23 +103,13 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "GTIME Layer"
-    ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
+      "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Cube_legend_landscape_en.jpg",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png",
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

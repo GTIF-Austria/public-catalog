@@ -64,7 +64,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2022",
       "roles": [
         "baselayer",
@@ -76,7 +76,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -88,7 +88,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -100,7 +100,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -160,8 +160,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "NUTS2_AT",
-      "LULUCF"
+      "LULUCF",
+      "NUTS2_AT"
     ],
     "themes": [
       "TBD"
