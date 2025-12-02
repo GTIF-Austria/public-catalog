@@ -65,9 +65,16 @@
       "subcode": "heating_degree_days"
     },
     {
+      "rel": "service",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_timeseries.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "type": "application/json",
+      "id": "cogstats",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2022",
       "roles": [
         "baselayer",
@@ -79,7 +86,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
         "baselayer",
@@ -91,7 +98,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -103,7 +110,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -121,6 +128,8 @@
   ],
   "subcode": "city_temperature_indicator",
   "collection_group": "Capabilities",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json",
   "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
   "extent": {
     "spatial": {
@@ -155,7 +164,7 @@
       "interval": [
         [
           "2019-06-24T00:00:00Z",
-          "2019-07-03T00:00:00Z"
+          "2019-07-02T23:00:00Z"
         ]
       ]
     }
