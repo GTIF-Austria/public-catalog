@@ -96,10 +96,13 @@
     },
     {
       "rel": "child",
-      "href": "./Solar-Potential-Nowcasting-2/collection.json",
+      "href": "./pvpot_fc/collection.json",
       "type": "application/json",
-      "title": "Theoretical Solar Potential (Run 2)",
-      "id": "Solar-Potential-Nowcasting-2"
+      "title": "Nowcasting of theoretical PV potential",
+      "code": "pvpot_fc",
+      "id": "pvpot_fc",
+      "subcode": "pvpot_fc",
+      "collection_group": "Capabilities"
     },
     {
       "rel": "self",

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Solar-Potential-Nowcasting-2",
+  "id": "pvpot_fc",
   "stac_version": "1.1.0",
-  "description": "The data layer *Theoretical Solar Potential* shows the results of the nowcasting for 2 hours on 23th october 2025 from 09:00 to 11:00. The time resolution is 15min.\n\nThe calculation of the theoretical solar potential (PVpot) is based on the method of [Jerez et al (2025)](https://www.nature.com/articles/ncomms10014). The meteorological input is given by GeoSphere Austria's radiation model *STRAHLGRID* in combination with GeoSphere Austria's nowcasting model *INCA*.\n\nThe theoretical solar potential ranges from 0 to 1. If the value of PVpot is equal to 1, the nominal PV production value specified by the system is achieved. If the cell temperature of the PV system is higher (lower) than 25°C and/or the global radiation is less (greater) than 1000 W/m², then the PV output is lower (greater) than the nominal power of the module. These threshold values can be adjusted to customer requirements.\n\nContact: solar@geosphere.at",
+  "description": "The data layer *Theoretical Solar Potential* shows the results of the nowcasting for 2 hours on 23th october 2025 from 09:00 to 11:00 (Run 1) and from 10:00 to 12:00 (Run 2). The time resolution is 15min.\nThe data layer *Global Solar Radiation* shows the results for the radation in W/m². It is defined as the sum of direct and diffuse solar radation. \n\nThe calculation of the theoretical solar potential (PVpot) is based on the method of [Jerez et al (2025)](https://www.nature.com/articles/ncomms10014). The meteorological input is given by GeoSphere Austria's radiation model *STRAHLGRID* in combination with GeoSphere Austria's nowcasting model *INCA*.\n\nThe theoretical solar potential ranges from 0 to 1. If the value of PVpot is equal to 1, the nominal PV production value specified by the system is achieved. If the cell temperature of the PV system is higher (lower) than 25°C and/or the global radiation is less (greater) than 1000 W/m², then the PV output is lower (greater) than the nominal power of the module. These threshold values can be adjusted to customer requirements.\n\nContact: solar@geosphere.at",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,35 @@
     },
     {
       "rel": "child",
+      "href": "./Solar-Potential-Nowcasting/collection.json",
+      "type": "application/json",
+      "title": "Theoretical Solar Potential (Run 1)",
+      "endpointtype": "COG source",
+      "id": "Solar-Potential-Nowcasting"
+    },
+    {
+      "rel": "child",
       "href": "./Solar-Potential-Nowcasting-2/collection.json",
       "type": "application/json",
       "title": "Theoretical Solar Potential (Run 2)",
       "endpointtype": "COG source",
       "id": "Solar-Potential-Nowcasting-2"
+    },
+    {
+      "rel": "child",
+      "href": "./Solar-Potential-Nowcasting-Glo-Run1/collection.json",
+      "type": "application/json",
+      "title": "Global Solar Radiation (Run 1)",
+      "endpointtype": "COG source",
+      "id": "Solar-Potential-Nowcasting-Glo-Run1"
+    },
+    {
+      "rel": "child",
+      "href": "./Solar-Potential-Nowcasting-Glo-Run2/collection.json",
+      "type": "application/json",
+      "title": "Global Solar Radiation (Run 2)",
+      "endpointtype": "COG source",
+      "id": "Solar-Potential-Nowcasting-Glo-Run2"
     },
     {
       "rel": "xyz",
@@ -73,10 +97,30 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Theoretical Solar Potential (Run 2)",
+  "subcode": "pvpot_fc",
+  "collection_group": "Capabilities",
+  "title": "Nowcasting of theoretical PV potential",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          8.662064185510863,
+          45.73145475761923,
+          18.761401868813746,
+          50.07148553381576
+        ],
+        [
+          8.662064185510863,
+          45.73145475761923,
+          18.761401868813746,
+          50.07148553381576
+        ],
+        [
+          8.662064185510863,
+          45.73145475761923,
+          18.761401868813746,
+          50.07148553381576
+        ],
         [
           8.662064185510863,
           45.73145475761923,
@@ -94,7 +138,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-10-23T10:00:00Z",
+          "2025-10-23T09:00:00Z",
           "2025-10-23T12:00:00Z"
         ]
       ]
