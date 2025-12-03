@@ -106,6 +106,13 @@
     },
     {
       "rel": "child",
+      "href": "./Solar-Potential-Nowcasting/collection.json",
+      "type": "application/json",
+      "title": "Theoretical Solar Potential (Run 1)",
+      "id": "Solar-Potential-Nowcasting"
+    },
+    {
+      "rel": "child",
       "href": "./Solar-Potential-Nowcasting-Glo-Run2/collection.json",
       "type": "application/json",
       "title": "Global Solar Radiation (Run 2)",
