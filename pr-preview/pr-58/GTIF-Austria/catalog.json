@@ -105,13 +105,6 @@
       "collection_group": "Capabilities"
     },
     {
-      "rel": "child",
-      "href": "./Solar-Potential-Nowcasting-Glo-Run1/collection.json",
-      "type": "application/json",
-      "title": "Global Solar Radiation (Run 1)",
-      "id": "Solar-Potential-Nowcasting-Glo-Run1"
-    },
-    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
