@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./Solar-Potential-Nowcasting/collection.json",
       "type": "application/json",
-      "title": "Theoretical Solar Potential",
+      "title": "Theoretical Solar Potential (Run 1)",
       "endpointtype": "COG source",
       "id": "Solar-Potential-Nowcasting"
     },
@@ -88,16 +88,16 @@
     "spatial": {
       "bbox": [
         [
-          5.580038742944623,
-          43.590430355579336,
-          23.163823732022593,
-          50.54553807213256
+          8.662064185510863,
+          45.73145475761923,
+          18.761401868813746,
+          50.07148553381576
         ],
         [
-          5.580038742944623,
-          43.590430355579336,
-          23.163823732022593,
-          50.54553807213256
+          8.662064185510863,
+          45.73145475761923,
+          18.761401868813746,
+          50.07148553381576
         ],
         [
           8.662064185510863,
