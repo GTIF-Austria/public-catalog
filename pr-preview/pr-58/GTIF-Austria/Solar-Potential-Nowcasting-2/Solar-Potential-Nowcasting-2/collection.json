@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Solar-Potential-Nowcasting",
+  "id": "Solar-Potential-Nowcasting-2",
   "stac_version": "1.1.0",
   "description": "The data layer *Theoretical Solar Potential* shows the results of the nowcasting for 2 hours on 23th october 2025 from 09:00 to 11:00. The time resolution is 15min.\n\nThe calculation of the theoretical solar potential (PVpot) is based on the method of [Jerez et al (2025)](https://www.nature.com/articles/ncomms10014). The meteorological input is given by GeoSphere Austria's radiation model *STRAHLGRID* in combination with GeoSphere Austria's nowcasting model *INCA*.\n\nThe theoretical solar potential ranges from 0 to 1. If the value of PVpot is equal to 1, the nominal PV production value specified by the system is achieved. If the cell temperature of the PV system is higher (lower) than 25°C and/or the global radiation is less (greater) than 1000 W/m², then the PV output is lower (greater) than the nominal power of the module. These threshold values can be adjusted to customer requirements.\n\nContact: solar@geosphere.at",
   "links": [
@@ -15,18 +15,18 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/style_wr03_solar.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "run1-pvpot-1100"
+        "run2-pvpot-1200"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Theoretical Solar Potential (Run 1)"
+      "title": "Theoretical Solar Potential (Run 2)"
     }
   ],
   "endpointtype": "COG source",
-  "title": "Theoretical Solar Potential (Run 1)",
+  "title": "Theoretical Solar Potential (Run 2)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -41,8 +41,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-10-23T09:00:00Z",
-          "2025-10-23T11:00:00Z"
+          "2025-10-23T10:00:00Z",
+          "2025-10-23T12:00:00Z"
         ]
       ]
     }

@@ -106,10 +106,10 @@
     },
     {
       "rel": "child",
-      "href": "./Solar-Potential-Nowcasting/collection.json",
+      "href": "./Solar-Potential-Nowcasting-2/collection.json",
       "type": "application/json",
-      "title": "Theoretical Solar Potential (Run 1)",
-      "id": "Solar-Potential-Nowcasting"
+      "title": "Theoretical Solar Potential (Run 2)",
+      "id": "Solar-Potential-Nowcasting-2"
     },
     {
       "rel": "child",
