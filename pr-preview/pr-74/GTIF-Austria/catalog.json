@@ -127,6 +127,22 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./mobility_no2/collection.json",
+      "type": "application/json",
+      "title": "Daily mobility vs NO2",
+      "id": "mobility_no2",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
