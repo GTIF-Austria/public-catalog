@@ -1,0 +1,28 @@
+{
+  "Name": "gtif-wind-atlas",
+  "Title": "Wind Atlas",
+  "Description": "Description Windatlas Austria",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/gtif-wr-01-wind-atlas-style.json",
+      "Bbox": [
+        9.329330840752046,
+        46.18972579652253,
+        17.27805928781191,
+        49.2375054222361
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "cog01-WM100-all-heights",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/TIFFs/Results/WM100_all_heights_v1_matched.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
