@@ -26,7 +26,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.air_eepot_w23_wocc/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.air_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
