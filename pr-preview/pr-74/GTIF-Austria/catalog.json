@@ -111,6 +111,22 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./mobility_asfinag/collection.json",
+      "type": "application/json",
+      "title": "Monthly traffic volume",
+      "id": "mobility_asfinag",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"

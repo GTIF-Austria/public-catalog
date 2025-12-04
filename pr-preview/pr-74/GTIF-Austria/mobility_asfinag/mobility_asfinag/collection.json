@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "mobility_asfinag",
+  "stac_version": "1.1.0",
+  "description": "TBD",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Monthly traffic volume"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "mobility"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "endpointtype": "VectorTile source",
+  "title": "Monthly traffic volume",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          16.04,
+          47.94,
+          16.7,
+          48.48
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-07-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
