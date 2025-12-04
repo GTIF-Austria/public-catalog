@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./air_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Air Energy potential",
+      "title": "Air Source Heat Pump",
       "endpointtype": "VectorTile source",
       "id": "air_eepot_w23_wocc",
       "themes": [
@@ -94,7 +94,7 @@
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/air_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/air_eepot_chart.json",
-  "title": "Air Energy potential",
+  "title": "Air Source Heat Pump",
   "extent": {
     "spatial": {
       "bbox": [

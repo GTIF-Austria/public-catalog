@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Energy potential"
+      "title": "Air Source Heat Pump"
     }
   ],
   "themes": [
@@ -24,7 +24,7 @@
     "ESA"
   ],
   "endpointtype": "VectorTile source",
-  "title": "Air Energy potential",
+  "title": "Air Source Heat Pump",
   "extent": {
     "spatial": {
       "bbox": [

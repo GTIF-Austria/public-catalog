@@ -98,7 +98,7 @@
       "rel": "child",
       "href": "./air_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Air Energy potential",
+      "title": "Air Source Heat Pump",
       "id": "air_eepot_w23_wocc",
       "themes": [
         "sustainable-cities"
