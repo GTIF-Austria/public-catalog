@@ -1,0 +1,42 @@
+{
+    "Name": "speicherpot_heimspeicher",
+    "Title": "Heimspeicher Speicherpotential",
+    "Themes": [
+        "sustainable-cities"
+    ],
+    "Description": "This dataset provides information on the potential for home energy storage systems in residential buildings.",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/heimspeicher_style.json",
+            "Bbox": [
+                16.04,
+                47.94,
+                16.7,
+                48.48
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20300101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_heimspeicher/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/heimspeicher_form.json",
+        "VegaDefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/heimspeicher_chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_heimspeicher/items?limit=1&bbox-only=true&filter=gkz={{feature}}",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}
