@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "mobility_no2",
+  "id": "mobility_daily_traffic",
   "stac_version": "1.1.0",
   "description": "TBD",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./mobility_no2/collection.json",
+      "href": "./mobility_daily_traffic/collection.json",
       "type": "application/json",
-      "title": "Daily mobility vs NO2",
+      "title": "Daily Traffic Volume",
       "endpointtype": "VectorTile source",
-      "id": "mobility_no2",
+      "id": "mobility_daily_traffic",
       "themes": [
         "sustainable-cities"
       ],
@@ -29,7 +29,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_mobility_no2_by_id/items?target_id={{feature.values_.object_id }}&f=json&limit=10000&geom-column=#.json",
+      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_mobility_daily_by_id/items?target_id={{feature.values_.unique_id }}&f=json&limit=10000&geom-column=#.json",
       "type": "text/csv",
       "id": "timeseries",
       "method": "GET"
@@ -98,31 +98,31 @@
   "agency": [
     "ESA"
   ],
-  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_no2.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_no2.json",
-  "title": "Daily mobility vs NO2",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_daily_volume.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_daily_volume.json",
+  "title": "Daily Traffic Volume",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.5,
-          44.5,
-          18.0,
-          49.9
+          15.0,
+          47.69,
+          17.7,
+          48.5
         ],
         [
-          9.5,
-          44.5,
-          18.0,
-          49.9
+          15.0,
+          47.69,
+          17.7,
+          48.5
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-07-01T00:00:00Z",
-          "2022-12-30T00:00:00Z"
+          "2019-07-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
         ]
       ]
     }

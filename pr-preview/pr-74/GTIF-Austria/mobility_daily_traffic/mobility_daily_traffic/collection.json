@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "mobility_asfinag",
+  "id": "mobility_daily_traffic",
   "stac_version": "1.1.0",
   "description": "TBD",
   "links": [
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Monthly traffic volume"
+      "title": "Daily Traffic Volume"
     }
   ],
   "themes": [
@@ -27,15 +27,15 @@
     "ESA"
   ],
   "endpointtype": "VectorTile source",
-  "title": "Monthly traffic volume",
+  "title": "Daily Traffic Volume",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.5,
-          44.5,
-          18.0,
-          49.9
+          15.0,
+          47.69,
+          17.7,
+          48.5
         ]
       ]
     },
@@ -43,7 +43,7 @@
       "interval": [
         [
           "2019-07-01T00:00:00Z",
-          "2022-01-01T00:00:00Z"
+          "2022-12-31T00:00:00Z"
         ]
       ]
     }
