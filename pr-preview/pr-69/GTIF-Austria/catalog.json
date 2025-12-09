@@ -99,7 +99,10 @@
       "href": "./gtif-wind-atlas/collection.json",
       "type": "application/json",
       "title": "Wind Atlas",
-      "id": "gtif-wind-atlas"
+      "id": "gtif-wind-atlas",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png"
+      ]
     },
     {
       "rel": "self",

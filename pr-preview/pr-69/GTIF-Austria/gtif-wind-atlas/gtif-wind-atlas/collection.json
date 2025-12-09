@@ -25,6 +25,7 @@
       "title": "Wind Atlas"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png",
   "endpointtype": "COG source",
   "title": "Wind Atlas",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
