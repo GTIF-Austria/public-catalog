@@ -1,0 +1,53 @@
+{
+  "type": "Collection",
+  "id": "n_vision",
+  "stac_version": "1.1.0",
+  "description": " ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Rooftop characterisation"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Heat Island"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Urban Heat Island",
+  "endpointtype": "Collection-only",
+  "title": "Rooftop characterisation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -12.185759,
+          42.142928,
+          23.087444,
+          59.9537806
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-12-09T10:34:46.237051Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
