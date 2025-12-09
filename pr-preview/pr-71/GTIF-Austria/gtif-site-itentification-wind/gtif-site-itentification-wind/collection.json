@@ -36,6 +36,7 @@
       "title": "Site Identification Wind"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
   "endpointtype": "COG source",
   "title": "Site Identification Wind",
   "extent": {
@@ -66,6 +67,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

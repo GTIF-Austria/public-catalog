@@ -99,7 +99,10 @@
       "href": "./gtif-site-itentification-wind/collection.json",
       "type": "application/json",
       "title": "Site Identification Wind",
-      "id": "gtif-site-itentification-wind"
+      "id": "gtif-site-itentification-wind",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png"
+      ]
     },
     {
       "rel": "self",
