@@ -27,15 +27,15 @@
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png",
   "endpointtype": "GeoJSON source",
-  "title": "WR08 Energy Data",
+  "title": "Renewable Energy Production per State",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.616593576193013,
-          46.25360737052688,
-          17.14099249579889,
-          49.26534307919869
+          9.519630913657267,
+          46.11586619904149,
+          17.36817263590366,
+          49.534483688262426
         ]
       ]
     },

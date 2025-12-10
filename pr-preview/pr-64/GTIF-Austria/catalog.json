@@ -105,7 +105,7 @@
       "rel": "child",
       "href": "./wr08_energy_data/collection.json",
       "type": "application/json",
-      "title": "WR08 Energy Data",
+      "title": "Renewable Energy Production per State",
       "id": "wr08_energy_data",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png"
