@@ -25,6 +25,7 @@
       "title": "Renewable Energy Production Comparison per Counties"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png",
   "endpointtype": "GeoJSON source",
   "title": "WR08 Energy Data",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

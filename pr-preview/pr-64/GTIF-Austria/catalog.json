@@ -106,7 +106,10 @@
       "href": "./wr08_energy_data/collection.json",
       "type": "application/json",
       "title": "WR08 Energy Data",
-      "id": "wr08_energy_data"
+      "id": "wr08_energy_data",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png"
+      ]
     },
     {
       "rel": "child",
@@ -115,6 +118,9 @@
       "title": "Renewable Energy Production Comparison per Counties",
       "code": "wr08_energy_production_comparison",
       "id": "wr08_energy_production_comparison",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png"
+      ],
       "subcode": "wr08_energy_production_comparison"
     },
     {
