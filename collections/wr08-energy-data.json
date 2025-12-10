@@ -7,10 +7,10 @@
       "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_energy_data_styles.json",
       "Bbox": [
-        9.639257023785476,
-        46.23240599962599,
-        17.259671286396884,
-        49.30759460471599
+        9.616593576193013,
+        46.25360737052688,
+        17.14099249579889,
+        49.26534307919869
       ],
       "TimeEntries": [
         {
