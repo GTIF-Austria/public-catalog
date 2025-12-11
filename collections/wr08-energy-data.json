@@ -1,0 +1,56 @@
+{
+  "Name": "wr08_energy_data",
+  "Title": "Renewable Energy Production per State",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_energy_data_styles.json",
+      "Bbox": [
+        9.519630913657267,
+        46.11586619904149,
+        17.36817263590366,
+        49.534483688262426
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "GeoJsonFile2020v2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2020_v2.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2021",
+          "Assets": [
+            {
+              "Identifier": "GeoJsonFile2021v2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2021_v2.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "GeoJsonFile2022v2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2022_v2.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "GeoJsonFile2023v2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2023_v2.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/austrian_renewable_energy.png"
+}
