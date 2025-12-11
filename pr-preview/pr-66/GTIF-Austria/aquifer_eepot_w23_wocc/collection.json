@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "air_eepot_w23_wocc",
+  "id": "aquifer_eepot_w23_wocc",
   "stac_version": "1.1.0",
-  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/air/air_EEPOT_W23.geojson)",
+  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/aquifer/aquifer_EEPOT_W23_woCC.geojson)",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./air_eepot_w23_wocc/collection.json",
+      "href": "./aquifer_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Air Source Heat Pump",
+      "title": "Aquifer",
       "endpointtype": "VectorTile source",
-      "id": "air_eepot_w23_wocc",
+      "id": "aquifer_eepot_w23_wocc",
       "themes": [
         "sustainable-cities"
       ],
@@ -26,7 +26,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.air_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.aquifer_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
@@ -92,9 +92,9 @@
   "agency": [
     "ESA"
   ],
-  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/air_eepot_form_comparison.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/air_eepot_chart.json",
-  "title": "Air Source Heat Pump",
+  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/aquifer_eepot_form_comparison.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/aquifer_eepot_chart.json",
+  "title": "Aquifer",
   "extent": {
     "spatial": {
       "bbox": [

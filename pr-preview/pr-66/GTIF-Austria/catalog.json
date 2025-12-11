@@ -108,6 +108,32 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./aquifer_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Aquifer",
+      "id": "aquifer_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./closed_systems_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Closed Systems",
+      "id": "closed_systems_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
