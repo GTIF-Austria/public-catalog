@@ -7,10 +7,10 @@
       "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_counties_style.json",
       "Bbox": [
-        9.829030006460831,
-        45.847514057368635,
-        17.374106338410485,
-        49.80764012230146
+        9.59308838780991,
+        46.08955031535508,
+        17.305813821382277,
+        49.360165978707556
       ],
       "TimeEntries": [
         {
@@ -18,7 +18,7 @@
           "Assets": [
             {
               "Identifier": "wr08-counties",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2020.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2023.geojson"
             }
           ]
         }
