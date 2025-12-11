@@ -15,10 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_counties_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "wr08-counties",
-        "2021",
-        "2022",
-        "2023"
+        "wr08-counties"
       ]
     },
     {
