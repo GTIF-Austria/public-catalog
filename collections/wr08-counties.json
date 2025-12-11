@@ -14,10 +14,22 @@
       ],
       "TimeEntries": [
         {
-          "Time": "2023",
+          "Time": "2020",
           "Assets": [
             {
               "Identifier": "wr08-counties",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2020.geojson"
+            },
+            {
+              "Identifier": "2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2021.geojson"
+            },
+            {
+              "Identifier": "2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2022.geojson"
+            },
+            {
+              "Identifier": "2023",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2023.geojson"
             }
           ]
