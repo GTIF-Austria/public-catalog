@@ -40,12 +40,16 @@
       "id": "n_vision"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-11-Rooftop-Characterisation-aaS/n-vision-style.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "roof detections"
-      ]
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -64,22 +68,21 @@
     "ESA"
   ],
   "collection_group": "Urban Heat Island",
-  "merge_assets": false,
   "title": "Rooftop characterisation",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.7,
-          47.1,
-          15.73,
-          47.13
+          15.69,
+          47.096,
+          15.72,
+          47.113
         ],
         [
-          15.7,
-          47.1,
-          15.73,
-          47.13
+          15.69,
+          47.096,
+          15.72,
+          47.113
         ]
       ]
     },
@@ -97,16 +100,5 @@
     "themes": [
       "sustainable-cities"
     ]
-  },
-  "assets": {
-    "roof detections": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-11-Rooftop-Characterisation-aaS/n-vision_valid_geojson.geojson",
-      "type": "application/geo+json",
-      "title": "Rooftop Detections",
-      "roles": [
-        "overlay",
-        "visible"
-      ]
-    }
   }
 }
