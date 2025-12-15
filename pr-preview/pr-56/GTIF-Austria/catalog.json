@@ -102,6 +102,13 @@
       "id": "WR02-PVpot"
     },
     {
+      "rel": "child",
+      "href": "./WR-02-Solar-Nature/collection.json",
+      "type": "application/json",
+      "title": "National Parks",
+      "id": "WR-02-Solar-Nature"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
