@@ -96,13 +96,6 @@
     },
     {
       "rel": "child",
-      "href": "./WR02-PVpot/collection.json",
-      "type": "application/json",
-      "title": "Solar Potential",
-      "id": "WR02-PVpot"
-    },
-    {
-      "rel": "child",
       "href": "./wr02solar/collection.json",
       "type": "application/json",
       "title": "Support for REDIII - PV",
