@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/diffusivity.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "diffusivity",
+        "diffusivity2",
         "Natura2000"
       ]
     },
@@ -43,7 +43,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
