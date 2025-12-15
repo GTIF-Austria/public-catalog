@@ -79,9 +79,6 @@
       "type": "application/json",
       "title": "Geothermal Energy Potential",
       "id": "geothermal_energy_potential",
-      "themes": [
-        "Land"
-      ],
       "collection_group": "Capabilities"
     },
     {
