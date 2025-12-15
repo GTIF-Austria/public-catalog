@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./WR02-PVpot/collection.json",
-      "type": "application/json",
-      "title": "Solar Potential",
-      "endpointtype": "COG source",
-      "id": "WR02-PVpot"
-    },
-    {
-      "rel": "child",
       "href": "./WR-02-Solar-Nature/collection.json",
       "type": "application/json",
       "title": "National Parks",
       "endpointtype": "COG source",
       "id": "WR-02-Solar-Nature"
+    },
+    {
+      "rel": "child",
+      "href": "./WR02-PVpot/collection.json",
+      "type": "application/json",
+      "title": "Solar Potential",
+      "endpointtype": "COG source",
+      "id": "WR02-PVpot"
     },
     {
       "rel": "xyz",
