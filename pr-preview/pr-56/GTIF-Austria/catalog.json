@@ -103,13 +103,6 @@
     },
     {
       "rel": "child",
-      "href": "./WR-02-Solar-Nature/collection.json",
-      "type": "application/json",
-      "title": "National Parks",
-      "id": "WR-02-Solar-Nature"
-    },
-    {
-      "rel": "child",
       "href": "./wr02solar/collection.json",
       "type": "application/json",
       "title": "Support for REDIII - PV",

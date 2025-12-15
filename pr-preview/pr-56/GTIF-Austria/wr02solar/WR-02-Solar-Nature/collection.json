@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "National Parks"
+      "title": "Support for REDIII - PV"
     }
   ],
   "endpointtype": "COG source",
