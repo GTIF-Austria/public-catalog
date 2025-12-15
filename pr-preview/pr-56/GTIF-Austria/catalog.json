@@ -109,6 +109,15 @@
       "id": "WR-02-Solar-Nature"
     },
     {
+      "rel": "child",
+      "href": "./wr02solar/collection.json",
+      "type": "application/json",
+      "title": "Support for REDIII - PV",
+      "code": "wr02solar",
+      "id": "wr02solar",
+      "subcode": "wr02solar"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
