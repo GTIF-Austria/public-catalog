@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "geojsonfile"
+        "geojsonfile2025"
       ]
     },
     {
@@ -41,8 +41,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-01-01T00:00:00Z",
-          "2018-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
