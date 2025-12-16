@@ -1,0 +1,160 @@
+{
+  "Name": "mobility_asfinag",
+  "Title": "Monthly traffic volume",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "mobility"
+  ],
+  "Description": "TBD",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/style_asfinag.json",
+      "Bbox": [9.5, 44.5, 18.0, 49.9],
+      "TimeEntries": [
+        {
+          "Time": "20220101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-01T00:00:00"
+        },
+        {
+          "Time": "20211201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-01T00:00:00"
+        },
+        {
+          "Time": "20211101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-01T00:00:00"
+        },
+        {
+          "Time": "20211001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-01T00:00:00"
+        },
+        {
+          "Time": "20210901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-01T00:00:00"
+        },
+        {
+          "Time": "20210801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-01T00:00:00"
+        },
+        {
+          "Time": "20210701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-01T00:00:00"
+        },
+        {
+          "Time": "20210601",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-06-01T00:00:00"
+        },
+        {
+          "Time": "20210501",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-05-01T00:00:00"
+        },
+        {
+          "Time": "20210401",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-04-01T00:00:00"
+        },
+        {
+          "Time": "20210301",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-03-01T00:00:00"
+        },
+        {
+          "Time": "20210201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-02-01T00:00:00"
+        },
+        {
+          "Time": "20210101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-01-01T00:00:00"
+        },
+        {
+          "Time": "20201201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-12-01T00:00:00"
+        },
+        {
+          "Time": "20201101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-11-01T00:00:00"
+        },
+        {
+          "Time": "20201001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-10-01T00:00:00"
+        },
+        {
+          "Time": "20200901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-09-01T00:00:00"
+        },
+        {
+          "Time": "20200801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-08-01T00:00:00"
+        },
+        {
+          "Time": "20200701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-07-01T00:00:00"
+        },
+        {
+          "Time": "20200601",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-06-01T00:00:00"
+        },
+        {
+          "Time": "20200501",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-05-01T00:00:00"
+        },
+        {
+          "Time": "20200401",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-04-01T00:00:00"
+        },
+        {
+          "Time": "20200301",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-03-01T00:00:00"
+        },
+        {
+          "Time": "20200201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-02-01T00:00:00"
+        },
+        {
+          "Time": "20200101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-01-01T00:00:00"
+        },
+        {
+          "Time": "20191201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-12-01T00:00:00"
+        },
+        {
+          "Time": "20191101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-11-01T00:00:00"
+        },
+        {
+          "Time": "20191001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-10-01T00:00:00"
+        },
+        {
+          "Time": "20190901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-09-01T00:00:00"
+        },
+        {
+          "Time": "20190801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-08-01T00:00:00"
+        },
+        {
+          "Time": "20190701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-07-01T00:00:00"
+        }
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_asfinag.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_asfinag.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_asfinag_by_id/items?target_id={{feature.values_.unique_id }}&f=json&limit=10000&geom-column=#.json",
+        "Type": "text/csv",
+        "Method": "GET"
+      }
+    ]
+  }
+}
