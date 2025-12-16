@@ -12,6 +12,7 @@
     "gtime-layer",
     "city_temperature_indicator",
     "multitemporal-footprints",
-    "evapotranspiration-monitoring"
+    "evapotranspiration-monitoring",
+    "gtif-wind-atlas"
   ]
 }
