@@ -1,0 +1,28 @@
+{
+  "Name": "geojson_example",
+  "Title": "geojson_example",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/style.json",
+      "Bbox": [
+        15.986491373875314,
+        47.9514621901357,
+        16.75157189123409,
+        48.50186194233224
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "geojsonfile2025",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/buildings_uepi_indexed.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
