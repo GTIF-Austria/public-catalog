@@ -12,6 +12,9 @@
     "gtime-layer",
     "city_temperature_indicator",
     "multitemporal-footprints",
-    "evapotranspiration-monitoring"
+    "air_eepot_w23_wocc",
+    "evapotranspiration-monitoring",
+    "aquifer_eepot_w23_wocc",
+    "closed_systems_eepot_w23_wocc"
   ]
 }
