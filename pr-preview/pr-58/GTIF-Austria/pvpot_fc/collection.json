@@ -43,6 +43,20 @@
       "id": "Solar-Potential-Nowcasting-Glo-Run2"
     },
     {
+      "rel": "service",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-58/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "type": "application/json",
+      "id": "nc1",
+      "method": "GET"
+    },
+    {
+      "rel": "service",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-58/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-2/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "type": "application/json",
+      "id": "nc2",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -99,6 +113,8 @@
   ],
   "subcode": "pvpot_fc",
   "collection_group": "Capabilities",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/form.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/solar_pot_vega.json",
   "title": "Nowcasting of theoretical PV potential",
   "extent": {
     "spatial": {
