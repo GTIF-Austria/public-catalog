@@ -25,6 +25,7 @@
       "title": "Rooftop Characterisation"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
   "themes": [
     "sustainable-cities"
   ],
@@ -65,6 +66,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

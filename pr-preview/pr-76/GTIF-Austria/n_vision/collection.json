@@ -58,6 +58,7 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
   "themes": [
     "sustainable-cities"
   ],
@@ -99,6 +100,18 @@
   "summaries": {
     "themes": [
       "sustainable-cities"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

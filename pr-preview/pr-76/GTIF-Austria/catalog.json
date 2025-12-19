@@ -103,6 +103,9 @@
       "themes": [
         "sustainable-cities"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp"
+      ],
       "tags": [
         "Green Roofs, Solar Roofs"
       ],
