@@ -1,0 +1,100 @@
+{
+  "Name": "Solar-Potential-Nowcasting-2",
+  "Title": "Theoretical Solar Potential (Run 2)",
+  "Description": "The data layer *Theoretical Solar Potential* shows the results of the nowcasting for 2 hours on 23th october 2025 from 09:00 to 11:00. The time resolution is 15min.\n\nThe calculation of the theoretical solar potential (PVpot) is based on the method of [Jerez et al (2025)](https://www.nature.com/articles/ncomms10014). The meteorological input is given by GeoSphere Austria's radiation model *STRAHLGRID* in combination with GeoSphere Austria's nowcasting model *INCA*.\n\nThe theoretical solar potential ranges from 0 to 1. If the value of PVpot is equal to 1, the nominal PV production value specified by the system is achieved. If the cell temperature of the PV system is higher (lower) than 25°C and/or the global radiation is less (greater) than 1000 W/m², then the PV output is lower (greater) than the nominal power of the module. These threshold values can be adjusted to customer requirements.\n\nContact: solar@geosphere.at",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/style_wr03_solar.json",
+      "Bbox": [
+        8.662064185510863,
+        45.73145475761923,
+        18.761401868813746,
+        50.07148553381576
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025-10-23 10:00",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-0900",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1000.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:15",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1015",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1015.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:30",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1030",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1030.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:45",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1045",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1045.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 11:00",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1100",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1100.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 11:15",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1115",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1115.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 11:30",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1130",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1130.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 11:45",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1145",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1145.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 12:00",
+          "Assets": [
+            {
+              "Identifier": "run2-pvpot-1200",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run2/pvpot_fc_run2_1200.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "Name": "Solar-Potential-Nowcasting-Glo-Run1",
+  "Title": "Global Solar Radiation (Run 1)",
+  "Description": "Description of GLO (Run1)",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/style_wr03_solar_glo.json",
+      "Bbox": [
+        8.662064185510863,
+        45.73145475761923,
+        18.761401868813746,
+        50.07148553381576
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025-10-23 09:00",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-0900",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_0900.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 09:15",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-0915",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_0915.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 09:30",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-0930",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_0930.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 09:45",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-0945",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_0945.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:00",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-1000",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_1000.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:15",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-1015",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_1015.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:30",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-1030",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_1030.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 10:45",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-1045",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_1045.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-23 11:00",
+          "Assets": [
+            {
+              "Identifier": "run1-glo-1100",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/solar/run1/glo_fc_run1_1100.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
