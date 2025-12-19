@@ -12,6 +12,8 @@
     "gtime-layer",
     "city_temperature_indicator",
     "multitemporal-footprints",
-    "evapotranspiration-monitoring"
+    "evapotranspiration-monitoring",
+    "wr02solar",
+    "pvpot_fc"
   ]
 }
