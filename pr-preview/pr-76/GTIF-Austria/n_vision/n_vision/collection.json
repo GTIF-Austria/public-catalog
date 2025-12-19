@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "n_vision",
   "stac_version": "1.1.0",
-  "description": " ",
+  "description": "N Vision's rooftop charachterization capabilty provides efficient and accurate mapping of [solar panel installations](https://gtif-austria.info/narratives/solar_panel_mapping) and of [green roofs](https://gtif-austria.info/narratives/green-roof-mapping) in areas of interest by analysing satellite or aerial imagery using state-of-the-art computer vision methods.",
   "links": [
     {
       "rel": "root",
@@ -15,28 +15,28 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-11-Rooftop-Characterisation-aaS/n-vision-style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "Rooftop Detections"
+        "Rooftop Characterization"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Rooftop characterisation"
+      "title": "Rooftop Characterisation"
     }
   ],
   "themes": [
     "sustainable-cities"
   ],
   "tags": [
-    "Heat Island"
+    "Green Roofs, Solar Roofs"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Urban Heat Island",
+  "collection_group": " ",
   "endpointtype": "GeoJSON source",
-  "title": "Rooftop characterisation",
+  "title": "Rooftop Characterisation",
   "extent": {
     "spatial": {
       "bbox": [

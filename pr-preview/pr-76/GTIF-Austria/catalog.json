@@ -98,18 +98,18 @@
       "rel": "child",
       "href": "./n_vision/collection.json",
       "type": "application/json",
-      "title": "Rooftop characterisation",
+      "title": "Rooftop Characterisation",
       "id": "n_vision",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Heat Island"
+        "Green Roofs, Solar Roofs"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Urban Heat Island"
+      "collection_group": " "
     },
     {
       "rel": "self",
