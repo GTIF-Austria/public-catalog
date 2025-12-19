@@ -95,6 +95,26 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./n_vision/collection.json",
+      "type": "application/json",
+      "title": "Rooftop Characterisation",
+      "id": "n_vision",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp"
+      ],
+      "tags": [
+        "Green Roofs, Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": " "
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
