@@ -13,6 +13,7 @@
     "city_temperature_indicator",
     "multitemporal-footprints",
     "evapotranspiration-monitoring",
-    "n_vision"
+    "n_vision",
+    "tutorial-dataset"
   ]
 }
