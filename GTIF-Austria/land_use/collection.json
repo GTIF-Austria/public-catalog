@@ -63,15 +63,15 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2022",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "visible"
       ],
-      "id": "cloudless-2022",
-      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -160,8 +160,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "LULUCF",
-      "NUTS2_AT"
+      "NUTS2_AT",
+      "LULUCF"
     ],
     "themes": [
       "TBD"
