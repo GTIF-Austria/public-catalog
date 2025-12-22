@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "n_vision",
+  "id": "n_vision_green_roofs",
   "stac_version": "1.1.0",
   "description": "N Vision's rooftop charachterization capabilty provides efficient and accurate mapping of [solar panel installations](https://gtif-austria.info/narratives/solar_panel_mapping) and of [green roofs](https://gtif-austria.info/narratives/green-roof-mapping) in areas of interest by analysing satellite or aerial imagery using state-of-the-art computer vision methods.",
   "links": [
@@ -12,10 +12,10 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-11-Rooftop-Characterisation-aaS/n-vision-style.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-11-Rooftop-Characterisation-aaS/n-vision-green-roofs-style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "Solar Panels"
+        "Green Roofs"
       ]
     },
     {
@@ -37,7 +37,7 @@
   ],
   "collection_group": " ",
   "endpointtype": "GeoJSON source",
-  "title": "Rooftop Characterisation",
+  "title": "Green Roofs",
   "extent": {
     "spatial": {
       "bbox": [
