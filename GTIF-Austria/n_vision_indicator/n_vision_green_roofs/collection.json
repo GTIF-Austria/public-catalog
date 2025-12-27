@@ -59,6 +59,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "N Vision",
+      "url": "https://www.n-vision.ai/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
