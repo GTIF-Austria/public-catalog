@@ -30,7 +30,8 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Green Roofs, Solar Roofs"
+    "Green Roofs",
+    "Solar Roofs"
   ],
   "agency": [
     "ESA"
@@ -59,12 +60,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "N Vision",
-      "url": "https://www.n-vision.ai/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

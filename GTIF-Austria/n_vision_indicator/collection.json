@@ -24,7 +24,8 @@
         "N Vision"
       ],
       "tags": [
-        "Green Roofs, Solar Roofs"
+        "Green Roofs",
+        "Solar Roofs"
       ],
       "agency": [
         "ESA"
@@ -41,11 +42,9 @@
       "themes": [
         "sustainable-cities"
       ],
-      "providers": [
-        "N Vision"
-      ],
       "tags": [
-        "Green Roofs, Solar Roofs"
+        "Green Roofs",
+        "Solar Roofs"
       ],
       "agency": [
         "ESA"
@@ -81,6 +80,14 @@
       "type": "application/json",
       "title": "GTIF Austria"
     }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Green Roofs",
+    "Solar Roofs"
   ],
   "subcode": "city_temperature_indicator",
   "collection_group": "Capabilities",
@@ -118,6 +125,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "N Vision",
+      "url": "https://www.n-vision.ai/"
+    }
+  ],
   "summaries": {
     "themes": [
       "sustainable-cities"
@@ -125,5 +138,14 @@
     "thumbnail": [
       "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

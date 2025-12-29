@@ -104,8 +104,15 @@
       "themes": [
         "sustainable-cities"
       ],
+      "providers": [
+        "N Vision"
+      ],
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp"
+      ],
+      "tags": [
+        "Green Roofs",
+        "Solar Roofs"
       ],
       "subcode": "city_temperature_indicator",
       "collection_group": "Capabilities"
