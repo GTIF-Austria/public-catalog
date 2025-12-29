@@ -39,6 +39,9 @@
       "title": "Predictive Maintenance",
       "code": "AIT1",
       "id": "predictive_maintenance",
+      "providers": [
+        "AIT Center for Transport Technologies"
+      ],
       "subcode": "AIT1",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg"

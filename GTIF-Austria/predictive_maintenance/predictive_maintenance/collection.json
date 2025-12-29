@@ -69,6 +69,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Transport Technologies",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
