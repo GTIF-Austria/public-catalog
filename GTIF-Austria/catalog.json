@@ -20,6 +20,9 @@
       "themes": [
         "Land"
       ],
+      "providers": [
+        "GeoVille"
+      ],
       "subcode": "LULUCF_indicator",
       "satellite": [
         "Combined"
