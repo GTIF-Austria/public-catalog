@@ -43,6 +43,9 @@
       "themes": [
         "TBD"
       ],
+      "providers": [
+        "GeoVille"
+      ],
       "tags": [
         "land use"
       ],
