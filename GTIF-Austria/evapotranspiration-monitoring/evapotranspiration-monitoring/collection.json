@@ -59,6 +59,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Sistema",
+      "url": "https://www.sistema.at/applications/technology/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
