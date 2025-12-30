@@ -54,6 +54,9 @@
       "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
       "code": "GTIME Layer",
       "id": "GTIME Layer",
+      "providers": [
+        "ZGIS"
+      ],
       "subcode": "GTIME Layer",
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"

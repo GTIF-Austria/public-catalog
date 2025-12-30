@@ -18,6 +18,9 @@
       "endpointtype": "COG source",
       "code": "GTIME Layer",
       "id": "GTIME Layer",
+      "providers": [
+        "ZGIS"
+      ],
       "subcode": "GTIME Layer"
     },
     {
@@ -105,6 +108,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "ZGIS",
+      "url": "https://www.plus.ac.at/geoinformatik/"
+    }
+  ],
   "summaries": {
     "subcode": [
       "GTIME Layer"
