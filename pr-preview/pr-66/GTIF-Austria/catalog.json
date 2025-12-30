@@ -134,6 +134,19 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./wind_eepot_w23/collection.json",
+      "type": "application/json",
+      "title": "Wind Energy",
+      "id": "wind_eepot_w23",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
