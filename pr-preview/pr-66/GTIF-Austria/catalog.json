@@ -135,6 +135,19 @@
     },
     {
       "rel": "child",
+      "href": "./hydro_eepot_w23/collection.json",
+      "type": "application/json",
+      "title": "Hydro Energy",
+      "id": "hydro_eepot_w23",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./wind_eepot_w23/collection.json",
       "type": "application/json",
       "title": "Wind Energy",
