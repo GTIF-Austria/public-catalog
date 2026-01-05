@@ -23,6 +23,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "KLIEN data - Ambient Energy Potential",
   "endpointtype": "VectorTile source",
   "title": "Closed Systems",
   "extent": {

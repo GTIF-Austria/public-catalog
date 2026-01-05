@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "air_eepot_w23_wocc",
+  "id": "excess_heat_hp_eepot_w23_wocc",
   "stac_version": "1.1.0",
-  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/air/air_EEPOT_W23.geojson)",
+  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/excess_heat/excess_heat_hp_EEPOT_W23.geojson)",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Source Heat Pump"
+      "title": "Excess Heat - Utilization via Heat Pumps"
     }
   ],
   "themes": [
@@ -25,7 +25,7 @@
   ],
   "collection_group": "KLIEN data - Ambient Energy Potential",
   "endpointtype": "VectorTile source",
-  "title": "Air Source Heat Pump",
+  "title": "Excess Heat - Utilization via Heat Pumps",
   "extent": {
     "spatial": {
       "bbox": [

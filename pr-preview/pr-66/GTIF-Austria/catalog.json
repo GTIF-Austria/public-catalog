@@ -105,7 +105,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
     },
     {
       "rel": "child",
@@ -118,7 +119,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
     },
     {
       "rel": "child",
@@ -131,7 +133,36 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./excess_heat_dir_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Excess Heat - Direct Utilization",
+      "id": "excess_heat_dir_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./excess_heat_hp_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Excess Heat - Utilization via Heat Pumps",
+      "id": "excess_heat_hp_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
     },
     {
       "rel": "child",
@@ -144,7 +175,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "KLIEN data - Hydro Energy Potential"
     },
     {
       "rel": "child",
@@ -157,7 +189,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "KLIEN data - Wind Energy Potential"
     },
     {
       "rel": "self",

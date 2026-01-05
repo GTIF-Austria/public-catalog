@@ -23,6 +23,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "KLIEN data - Wind Energy Potential",
   "endpointtype": "VectorTile source",
   "title": "Wind Energy",
   "extent": {

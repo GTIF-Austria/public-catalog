@@ -22,7 +22,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
     },
     {
       "rel": "service",
@@ -92,6 +93,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "KLIEN data - Ambient Energy Potential",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/closed_systems_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/closed_systems_eepot_chart.json",
   "title": "Closed Systems",

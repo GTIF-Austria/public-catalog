@@ -23,6 +23,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "KLIEN data - Hydro Energy Potential",
   "endpointtype": "VectorTile source",
   "title": "Hydro Energy",
   "extent": {
