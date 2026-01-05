@@ -180,6 +180,20 @@
     },
     {
       "rel": "child",
+      "href": "./river_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Flowing Water Bodies Heat Potential",
+      "id": "river_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Energy Potential"
+    },
+    {
+      "rel": "child",
       "href": "./wind_eepot_w23/collection.json",
       "type": "application/json",
       "title": "Wind Energy",
