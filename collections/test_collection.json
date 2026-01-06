@@ -25,7 +25,7 @@
                     "Assets": [
                         {
                             "Identifier": "Evapotrans_monit_COG",
-                            "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/crop_5kmx5km_3857.tif"
+                            "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_mosaic_clipped_3857_COG.tif"
                         }
                     ]
                 }
