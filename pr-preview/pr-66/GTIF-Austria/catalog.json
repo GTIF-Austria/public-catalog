@@ -180,6 +180,62 @@
     },
     {
       "rel": "child",
+      "href": "./pv_buildings_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Building-integrated PV potential",
+      "id": "pv_buildings_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_ground_mounted_sealed_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground-mounted sealed PV potential",
+      "id": "pv_ground_mounted_sealed_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_ground_mounted_unsealed_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground-mounted unsealed PV potential",
+      "id": "pv_ground_mounted_unsealed_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_total_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Total PV potential",
+      "id": "pv_total_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
       "href": "./river_eepot_w23_wocc/collection.json",
       "type": "application/json",
       "title": "Flowing Water Bodies Heat Potential",
