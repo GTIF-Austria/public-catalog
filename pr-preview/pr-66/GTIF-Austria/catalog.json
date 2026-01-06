@@ -250,6 +250,34 @@
     },
     {
       "rel": "child",
+      "href": "./st_buildings_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Building-integrated Solar Thermal Collectors",
+      "id": "st_buildings_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Solar Thermal Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./st_ground_mounted_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground-mounted Solar Thermal Collectors",
+      "id": "st_ground_mounted_eepot_w23_wocc",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Solar Thermal Heat Potential"
+    },
+    {
+      "rel": "child",
       "href": "./wind_eepot_w23/collection.json",
       "type": "application/json",
       "title": "Wind Energy",
