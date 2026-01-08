@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UEPI_visualizer",
   "stac_version": "1.1.0",
-  "description": "This visualization demonstrates how urban energy performance index may be used to identify most promising candidates for renovation and refurbishing",
+  "description": "This visualization demonstrates how urban energy performance index (UEPI) may be used to identify most promising candidates for renovation and refurbishing",
   "links": [
     {
       "rel": "root",
