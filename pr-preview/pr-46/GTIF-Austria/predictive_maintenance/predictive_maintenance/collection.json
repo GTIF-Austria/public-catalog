@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT1.json",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT_v2.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "overview"
@@ -25,7 +25,7 @@
       "title": "Predictive Maintenance"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
   "subcode": "AIT1",
   "eox:colorlegend": {
     "title": "Ground movement",
@@ -37,11 +37,11 @@
       "#00008b"
     ],
     "domain": [
-      "-20 to -10 mm",
-      "-10 to -5 mm",
-      "-5 to 5 mm",
-      "5 to 10 mm",
-      "10 to 20 mm"
+      "-20 to -10 mm/year",
+      "-10 to -5 mm/year",
+      "-5 to 5 mm/year",
+      "5 to 10 mm/year",
+      "10 to 20 mm/year"
     ],
     "scaleType": "categorical",
     "markType": "rect"
@@ -69,6 +69,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Transport Technologies",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -79,7 +85,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/ait_predictive_maintenance_preview.jpg",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

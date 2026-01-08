@@ -107,6 +107,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoVille",
+      "url": "https://www.geoville.com/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
