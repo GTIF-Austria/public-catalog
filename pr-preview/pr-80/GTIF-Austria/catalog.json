@@ -96,10 +96,10 @@
     },
     {
       "rel": "child",
-      "href": "./geojson_example/collection.json",
+      "href": "./UEPI_visualizer/collection.json",
       "type": "application/json",
-      "title": "geojson_example",
-      "id": "geojson_example"
+      "title": "Urban energy performance monitor",
+      "id": "UEPI_visualizer"
     },
     {
       "rel": "self",

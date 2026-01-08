@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "geojson_example",
+  "id": "UEPI_visualizer",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "This visualization demonstrates how urban energy performance index may be used to identify most promising candidates for renovation and refurbishing",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./geojson_example/collection.json",
+      "href": "./UEPI_visualizer/collection.json",
       "type": "application/json",
-      "title": "geojson_example",
+      "title": "Urban energy performance monitor",
       "endpointtype": "GeoJSON source",
-      "id": "geojson_example"
+      "id": "UEPI_visualizer"
     },
     {
       "rel": "xyz",
@@ -73,7 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "geojson_example",
+  "title": "Urban energy performance monitor",
   "extent": {
     "spatial": {
       "bbox": [
