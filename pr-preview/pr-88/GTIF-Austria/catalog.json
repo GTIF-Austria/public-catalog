@@ -145,10 +145,10 @@
     },
     {
       "rel": "child",
-      "href": "./Brownfield Recovery Potential/collection.json",
+      "href": "./brownfield_recovery_potential/collection.json",
       "type": "application/json",
       "title": "Brownfield Recovery Potential",
-      "id": "Brownfield Recovery Potential"
+      "id": "brownfield_recovery_potential"
     },
     {
       "rel": "self",
