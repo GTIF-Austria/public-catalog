@@ -145,10 +145,10 @@
     },
     {
       "rel": "child",
-      "href": "./brownfield_recovery_potential/collection.json",
+      "href": "./brownfield_recovery_potential_collection/collection.json",
       "type": "application/json",
       "title": "Brownfield Recovery Potential",
-      "id": "brownfield_recovery_potential",
+      "id": "brownfield_recovery_potential_collection",
       "themes": [
         "Sustainable Cities"
       ],

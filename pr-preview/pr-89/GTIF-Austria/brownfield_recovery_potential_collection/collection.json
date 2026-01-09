@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "brownfield_recovery_potential",
+  "id": "brownfield_recovery_potential_collection",
   "stac_version": "1.1.0",
   "description": "This dataset, officially titled \"Gewerbliche und industrielle Brachflächen – Wahrscheinlichkeitskarte (Version für Österreich 2024),\" represents a nationwide inventory of potential industrial and commercial brownfields across Austria.\nDeveloped by the Environment Agency Austria (Umweltbundesamt) in collaboration with Fraunhofer IIS, it utilizes Artificial Intelligence (AI) and remote sensing data (digital orthophotos) to identify sealed, underutilized surfaces, assigning each plot a probability score (e.g., Brownfield_Total) to prioritize areas for land recycling and reduce soil sealing.",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./brownfield_recovery_potential/collection.json",
+      "href": "./brownfield_recovery_potential_collection/collection.json",
       "type": "application/json",
       "title": "Brownfield Recovery Potential",
       "endpointtype": "GeoJSON source",
-      "id": "brownfield_recovery_potential",
+      "id": "brownfield_recovery_potential_collection",
       "themes": [
         "Sustainable Cities"
       ]
