@@ -148,7 +148,10 @@
       "href": "./brownfield_recovery_potential/collection.json",
       "type": "application/json",
       "title": "Brownfield Recovery Potential",
-      "id": "brownfield_recovery_potential"
+      "id": "brownfield_recovery_potential",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
+      ]
     },
     {
       "rel": "self",

@@ -25,6 +25,7 @@
       "title": "Brownfield Recovery Potential"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
   "endpointtype": "GeoJSON source",
   "title": "Brownfield Recovery Potential",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

@@ -49,6 +49,7 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
   "title": "Brownfield Recovery Potential",
   "extent": {
     "spatial": {
@@ -76,5 +77,19 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
