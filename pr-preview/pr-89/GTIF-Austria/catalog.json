@@ -145,12 +145,18 @@
     },
     {
       "rel": "child",
-      "href": "./brownfield_recovery_potential_collection/collection.json",
+      "href": "./brownfield_recovery_potential/collection.json",
       "type": "application/json",
       "title": "Brownfield Recovery Potential",
-      "id": "brownfield_recovery_potential_collection",
+      "id": "brownfield_recovery_potential",
       "themes": [
         "Sustainable Cities"
+      ],
+      "subcode": [
+        "NUTS2_AT"
+      ],
+      "satellite": [
+        "Combined"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
