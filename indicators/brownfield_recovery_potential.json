@@ -5,7 +5,7 @@
   "Themes": ["Sustainable Cities"],
   "Image": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
   "Collections": [
-    "brownfield_recovery_potential_collection",
+    "brownfield-recovery-potential_collection",
     "brownfield_nuts2"
   ],
   "Process": {
