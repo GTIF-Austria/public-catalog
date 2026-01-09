@@ -144,6 +144,19 @@
       "collection_group": "Capabilities"
     },
     {
+      "rel": "child",
+      "href": "./brownfield_recovery_potential/collection.json",
+      "type": "application/json",
+      "title": "Brownfield Recovery Potential",
+      "id": "brownfield_recovery_potential",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
