@@ -128,7 +128,7 @@
       "code": "city_temperature_indicator",
       "id": "n_vision_indicator",
       "themes": [
-        "sustainable-cities"
+        "Sustainable Cities"
       ],
       "providers": [
         "N Vision"
