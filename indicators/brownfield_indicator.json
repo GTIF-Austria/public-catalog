@@ -1,1 +1,9 @@
-{}
+{
+  "Name": "brownfield_indicator",
+  "Title": "Brownfiled indicator",
+  "Description": "TBD",
+  "Collections": [
+    "brownfield_collection",
+    "brownfield_nuts2"
+  ]
+}
