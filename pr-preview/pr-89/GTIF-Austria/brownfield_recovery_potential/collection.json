@@ -1,0 +1,104 @@
+{
+  "type": "Collection",
+  "id": "brownfield_recovery_potential",
+  "stac_version": "1.1.0",
+  "description": "This dataset, officially titled \"Gewerbliche und industrielle Brachflächen – Wahrscheinlichkeitskarte (Version für Österreich 2024),\" represents a nationwide inventory of potential industrial and commercial brownfields across Austria.\nDeveloped by the Environment Agency Austria (Umweltbundesamt) in collaboration with Fraunhofer IIS, it utilizes Artificial Intelligence (AI) and remote sensing data (digital orthophotos) to identify sealed, underutilized surfaces, assigning each plot a probability score (e.g., Brownfield_Total) to prioritize areas for land recycling and reduce soil sealing.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./brownfield_recovery_potential/collection.json",
+      "type": "application/json",
+      "title": "Brownfield Recovery Potential",
+      "endpointtype": "GeoJSON source",
+      "id": "brownfield_recovery_potential",
+      "themes": [
+        "Sustainable Cities"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://mapsneu.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/{z}/{y}/{x}.jpeg",
+      "type": "image/png",
+      "title": "Geoland Basemap Orthofoto",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "bmaporthofoto30cm",
+      "attribution": "{ Datenquelle: <a href=\"https://basemap.at\" target=\"_blank\" property=\"dct:title\">basemap.at</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
+  "themes": [
+    "Sustainable Cities"
+  ],
+  "title": "Brownfield Recovery Potential",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.489274390469427,
+          45.934319198418606,
+          17.366799269340135,
+          49.61178781509044
+        ],
+        [
+          9.489274390469427,
+          45.934319198418606,
+          17.366799269340135,
+          49.61178781509044
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Sustainable Cities"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
