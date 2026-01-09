@@ -26,6 +26,9 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
+  "themes": [
+    "Sustainable Cities"
+  ],
   "endpointtype": "GeoJSON source",
   "title": "Brownfield Recovery Potential",
   "extent": {
