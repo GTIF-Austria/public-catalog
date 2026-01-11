@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "https://gist.githubusercontent.com/spectrachrome/911295cd5d54a30495520ed3dde0f3bc/raw/387cbba42f99684c1306891e472b3c706cc9b4d2/testFeatures.json",
+      "Style": " https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT_v2.json",
       "TimeEntries": [
         {
           "Time": "2025",
