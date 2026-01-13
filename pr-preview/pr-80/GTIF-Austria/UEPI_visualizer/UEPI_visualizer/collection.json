@@ -25,7 +25,7 @@
       "title": "Urban energy performance monitor"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.example.hub.eox.at/api/public/assets/Energy-performance-of-buildings-hero-1749975057844.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Energy-performance-of-buildings-hero-1749975057844.jpg",
   "endpointtype": "GeoJSON source",
   "title": "Urban energy performance monitor",
   "extent": {
@@ -59,7 +59,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://workspace-ui-public.example.hub.eox.at/api/public/assets/Energy-performance-of-buildings-hero-1749975057844.jpg",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Energy-performance-of-buildings-hero-1749975057844.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
