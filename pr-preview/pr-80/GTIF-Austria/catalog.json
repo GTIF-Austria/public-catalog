@@ -99,7 +99,10 @@
       "href": "./UEPI_visualizer/collection.json",
       "type": "application/json",
       "title": "Urban energy performance monitor",
-      "id": "UEPI_visualizer"
+      "id": "UEPI_visualizer",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Energy-performance-of-buildings-hero-1749975057844.jpg"
+      ]
     },
     {
       "rel": "self",

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UEPI_visualizer",
   "stac_version": "1.1.0",
-  "description": "![https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/assets/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260113%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260113T152903Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=43a82ee91581235204de8f064cc983a9b6fba8e6c6dac04623674fb43afb59cf](https://)\n\n**UEPI (Urban Energy Performance Index)** combines heat‑loss signals (from LST analysis), building age, and building size into a relative retrofit‑priority score.  \n**Scale 0–100:** **0 = high retrofit need (high priority)**, **100 = good (low priority)**.  \n**Weighting:** heat loss **50%**, age **30%**, size **20%**. Critical cases (high loss + old building) and very large buildings receive additional amplification.\n\n\n",
+  "description": "**UEPI (Urban Energy Performance Index)** combines heat‑loss signals (from LST analysis), building age, and building size into a relative retrofit‑priority score.  \n**Scale 0–100:** **0 = high retrofit need (high priority)**, **100 = good (low priority)**.  \n**Weighting:** heat loss **50%**, age **30%**, size **20%**. Critical cases (high loss + old building) and very large buildings receive additional amplification.\n\n\n",
   "links": [
     {
       "rel": "root",
@@ -25,6 +25,7 @@
       "title": "Urban energy performance monitor"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Energy-performance-of-buildings-hero-1749975057844.jpg",
   "endpointtype": "GeoJSON source",
   "title": "Urban energy performance monitor",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Energy-performance-of-buildings-hero-1749975057844.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
