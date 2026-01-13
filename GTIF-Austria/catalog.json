@@ -134,6 +134,16 @@
     },
     {
       "rel": "child",
+      "href": "./pvpot_fc/collection.json",
+      "type": "application/json",
+      "title": "Nowcasting of theoretical PV potential",
+      "code": "pvpot_fc",
+      "id": "pvpot_fc",
+      "subcode": "pvpot_fc",
+      "collection_group": "Capabilities"
+    },
+    {
+      "rel": "child",
       "href": "./n_vision_indicator/collection.json",
       "type": "application/json",
       "title": "Rooftop Characterisation",
