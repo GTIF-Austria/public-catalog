@@ -44,28 +44,28 @@
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-58/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
       "id": "nc1",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-58/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-2/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-2/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
       "id": "nc2",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-58/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-Glo-Run1/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-Glo-Run1/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
       "id": "glo1",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-58/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-Glo-Run2/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/pvpot_fc/Solar-Potential-Nowcasting-Glo-Run2/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
       "id": "glo2",
       "method": "GET"
