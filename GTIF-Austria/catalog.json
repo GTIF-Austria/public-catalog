@@ -128,7 +128,7 @@
       "code": "wr02solar",
       "id": "wr02solar",
       "thumbnail": [
-        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp"
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp"
       ],
       "subcode": "wr02solar"
     },
@@ -139,6 +139,9 @@
       "title": "Nowcasting of theoretical PV potential",
       "code": "pvpot_fc",
       "id": "pvpot_fc",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp"
+      ],
       "subcode": "pvpot_fc",
       "collection_group": "Capabilities"
     },

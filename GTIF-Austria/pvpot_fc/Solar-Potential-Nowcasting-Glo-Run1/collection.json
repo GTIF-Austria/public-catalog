@@ -25,6 +25,7 @@
       "title": "Nowcasting of theoretical PV potential"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp",
   "endpointtype": "COG source",
   "title": "Global Solar Radiation (Run 1)",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
