@@ -122,6 +122,18 @@
     },
     {
       "rel": "child",
+      "href": "./wr02solar/collection.json",
+      "type": "application/json",
+      "title": "Support for REDIII - PV",
+      "code": "wr02solar",
+      "id": "wr02solar",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp"
+      ],
+      "subcode": "wr02solar"
+    },
+    {
+      "rel": "child",
       "href": "./n_vision_indicator/collection.json",
       "type": "application/json",
       "title": "Rooftop Characterisation",
