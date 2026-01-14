@@ -24,7 +24,8 @@
       "providers": [
         "ubicube"
       ],
-      "subcode": "ubi-multitemporal"
+      "subcode": "ubi-multitemporal",
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "xyz",
@@ -86,6 +87,7 @@
     "Sustainable Cities"
   ],
   "subcode": "ubi-multitemporal",
+  "collection_group": "Sustainable Cities",
   "title": "multitemporal-footprints",
   "extent": {
     "spatial": {
