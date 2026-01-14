@@ -211,7 +211,8 @@
       "id": "gtif-wind-atlas",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png"
-      ]
+      ],
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "child",
