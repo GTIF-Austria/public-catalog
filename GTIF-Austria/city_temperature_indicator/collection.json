@@ -178,8 +178,8 @@
   ],
   "summaries": {
     "subcode": [
-      "cooling_degree_days",
       "city_temperature",
+      "cooling_degree_days",
       "heating_degree_days"
     ],
     "thumbnail": [
