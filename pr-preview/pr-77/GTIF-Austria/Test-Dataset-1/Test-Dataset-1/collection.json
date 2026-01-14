@@ -11,15 +11,12 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311",
-      "type": "image/png",
-      "title": "wmts capabilities",
-      "wmts:layer": "GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/bottomT",
-      "role": [
-        "data"
-      ],
-      "key": "bdfd4f69-5ff1-4ce6-91c9-4eb99f98d63e"
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "COGTest"
+      ]
     },
     {
       "rel": "parent",
@@ -28,24 +25,24 @@
       "title": "Test-Dataset-1"
     }
   ],
-  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "endpointtype": "COG source",
   "title": "Test-Dataset-1",
   "extent": {
     "spatial": {
       "bbox": [
         [
           -180.0,
-          -80.0,
-          179.9166717529297,
-          90.0
+          -85.0,
+          180.0,
+          85.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1993-01-01T00:00:00Z",
-          "2025-11-25T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
