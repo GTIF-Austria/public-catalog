@@ -127,7 +127,7 @@
       "title": "Mobility Impact on PM2.5 and PM10 Concentrations",
       "id": "mobility_ihr_pm25_pm10",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg"
@@ -137,7 +137,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "child",
@@ -146,7 +147,7 @@
       "title": "Monthly traffic volume",
       "id": "mobility_asfinag",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_traffic.jpg"
@@ -156,7 +157,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "child",
@@ -165,7 +167,7 @@
       "title": "Daily mobility vs NO2",
       "id": "mobility_no2",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_traffic_no2_2.jpg"
@@ -175,7 +177,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "child",
@@ -184,7 +187,7 @@
       "title": "Daily Traffic Volume",
       "id": "mobility_daily_traffic",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg"
@@ -194,7 +197,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "child",

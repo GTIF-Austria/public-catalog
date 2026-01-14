@@ -18,14 +18,15 @@
       "endpointtype": "VectorTile source",
       "id": "mobility_ihr_pm25_pm10",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "tags": [
         "mobility"
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "service",
@@ -91,7 +92,7 @@
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg",
   "themes": [
-    "sustainable-cities"
+    "mobility-transition"
   ],
   "tags": [
     "mobility"
@@ -99,6 +100,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Mobility Transition",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart.json",
   "title": "Mobility Impact on PM2.5 and PM10 Concentrations",
@@ -131,7 +133,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "sustainable-cities"
+      "mobility-transition"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg"

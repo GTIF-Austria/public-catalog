@@ -18,14 +18,15 @@
       "endpointtype": "VectorTile source",
       "id": "mobility_daily_traffic",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "tags": [
         "mobility"
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "service",
@@ -91,7 +92,7 @@
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg",
   "themes": [
-    "sustainable-cities"
+    "mobility-transition"
   ],
   "tags": [
     "mobility"
@@ -99,6 +100,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Mobility Transition",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_daily_volume.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_daily_volume.json",
   "title": "Daily Traffic Volume",
@@ -131,7 +133,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "sustainable-cities"
+      "mobility-transition"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg"

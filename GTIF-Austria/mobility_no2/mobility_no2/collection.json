@@ -19,7 +19,7 @@
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_traffic_no2_2.jpg",
   "themes": [
-    "sustainable-cities"
+    "mobility-transition"
   ],
   "tags": [
     "mobility"
@@ -27,6 +27,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Mobility Transition",
   "endpointtype": "VectorTile source",
   "title": "Daily mobility vs NO2",
   "extent": {
