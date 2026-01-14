@@ -129,6 +129,9 @@
       "themes": [
         "sustainable-cities"
       ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg"
+      ],
       "tags": [
         "mobility"
       ],
@@ -144,6 +147,9 @@
       "id": "mobility_asfinag",
       "themes": [
         "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_traffic.jpg"
       ],
       "tags": [
         "mobility"
@@ -161,6 +167,9 @@
       "themes": [
         "sustainable-cities"
       ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_traffic_no2_2.jpg"
+      ],
       "tags": [
         "mobility"
       ],
@@ -176,6 +185,9 @@
       "id": "mobility_daily_traffic",
       "themes": [
         "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg"
       ],
       "tags": [
         "mobility"
