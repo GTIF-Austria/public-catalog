@@ -127,7 +127,7 @@
     }
   ],
   "subcode": "city_temperature_indicator",
-  "collection_group": "Capabilities",
+  "collection_group": "Sustainable Cities",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json",
   "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
@@ -178,8 +178,8 @@
   ],
   "summaries": {
     "subcode": [
-      "cooling_degree_days",
       "heating_degree_days",
+      "cooling_degree_days",
       "city_temperature"
     ],
     "thumbnail": [
