@@ -18,6 +18,9 @@
       "endpointtype": "GeoJSON source",
       "code": "AIT1",
       "id": "predictive_maintenance",
+      "providers": [
+        "AIT Center for Transport Technologies"
+      ],
       "subcode": "AIT1"
     },
     {
@@ -49,7 +52,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
@@ -117,6 +120,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Transport Technologies",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+  ],
   "summaries": {
     "subcode": [
       "AIT1"
