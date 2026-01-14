@@ -19,7 +19,8 @@
       "id": "brownfield_recovery_potential",
       "themes": [
         "Sustainable Cities"
-      ]
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "xyz",
@@ -56,6 +57,7 @@
   "themes": [
     "Sustainable Cities"
   ],
+  "collection_group": "Sustainable Cities",
   "title": "Brownfield Recovery Potential",
   "extent": {
     "spatial": {

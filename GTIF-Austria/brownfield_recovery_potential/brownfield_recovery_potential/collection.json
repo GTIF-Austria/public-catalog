@@ -29,6 +29,7 @@
   "themes": [
     "Sustainable Cities"
   ],
+  "collection_group": "Sustainable Cities",
   "endpointtype": "GeoJSON source",
   "title": "Brownfield Recovery Potential",
   "extent": {
