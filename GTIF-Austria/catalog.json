@@ -18,7 +18,7 @@
       "code": "LULUCF_indicator",
       "id": "land_use",
       "themes": [
-        "Land"
+        "Carbon Accounting"
       ],
       "providers": [
         "GeoVille"
