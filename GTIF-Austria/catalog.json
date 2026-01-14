@@ -122,6 +122,82 @@
     },
     {
       "rel": "child",
+      "href": "./mobility_ihr_pm25_pm10/collection.json",
+      "type": "application/json",
+      "title": "Mobility Impact on PM2.5 and PM10 Concentrations",
+      "id": "mobility_ihr_pm25_pm10",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./mobility_asfinag/collection.json",
+      "type": "application/json",
+      "title": "Monthly traffic volume",
+      "id": "mobility_asfinag",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_traffic.jpg"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./mobility_no2/collection.json",
+      "type": "application/json",
+      "title": "Daily mobility vs NO2",
+      "id": "mobility_no2",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_traffic_no2_2.jpg"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./mobility_daily_traffic/collection.json",
+      "type": "application/json",
+      "title": "Daily Traffic Volume",
+      "id": "mobility_daily_traffic",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./gtif-wind-atlas/collection.json",
       "type": "application/json",
       "title": "Wind Atlas",
