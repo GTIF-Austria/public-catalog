@@ -19,7 +19,8 @@
       "id": "evapotranspiration-monitoring",
       "providers": [
         "Sistema"
-      ]
+      ],
+      "collection_group": "Carbon Accounting"
     },
     {
       "rel": "xyz",
@@ -77,6 +78,7 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
+  "collection_group": "Carbon Accounting",
   "title": "Evapotranspiration Monitoring Demonstrator for Austria",
   "extent": {
     "spatial": {
