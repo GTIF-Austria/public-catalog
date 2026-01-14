@@ -4,11 +4,19 @@
   "Description": "",
   "Resources": [
     {
-      "Name": "marinedatastore",
-      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311",
-      "Type": "WMTSCapabilities",
-      "LayerId": "GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/bottomT",
-      "Dimensions": {}
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
+      "TimeEntries": [
+        {
+          "Time": "2024-01-01",
+          "Assets": [
+            {
+              "Identifier": "COGTest",
+              "File": "https://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_3band_cog_repr_1.tif"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
