@@ -1,0 +1,151 @@
+{
+  "type": "Collection",
+  "id": "n_vision_indicator",
+  "stac_version": "1.1.0",
+  "description": "N Vision's rooftop charachterization capabilty provides efficient and accurate mapping of [solar panel installations](https://gtif-austria.info/narratives/solar_panel_mapping) and of [green roofs](https://gtif-austria.info/narratives/green-roof-mapping) in areas of interest by analysing satellite or aerial imagery using state-of-the-art computer vision methods.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./n_vision_green_roofs/collection.json",
+      "type": "application/json",
+      "title": "Green Roofs",
+      "endpointtype": "GeoJSON source",
+      "id": "n_vision_green_roofs",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "providers": [
+        "N Vision"
+      ],
+      "tags": [
+        "Green Roofs",
+        "Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": " "
+    },
+    {
+      "rel": "child",
+      "href": "./n_vision_solar_panels/collection.json",
+      "type": "application/json",
+      "title": "Solar Panels",
+      "endpointtype": "GeoJSON source",
+      "id": "n_vision_solar_panels",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Green Roofs",
+        "Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": " "
+    },
+    {
+      "rel": "xyz",
+      "href": "https://www.n-vision.ai/tiles/v1/gleisdorf_uce41_20221003_solar_panels/ortho/{z}/{x}/{y}.png",
+      "type": "image/png",
+      "title": "Solar panels",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "n_vision"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+  "themes": [
+    "Sustainable Cities"
+  ],
+  "tags": [
+    "Green Roofs",
+    "Solar Roofs"
+  ],
+  "subcode": "city_temperature_indicator",
+  "collection_group": "Capabilities",
+  "title": "Rooftop Characterisation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.69,
+          47.096,
+          15.72,
+          47.113
+        ],
+        [
+          15.69,
+          47.096,
+          15.72,
+          47.113
+        ],
+        [
+          15.69,
+          47.096,
+          15.72,
+          47.113
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "N Vision",
+      "url": "https://www.n-vision.ai/"
+    }
+  ],
+  "summaries": {
+    "themes": [
+      "sustainable-cities"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
