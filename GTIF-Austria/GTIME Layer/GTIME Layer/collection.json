@@ -27,6 +27,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png",
   "subcode": "GTIME Layer",
+  "collection_group": "EO Adaptation Services",
   "endpointtype": "COG source",
   "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
   "extent": {
