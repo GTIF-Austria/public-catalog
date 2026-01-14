@@ -2,5 +2,21 @@
   "Name": "Tutorial-Dataset",
   "Title": "Tutorial-Dataset",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
+      "TimeEntries": [
+        {
+          "Time": "2024-01-01",
+          "Assets": [
+            {
+              "Identifier": "GeoTIFFfile",
+              "File": "https://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_3band_cog_repr_1.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source"
+    }
+  ]
 }
