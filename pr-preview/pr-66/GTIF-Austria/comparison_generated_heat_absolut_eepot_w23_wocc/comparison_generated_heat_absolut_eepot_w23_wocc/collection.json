@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "st_ground_mounted_eepot_w23_wocc",
+  "id": "comparison_generated_heat_absolut_eepot_w23_wocc",
   "stac_version": "1.1.0",
-  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/st/st_ground_mounted/st_ground_mounted_EEPOT_W23.geojson)",
+  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_absolut_EEPOT_W23.geojson)",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ground-mounted Solar Thermal Collectors"
+      "title": "Comparison of Generated Heat - Absolut"
     }
   ],
   "themes": [
@@ -23,9 +23,9 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Solar Thermal Heat Potential",
+  "collection_group": "KLIEN data - Comparison of Heat Potential",
   "endpointtype": "VectorTile source",
-  "title": "Ground-mounted Solar Thermal Collectors",
+  "title": "Comparison of Generated Heat - Absolut",
   "extent": {
     "spatial": {
       "bbox": [

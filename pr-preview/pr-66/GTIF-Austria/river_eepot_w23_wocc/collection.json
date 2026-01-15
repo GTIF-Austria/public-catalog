@@ -18,7 +18,7 @@
       "endpointtype": "VectorTile source",
       "id": "river_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -88,7 +88,7 @@
     }
   ],
   "themes": [
-    "sustainable-cities"
+    "Energy Transition"
   ],
   "agency": [
     "ESA"
@@ -126,7 +126,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "sustainable-cities"
+      "Energy Transition"
     ]
   }
 }

@@ -101,7 +101,7 @@
       "title": "Air Source Heat Pump",
       "id": "air_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -115,7 +115,7 @@
       "title": "Aquifer",
       "id": "aquifer_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -129,7 +129,7 @@
       "title": "Closed Systems",
       "id": "closed_systems_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -138,12 +138,40 @@
     },
     {
       "rel": "child",
+      "href": "./comparison_generated_heat_absolut_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison of Generated Heat - Absolut",
+      "id": "comparison_generated_heat_absolut_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_generated_heat_share_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison of Generated Heat - Share",
+      "id": "comparison_generated_heat_share_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Heat Potential"
+    },
+    {
+      "rel": "child",
       "href": "./excess_heat_dir_eepot_w23_wocc/collection.json",
       "type": "application/json",
       "title": "Excess Heat - Direct Utilization",
       "id": "excess_heat_dir_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -157,7 +185,7 @@
       "title": "Excess Heat - Utilization via Heat Pumps",
       "id": "excess_heat_hp_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -171,7 +199,7 @@
       "title": "Hydro Energy",
       "id": "hydro_eepot_w23",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -185,7 +213,7 @@
       "title": "Building-integrated PV potential",
       "id": "pv_buildings_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -199,7 +227,7 @@
       "title": "Ground-mounted sealed PV potential",
       "id": "pv_ground_mounted_sealed_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -213,7 +241,7 @@
       "title": "Ground-mounted unsealed PV potential",
       "id": "pv_ground_mounted_unsealed_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -227,7 +255,7 @@
       "title": "Total PV potential",
       "id": "pv_total_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -241,7 +269,7 @@
       "title": "Flowing Water Bodies Heat Potential",
       "id": "river_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -255,7 +283,7 @@
       "title": "Building-integrated Solar Thermal Collectors",
       "id": "st_buildings_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -269,7 +297,7 @@
       "title": "Ground-mounted Solar Thermal Collectors",
       "id": "st_ground_mounted_eepot_w23_wocc",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"
@@ -283,7 +311,7 @@
       "title": "Wind Energy",
       "id": "wind_eepot_w23",
       "themes": [
-        "sustainable-cities"
+        "Energy Transition"
       ],
       "agency": [
         "ESA"

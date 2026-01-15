@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "wind_eepot_w23",
+  "id": "comparison_generated_heat_absolut_eepot_w23_wocc",
   "stac_version": "1.1.0",
-  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/wind/wind_EEPOT_W23.geojson)",
+  "description": "[download raw data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_absolut_EEPOT_W23.geojson)",
   "links": [
     {
       "rel": "root",
@@ -12,22 +12,22 @@
     },
     {
       "rel": "child",
-      "href": "./wind_eepot_w23/collection.json",
+      "href": "./comparison_generated_heat_absolut_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Wind Energy",
+      "title": "Comparison of Generated Heat - Absolut",
       "endpointtype": "VectorTile source",
-      "id": "wind_eepot_w23",
+      "id": "comparison_generated_heat_absolut_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Wind Energy Potential"
+      "collection_group": "KLIEN data - Comparison of Heat Potential"
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.wind_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.comparison_generated_heat_absolut_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
@@ -93,10 +93,10 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Wind Energy Potential",
-  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/wind_eepot_form_comparison.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/wind_eepot_chart.json",
-  "title": "Wind Energy",
+  "collection_group": "KLIEN data - Comparison of Heat Potential",
+  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/comparison_generated_heat_absolut_eepot_form_comparison.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/comparison_generated_heat_absolut_eepot_chart.json",
+  "title": "Comparison of Generated Heat - Absolut",
   "extent": {
     "spatial": {
       "bbox": [
