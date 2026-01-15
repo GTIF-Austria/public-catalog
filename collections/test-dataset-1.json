@@ -4,15 +4,15 @@
   "Description": "",
   "Resources": [
     {
-      "Name": "COG source",
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT_v2.json",
       "TimeEntries": [
         {
-          "Time": "2024-01-01",
+          "Time": "2025",
           "Assets": [
             {
-              "Identifier": "COGTest",
-              "File": "https://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_3band_cog_repr_1.tif"
+              "Identifier": "test",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/v2/A14_overview.geojson"
             }
           ]
         }
