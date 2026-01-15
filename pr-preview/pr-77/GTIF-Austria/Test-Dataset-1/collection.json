@@ -15,7 +15,7 @@
       "href": "./Test-Dataset-1/collection.json",
       "type": "application/json",
       "title": "Test-Dataset-1",
-      "endpointtype": "COG source",
+      "endpointtype": "GeoJSON source",
       "id": "Test-Dataset-1"
     },
     {
@@ -94,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
