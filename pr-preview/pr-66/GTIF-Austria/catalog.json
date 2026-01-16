@@ -138,6 +138,62 @@
     },
     {
       "rel": "child",
+      "href": "./comparison_electricity_e_absolut_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison Electricity - E Absolut",
+      "id": "comparison_electricity_e_absolut_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_e_share_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison Electricity - E Share",
+      "id": "comparison_electricity_e_share_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_lcoe_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison Electricity - LCOE",
+      "id": "comparison_electricity_lcoe_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_mv_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison Electricity - MV",
+      "id": "comparison_electricity_mv_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+    },
+    {
+      "rel": "child",
       "href": "./comparison_generated_heat_absolut_eepot_w23_wocc/collection.json",
       "type": "application/json",
       "title": "Comparison of Generated Heat - Absolut",
