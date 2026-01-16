@@ -24,7 +24,7 @@
     },
     {
       "rel": "service",
-      "href": "data:application/json,[{\"Brownfield_Total\":{{feature.values_.Brownfield_Total}},\"Prediction_Subclass_DOP\":\"{{feature.values_.Prediction_Subclass_DOP}}\",\"build_area\":{{feature.values_.build_area}},\"sealed_area\":{{feature.values_.sealed_area}},\"seal_perc\":{{feature.values_.seal_perc}},\"area\":{{feature.values_.area}},\"solar_pot_djf\":{{feature.values_.solar_pot_djf}},\"solar_pot_jja\":{{feature.values_.solar_pot_jja}},\"solar_pot_mam\":{{feature.values_.solar_pot_mam}},\"solar_pot_son\":{{feature.values_.solar_pot_son}},\"Name\":\"{{feature.values_.Name}}\",\"€/m²\":\"{{feature.values_.€/m²}}\"}]",
+      "href": "data:application/json,[{\"total_price\":{{feature.values_.total_price}},\"total_solar_pot\":{{feature.values_.total_solar_pot}},\"Brownfield_Total\":{{feature.values_.Brownfield_Total}},\"Prediction_Subclass_DOP\":\"{{feature.values_.Prediction_Subclass_DOP}}\",\"build_area\":{{feature.values_.build_area}},\"sealed_area\":{{feature.values_.sealed_area}},\"seal_perc\":{{feature.values_.seal_perc}},\"area\":{{feature.values_.area}},\"solar_pot_djf\":{{feature.values_.solar_pot_djf}},\"solar_pot_jja\":{{feature.values_.solar_pot_jja}},\"solar_pot_mam\":{{feature.values_.solar_pot_mam}},\"solar_pot_son\":{{feature.values_.solar_pot_son}},\"Name\":\"{{feature.values_.Name}}\",\"€/m²\":\"{{feature.values_.€/m²}}\"}]",
       "type": "application/json",
       "id": "stats",
       "method": "GET"
