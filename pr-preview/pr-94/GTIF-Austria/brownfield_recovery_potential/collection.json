@@ -24,7 +24,7 @@
     },
     {
       "rel": "service",
-      "href": "\"Url\": \"data:application/json,[{/\"index/\":{{feature.index}},/\"KG/\":/\"{{feature.KG}}/\",/\"GNR/\":/\"{{feature.GNR}}/\",/\"GKZ/\":/\"{{feature.GKZ}}/\",/\"BL_KZ/\":/\"{{feature.BL_KZ}}/\",/\"EZ/\":/\"{{feature.EZ}}/\",/\"Brownfield_Total/\":{{feature.Brownfield_Total}},/\"Prediction_Subclass_DOP/\":/\"{{feature.Prediction_Subclass_DOP}}/\",/\"build_area/\":{{feature.build_area}},/\"sealed_area/\":{{feature.sealed_area}},/\"seal_perc/\":{{feature.seal_perc}},/\"area/\":{{feature.area}},/\"solar_pot_djf/\":{{feature.solar_pot_djf}},/\"solar_pot_jja/\":{{feature.solar_pot_jja}},/\"solar_pot_mam/\":{{feature.solar_pot_mam}},/\"solar_pot_son/\":{{feature.solar_pot_son}},/\"Name/\":/\"{{feature.Name}}/\",/\"€/m²/\":/\"{{feature.€/m²}}/\"}]\"",
+      "href": "data:application/json,[{\"index\":{{feature.index}},\"KG\":\"{{feature.KG}}\",\"GNR\":\"{{feature.GNR}}\",\"GKZ\":\"{{feature.GKZ}}\",\"BL_KZ\":\"{{feature.BL_KZ}}\",\"EZ\":\"{{feature.EZ}}\",\"Brownfield_Total\":{{feature.Brownfield_Total}},\"Prediction_Subclass_DOP\":\"{{feature.Prediction_Subclass_DOP}}\",\"build_area\":{{feature.build_area}},\"sealed_area\":{{feature.sealed_area}},\"seal_perc\":{{feature.seal_perc}},\"area\":{{feature.area}},\"solar_pot_djf\":{{feature.solar_pot_djf}},\"solar_pot_jja/\":{{feature.solar_pot_jja}},\"solar_pot_mam\":{{feature.solar_pot_mam}},\"solar_pot_son\":{{feature.solar_pot_son}},\"Name\":\"{{feature.Name}}\",\"€/m²\":\"{{feature.€/m²}}\"}]",
       "type": "application/json",
       "id": "stats",
       "method": "GET"
