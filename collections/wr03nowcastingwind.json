@@ -1,6 +1,6 @@
 {
-  "Name": "wind_speed_100m",
-  "Title": "Wind Speed at 100m Hub Heigh",
+  "Name": "wind_nowcasting",
+  "Title": "Nowcasting wind Speed at hub heights, wind power for selected turbine types",
   "Description": "Wind speed nowcast at 100m above ground level for Austria",
   "Resources": [
     {
@@ -10,8 +10,12 @@
           "Time": "20250616T090000",
           "Assets": [
             {
-              "Identifier": "",
-              "File": ""
+              "Identifier": "2025-06-16T09:00:00Z",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T0900.tif"
+            },
+            {
+              "Identifier": "2025-06-16T09:15:00Z",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/ws_100m_20250616T0915.tif"
             }
           ]
         }
