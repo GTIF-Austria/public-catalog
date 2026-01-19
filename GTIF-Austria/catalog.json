@@ -238,6 +238,9 @@
       "title": "Nowcasting of theoretical PV potential",
       "code": "pvpot_fc",
       "id": "pvpot_fc",
+      "providers": [
+        "GeoSphere"
+      ],
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp"
       ],
