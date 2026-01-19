@@ -49,6 +49,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Umweltbundesamt",
+      "url": "https://www.umweltbundesamt.at/en/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
