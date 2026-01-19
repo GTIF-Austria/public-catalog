@@ -11,14 +11,6 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "child",
-      "href": "./Tutorial-Dataset/collection.json",
-      "type": "application/json",
-      "title": "Tutorial-Dataset",
-      "endpointtype": "GeoJSON source",
-      "id": "Tutorial-Dataset"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -79,23 +71,17 @@
       "bbox": [
         [
           -180.0,
-          -85.0,
+          -90.0,
           180.0,
-          85.0
-        ],
-        [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          "2026-01-19T21:16:03.511490Z",
+          null
         ]
       ]
     }
