@@ -20,11 +20,11 @@
       "themes": [
         "mobility-transition"
       ],
+      "providers": [
+        "AIT Center for Transport Technologies"
+      ],
       "tags": [
         "mobility"
-      ],
-      "agency": [
-        "ESA"
       ],
       "collection_group": "Mobility Transition"
     },
@@ -97,9 +97,6 @@
   "tags": [
     "mobility"
   ],
-  "agency": [
-    "ESA"
-  ],
   "collection_group": "Mobility Transition",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_daily_volume.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_daily_volume.json",
@@ -131,6 +128,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Transport Technologies",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+  ],
   "summaries": {
     "themes": [
       "mobility-transition"

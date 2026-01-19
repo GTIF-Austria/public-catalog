@@ -196,14 +196,14 @@
       "themes": [
         "mobility-transition"
       ],
+      "providers": [
+        "AIT Center for Transport Technologies"
+      ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg"
       ],
       "tags": [
         "mobility"
-      ],
-      "agency": [
-        "ESA"
       ],
       "collection_group": "Mobility Transition"
     },
