@@ -15,7 +15,7 @@
       "href": "./Tutorial-Dataset/collection.json",
       "type": "application/json",
       "title": "Tutorial-Dataset",
-      "endpointtype": "COG source",
+      "endpointtype": "GeoJSON source",
       "id": "Tutorial-Dataset"
     },
     {
