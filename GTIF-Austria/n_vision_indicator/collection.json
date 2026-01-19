@@ -39,12 +39,12 @@
       "themes": [
         "sustainable-cities"
       ],
+      "providers": [
+        "N Vision"
+      ],
       "tags": [
         "Green Roofs",
         "Solar Roofs"
-      ],
-      "agency": [
-        "ESA"
       ],
       "collection_group": " "
     },
