@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "wind_speed_100m",
+  "id": "wind_nowcasting",
   "stac_version": "1.1.0",
   "description": "Wind speed nowcast at 100m above ground level for Austria",
   "links": [
@@ -15,18 +15,19 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public/style_wr03_wind_speed.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        ""
+        "2025-06-16T09:00:00Z",
+        "2025-06-16T09:15:00Z"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wind Speed at 100m Hub Heigh"
+      "title": "Nowcasting wind Speed at hub heights, wind power for selected turbine types"
     }
   ],
   "endpointtype": "COG source",
-  "title": "Wind Speed at 100m Hub Heigh",
+  "title": "Nowcasting wind Speed at hub heights, wind power for selected turbine types",
   "extent": {
     "spatial": {
       "bbox": [
