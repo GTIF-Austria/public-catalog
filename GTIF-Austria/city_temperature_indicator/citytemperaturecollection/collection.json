@@ -21,9 +21,6 @@
   "tags": [
     "city_temperature"
   ],
-  "agency": [
-    "GeoSphere Austria"
-  ],
   "subcode": "city_temperature",
   "endpointtype": "COG source",
   "title": "City temperature forecast",
