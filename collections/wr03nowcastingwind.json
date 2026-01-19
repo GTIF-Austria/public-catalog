@@ -1,6 +1,22 @@
 {
-  "Name": "WR03_Nowcasting_Wind",
-  "Title": "WR03_Nowcasting_Wind",
-  "Description": "",
-  "Resources": []
+  "Name": "wind_speed_100m",
+  "Title": "Wind Speed at 100m Hub Heigh",
+  "Description": "Wind speed nowcast at 100m above ground level for Austria",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public/style_wr03_wind_speed.json",
+      "TimeEntries": [
+        {
+          "Time": "20250616T090000",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": ""
+            }
+          ]
+        }
+      ],
+      "Name": "COG source"
+    }
+  ]
 }
