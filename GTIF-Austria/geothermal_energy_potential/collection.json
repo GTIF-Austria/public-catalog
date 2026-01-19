@@ -27,7 +27,10 @@
       "type": "application/json",
       "title": "Geothermal Energy Potential ",
       "endpointtype": "COG source",
-      "id": "Geothermal-energy-potential"
+      "id": "Geothermal-energy-potential",
+      "providers": [
+        "GeoSphere"
+      ]
     },
     {
       "rel": "child",
