@@ -50,6 +50,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Energiewerkstatt",
+      "url": "https://energiewerkstatt.org/?lang=en"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
