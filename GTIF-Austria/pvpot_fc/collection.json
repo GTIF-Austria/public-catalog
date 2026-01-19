@@ -24,7 +24,10 @@
       "type": "application/json",
       "title": "Theoretical Solar Potential (Run 2)",
       "endpointtype": "COG source",
-      "id": "Solar-Potential-Nowcasting-2"
+      "id": "Solar-Potential-Nowcasting-2",
+      "providers": [
+        "GeoSphere"
+      ]
     },
     {
       "rel": "child",
