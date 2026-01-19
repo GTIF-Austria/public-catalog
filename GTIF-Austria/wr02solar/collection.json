@@ -27,7 +27,10 @@
       "type": "application/json",
       "title": "Solar Potential",
       "endpointtype": "COG source",
-      "id": "WR02-PVpot"
+      "id": "WR02-PVpot",
+      "providers": [
+        "GeoSphere"
+      ]
     },
     {
       "rel": "service",
