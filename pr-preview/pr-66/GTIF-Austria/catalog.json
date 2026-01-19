@@ -194,6 +194,34 @@
     },
     {
       "rel": "child",
+      "href": "./comparison_grid_c_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison Grid - Capacity",
+      "id": "comparison_grid_c_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Grid Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_grid_e_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Comparison Grid - Energy",
+      "id": "comparison_grid_e_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Comparison of Grid Potential"
+    },
+    {
+      "rel": "child",
       "href": "./comparison_generated_heat_absolut_eepot_w23_wocc/collection.json",
       "type": "application/json",
       "title": "Comparison of Generated Heat - Absolut",
