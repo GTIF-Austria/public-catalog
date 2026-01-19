@@ -33,9 +33,6 @@
     "Green Roofs",
     "Solar Roofs"
   ],
-  "agency": [
-    "ESA"
-  ],
   "collection_group": " ",
   "endpointtype": "GeoJSON source",
   "title": "Green Roofs",
