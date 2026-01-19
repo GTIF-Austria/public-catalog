@@ -20,6 +20,9 @@
       "themes": [
         "Sustainable Cities"
       ],
+      "providers": [
+        "Fraunhofer IIS"
+      ],
       "collection_group": "Sustainable Cities"
     },
     {
@@ -95,6 +98,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Fraunhofer IIS",
+      "url": "https://www.iis.fraunhofer.de/en.html"
+    }
+  ],
   "summaries": {
     "themes": [
       "Sustainable Cities"
