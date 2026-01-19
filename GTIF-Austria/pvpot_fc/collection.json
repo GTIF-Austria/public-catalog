@@ -46,7 +46,10 @@
       "type": "application/json",
       "title": "Global Solar Radiation (Run 2)",
       "endpointtype": "COG source",
-      "id": "Solar-Potential-Nowcasting-Glo-Run2"
+      "id": "Solar-Potential-Nowcasting-Glo-Run2",
+      "providers": [
+        "GeoSphere"
+      ]
     },
     {
       "rel": "service",

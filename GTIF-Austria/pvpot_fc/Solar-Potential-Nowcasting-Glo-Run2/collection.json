@@ -49,6 +49,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoSphere",
+      "url": "https://www.geosphere.at/en"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
