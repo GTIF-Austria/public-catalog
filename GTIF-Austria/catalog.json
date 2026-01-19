@@ -225,6 +225,9 @@
       "title": "Support for REDIII - PV",
       "code": "wr02solar",
       "id": "wr02solar",
+      "providers": [
+        "GeoSphere"
+      ],
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp"
       ],
