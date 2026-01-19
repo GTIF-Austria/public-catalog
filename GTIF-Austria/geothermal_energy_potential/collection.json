@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Geothermal statistics",
       "endpointtype": "GeoJSON source",
-      "id": "austria_geothermal_stats"
+      "id": "austria_geothermal_stats",
+      "providers": [
+        "GeoSphere"
+      ]
     },
     {
       "rel": "child",
