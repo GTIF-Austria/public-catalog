@@ -24,9 +24,6 @@
   "tags": [
     "mobility"
   ],
-  "agency": [
-    "ESA"
-  ],
   "collection_group": "Mobility Transition",
   "endpointtype": "VectorTile source",
   "title": "Mobility Impact on PM2.5 and PM10 Concentrations",
@@ -51,6 +48,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Transport Technologies",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
