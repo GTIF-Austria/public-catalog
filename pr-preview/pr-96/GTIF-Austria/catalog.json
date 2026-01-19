@@ -295,10 +295,10 @@
     },
     {
       "rel": "child",
-      "href": "./WR03_Nowcasting_Wind/collection.json",
+      "href": "./wind_speed_100m/collection.json",
       "type": "application/json",
-      "title": "WR03_Nowcasting_Wind",
-      "id": "WR03_Nowcasting_Wind"
+      "title": "Wind Speed at 100m Hub Heigh",
+      "id": "wind_speed_100m"
     },
     {
       "rel": "self",
