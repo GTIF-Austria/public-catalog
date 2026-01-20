@@ -245,29 +245,47 @@
       "rel": "child",
       "href": "./comparison_grid_c_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison Grid - Capacity",
+      "title": "Grid Capacity and Electricity Potential in Capacity Terms",
       "id": "comparison_grid_c_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "Energiewerkstatt",
+        "AIT Center for Energy",
+        "AEA",
+        "ebUtilities"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Grid Potential"
+      "collection_group": "Grid Capacities and Renewable Energy Potentials"
     },
     {
       "rel": "child",
       "href": "./comparison_grid_e_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison Grid - Energy",
+      "title": "Grid Capacity and Electricity Generation Potential",
       "id": "comparison_grid_e_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "Energiewerkstatt",
+        "AIT Center for Energy",
+        "AEA",
+        "ebUtilities"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Grid Potential"
+      "collection_group": "Grid Capacities and Renewable Energy Potentials"
     },
     {
       "rel": "child",

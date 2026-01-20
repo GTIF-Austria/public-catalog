@@ -14,18 +14,19 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Comparison Grid - Capacity"
+      "title": "Grid Capacity and Electricity Potential in Capacity Terms"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Comparison of Grid Potential",
+  "collection_group": "Grid Capacities and Renewable Energy Potentials",
   "endpointtype": "VectorTile source",
-  "title": "Comparison Grid - Capacity",
+  "title": "Grid Capacity and Electricity Potential in Capacity Terms",
   "extent": {
     "spatial": {
       "bbox": [
@@ -47,6 +48,24 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Energiewerkstatt",
+      "url": "https://energiewerkstatt.org/?lang=en"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    },
+    {
+      "name": "AEA",
+      "url": "https://www.energyagency.at/en/"
+    },
+    {
+      "name": "ebUtilities",
+      "url": "https://www.ebutilities.at/verfuegbare-netzanschlusskapazitaeten"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -54,6 +73,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
