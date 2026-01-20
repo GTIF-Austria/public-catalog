@@ -119,29 +119,43 @@
       "rel": "child",
       "href": "./aquifer_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Aquifer",
+      "title": "Ground Source Heat Pump: Open Systems (Aquifer)",
       "id": "aquifer_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Energy Potential"
+      "collection_group": "KLIEN data - Ambient Heat Potential"
     },
     {
       "rel": "child",
       "href": "./closed_systems_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Closed Systems",
+      "title": "Ground Source Heat Pump: Closed Systems (Collectors, Probes)",
       "id": "closed_systems_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Energy Potential"
+      "collection_group": "KLIEN data - Ambient Heat Potential"
     },
     {
       "rel": "child",
@@ -259,15 +273,22 @@
       "rel": "child",
       "href": "./excess_heat_dir_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Excess Heat - Direct Utilization",
+      "title": "Waste Heat - Direct Utilization",
       "id": "excess_heat_dir_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Waste%20heat.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Energy Potential"
+      "collection_group": "KLIEN data - Ambient Heat Potential"
     },
     {
       "rel": "child",
@@ -278,10 +299,17 @@
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Waste%20heat.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Energy Potential"
+      "collection_group": "KLIEN data - Ambient Heat Potential"
     },
     {
       "rel": "child",
@@ -357,15 +385,22 @@
       "rel": "child",
       "href": "./river_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Flowing Water Bodies Heat Potential",
+      "title": "Flowing Water Bodies (Aquathermy)",
       "id": "river_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Energy Potential"
+      "collection_group": "KLIEN data - Ambient Heat Potential"
     },
     {
       "rel": "child",

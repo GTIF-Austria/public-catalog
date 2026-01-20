@@ -14,16 +14,20 @@
       "rel": "child",
       "href": "./river_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Flowing Water Bodies Heat Potential",
+      "title": "Flowing Water Bodies (Aquathermy)",
       "endpointtype": "VectorTile source",
       "id": "river_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Energy Potential"
+      "collection_group": "KLIEN data - Ambient Heat Potential"
     },
     {
       "rel": "service",
@@ -87,16 +91,17 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Ambient Energy Potential",
+  "collection_group": "KLIEN data - Ambient Heat Potential",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/river_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/river_eepot_chart.json",
-  "title": "Flowing Water Bodies Heat Potential",
+  "title": "Flowing Water Bodies (Aquathermy)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -124,9 +129,31 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AEE Intec",
+      "url": "https://www.aee-intec.at/"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "summaries": {
     "themes": [
       "Energy Transition"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
