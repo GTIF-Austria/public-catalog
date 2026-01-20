@@ -14,18 +14,19 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Building-integrated PV potential"
+      "title": "Building-Integrated PV Systems"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-building-integrated.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Photovoltaic Energy Potential",
+  "collection_group": "KLIEN Data – Photovoltaic Energy Potential",
   "endpointtype": "VectorTile source",
-  "title": "Building-integrated PV potential",
+  "title": "Building-Integrated PV Systems",
   "extent": {
     "spatial": {
       "bbox": [
@@ -47,6 +48,16 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AEA",
+      "url": "https://www.energyagency.at/en/"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -54,6 +65,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-building-integrated.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

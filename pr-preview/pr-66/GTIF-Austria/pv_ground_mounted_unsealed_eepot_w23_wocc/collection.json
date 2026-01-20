@@ -14,16 +14,20 @@
       "rel": "child",
       "href": "./pv_ground_mounted_unsealed_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Ground-mounted unsealed PV potential",
+      "title": "Ground-Mounted PV Systems on Unsealed Land",
       "endpointtype": "VectorTile source",
       "id": "pv_ground_mounted_unsealed_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEA",
+        "AIT Center for Energy"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Photovoltaic Energy Potential"
+      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
     },
     {
       "rel": "service",
@@ -87,16 +91,17 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Photovoltaic Energy Potential",
+  "collection_group": "KLIEN Data – Photovoltaic Energy Potential",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/pv_ground_mounted_unsealed_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/pv_ground_mounted_unsealed_eepot_chart.json",
-  "title": "Ground-mounted unsealed PV potential",
+  "title": "Ground-Mounted PV Systems on Unsealed Land",
   "extent": {
     "spatial": {
       "bbox": [
@@ -124,9 +129,31 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AEA",
+      "url": "https://www.energyagency.at/en/"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "summaries": {
     "themes": [
       "Energy Transition"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
