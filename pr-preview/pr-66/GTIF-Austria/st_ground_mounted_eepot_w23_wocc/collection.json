@@ -20,10 +20,14 @@
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Solar Thermal Heat Potential"
+      "collection_group": "KLIEN Data – Solar Thermal Heat Potential"
     },
     {
       "rel": "service",
@@ -87,13 +91,14 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Solar%20Thermal%20Collectors.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Solar Thermal Heat Potential",
+  "collection_group": "KLIEN Data – Solar Thermal Heat Potential",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/st_ground_mounted_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/st_ground_mounted_eepot_chart.json",
   "title": "Ground-mounted Solar Thermal Collectors",
@@ -124,9 +129,31 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AEE Intec",
+      "url": "https://www.aee-intec.at/"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "summaries": {
     "themes": [
       "Energy Transition"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Solar%20Thermal%20Collectors.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Solar%20Thermal%20Collectors.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
