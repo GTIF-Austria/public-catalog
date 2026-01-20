@@ -161,57 +161,85 @@
       "rel": "child",
       "href": "./comparison_electricity_e_absolut_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison Electricity - E Absolut",
+      "title": "Electricity Generation Potential",
       "id": "comparison_electricity_e_absolut_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEA"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
     },
     {
       "rel": "child",
       "href": "./comparison_electricity_e_share_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison Electricity - E Share",
+      "title": "Electricity Demand Share",
       "id": "comparison_electricity_e_share_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEA"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
     },
     {
       "rel": "child",
       "href": "./comparison_electricity_lcoe_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison Electricity - LCOE",
+      "title": "Levelized Cost of Energy",
       "id": "comparison_electricity_lcoe_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEA"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
     },
     {
       "rel": "child",
       "href": "./comparison_electricity_mv_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison Electricity - MV",
+      "title": "Market Value",
       "id": "comparison_electricity_mv_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEA"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Electricity Potential"
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
     },
     {
       "rel": "child",
