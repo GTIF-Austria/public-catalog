@@ -14,16 +14,20 @@
       "rel": "child",
       "href": "./hydro_eepot_w23/collection.json",
       "type": "application/json",
-      "title": "Hydro Energy",
+      "title": "Hydropower",
       "endpointtype": "VectorTile source",
       "id": "hydro_eepot_w23",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AEA",
+        "AIT Center for Energy"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Hydro Energy Potential"
+      "collection_group": "KLIEN Data – Hydropower Potential"
     },
     {
       "rel": "service",
@@ -87,16 +91,17 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Hydro Energy Potential",
+  "collection_group": "KLIEN Data – Hydropower Potential",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/hydro_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/hydro_eepot_chart.json",
-  "title": "Hydro Energy",
+  "title": "Hydropower",
   "extent": {
     "spatial": {
       "bbox": [
@@ -124,9 +129,31 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AEA",
+      "url": "https://www.energyagency.at/en/"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "summaries": {
     "themes": [
       "Energy Transition"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

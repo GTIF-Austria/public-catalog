@@ -14,18 +14,19 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hydro Energy"
+      "title": "Hydropower"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Hydro Energy Potential",
+  "collection_group": "KLIEN Data – Hydropower Potential",
   "endpointtype": "VectorTile source",
-  "title": "Hydro Energy",
+  "title": "Hydropower",
   "extent": {
     "spatial": {
       "bbox": [
@@ -47,6 +48,16 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AEA",
+      "url": "https://www.energyagency.at/en/"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -54,6 +65,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
