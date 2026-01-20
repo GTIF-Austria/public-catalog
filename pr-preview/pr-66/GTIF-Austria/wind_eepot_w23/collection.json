@@ -14,16 +14,20 @@
       "rel": "child",
       "href": "./wind_eepot_w23/collection.json",
       "type": "application/json",
-      "title": "Wind Energy",
+      "title": "Wind Power",
       "endpointtype": "VectorTile source",
       "id": "wind_eepot_w23",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "Energiewerkstatt",
+        "AIT Center for Energy"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Wind Energy Potential"
+      "collection_group": "KLIEN Data – Wind Energy Potential"
     },
     {
       "rel": "service",
@@ -87,16 +91,17 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Wind%20Power.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Wind Energy Potential",
+  "collection_group": "KLIEN Data – Wind Energy Potential",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/wind_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/wind_eepot_chart.json",
-  "title": "Wind Energy",
+  "title": "Wind Power",
   "extent": {
     "spatial": {
       "bbox": [
@@ -124,9 +129,31 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Energiewerkstatt",
+      "url": "https://energiewerkstatt.org/?lang=en"
+    },
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "summaries": {
     "themes": [
       "Energy Transition"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Wind%20Power.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Wind%20Power.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
