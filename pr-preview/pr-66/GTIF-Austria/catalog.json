@@ -273,29 +273,43 @@
       "rel": "child",
       "href": "./comparison_generated_heat_absolut_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison of Generated Heat - Absolut",
+      "title": "Heat Generation Potential",
       "id": "comparison_generated_heat_absolut_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEE Intec"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Heat Potential"
+      "collection_group": "Support for Energy Planning – Heat Demand and Supply Potentials"
     },
     {
       "rel": "child",
       "href": "./comparison_generated_heat_share_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Comparison of Generated Heat - Share",
+      "title": "Heat Demand Share",
       "id": "comparison_generated_heat_share_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEE Intec"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg"
+      ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Comparison of Heat Potential"
+      "collection_group": "Support for Energy Planning – Heat Demand and Supply Potentials"
     },
     {
       "rel": "child",

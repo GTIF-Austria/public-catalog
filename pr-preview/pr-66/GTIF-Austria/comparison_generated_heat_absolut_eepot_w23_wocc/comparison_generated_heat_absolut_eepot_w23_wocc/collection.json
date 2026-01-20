@@ -14,18 +14,19 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Comparison of Generated Heat - Absolut"
+      "title": "Heat Generation Potential"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg",
   "themes": [
     "Energy Transition"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "KLIEN data - Comparison of Heat Potential",
+  "collection_group": "Support for Energy Planning – Heat Demand and Supply Potentials",
   "endpointtype": "VectorTile source",
-  "title": "Comparison of Generated Heat - Absolut",
+  "title": "Heat Generation Potential",
   "extent": {
     "spatial": {
       "bbox": [
@@ -47,6 +48,16 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    },
+    {
+      "name": "AEE Intec",
+      "url": "https://www.aee-intec.at/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -54,6 +65,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
