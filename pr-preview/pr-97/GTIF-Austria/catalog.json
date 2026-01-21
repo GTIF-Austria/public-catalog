@@ -301,16 +301,6 @@
       "id": "WR03_Nowcasting_Wind"
     },
     {
-      "rel": "child",
-      "href": "./WR03_Wind_Nowcasting/collection.json",
-      "type": "application/json",
-      "title": "Wind Speed and Power Nowcasting",
-      "id": "WR03_Wind_Nowcasting",
-      "providers": [
-        "GeoSphere"
-      ]
-    },
-    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
