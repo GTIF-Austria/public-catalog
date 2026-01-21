@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "WR03_Nowcasting_Wind"
+      "title": "Windspeed Nowcasting at hub heights"
     }
   ],
   "endpointtype": "COG source",
-  "title": "WR03_Nowcasting_Wind",
+  "title": "Windspeed Nowcasting at hub heights",
   "extent": {
     "spatial": {
       "bbox": [
