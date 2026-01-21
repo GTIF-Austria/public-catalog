@@ -1,1 +1,25 @@
-{}
+{
+  "Name": "WR03_Wind_Nowcasting",
+  "Title": "Wind Speed and Power Nowcasting",
+  "Description": "The data layers *Wind Speed* and *Wind power* show the results of the nowcasting for 3 hours on 16th June 2025 from 09:00 to 12:00 UTC. The time resolution is 15min.\n\nThe data layer shows wind speed at hub height (100m above ground) in m/s. Wind speeds are extrapolated from 10m using terrain-aware logarithmic and power law methods.\n \nThe wind speed nowcasting is based on GeoSphere Austria's *INCA+* high-resolution analysis and nowcasting system. The data is provided in 15min temporal and 1000m spatial resolution. \n\nIn combination with turbine-specific power curves from *windpowerlib*, the theoretical power output for various turbine types (Enercon E-101, Vestas V90) is calculated.",
+  "Collections": [
+    "wr03nowcastingwind"
+  ],
+  "Provider": [
+    {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+    }
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json"
+      }
+    ]
+  }
+}
