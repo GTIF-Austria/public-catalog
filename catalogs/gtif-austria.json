@@ -22,6 +22,7 @@
     "wr02solar",
     "pvpot_fc",
     "n_vision_indicator",
-    "brownfield-recovery-potential"
+    "brownfield-recovery-potential",
+    "test"
   ]
 }
