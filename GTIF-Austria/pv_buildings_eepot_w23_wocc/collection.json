@@ -21,7 +21,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEA",
+        "Umweltbundesamt",
         "AIT Center for Energy"
       ],
       "agency": [
@@ -131,8 +131,8 @@
   "license": "other",
   "providers": [
     {
-      "name": "AEA",
-      "url": "https://www.energyagency.at/en/"
+      "name": "Umweltbundesamt",
+      "url": "https://www.umweltbundesamt.at/en/"
     },
     {
       "name": "AIT Center for Energy",

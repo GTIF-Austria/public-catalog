@@ -23,7 +23,7 @@
       "providers": [
         "Energiewerkstatt",
         "AIT Center for Energy",
-        "AEA",
+        "Umweltbundesamt",
         "ebUtilities"
       ],
       "agency": [
@@ -141,8 +141,8 @@
       "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
     },
     {
-      "name": "AEA",
-      "url": "https://www.energyagency.at/en/"
+      "name": "Umweltbundesamt",
+      "url": "https://www.umweltbundesamt.at/en/"
     },
     {
       "name": "ebUtilities",

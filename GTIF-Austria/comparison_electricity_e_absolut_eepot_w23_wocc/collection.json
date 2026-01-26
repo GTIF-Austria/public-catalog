@@ -22,7 +22,7 @@
       ],
       "providers": [
         "AIT Center for Energy",
-        "AEA"
+        "Umweltbundesamt"
       ],
       "agency": [
         "ESA"
@@ -135,8 +135,8 @@
       "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
     },
     {
-      "name": "AEA",
-      "url": "https://www.energyagency.at/en/"
+      "name": "Umweltbundesamt",
+      "url": "https://www.umweltbundesamt.at/en/"
     }
   ],
   "summaries": {
