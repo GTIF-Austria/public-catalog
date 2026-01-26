@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_simple.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "Evapotrans_monit_COG"
+        "Evapotrans_monit_2025_12"
       ]
     },
     {
@@ -26,16 +26,7 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
-  "eodash:proj4_def": {
-    "name": "EPSG:31287",
-    "def": "+proj=lcc +lat_0=47.5 +lon_0=13.3333333333333 +lat_1=49 +lat_2=46 +x_0=400000 +y_0=400000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs +type=crs",
-    "extent": [
-      107724.11,
-      277804.37,
-      694938.75,
-      575953.62
-    ]
-  },
+  "collection_group": "Carbon Accounting",
   "endpointtype": "COG source",
   "title": "Evapotranspiration Monitoring Demonstrator for Austria",
   "extent": {
@@ -52,13 +43,19 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-12-01T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Sistema",
+      "url": "https://www.sistema.at/applications/technology/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

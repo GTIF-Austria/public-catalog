@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "id": "Solar-Potential-Nowcasting-Glo-Run2",
+  "stac_version": "1.1.0",
+  "description": "Description of GLO (Run2)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/style_wr03_solar_glo.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "run2-glo-1200"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nowcasting of theoretical PV potential"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp",
+  "endpointtype": "COG source",
+  "title": "Global Solar Radiation (Run 2)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.662064185510863,
+          45.73145475761923,
+          18.761401868813746,
+          50.07148553381576
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-10-23T10:00:00Z",
+          "2025-10-23T12:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "GeoSphere",
+      "url": "https://www.geosphere.at/en"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

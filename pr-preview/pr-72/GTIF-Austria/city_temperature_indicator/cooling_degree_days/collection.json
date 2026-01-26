@@ -20,9 +20,6 @@
   "tags": [
     "city_temperature"
   ],
-  "agency": [
-    "GeoSphere Austria"
-  ],
   "subcode": "cooling_degree_days",
   "endpointtype": "COG source",
   "title": "Cooling Degree Days",
@@ -47,6 +44,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoSphere",
+      "url": "https://www.geosphere.at/en"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/cooling_degree_days_timeseries.parquet",
