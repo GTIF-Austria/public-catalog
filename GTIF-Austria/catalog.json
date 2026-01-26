@@ -115,16 +115,18 @@
     },
     {
       "rel": "child",
-      "href": "./evapotranspiration-monitoring/collection.json",
+      "href": "./evapotranspiration_monitoring_indicator/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "id": "evapotranspiration-monitoring",
+      "code": "evapotranspiration_monitoring_indicator",
+      "id": "evapotranspiration_monitoring_indicator",
       "providers": [
         "Sistema"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
       ],
+      "subcode": "evapotranspiration_monitoring_indicator",
       "collection_group": "Carbon Accounting"
     },
     {

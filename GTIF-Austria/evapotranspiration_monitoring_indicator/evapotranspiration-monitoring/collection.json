@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_simple.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "Evapotrans_monit_COG"
+        "Evapotrans_monit_2025_10"
       ]
     },
     {
@@ -43,8 +43,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          "2025-08-01T00:00:00Z",
+          "2025-10-01T00:00:00Z"
         ]
       ]
     }
