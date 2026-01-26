@@ -1,0 +1,51 @@
+{
+  "Name": "Geothermal-diffusivity",
+  "Title": "Geothermal Diffusivity",
+  "Description": "# Geothermal diffusivity",
+  "Provider": [
+       {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+       }
+    ],
+   "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/diffusivity.json",
+      "Bbox": [
+        9.531202171084608,
+        45.37377564328037,
+        18.365981367262602,
+        49.29204018510405
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "diffusivity",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/best_diff_stu_gee_50_n2k_3857_1km_COG_matched.tif"
+            },
+            {
+              "Identifier": "Natura2000",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/NK2_3035_1km_24_3035_COG_1_matched.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "diffusivity2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2025/fin_best_diff_stu_gee_2025_50_n2k_3857_1km_COG_matched.tif"
+            },
+            {
+              "Identifier": "Natura2000",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/NK2_3035_1km_24_3035_COG_1_matched.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

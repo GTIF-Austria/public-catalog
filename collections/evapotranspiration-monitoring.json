@@ -3,6 +3,13 @@
   "Title": "Evapotranspiration Monitoring Demonstrator for Austria",
   "Description": "**Evapotranspiration Monitoring Demonstrator for Austria**\nThe [UN World Water Report](https://unesdoc.unesco.org/ark:/48223/pf0000388948) draws attention to the increasing water consumption, which affects global food security and economic growth. Understanding hydrological processes, especially evapotranspiration (ET), is crucial for the functionality and sustainability of green spaces and influences water and energy balances. Actual evapotranspiration (ETa) is an important measure of water transfer from the Earth's surface and includes both soil evaporation and plant transpiration.\nThe methodology to perform evapotranspiration estimation is based on the use of [foundation models such as Prithvi](https://unesdoc.unesco.org/ark:/48223/pf0000388948) that performs a regression analysis of Sentinel-2 multispectral bands and climatic ancillary data (temperature, precipitation and other data), to retrieve an estimation of evapotranspiration measurements obtained from ECOSTRESS.\n\nECOSTRESS is showing lower resolution than the input Sentinel-2, which necessitates pre-processing impacting potentially the measurements. Moreover ECOSTRESS is showing some artefacts in its raw format, this has impact on the machine learning prediction and may reduce quality of the desired output.\n\n© 2025 Sistema GmbH. All rights reserved. When using data or information derived from the “High Resolution Evapotranspiration Service” in publications, websites, or other media, please include the following citation: \"Data provided by Sistema GmbH “High Resolution Evapotranspiration service”, part of the [GTIF-AT initiative](https://gtif-austria.info/narratives/evapotranspiration\\_maps).\"",
   "Image": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
+  "CollectionGroup": "Carbon Accounting",
+  "Provider": [
+    {
+      "Name": "Sistema",
+      "Url": "https://www.sistema.at/applications/technology/"
+    }
+  ],
   "Resources": [
     {
       "Name": "COG source",
@@ -13,23 +20,67 @@
         17.397020060526515,
         49.46746319842481
       ],
-      "DataProjection": {
-        "name": "EPSG:31287",
-        "def": "+proj=lcc +lat_0=47.5 +lon_0=13.3333333333333 +lat_1=49 +lat_2=46 +x_0=400000 +y_0=400000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +units=m +no_defs +type=crs",
-        "extent": [
-          107724.11,
-          277804.37,
-          694938.75,
-          575953.62
-        ]
-      },
       "TimeEntries": [
         {
-          "Time": "2024",
+          "Time": "2025-01-01",
           "Assets": [
             {
-              "Identifier": "Evapotrans_monit_COG",
-              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_mosaic_clipped_cog.tif"
+              "Identifier": "Evapotrans_monit_2025_01",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_01.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-02-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_02",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_02.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-08-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_08",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_08.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-09-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_09",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_09.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-10-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_10",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_10.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-11-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_11",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_11.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025-12-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_12",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_12.tif"
             }
           ]
         }

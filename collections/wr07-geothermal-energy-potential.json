@@ -1,0 +1,51 @@
+{
+  "Name": "Geothermal-energy-potential",
+  "Title": "Geothermal Energy Potential ",
+  "Description": "# Geothermal Energy Potential \nThermal conductivity is the ability of a ground to conduct heat from one location to another without the movement of the soil conducting the heat. It is expressed in watts per meter kelvin (W/mK). The thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The two models were calculated using remote sensing data  (Sentinel-1, Sentinel-3) and interpolated ground data  (bulk density, soil texture, slope DEM, organic content, land use map, natura2000) by applying a model of water distribution to the first meter of the soil profile. The thermal conductivity layer was calculated for the whole Austria for 2024 and 2025.",
+  "Provider": [
+       {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+       }
+    ],
+   "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot_fin.json",
+      "Bbox": [
+        9.531202171084608,
+        45.37377564328037,
+        18.365981367262602,
+        49.29204018510405
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "conductivity",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/best_cond_stu_gee_50_n2k_3857_1km_COG_matched.tif"
+            },
+            {
+              "Identifier": "Natura2000",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/NK2_3035_1km_24_3035_COG_1_matched.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "conductivity2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2025/fin_best_cond_stu_gee_2025_50_n2k_3857_1km_COG_matched.tif"
+            },
+            {
+              "Identifier": "Natura2000",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v3/NK2_3035_1km_24_3035_COG_1_matched.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Name": "wr02solar",
+  "Title": "Support for REDIII - PV",
+  "EodashIdentifier": "wr02solar",
+  "Description": "The data layer *Solar Potential* shows the average available theoretical solar potential as mean from 2007 to 2023 on a seasonal basis. The solar potential can provide a quantitative foundation for the selection of suitable locations for PV systems.\n\nTime step 0001 refers to winter (DJF), 0002 to spring (MAM), 0003 to summer (JJA) and 0004 to autumn (SON).\n\nFirst, the global solar radiation is calculated with GeoSphere Austria's solar radiation model *STRAHLGRID* ([Seitner et al (2024)](https://doi.org/10.5194/ems2024-366)). The data of global radiation is provided in 15min temporal and 100m spatial resolution. In combination with temperature and wind data from GeoSphere Austria's *INCA* model ([Haiden et al (2011)](https://doi.org/10.1175/2010WAF2222451.1)) the theoretical solar potential is calculated. The calculation of the theoretical solar potential (PVpot) is based on the method of [Jerez et al (2015)](https://www.nature.com/articles/ncomms10014).\n\nThe theoretical solar potential ranges from 0 to 1. If the value of PVpot is equal to 1, the nominal PV production value specified by the system is achieved. If the cell temperature of the PV system is higher (lower) than 25°C and/or the global radiation is less (greater) than 1000 W/m², then the PV output is lower (greater) than the nominal power of the module. These threshold values can be adjusted to customer requirements.\n\nThe layer *National Parks* presents the national parks in Austria. The data can be downloaded from [data.gv.at](https://docs.umweltbundesamt.at/s/C5AKbtBp9BTPiMK).\n\nContact: [solar@geosphere.at](mailto:solar@geosphere.at)",
+  "Image": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp",
+  "CollectionGroup": "Energy Transition", 
+  "Provider": [
+    {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+    }
+  ],
+  "Collections": [
+    "wr02-nature",
+    "wr02-pvpot"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
+    "EndPoints": [
+      {
+        "Identifier": "cogstats",
+        "Url": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/wr02solar/WR02-PVpot/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+        "Type": "application/json"
+      }
+    ],
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/solar_pot_vega.json"
+  }
+}

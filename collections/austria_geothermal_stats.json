@@ -1,0 +1,44 @@
+{
+  "Name": "austria_geothermal_stats",
+  "Title": "Geothermal statistics",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geothermal_potential_energy_preview.jpg",
+  "Provider": [
+    {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+    }
+    ],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/mapstyle.json",
+      "Bbox": [
+        9.5,
+        44.5,
+        18,
+        49.9
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "geothermal_stats",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/Austria_cond_24_5.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "geothermal_stats2",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/v2025/Austria_cond_25_1.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Description": ""
+}

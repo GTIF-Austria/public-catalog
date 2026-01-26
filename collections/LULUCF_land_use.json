@@ -5,6 +5,12 @@
     "Description": "TBD",
     "Themes": ["TBD"],
     "Tags": ["land use"],
+    "Provider": [
+    {
+      "Name": "GeoVille",
+      "Url": "https://www.geoville.com/"
+    }
+   ],
     "DataSource": {"Spaceborne": {"Satellite": ["Combined"]}},
     "Agency": ["None"],
     "Colorlegend": {
