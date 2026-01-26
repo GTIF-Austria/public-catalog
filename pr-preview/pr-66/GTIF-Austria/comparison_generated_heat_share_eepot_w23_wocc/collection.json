@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "comparison_generated_heat_share_eepot_w23_wocc",
   "stac_version": "1.1.0",
-  "description": "**Heating Technologies and their Potential**\n\nEnergy potentials from **solar thermal energy**, **air-source heat pumps**, **aquathermal energy, ground-source heat pumps** (open and closed systems), and **excess heat** (direct utilization and utilization via heat pumps) in Austria for the current status (2023), future projections (2030 & 2040), and the technical potential at LAU 2 level.\n\nThe map contains information on **annual heat supplied to heating systems**, in GWh per year (**Energy)**\n\n**Technical potential** represents the maximum energy flow under physical and technical constraints, such as efficiency and spatial limitations. **Realisable potential for 2030 and 2040** considers practical barriers like implementation timing, market conditions, and economic feasibility.\n\nRealizable potential for 2030 and 2040 are provided with defined ranges: ***Low*** (conservative and less ambitious), ***Medium*** (realistic with a high likelihood of occurrence) and ***High*** (optimistic and ambitious).\n\nThe map includes **potentials without considering climate change effects** (WOCC).\n\n[download raw absolut compare data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_absolut_EEPOT_W23.geojson)\n   \n[download raw share compare data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_share_EEPOT_W23.geojson)\n    ",
+  "description": "**Heating Technologies and their Potential**\n\nEnergy potentials from **solar thermal energy**, **air-source heat pumps**, **aquathermal energy, ground-source heat pumps** (open and closed systems), and **excess heat** (direct utilization and utilization via heat pumps) in Austria for the current status (2023), future projections (2030 & 2040), and the technical potential at LAU 2 level.\n\nThe map contains information on **annual heat supplied to heating systems**, in GWh per year (**Energy)**\n\n**Technical potential** represents the maximum energy flow under physical and technical constraints, such as efficiency and spatial limitations. **Realisable potential for 2030 and 2040** considers practical barriers like implementation timing, market conditions, and economic feasibility.\n\nRealizable potential for 2030 and 2040 are provided with defined ranges: ***Low*** (conservative and less ambitious), ***Medium*** (realistic with a high likelihood of occurrence) and ***High*** (optimistic and ambitious).\n\nThe map includes **potentials without considering climate change effects** (WOCC).\n\nThe underlying study, “Renewable Energy Potentials in Austria for 2030 and 2040,” was conducted on behalf of the Climate and Energy Fund and was financed with appropriations from the former Federal Ministry for Climate Action, Environment, Energy, Mobility, Innovation and Technology (BMK).\n\n[download raw absolut compare data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_absolut_EEPOT_W23.geojson)\n   \n[download raw share compare data](https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_share_EEPOT_W23.geojson)\n    ",
   "links": [
     {
       "rel": "root",
@@ -38,19 +38,19 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2022",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "visible"
       ],
-      "id": "cloudless-2022",
-      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
@@ -62,7 +62,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
@@ -74,7 +74,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [

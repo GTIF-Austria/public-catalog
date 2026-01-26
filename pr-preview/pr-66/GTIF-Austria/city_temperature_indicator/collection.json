@@ -18,11 +18,11 @@
       "endpointtype": "COG source",
       "code": "city_temperature",
       "id": "citytemperaturecollection",
+      "providers": [
+        "GeoSphere"
+      ],
       "tags": [
         "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
       ],
       "subcode": "city_temperature"
     },
@@ -34,14 +34,14 @@
       "endpointtype": "COG source",
       "code": "cooling_degree_days",
       "id": "cooling_degree_days",
+      "providers": [
+        "GeoSphere"
+      ],
       "roles": [
         "disable"
       ],
       "tags": [
         "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
       ],
       "subcode": "cooling_degree_days"
     },
@@ -53,14 +53,14 @@
       "endpointtype": "COG source",
       "code": "heating_degree_days",
       "id": "heating_degree_days",
+      "providers": [
+        "GeoSphere"
+      ],
       "roles": [
         "disable"
       ],
       "tags": [
         "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
       ],
       "subcode": "heating_degree_days"
     },
@@ -73,19 +73,19 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2022",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "visible"
       ],
-      "id": "cloudless-2022",
-      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "Terrain light",
       "roles": [
@@ -97,7 +97,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
@@ -109,7 +109,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
@@ -127,7 +127,7 @@
     }
   ],
   "subcode": "city_temperature_indicator",
-  "collection_group": "Capabilities",
+  "collection_group": "Sustainable Cities",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json",
   "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
@@ -170,6 +170,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoSphere",
+      "url": "https://www.geosphere.at/en"
+    }
+  ],
   "summaries": {
     "subcode": [
       "city_temperature",

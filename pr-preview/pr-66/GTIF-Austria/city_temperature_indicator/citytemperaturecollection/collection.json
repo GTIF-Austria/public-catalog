@@ -21,9 +21,6 @@
   "tags": [
     "city_temperature"
   ],
-  "agency": [
-    "GeoSphere Austria"
-  ],
   "subcode": "city_temperature",
   "endpointtype": "COG source",
   "title": "City temperature forecast",
@@ -48,6 +45,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoSphere",
+      "url": "https://www.geosphere.at/en"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_timeseries.parquet",

@@ -30,6 +30,7 @@
     "Sustainable Cities"
   ],
   "subcode": "ubi-multitemporal",
+  "collection_group": "Sustainable Cities",
   "endpointtype": "GeoJSON source",
   "title": "multitemporal-footprints",
   "extent": {
@@ -56,7 +57,7 @@
   "providers": [
     {
       "name": "ubicube",
-      "url": "https://ubicube.eu"
+      "url": "https://www.ubicube.eu/"
     }
   ],
   "assets": {

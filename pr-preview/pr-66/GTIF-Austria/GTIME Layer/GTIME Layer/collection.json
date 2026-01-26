@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "COG1"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -19,6 +27,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png",
   "subcode": "GTIME Layer",
+  "collection_group": "EO Adaptation Services",
   "endpointtype": "COG source",
   "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
   "extent": {
@@ -42,6 +51,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "ZGIS",
+      "url": "https://www.plus.ac.at/geoinformatik/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
