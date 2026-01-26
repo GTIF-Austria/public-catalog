@@ -24,7 +24,7 @@
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-100/GTIF-Austria/evapotranspiration_monitoring_indicator/evapotranspiration-monitoring/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/evapotranspiration_monitoring_indicator/evapotranspiration-monitoring/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
       "id": "cogstats",
       "method": "GET"
