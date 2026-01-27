@@ -14,9 +14,8 @@
       "rel": "child",
       "href": "./multitemporal-footprints/collection.json",
       "type": "application/json",
-      "title": "multitemporal-footprints",
+      "title": "Multitemporal Footprints",
       "endpointtype": "GeoJSON source",
-      "code": "ubi-multitemporal",
       "id": "multitemporal-footprints",
       "themes": [
         "Sustainable Cities"
@@ -24,7 +23,6 @@
       "providers": [
         "ubicube"
       ],
-      "subcode": "ubi-multitemporal",
       "collection_group": "Sustainable Cities"
     },
     {
@@ -86,9 +84,8 @@
   "themes": [
     "Sustainable Cities"
   ],
-  "subcode": "ubi-multitemporal",
   "collection_group": "Sustainable Cities",
-  "title": "multitemporal-footprints",
+  "title": "Multitemporal Footprints",
   "extent": {
     "spatial": {
       "bbox": [
@@ -123,9 +120,6 @@
     }
   ],
   "summaries": {
-    "subcode": [
-      "ubi-multitemporal"
-    ],
     "themes": [
       "Sustainable Cities"
     ],
