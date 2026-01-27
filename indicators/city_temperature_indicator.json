@@ -1,16 +1,16 @@
 {
   "Name": "city_temperature_indicator",
   "Title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
-  "Description": "By integrating precise satellite-based data, air temperature is calculated on a 100-meter grid to simulate and forecast its spatial and hourly variations. The model integrates multiple high-resolution datasets to enhance forecast accuracy:\n* Satellite-based land cover data (e.g., Sentinel-2) to map surface properties and urban structures.\n* Building density and surface material analysis to account for urban heat storage and emission.\n* Vegetation and green space influence to assess cooling effects from parks and tree canopies.\n* Anthropogenic heat emissions from industry and residential heating/cooling.\n\n**Technical features**\n* Spatial gridding:\t100m\n* Temporal gridding:\t1 hour\n* Forecast range:\t+30 hours\n* Forecast time:\t00 UTC",
+  "Description": "This dataset provides high-resolution (100 m) air temperature forecasts and derived heating and cooling degree days for Vienna. The data shown in the explorer are example results from a documented heatwave in June/July 2019, illustrating the capabilities of the urban-scale modelling and visualization approach.\nAir temperature is simulated hourly on a 100 m grid using urban-specific information, including building density, land cover, vegetation, and anthropogenic heat emissions. This allows identification of neighbourhood-scale heat hotspots and temperature variations that cannot be captured by standard regional weather models.\n\nDisplayed variables\n\n2 m Air Temperature (°C)\nHourly air temperature at pedestrian level, resolved at 100 m.\n\nCooling Degree Days (CDD)\nIndicator of cooling demand. High values highlight areas and times where air conditioning or other cooling measures may be needed.\n\nHeating Degree Days (HDD)\nIndicator of heating demand. During this heatwave, HDD values are zero, as heating is not required.\n\nPurpose and use\n\nThis dataset supports:\n\nAssessment of urban heat stress and identification of vulnerable neighbourhoods\n\nEnergy planning, including cooling demand for buildings\n\nUrban planning and climate adaptation, e.g., designing green spaces and heat-resilient infrastructure\n\nThe example data are for demonstration purposes; operational forecasts for Vienna or other cities can be made available depending on service configuration.\n",
   "CollectionGroup": "Sustainable Cities",
   "Collections": [
     "citytemperaturecollection",
     "coolingdegreedays",
     "heatingdegreedays"
   ],
- "Themes": [
-    "Sustainable Cities"   
-  ], 
+  "Themes": [
+    "Sustainable Cities"
+  ],
   "Provider": [
     {
       "Name": "GeoSphere",
