@@ -20,7 +20,6 @@
   "tags": [
     "city_temperature"
   ],
-  "subcode": "cooling_degree_days",
   "endpointtype": "COG source",
   "title": "Cooling Degree Days",
   "extent": {

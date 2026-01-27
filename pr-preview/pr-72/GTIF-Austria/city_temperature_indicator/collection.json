@@ -16,15 +16,13 @@
       "type": "application/json",
       "title": "City temperature forecast",
       "endpointtype": "COG source",
-      "code": "city_temperature",
       "id": "citytemperaturecollection",
       "providers": [
         "GeoSphere"
       ],
       "tags": [
         "city_temperature"
-      ],
-      "subcode": "city_temperature"
+      ]
     },
     {
       "rel": "child",
@@ -32,7 +30,6 @@
       "type": "application/json",
       "title": "Cooling Degree Days",
       "endpointtype": "COG source",
-      "code": "cooling_degree_days",
       "id": "cooling_degree_days",
       "providers": [
         "GeoSphere"
@@ -42,8 +39,7 @@
       ],
       "tags": [
         "city_temperature"
-      ],
-      "subcode": "cooling_degree_days"
+      ]
     },
     {
       "rel": "child",
@@ -51,7 +47,6 @@
       "type": "application/json",
       "title": "Heating Degree Days",
       "endpointtype": "COG source",
-      "code": "heating_degree_days",
       "id": "heating_degree_days",
       "providers": [
         "GeoSphere"
@@ -61,8 +56,7 @@
       ],
       "tags": [
         "city_temperature"
-      ],
-      "subcode": "heating_degree_days"
+      ]
     },
     {
       "rel": "service",
@@ -126,7 +120,9 @@
       "title": "GTIF Austria"
     }
   ],
-  "subcode": "city_temperature_indicator",
+  "themes": [
+    "Sustainable Cities"
+  ],
   "collection_group": "Sustainable Cities",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json",
@@ -177,11 +173,6 @@
     }
   ],
   "summaries": {
-    "subcode": [
-      "cooling_degree_days",
-      "heating_degree_days",
-      "city_temperature"
-    ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
     ]

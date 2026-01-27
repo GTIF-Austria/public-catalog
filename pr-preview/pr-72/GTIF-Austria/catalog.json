@@ -15,7 +15,6 @@
       "href": "./land_use/collection.json",
       "type": "application/json",
       "title": "Land Use, Land Use Change and Forestry (LULUCF)",
-      "code": "LULUCF_indicator",
       "id": "land_use",
       "themes": [
         "Carbon Accounting"
@@ -23,7 +22,6 @@
       "providers": [
         "GeoVille"
       ],
-      "subcode": "LULUCF_indicator",
       "satellite": [
         "Combined"
       ],
@@ -37,12 +35,10 @@
       "href": "./predictive_maintenance/collection.json",
       "type": "application/json",
       "title": "Predictive Maintenance",
-      "code": "AIT1",
       "id": "predictive_maintenance",
       "providers": [
         "AIT Center for Transport Technologies"
       ],
-      "subcode": "AIT1",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg"
       ],
@@ -50,15 +46,13 @@
     },
     {
       "rel": "child",
-      "href": "./GTIME Layer/collection.json",
+      "href": "./GTIME_Layer/collection.json",
       "type": "application/json",
       "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
-      "code": "GTIME Layer",
-      "id": "GTIME Layer",
+      "id": "GTIME_Layer",
       "providers": [
         "ZGIS"
       ],
-      "subcode": "GTIME Layer",
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
       ],
@@ -69,12 +63,13 @@
       "href": "./city_temperature_indicator/collection.json",
       "type": "application/json",
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
-      "code": "city_temperature_indicator",
       "id": "city_temperature_indicator",
+      "themes": [
+        "Sustainable Cities"
+      ],
       "providers": [
         "GeoSphere"
       ],
-      "subcode": "city_temperature_indicator",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
       ],
@@ -98,8 +93,7 @@
       "rel": "child",
       "href": "./multitemporal-footprints/collection.json",
       "type": "application/json",
-      "title": "multitemporal-footprints",
-      "code": "ubi-multitemporal",
+      "title": "Multitemporal Footprints",
       "id": "multitemporal-footprints",
       "themes": [
         "Sustainable Cities"
@@ -107,7 +101,6 @@
       "providers": [
         "ubicube"
       ],
-      "subcode": "ubi-multitemporal",
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/multitemporal_footprints/Extraction_partial.png"
       ],
@@ -584,7 +577,6 @@
       "href": "./evapotranspiration_monitoring_indicator/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "code": "evapotranspiration_monitoring_indicator",
       "id": "evapotranspiration_monitoring_indicator",
       "providers": [
         "Sistema"
@@ -592,7 +584,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
       ],
-      "subcode": "evapotranspiration_monitoring_indicator",
       "collection_group": "Carbon Accounting"
     },
     {
@@ -694,7 +685,6 @@
       "href": "./wr02solar/collection.json",
       "type": "application/json",
       "title": "Support for REDIII - PV",
-      "code": "wr02solar",
       "id": "wr02solar",
       "providers": [
         "GeoSphere"
@@ -702,7 +692,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp"
       ],
-      "subcode": "wr02solar",
       "collection_group": "Energy Transition"
     },
     {
@@ -710,7 +699,6 @@
       "href": "./pvpot_fc/collection.json",
       "type": "application/json",
       "title": "Nowcasting of theoretical PV potential",
-      "code": "pvpot_fc",
       "id": "pvpot_fc",
       "providers": [
         "GeoSphere"
@@ -718,7 +706,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp"
       ],
-      "subcode": "pvpot_fc",
       "collection_group": "Energy Transition"
     },
     {
@@ -726,7 +713,6 @@
       "href": "./n_vision_indicator/collection.json",
       "type": "application/json",
       "title": "Rooftop Characterisation",
-      "code": "city_temperature_indicator",
       "id": "n_vision_indicator",
       "themes": [
         "Sustainable Cities"
@@ -741,7 +727,6 @@
         "Green Roofs",
         "Solar Roofs"
       ],
-      "subcode": "city_temperature_indicator",
       "collection_group": "Sustainable Cities"
     },
     {
