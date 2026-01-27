@@ -1,0 +1,54 @@
+{
+    "Name": "wind_eepot_w23",
+    "Title": "Wind Power",
+    "Themes": [
+        "Energy Transition"
+    ],
+    "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Wind%20Power.jpg",
+    "CollectionGroup": "KLIEN Data – Wind Energy Potential",
+    "Provider": [
+        {
+            "Name": "Energiewerkstatt",
+            "Url": "https://energiewerkstatt.org/?lang=en"
+        },
+        {
+            "Name": "AIT Center for Energy",
+            "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_Wind.md",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/wind/style.json",
+            "Bbox": [
+                9.5,
+                46.4,
+                17.1,
+                49.1
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20300101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.wind_eepot_w23/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/wind_eepot_form_comparison.json",
+        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/wind_eepot_chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.wind_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}
