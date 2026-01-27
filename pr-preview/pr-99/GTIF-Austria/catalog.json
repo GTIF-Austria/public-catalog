@@ -69,12 +69,18 @@
       "href": "./city_temperature_indicator/collection.json",
       "type": "application/json",
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
-      "code": "city_temperature_indicator",
       "id": "city_temperature_indicator",
+      "themes": [
+        "Sustainable Cities"
+      ],
       "providers": [
         "GeoSphere"
       ],
-      "subcode": "city_temperature_indicator",
+      "subcode": [
+        "heating_degree_days",
+        "cooling_degree_days",
+        "city_temperature"
+      ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
       ],
@@ -115,16 +121,484 @@
     },
     {
       "rel": "child",
-      "href": "./evapotranspiration-monitoring/collection.json",
+      "href": "./air_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Air Source Heat Pump",
+      "id": "air_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./aquifer_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground Source Heat Pump: Open Systems (Aquifer)",
+      "id": "aquifer_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./closed_systems_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground Source Heat Pump: Closed Systems (Collectors, Probes)",
+      "id": "closed_systems_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_eepot_w23/collection.json",
+      "type": "application/json",
+      "title": "Wind Power",
+      "id": "wind_eepot_w23",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Energiewerkstatt",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Wind%20Power.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Wind Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./hydro_eepot_w23/collection.json",
+      "type": "application/json",
+      "title": "Hydropower",
+      "id": "hydro_eepot_w23",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Umweltbundesamt",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Hydropower Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./excess_heat_hp_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Excess Heat - Utilization via Heat Pumps",
+      "id": "excess_heat_hp_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Waste%20heat.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./excess_heat_dir_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Waste Heat - Direct Utilization",
+      "id": "excess_heat_dir_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Waste%20heat.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./river_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Flowing Water Bodies (Aquathermy)",
+      "id": "river_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN data - Ambient Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_buildings_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Building-Integrated PV Systems",
+      "id": "pv_buildings_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Umweltbundesamt",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-building-integrated.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_ground_mounted_sealed_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground-Mounted PV Systems on Sealed Land",
+      "id": "pv_ground_mounted_sealed_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Umweltbundesamt",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_ground_mounted_unsealed_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground-Mounted PV Systems on Unsealed Land",
+      "id": "pv_ground_mounted_unsealed_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Umweltbundesamt",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./pv_total_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "PV Systems in Total",
+      "id": "pv_total_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Umweltbundesamt",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-building-integrated.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./st_buildings_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Building-integrated Solar Thermal Collectors",
+      "id": "st_buildings_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Solar%20Thermal%20Collectors.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Solar Thermal Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./st_ground_mounted_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Ground-mounted Solar Thermal Collectors",
+      "id": "st_ground_mounted_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AEE Intec",
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Solar%20Thermal%20Collectors.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "KLIEN Data – Solar Thermal Heat Potential"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_generated_heat_absolut_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Heat Generation Potential",
+      "id": "comparison_generated_heat_absolut_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEE Intec"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Support for Energy Planning – Heat Demand and Supply Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_generated_heat_share_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Heat Demand Share",
+      "id": "comparison_generated_heat_share_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AIT Center for Energy",
+        "AEE Intec"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Support for Energy Planning – Heat Demand and Supply Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_e_absolut_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Electricity Generation Potential",
+      "id": "comparison_electricity_e_absolut_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AIT Center for Energy",
+        "Umweltbundesamt"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_e_share_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Electricity Demand Share",
+      "id": "comparison_electricity_e_share_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AIT Center for Energy",
+        "Umweltbundesamt"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_lcoe_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Levelized Cost of Energy",
+      "id": "comparison_electricity_lcoe_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AIT Center for Energy",
+        "Umweltbundesamt"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_electricity_mv_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Market Value",
+      "id": "comparison_electricity_mv_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "AIT Center for Energy",
+        "Umweltbundesamt"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Support for Energy Planning – Electricity Demand and Supply Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_grid_c_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Grid Capacity and Electricity Potential in Capacity Terms",
+      "id": "comparison_grid_c_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Energiewerkstatt",
+        "AIT Center for Energy",
+        "Umweltbundesamt",
+        "ebUtilities"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Grid Capacities and Renewable Energy Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./comparison_grid_e_eepot_w23_wocc/collection.json",
+      "type": "application/json",
+      "title": "Grid Capacity and Electricity Generation Potential",
+      "id": "comparison_grid_e_eepot_w23_wocc",
+      "themes": [
+        "Energy Transition"
+      ],
+      "providers": [
+        "Energiewerkstatt",
+        "AIT Center for Energy",
+        "Umweltbundesamt",
+        "ebUtilities"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Grid Capacities and Renewable Energy Potentials"
+    },
+    {
+      "rel": "child",
+      "href": "./evapotranspiration_monitoring_indicator/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "id": "evapotranspiration-monitoring",
+      "code": "evapotranspiration_monitoring_indicator",
+      "id": "evapotranspiration_monitoring_indicator",
       "providers": [
         "Sistema"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
       ],
+      "subcode": "evapotranspiration_monitoring_indicator",
       "collection_group": "Carbon Accounting"
     },
     {
