@@ -126,7 +126,9 @@
       "title": "GTIF Austria"
     }
   ],
-  "subcode": "city_temperature_indicator",
+  "themes": [
+    "Sustainable Cities"
+  ],
   "collection_group": "Sustainable Cities",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json",
@@ -178,9 +180,9 @@
   ],
   "summaries": {
     "subcode": [
-      "cooling_degree_days",
       "city_temperature",
-      "heating_degree_days"
+      "heating_degree_days",
+      "cooling_degree_days"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
