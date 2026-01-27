@@ -1,7 +1,6 @@
 {
     "Name": "land_use",
     "Title": "LULUCF Time Series",
-    "EodashIdentifier": "LULUCF",
     "Description": "TBD",
     "Themes": ["TBD"],
     "Tags": ["land use"],
@@ -56,7 +55,7 @@
             "Alpine dwarf shrub heaths"
         ],
         "scaleType": "categorical",
-        "markType": "rectangle"
+        "markType": "rect"
     },
     "Image": "assets/LULUCF_preview.jpg",
     "Resources": [

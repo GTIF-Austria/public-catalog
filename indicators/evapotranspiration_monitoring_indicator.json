@@ -10,7 +10,6 @@
             "Url": "https://www.sistema.at/applications/technology/"
         }
     ],
-    "EodashIdentifier": "evapotranspiration_monitoring_indicator",
     "Collections": [
         "evapotranspiration-monitoring"
     ],
