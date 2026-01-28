@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "land_use",
+  "id": "land_use_copy_test",
   "stac_version": "1.1.0",
   "description": "TBD",
   "links": [
@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Land Use, Land Use Change and Forestry (LULUCF)"
+      "title": "LULUCF Time Series"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/LULUCF_preview.jpg",

@@ -748,6 +748,31 @@
     },
     {
       "rel": "child",
+      "href": "./land_use_copy_test/collection.json",
+      "type": "application/json",
+      "title": "LULUCF Time Series",
+      "id": "land_use_copy_test",
+      "themes": [
+        "TBD"
+      ],
+      "providers": [
+        "GeoVille"
+      ],
+      "satellite": [
+        "Combined"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/LULUCF_preview.jpg"
+      ],
+      "tags": [
+        "land use"
+      ],
+      "agency": [
+        "None"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./NUTS2_AT_copy/collection.json",
       "type": "application/json",
       "title": "NUTS2 Austria (Gemeinden)",
@@ -764,6 +789,20 @@
       "agency": [
         "None"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./GTIME_Layer_disable/collection.json",
+      "type": "application/json",
+      "title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
+      "id": "GTIME_Layer_disable",
+      "providers": [
+        "ZGIS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
+      ],
+      "collection_group": "EO Adaptation Services"
     },
     {
       "rel": "self",
