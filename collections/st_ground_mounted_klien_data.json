@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Solar%20Thermal%20Collectors.jpg",
     "CollectionGroup": "KLIEN Data – Solar Thermal Heat Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Solar Thermal",
+            "Url": "https://gtif-austria.info/narratives/solar-thermal"
+        }
+    ],
     "Provider": [
         {
             "Name": "AEE Intec",

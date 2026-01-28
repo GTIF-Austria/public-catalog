@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
     "CollectionGroup": "KLIEN Data – Hydropower Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Hydropower",
+            "Url": "https://gtif-austria.info/narratives/tf2-hydropower"
+        }
+    ],
     "Provider": [
         {
             "Name": "Umweltbundesamt",

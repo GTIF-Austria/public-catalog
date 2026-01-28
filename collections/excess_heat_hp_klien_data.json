@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Waste%20heat.jpg",
     "CollectionGroup": "KLIEN data - Ambient Heat Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Waste Heat",
+            "Url": "https://gtif-austria.info/narratives/t74-waste-heat-v2"
+        }
+    ],
     "Provider": [
         {
             "Name": "AEE Intec",

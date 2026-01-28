@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg",
     "CollectionGroup": "Grid Capacities and Renewable Energy Potentials",
+    "Stories": [
+        {
+            "Name": "Narrative Comparison of Grid Capacities and Renewable Energy Potentials",
+            "Url": "https://gtif-austria.info/narratives/comparison-grid"
+        }
+    ],
     "Provider": [
         {
             "Name": "Energiewerkstatt",

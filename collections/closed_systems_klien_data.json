@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg",
     "CollectionGroup": "KLIEN data - Ambient Heat Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Shallow Geothermal Energy and Groundwater",
+            "Url": "https://gtif-austria.info/narratives/geothermal"
+        }
+    ],
     "Provider": [
         {
             "Name": "AEE Intec",

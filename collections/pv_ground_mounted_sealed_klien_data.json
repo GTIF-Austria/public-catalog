@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg",
     "CollectionGroup": "KLIEN Data – Photovoltaic Energy Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Photovoltaic",
+            "Url": "https://gtif-austria.info/narratives/photovoltaic"
+        }
+    ],
     "Provider": [
         {
             "Name": "Umweltbundesamt",

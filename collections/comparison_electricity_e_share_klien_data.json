@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg",
     "CollectionGroup": "Support for Energy Planning – Electricity Demand and Supply Potentials",
+    "Stories": [
+        {
+            "Name": "Narrative Support for Energy Planning – Electricity Demand and Supply Potentials",
+            "Url": "https://gtif-austria.info/narratives/tf00-comparison-electricity"
+        }
+    ],
     "Provider": [
         {
             "Name": "AIT Center for Energy",

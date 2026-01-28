@@ -6,6 +6,12 @@
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Wind%20Power.jpg",
     "CollectionGroup": "KLIEN Data – Wind Energy Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Wind Power",
+            "Url": "https://gtif-austria.info/narratives/tf3-wind-energy"
+        }
+    ],
     "Provider": [
         {
             "Name": "Energiewerkstatt",
