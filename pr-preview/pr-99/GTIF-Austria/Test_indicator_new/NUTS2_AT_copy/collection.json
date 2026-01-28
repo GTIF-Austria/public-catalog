@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "NUTS2 Austria (Gemeinden)"
+      "title": "Indicator merging three collections together"
     }
   ],
   "themes": [
