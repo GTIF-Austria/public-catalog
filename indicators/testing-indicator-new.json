@@ -1,1 +1,19 @@
-{}
+{
+  "Name": "Test_indicator_new",
+  "Title": "Indicator merging three collections together",
+  "Description": "",
+  "Collections": [
+    "LULUCF_land_use_copy_test",
+    "NUTS2_AT_copy_test",
+    "gtime-layer_copy_test"
+  ],
+  "Themes": [
+    "Energy Transition"
+  ],
+  "Disable": [
+    "gtime-layer_copy_test"
+  ],
+  "Hidden": [
+    "NUTS2_AT_copy_test"
+  ]
+}
