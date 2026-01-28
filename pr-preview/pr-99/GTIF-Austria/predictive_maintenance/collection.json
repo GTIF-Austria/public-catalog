@@ -16,12 +16,10 @@
       "type": "application/json",
       "title": "Predictive Maintenance",
       "endpointtype": "GeoJSON source",
-      "code": "AIT1",
       "id": "predictive_maintenance",
       "providers": [
         "AIT Center for Transport Technologies"
       ],
-      "subcode": "AIT1",
       "collection_group": "Mobility Transition"
     },
     {
@@ -71,7 +69,6 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
-  "subcode": "AIT1",
   "collection_group": "Mobility Transition",
   "eox:colorlegend": {
     "title": "Ground movement",
@@ -129,9 +126,6 @@
     }
   ],
   "summaries": {
-    "subcode": [
-      "AIT1"
-    ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg"
     ]

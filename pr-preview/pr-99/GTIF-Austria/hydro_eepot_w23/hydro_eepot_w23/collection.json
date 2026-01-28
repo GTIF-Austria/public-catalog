@@ -67,6 +67,15 @@
         "collection-mirror"
       ]
     },
+    "tf2-hydropower": {
+      "href": "https://gtif-austria.info/narratives/tf2-hydropower",
+      "type": "text/markdown",
+      "title": "Narrative Hydropower",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
       "type": "image/png",

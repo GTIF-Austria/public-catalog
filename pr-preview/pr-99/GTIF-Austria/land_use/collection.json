@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "NUTS2 Austria (Gemeinden)",
       "endpointtype": "GeoJSON source",
-      "code": "NUTS2_AT",
       "id": "NUTS2_AT",
       "themes": [
         "TBD"
@@ -27,7 +26,6 @@
       "agency": [
         "None"
       ],
-      "subcode": "NUTS2_AT",
       "satellite": [
         "Combined"
       ]
@@ -38,7 +36,6 @@
       "type": "application/json",
       "title": "LULUCF Time Series",
       "endpointtype": "COG source",
-      "code": "LULUCF",
       "id": "land_use",
       "themes": [
         "TBD"
@@ -52,7 +49,6 @@
       "agency": [
         "None"
       ],
-      "subcode": "LULUCF",
       "satellite": [
         "Combined"
       ]
@@ -123,7 +119,6 @@
   "themes": [
     "Carbon Accounting"
   ],
-  "subcode": "LULUCF_indicator",
   "collection_group": "Carbon Accounting",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/forms/LULUCF_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/charts/LULUCF_vega_chart.json",
@@ -168,10 +163,6 @@
     }
   ],
   "summaries": {
-    "subcode": [
-      "NUTS2_AT",
-      "LULUCF"
-    ],
     "themes": [
       "TBD"
     ],

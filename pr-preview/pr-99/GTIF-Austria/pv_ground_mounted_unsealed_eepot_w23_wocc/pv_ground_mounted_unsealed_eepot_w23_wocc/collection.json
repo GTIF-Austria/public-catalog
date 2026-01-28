@@ -67,6 +67,15 @@
         "collection-mirror"
       ]
     },
+    "photovoltaic": {
+      "href": "https://gtif-austria.info/narratives/photovoltaic",
+      "type": "text/markdown",
+      "title": "Narrative Photovoltaic",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg",
       "type": "image/png",

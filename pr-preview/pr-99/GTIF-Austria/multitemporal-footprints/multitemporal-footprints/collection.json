@@ -22,17 +22,16 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "multitemporal-footprints"
+      "title": "Multitemporal Footprints"
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/multitemporal_footprints/Extraction_partial.png",
   "themes": [
     "Sustainable Cities"
   ],
-  "subcode": "ubi-multitemporal",
   "collection_group": "Sustainable Cities",
   "endpointtype": "GeoJSON source",
-  "title": "multitemporal-footprints",
+  "title": "Multitemporal Footprints",
   "extent": {
     "spatial": {
       "bbox": [
