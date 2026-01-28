@@ -148,6 +148,15 @@
     ]
   },
   "assets": {
+    "austrian-air-source-heating-potential": {
+      "href": "https://gtif-austria.info/narratives/austrian-air-source-heating-potential",
+      "type": "text/markdown",
+      "title": "Air Source Heat Pump Narrative",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg",
       "type": "image/png",

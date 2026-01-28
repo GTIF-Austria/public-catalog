@@ -158,6 +158,15 @@
     ]
   },
   "assets": {
+    "comparison-grid": {
+      "href": "https://gtif-austria.info/narratives/comparison-grid",
+      "type": "text/markdown",
+      "title": "Narrative Comparison of Grid Capacities and Renewable Energy Potentials",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Grid%20Capacity%20and%20Potentials.jpg",
       "type": "image/png",

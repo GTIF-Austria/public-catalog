@@ -148,6 +148,15 @@
     ]
   },
   "assets": {
+    "tf00-comparison-electricity": {
+      "href": "https://gtif-austria.info/narratives/tf00-comparison-electricity",
+      "type": "text/markdown",
+      "title": "Narrative Support for Energy Planning – Electricity Demand and Supply Potentials",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Electricity.jpg",
       "type": "image/png",
