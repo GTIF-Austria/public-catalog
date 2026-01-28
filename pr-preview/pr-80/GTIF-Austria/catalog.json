@@ -96,20 +96,20 @@
     },
     {
       "rel": "child",
-      "href": "./UEPI_visualizer/collection.json",
+      "href": "./UEPI_visualizer_2/collection.json",
       "type": "application/json",
       "title": "Urban energy performance monitor",
-      "id": "UEPI_visualizer",
+      "id": "UEPI_visualizer_2",
       "thumbnail": [
         "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260128%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260128T115834Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea728a7c28ba47e2979df71c72f684224b2b9ea1669dd1f6e89fc8f2bd2bf047"
       ]
     },
     {
       "rel": "child",
-      "href": "./UEPI_visualizer_2/collection.json",
+      "href": "./UEPI_visualizer/collection.json",
       "type": "application/json",
       "title": "Urban energy performance monitor",
-      "id": "UEPI_visualizer_2",
+      "id": "UEPI_visualizer",
       "thumbnail": [
         "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260128%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260128T115834Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea728a7c28ba47e2979df71c72f684224b2b9ea1669dd1f6e89fc8f2bd2bf047"
       ]
