@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UEPI_visualizer",
+  "id": "UEPI_visualizer_2",
   "stac_version": "1.1.0",
   "description": "**UEPI (Urban Energy Performance Index)** combines heat‑loss signals (from LST analysis), building age, and building size into a relative retrofit‑priority score.  \n**Scale 0–100:** **0 = high retrofit need (high priority)**, **100 = good (low priority)**.  \n**Weighting:** heat loss **50%**, age **30%**, size **20%**. Critical cases (high loss + old building) and very large buildings receive additional amplification.\n",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UEPI_visualizer/collection.json",
+      "href": "./UEPI_visualizer_2/collection.json",
       "type": "application/json",
       "title": "Urban energy performance monitor",
       "endpointtype": "GeoJSON source",
-      "id": "UEPI_visualizer"
+      "id": "UEPI_visualizer_2"
     },
     {
       "rel": "xyz",
