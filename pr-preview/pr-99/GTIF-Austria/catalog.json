@@ -748,10 +748,22 @@
     },
     {
       "rel": "child",
-      "href": "./test/collection.json",
+      "href": "./NUTS2_AT_copy/collection.json",
       "type": "application/json",
-      "title": "test",
-      "id": "test"
+      "title": "NUTS2 Austria (Gemeinden)",
+      "id": "NUTS2_AT_copy",
+      "themes": [
+        "TBD"
+      ],
+      "satellite": [
+        "Combined"
+      ],
+      "tags": [
+        "land use"
+      ],
+      "agency": [
+        "None"
+      ]
     },
     {
       "rel": "self",
