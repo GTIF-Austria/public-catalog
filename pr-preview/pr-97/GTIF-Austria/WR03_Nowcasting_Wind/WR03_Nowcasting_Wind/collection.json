@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/style_wr03_wind_speed.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public/WR-03-Energy-Nowcasting-Solar-Wind/wind/style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "data"
