@@ -1,0 +1,32 @@
+{
+  "Name": "GLO_hori_sum",
+  "Title": "Site identification for Renewable Energies",
+  "EodashIdentifier": "GLO",
+  "Description": "The designation of acceleration areas for renewables, as required by the European renewable energy directive, is a challenging political process involving several stakeholders, including federal and state authorities. One main challenge in the expansion of renewable energies, namely large-scale PV-plants and wind energy, lies in the identification of suitable areas, taking into account the many technical, social and economic restrictions as well as nature and landscape protection. This regionally structured data on renewable resources and potential areas are therefore an important information for the designation of wind energy development zones and a valuable planning basis for project developers. This service as part of GTIF-AT C activity shall be a suitable data basis and a flexible tool for the localization of large-scale PV-plants and wind turbines. Thereby multi-dimensional visual analytics functionality will be provided by GTIF-AT to those stakeholders, who will ultimately have to decide on RED-III priority area identifications.",
+  "Themes": [],
+  "Tags": [],
+  "Image": "assets/wr02_preview.jpg",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/WR02.json",
+      "Bbox": [
+        10.146189699764948,
+        46.506125141798016,
+        16.533628494875593,
+        48.67412444086842
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "GLO",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/GTIF-AT/WR02/GLO_hori_sum_2006-2023.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
