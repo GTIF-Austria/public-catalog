@@ -116,7 +116,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -137,7 +137,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -158,7 +158,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -221,7 +221,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -236,13 +236,13 @@
       "rel": "child",
       "href": "./excess_heat_dir_eepot_w23_wocc/collection.json",
       "type": "application/json",
-      "title": "Waste Heat - Direct Utilization",
+      "title": "Excess Heat - Direct Utilization",
       "id": "excess_heat_dir_eepot_w23_wocc",
       "themes": [
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -263,7 +263,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -368,7 +368,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -389,7 +389,7 @@
         "Energy Transition"
       ],
       "providers": [
-        "AEE Intec",
+        "AEE INTEC",
         "AIT Center for Energy"
       ],
       "thumbnail": [
@@ -411,7 +411,7 @@
       ],
       "providers": [
         "AIT Center for Energy",
-        "AEE Intec"
+        "AEE INTEC"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg"
@@ -432,7 +432,7 @@
       ],
       "providers": [
         "AIT Center for Energy",
-        "AEE Intec"
+        "AEE INTEC"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg"
