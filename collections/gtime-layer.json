@@ -1,5 +1,5 @@
 {
-  "Name": "GTIME Layer",
+  "Name": "GTIME_Layer",
   "Title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
   "Description": "The RGB colour model is used to visualize vegetation status and changes across three user-defined time periods (in this case: T1: 2018, T2: 2021, and T3: 2024). This vegetation change model is based on a semantic Earth Observation (EO) data cube, utilizing all available Sentinel-2 observations within each time frame. It calculates the percentage of vegetation presence among valid (cloud- and snow-free) observations. As a result, the model not only depicts changes over time but also reflects variations in vegetation intensity and transitions between vegetation and non-vegetation. Vegetation percentages are represented as integer values within the respective colour channels.",
   "CollectionGroup": "EO Adaptation Services",
@@ -29,22 +29,14 @@
       "Attribution": "Developed by the University of Salzburg, Department of Geoinformatics - Z_GIS & Spatial Services with funding from the Austrian Research Promotion Agency (FFG) under the Austrian Space Application Programme (ASAP) within the project INTERFACE (contract no: FO999892652) and under the Digital Twin Austria Programme within the project GTIME (contract no: FO999918383)."
     }
   ],
-  "EodashIdentifier": "GTIME Layer",
   "Themes": [],
   "Tags": [],
-  "DataSource": {},
   "Image": "assets/thumbnail_gtime_layer.png",
-  "License": "",
-  "Locations": [],
   "Provider": [
     {
       "Name": "ZGIS",
       "Url": "https://www.plus.ac.at/geoinformatik/"
     }
    ],
-  "Citation": {
-    "DOI": "",
-    "Citation": ""
-  },
   "Legend": "assets/Cube_legend_landscape_en.jpg"
 }

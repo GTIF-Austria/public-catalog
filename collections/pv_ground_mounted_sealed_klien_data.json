@@ -1,0 +1,60 @@
+{
+    "Name": "pv_ground_mounted_sealed_eepot_w23_wocc",
+    "Title": "Ground-Mounted PV Systems on Sealed Land",
+    "Themes": [
+        "Energy Transition"
+    ],
+    "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-ground-mounted.jpg",
+    "CollectionGroup": "KLIEN Data – Photovoltaic Energy Potential",
+    "Stories": [
+        {
+            "Name": "Narrative Photovoltaic",
+            "Url": "https://gtif-austria.info/narratives/photovoltaic"
+        }
+    ],
+    "Provider": [
+        {
+            "Name": "Umweltbundesamt",
+            "Url": "https://www.umweltbundesamt.at/en/"
+        },
+        {
+            "Name": "AIT Center for Energy",
+            "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_PV.md",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/pv/pv_ground_mounted_sealed/style.json",
+            "Bbox": [
+                9.5,
+                46.4,
+                17.1,
+                49.1
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20300101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.pv_ground_mounted_sealed_eepot_w23/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/pv_ground_mounted_sealed_eepot_form_comparison.json",
+        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/pv_ground_mounted_sealed_eepot_chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.pv_ground_mounted_sealed_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}

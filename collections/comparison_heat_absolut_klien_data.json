@@ -1,0 +1,60 @@
+{
+    "Name": "comparison_generated_heat_absolut_eepot_w23_wocc",
+    "Title": "Heat Generation Potential",
+    "Themes": [
+        "Energy Transition"
+    ],
+    "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Energy%20Planning%20-%20Heat.jpg",
+    "CollectionGroup": "Support for Energy Planning – Heat Demand and Supply Potentials",
+    "Stories": [
+        {
+            "Name": "Narrative Support for Energy Planning – Heat Demand and Supply Potentials",
+            "Url": "https://gtif-austria.info/narratives/t70-comparison-heat"
+        }
+    ],
+    "Provider": [
+        {
+            "Name": "AIT Center for Energy",
+            "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+        },
+        {
+            "Name": "AEE INTEC",
+            "Url": "https://www.aee-intec.at/"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_Comparison_heat.md",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/ambient/comparison/comparison_generated_heat_absolut_style.json",
+            "Bbox": [
+                9.5,
+                46.4,
+                17.1,
+                49.1
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20300101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.comparison_generated_heat_absolut_eepot_w23/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/comparison_generated_heat_absolut_eepot_form_comparison.json",
+        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/comparison_generated_heat_absolut_eepot_chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.comparison_generated_heat_absolut_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}
