@@ -20,7 +20,6 @@
   "tags": [
     "city_temperature"
   ],
-  "subcode": "heating_degree_days",
   "endpointtype": "COG source",
   "title": "Heating Degree Days",
   "extent": {
