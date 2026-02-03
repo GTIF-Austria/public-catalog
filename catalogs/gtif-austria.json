@@ -45,6 +45,6 @@
     "pvpot_fc",
     "n_vision_indicator",
     "brownfield-recovery-potential",
-    "wr03nowcastingwind"
+    "wr03_wind_nowcasting"
   ]
 }
