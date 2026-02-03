@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "WR03_Nowcasting_Wind_Collection",
+  "id": "wr03_wind_nowcasting_collection",
   "stac_version": "1.1.0",
   "description": "High-resolution wind speed nowcasting for Austria at multiple hub heights (50m, 100m, 150m). Data is derived from the INCA+ nowcasting system operated by GeoSphere Austria, with wind speeds extrapolated to turbine hub heights using terrain-aware algorithms. Spatial resolution: 1km, temporal resolution: 15 minutes, forecast range: 3 hours. Data provided as Cloud Optimized GeoTIFF (COG) in EPSG:4326.",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./WR03_Nowcasting_Wind_Collection/collection.json",
+      "href": "./wr03_wind_nowcasting_collection/collection.json",
       "type": "application/json",
       "title": "Windspeed Nowcasting at hub heights",
       "endpointtype": "COG source",
-      "id": "WR03_Nowcasting_Wind_Collection"
+      "id": "wr03_wind_nowcasting_collection"
     },
     {
       "rel": "xyz",
