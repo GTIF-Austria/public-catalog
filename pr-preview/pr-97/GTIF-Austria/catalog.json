@@ -748,10 +748,10 @@
     },
     {
       "rel": "child",
-      "href": "./WR03_Nowcasting_Wind/collection.json",
+      "href": "./WR03_Nowcasting_Wind_Collection/collection.json",
       "type": "application/json",
       "title": "Windspeed Nowcasting at hub heights",
-      "id": "WR03_Nowcasting_Wind"
+      "id": "WR03_Nowcasting_Wind_Collection"
     },
     {
       "rel": "self",
