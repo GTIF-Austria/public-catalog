@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "city_temperature_indicator",
   "stac_version": "1.1.0",
-  "description": "By integrating precise satellite-based data, air temperature is calculated on a 100-meter grid to simulate and forecast its spatial and hourly variations. The model integrates multiple high-resolution datasets to enhance forecast accuracy:\n* Satellite-based land cover data (e.g., Sentinel-2) to map surface properties and urban structures.\n* Building density and surface material analysis to account for urban heat storage and emission.\n* Vegetation and green space influence to assess cooling effects from parks and tree canopies.\n* Anthropogenic heat emissions from industry and residential heating/cooling.\n\n**Technical features**\n* Spatial gridding:\t100m\n* Temporal gridding:\t1 hour\n* Forecast range:\t+30 hours\n* Forecast time:\t00 UTC",
+  "description": "This dataset provides high-resolution (100 m) air temperature forecasts and derived heating and cooling degree days for Vienna. The data shown in the explorer are example results from a heatwave in June/July 2019.\n\nAir temperature is simulated hourly on a 100 m grid using urban-specific information, including building density, land cover, vegetation, and anthropogenic heat emissions. This allows identification of neighbourhood-scale heat hotspots and temperature variations that cannot be captured by standard regional weather models.\n\n**Displayed variables**\n\n* 2 m Air Temperature (°C)\nHourly air temperature at pedestrian level, resolved at 100 m.\n* Cooling Degree Days (CDD)\n    Indicator of cooling demand. High values highlight areas and times where air conditioning or other cooling measures may be needed.\n* Heating Degree Days (HDD)\n    Indicator of heating demand. During this heatwave, HDD values are zero, as heating is not required.\n\n**Purpose and use**\n* Assessment of urban heat stress and identification of vulnerable neighborhoods\n* Energy planning, including cooling demand for buildings",
   "links": [
     {
       "rel": "root",
@@ -16,15 +16,13 @@
       "type": "application/json",
       "title": "City temperature forecast",
       "endpointtype": "COG source",
-      "code": "city_temperature",
       "id": "citytemperaturecollection",
+      "providers": [
+        "GeoSphere"
+      ],
       "tags": [
         "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
-      ],
-      "subcode": "city_temperature"
+      ]
     },
     {
       "rel": "child",
@@ -32,18 +30,16 @@
       "type": "application/json",
       "title": "Cooling Degree Days",
       "endpointtype": "COG source",
-      "code": "cooling_degree_days",
       "id": "cooling_degree_days",
+      "providers": [
+        "GeoSphere"
+      ],
       "roles": [
         "disable"
       ],
       "tags": [
         "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
-      ],
-      "subcode": "cooling_degree_days"
+      ]
     },
     {
       "rel": "child",
@@ -51,18 +47,16 @@
       "type": "application/json",
       "title": "Heating Degree Days",
       "endpointtype": "COG source",
-      "code": "heating_degree_days",
       "id": "heating_degree_days",
+      "providers": [
+        "GeoSphere"
+      ],
       "roles": [
         "disable"
       ],
       "tags": [
         "city_temperature"
-      ],
-      "agency": [
-        "GeoSphere Austria"
-      ],
-      "subcode": "heating_degree_days"
+      ]
     },
     {
       "rel": "service",
@@ -73,15 +67,15 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2022",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "visible"
       ],
-      "id": "cloudless-2022",
-      "attribution": "{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -126,8 +120,10 @@
       "title": "GTIF Austria"
     }
   ],
-  "subcode": "city_temperature_indicator",
-  "collection_group": "Capabilities",
+  "themes": [
+    "Sustainable Cities"
+  ],
+  "collection_group": "Sustainable Cities",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json",
   "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria",
@@ -170,12 +166,13 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoSphere",
+      "url": "https://www.geosphere.at/en"
+    }
+  ],
   "summaries": {
-    "subcode": [
-      "heating_degree_days",
-      "cooling_degree_days",
-      "city_temperature"
-    ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
     ]
