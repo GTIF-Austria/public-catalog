@@ -748,10 +748,13 @@
     },
     {
       "rel": "child",
-      "href": "./wr03_wind_nowcasting_collection/collection.json",
+      "href": "./wr03_wind_nowcasting/collection.json",
       "type": "application/json",
-      "title": "Windspeed Nowcasting at hub heights",
-      "id": "wr03_wind_nowcasting_collection"
+      "title": "Wind Speed and Power Nowcasting",
+      "id": "wr03_wind_nowcasting",
+      "providers": [
+        "GeoSphere"
+      ]
     },
     {
       "rel": "self",

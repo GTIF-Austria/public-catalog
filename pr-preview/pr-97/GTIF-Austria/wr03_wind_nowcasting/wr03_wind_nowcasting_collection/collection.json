@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Windspeed Nowcasting at hub heights"
+      "title": "Wind Speed and Power Nowcasting"
     }
   ],
   "endpointtype": "COG source",
