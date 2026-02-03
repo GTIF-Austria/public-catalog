@@ -13,13 +13,14 @@
   ],
   "Process": {
     "Name": "timeseries",
-    "JsonForm": "",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
     "EndPoints": [
       {
-        "Identifier": "",
-        "Url": "",
-        "Type": "application/geo+json"
+        "Identifier": "cogstats",
+        "Url": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-97/GTIF-Austria/WR03_Nowcasting_Wind/WR03_Nowcasting_Wind/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+        "Type": "application/json"
       }
-    ]
+    ],
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/vegawind.json"
   }
 }
