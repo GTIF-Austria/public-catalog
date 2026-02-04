@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Urban energy performance monitor",
       "endpointtype": "GeoJSON source",
-      "id": "UEPI_visualizer_2"
+      "id": "UEPI_visualizer_2",
+      "providers": [
+        "Austrian Institute of Technology - Digital resilient cities and regions"
+      ]
     },
     {
       "rel": "xyz",
@@ -55,16 +58,16 @@
     "spatial": {
       "bbox": [
         [
-          16.252,
-          48.086,
-          16.311,
-          48.106
+          16.255767946312947,
+          48.08438283145376,
+          16.316170870817853,
+          48.10503139601241
         ],
         [
-          16.252,
-          48.086,
-          16.311,
-          48.106
+          16.255767946312947,
+          48.08438283145376,
+          16.316170870817853,
+          48.10503139601241
         ]
       ]
     },
@@ -78,6 +81,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Austrian Institute of Technology - Digital resilient cities and regions",
+      "url": "https://www.ait.ac.at/en/solutions/sustainable-cities-regions-and-living-spaces"
+    }
+  ],
   "summaries": {
     "thumbnail": [
       "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260128%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260128T115834Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea728a7c28ba47e2979df71c72f684224b2b9ea1669dd1f6e89fc8f2bd2bf047"

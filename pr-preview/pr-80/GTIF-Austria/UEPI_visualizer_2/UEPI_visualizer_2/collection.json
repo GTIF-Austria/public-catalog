@@ -32,10 +32,10 @@
     "spatial": {
       "bbox": [
         [
-          16.252,
-          48.086,
-          16.311,
-          48.106
+          16.255767946312947,
+          48.08438283145376,
+          16.316170870817853,
+          48.10503139601241
         ]
       ]
     },
@@ -49,6 +49,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Austrian Institute of Technology - Digital resilient cities and regions",
+      "url": "https://www.ait.ac.at/en/solutions/sustainable-cities-regions-and-living-spaces"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
