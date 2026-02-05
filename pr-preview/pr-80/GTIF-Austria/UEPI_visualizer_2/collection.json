@@ -17,9 +17,14 @@
       "title": "Urban energy performance monitor",
       "endpointtype": "GeoJSON source",
       "id": "UEPI_visualizer_2",
+      "themes": [
+        "Sustainable Cities",
+        "Energy Transition"
+      ],
       "providers": [
         "Austrian Institute of Technology - Digital resilient cities and regions"
-      ]
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "xyz",
@@ -52,7 +57,12 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260128%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260128T115834Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea728a7c28ba47e2979df71c72f684224b2b9ea1669dd1f6e89fc8f2bd2bf047",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg",
+  "themes": [
+    "Sustainable Cities",
+    "Energy Transition"
+  ],
+  "collection_group": "Sustainable Cities",
   "title": "Urban energy performance monitor",
   "extent": {
     "spatial": {
@@ -88,13 +98,17 @@
     }
   ],
   "summaries": {
+    "themes": [
+      "Sustainable Cities",
+      "Energy Transition"
+    ],
     "thumbnail": [
-      "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260128%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260128T115834Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea728a7c28ba47e2979df71c72f684224b2b9ea1669dd1f6e89fc8f2bd2bf047"
+      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260128%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260128T115834Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea728a7c28ba47e2979df71c72f684224b2b9ea1669dd1f6e89fc8f2bd2bf047",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
