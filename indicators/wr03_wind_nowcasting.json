@@ -3,7 +3,9 @@
   "Title": "Wind Speed and Power Nowcasting",
   "Description": "The data layers *Wind Speed* and *Wind power* show the results of the nowcasting for 3 hours on 16th June 2025 from 09:00 to 12:00 UTC. The time resolution is 15min.\n\nThe data layer shows wind speed at hub height (100m above ground) in m/s. Wind speeds are extrapolated from 10m using terrain-aware logarithmic and power law methods.\n \nThe wind speed nowcasting is based on GeoSphere Austria's *INCA+* high-resolution analysis and nowcasting system. The data is provided in 15min temporal and 1000m spatial resolution. \n\nIn combination with turbine-specific power curves from *windpowerlib*, the theoretical power output for various turbine types (Enercon E-101, Vestas V90) is calculated.",
   "Collections": [
-    "wr03_wind_nowcasting_collection"
+    "wr03_wind_nowcasting_collection",
+    "wr03_wind_power_enercon",
+    "wr03_wind_power_vestas"
   ],
   "Provider": [
     {
@@ -13,7 +15,7 @@
   ],
   "Process": {
     "Name": "timeseries",
-    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
     "EndPoints": [
       {
         "Identifier": "cogstats",
@@ -21,6 +23,6 @@
         "Type": "application/json"
       }
     ],
-    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/vegawind.json"
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/vegawind.json"
   }
 }
