@@ -757,13 +757,6 @@
       ]
     },
     {
-      "rel": "child",
-      "href": "./wr03_wind_power_enercon/collection.json",
-      "type": "application/json",
-      "title": "Wind Power Output - Enercon E-101 (3.0 MW)",
-      "id": "wr03_wind_power_enercon"
-    },
-    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"

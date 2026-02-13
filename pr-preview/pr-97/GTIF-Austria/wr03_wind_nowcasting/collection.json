@@ -19,6 +19,22 @@
       "id": "wr03_wind_nowcasting_collection"
     },
     {
+      "rel": "child",
+      "href": "./wr03_wind_power_enercon/collection.json",
+      "type": "application/json",
+      "title": "Wind Power Output - Enercon E-101 (3.0 MW)",
+      "endpointtype": "COG source",
+      "id": "wr03_wind_power_enercon"
+    },
+    {
+      "rel": "child",
+      "href": "./wr03_wind_power_vestas/collection.json",
+      "type": "application/json",
+      "title": "Wind Power Output - Vestas V90 (2.0 MW)",
+      "endpointtype": "COG source",
+      "id": "wr03_wind_power_vestas"
+    },
+    {
       "rel": "service",
       "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-97/GTIF-Austria/wr03_wind_nowcasting/wr03_wind_nowcasting_collection/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
@@ -80,12 +96,24 @@
       "title": "GTIF Austria"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/vegawind.json",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/vegawind.json",
   "title": "Wind Speed and Power Nowcasting",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
+        ],
         [
           -180.0,
           -85.0,
