@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Super Resolution Land Surface Temperature",
+  "id": "SuperResolutionLandSurfaceTemperature",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "# Super Resolution Land Surface Temperature",
   "links": [
     {
       "rel": "root",
@@ -80,7 +80,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-02-13T13:54:05.481790Z",
+          "2026-02-13T13:59:23.817609Z",
           null
         ]
       ]

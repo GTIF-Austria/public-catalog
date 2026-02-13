@@ -766,10 +766,10 @@
     },
     {
       "rel": "child",
-      "href": "./Super Resolution Land Surface Temperature/collection.json",
+      "href": "./SuperResolutionLandSurfaceTemperature/collection.json",
       "type": "application/json",
       "title": "Super Resolution Land Surface Temperature",
-      "id": "Super Resolution Land Surface Temperature"
+      "id": "SuperResolutionLandSurfaceTemperature"
     },
     {
       "rel": "self",
