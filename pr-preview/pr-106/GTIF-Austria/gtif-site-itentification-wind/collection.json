@@ -20,7 +20,7 @@
     },
     {
       "rel": "service",
-      "href": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-windatlas-process",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-windatlas-process/execution",
       "type": "application/json",
       "id": "git-windatlas-process",
       "method": "POST",
