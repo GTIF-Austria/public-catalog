@@ -45,6 +45,7 @@
     "pvpot_fc",
     "n_vision_indicator",
     "brownfield-recovery-potential",
-    "wp04_uepi"
+    "wp04_uepi",
+    "super-resolution-land-surface-temperature"
   ]
 }
