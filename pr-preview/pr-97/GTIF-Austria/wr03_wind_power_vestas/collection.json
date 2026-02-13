@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "wr03_wind_nowcasting",
+  "id": "wr03_wind_power_vestas",
   "stac_version": "1.1.0",
-  "description": "The data layers *Wind Speed* and *Wind power* show the results of the nowcasting for 3 hours on 16th June 2025 from 09:00 to 12:00 UTC. The time resolution is 15min.\n\nThe data layer shows wind speed at hub height (100m above ground) in m/s. Wind speeds are extrapolated from 10m using terrain-aware logarithmic and power law methods.\n \nThe wind speed nowcasting is based on GeoSphere Austria's *INCA+* high-resolution analysis and nowcasting system. The data is provided in 15min temporal and 1000m spatial resolution. \n\nIn combination with turbine-specific power curves from *windpowerlib*, the theoretical power output for various turbine types (Enercon E-101, Vestas V90) is calculated.",
+  "description": "Estimated power output for Vestas V90 wind turbines (2.0 MW rated capacity, 80m hub height) across Austria.",
   "links": [
     {
       "rel": "root",
@@ -12,18 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./wr03_wind_nowcasting_collection/collection.json",
+      "href": "./wr03_wind_power_vestas/collection.json",
       "type": "application/json",
-      "title": "Windspeed Nowcasting at hub heights",
+      "title": "Wind Power Output - Vestas V90 (2.0 MW)",
       "endpointtype": "COG source",
-      "id": "wr03_wind_nowcasting_collection"
-    },
-    {
-      "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-97/GTIF-Austria/wr03_wind_nowcasting/wr03_wind_nowcasting_collection/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
-      "type": "application/json",
-      "id": "cogstats",
-      "method": "GET"
+      "id": "wr03_wind_power_vestas"
     },
     {
       "rel": "xyz",
@@ -80,9 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/process/vegawind.json",
-  "title": "Wind Speed and Power Nowcasting",
+  "title": "Wind Power Output - Vestas V90 (2.0 MW)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -109,11 +100,5 @@
       ]
     }
   },
-  "license": "other",
-  "providers": [
-    {
-      "name": "GeoSphere",
-      "url": "https://www.geosphere.at/en"
-    }
-  ]
+  "license": "other"
 }

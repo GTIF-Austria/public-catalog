@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "wr03_wind_power_enercon",
+  "id": "wr03_wind_power_vestas",
   "stac_version": "1.1.0",
-  "description": "Estimated power output for Enercon E-101 wind turbines (3.05 MW rated capacity, 99m hub height) across Austria.",
+  "description": "Estimated power output for Vestas V90 wind turbines (2.0 MW rated capacity, 80m hub height) across Austria.",
   "links": [
     {
       "rel": "root",
@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wind Speed and Power Nowcasting"
+      "title": "Wind Power Output - Vestas V90 (2.0 MW)"
     }
   ],
   "endpointtype": "COG source",
-  "title": "Wind Power Output - Enercon E-101 (3.0 MW)",
+  "title": "Wind Power Output - Vestas V90 (2.0 MW)",
   "extent": {
     "spatial": {
       "bbox": [
