@@ -84,8 +84,8 @@
         "Method": "POST",
         "EndPoint": "eoxhub_workspaces",
         "Body": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_body.json",
-        "Type": "image/tiff",
-        "Flatstyle":"https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_flatstyle.json",
+        "Type": "application/json",
+        "Flatstyle":"https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_flatstyle.json"
       }
     ]
   }
