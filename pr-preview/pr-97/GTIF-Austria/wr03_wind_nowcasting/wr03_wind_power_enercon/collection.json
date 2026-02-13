@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "wr03_wind_power_enercon",
   "stac_version": "1.1.0",
-  "description": "Estimated power output for Enercon E-101 wind turbines (3.05 MW rated capacity, 99m hub height) across Austria. Power is calculated from wind speed nowcasts using validated turbine power curves from windpowerlib. Spatial resolution: 1km, temporal resolution: 15 minutes, forecast range: 3 hours. Data provided as Cloud Optimized GeoTIFF (COG) in EPSG:4326.",
+  "description": "Estimated power output for Enercon E-101 wind turbines (3.05 MW rated capacity, 99m hub height) across Austria.",
   "links": [
     {
       "rel": "root",
