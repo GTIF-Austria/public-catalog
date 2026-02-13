@@ -1,128 +1,24 @@
 {
   "Name": "wr03_wind_power_enercon",
   "Title": "Wind Power Output - Enercon E-101 (3.0 MW)",
-  "Description": "Estimated power output for Enercon E-101 wind turbines (3.05 MW rated capacity, 99m hub height) across Austria. Power is calculated from wind speed nowcasts using validated turbine power curves from windpowerlib. Spatial resolution: 1km, temporal resolution: 15 minutes, forecast range: 3 hours. Data provided as Cloud Optimized GeoTIFF (COG) in EPSG:4326.",
+  "Description": "Estimated power output for Enercon E-101 wind turbines (3.05 MW rated capacity, 99m hub height) across Austria.",
   "Resources": [
     {
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/style_power.json",
       "TimeEntries": [
-        {
-          "Time": "2025-06-16T09:00:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0900.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T09:15:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0915.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T09:30:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0930.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T09:45:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0945.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T10:00:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1000.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T10:15:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1015.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T10:30:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1030.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T10:45:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1045.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T11:00:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1100.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T11:15:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1115.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T11:30:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1130.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T11:45:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1145.tif"
-            }
-          ]
-        },
-        {
-          "Time": "2025-06-16T12:00:00Z",
-          "Assets": [
-            {
-              "Identifier": "data",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1200.tif"
-            }
-          ]
-        }
+        {"Time": "2025-06-16T09:00:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0900.tif"}]},
+        {"Time": "2025-06-16T09:15:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0915.tif"}]},
+        {"Time": "2025-06-16T09:30:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0930.tif"}]},
+        {"Time": "2025-06-16T09:45:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T0945.tif"}]},
+        {"Time": "2025-06-16T10:00:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1000.tif"}]},
+        {"Time": "2025-06-16T10:15:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1015.tif"}]},
+        {"Time": "2025-06-16T10:30:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1030.tif"}]},
+        {"Time": "2025-06-16T10:45:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1045.tif"}]},
+        {"Time": "2025-06-16T11:00:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1100.tif"}]},
+        {"Time": "2025-06-16T11:15:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1115.tif"}]},
+        {"Time": "2025-06-16T11:30:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1130.tif"}]},
+        {"Time": "2025-06-16T11:45:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1145.tif"}]},
+        {"Time": "2025-06-16T12:00:00Z", "Assets": [{"Identifier": "data", "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazel3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/Run_1/power_enercon_e101_3.0MW_20250616T1200.tif"}]}
       ],
       "Name": "COG source"
     }
