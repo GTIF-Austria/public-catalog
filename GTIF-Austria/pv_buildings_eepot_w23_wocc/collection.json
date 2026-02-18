@@ -152,6 +152,13 @@
       "href": "https://gtif-austria.info/narratives/photovoltaic",
       "type": "text/markdown",
       "title": "Narrative Photovoltaic",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/photovoltaic.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

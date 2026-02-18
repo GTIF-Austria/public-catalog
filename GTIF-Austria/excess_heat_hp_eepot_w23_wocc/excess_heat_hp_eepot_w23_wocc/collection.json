@@ -71,6 +71,13 @@
       "href": "https://gtif-austria.info/narratives/t74-waste-heat-v2",
       "type": "text/markdown",
       "title": "Narrative Excess Heat",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/t74-waste-heat-v2.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

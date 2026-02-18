@@ -71,6 +71,13 @@
       "href": "https://gtif-austria.info/narratives/t70-comparison-heat",
       "type": "text/markdown",
       "title": "Narrative Support for Energy Planning – Heat Demand and Supply Potentials",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/t70-comparison-heat.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"
