@@ -12,6 +12,7 @@
    },
   "collections": [
     "LULUCF_land_use_indicator",
+    "ubi-footprints",
     "ait_predictive_maintenance",
     "gtime-layer",
     "city_temperature_indicator",
