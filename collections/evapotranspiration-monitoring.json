@@ -40,6 +40,47 @@
           ]
         },
         {
+          "Time": "2025-03-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_03",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_03.tif"
+            }
+          ]
+        },
+          "Time": "2025-04-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_04",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_04.tif"
+            }
+          ]
+        },
+          "Time": "2025-05-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_05",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_05.tif"
+            }
+          ]
+        },
+          "Time": "2025-06-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_06",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_06.tif"
+            }
+          ]
+        },
+          "Time": "2025-07-01",
+          "Assets": [
+            {
+              "Identifier": "Evapotrans_monit_2025_07",
+              "File": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/Austria_ET_2025_07.tif"
+            }
+          ]
+        },
+        {
           "Time": "2025-08-01",
           "Assets": [
             {
