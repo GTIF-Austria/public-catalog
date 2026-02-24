@@ -1,0 +1,76 @@
+{
+  "type": "Collection",
+  "id": "evapotranspiration-monitoring",
+  "stac_version": "1.1.0",
+  "description": "The Evapotranspiration Monitoring Demonstrator is a web-based geospatial service that provides high-resolution, regularly updated maps of actual evapotranspiration (ETa) estimates at a spatial resolution of up to 10 meters, across Austria. The platform enables users to visualize and analyse ETa data through an interactive map interface, supporting evidence-based decision-making in climate adaptation, water management, and urban planning. \n\nThrough its layered data structure, the demonstrator supports flexible analysis for different application areas, including agriculture, green infrastructure, and urban heat mitigation. For 2025 harmonized monthly evapotranspiration aggregations are continuously generated and made available, enabling long-term monitoring and comparative analyses across Austria and years.\n\nValidation: The accuracy of the estimated ETa values are validated using in-situ measurements collected at multiple sites across Austria during the years 2022 and 2023. These observations provide a reliable basis for assessing the performance and robustness of the monitoring approach. The validation was performed by Universität für Bodenkultur Wien (BOKU). \n\n© 2025 Sistema GmbH. All rights reserved. When using data or information derived from the “High Resolution Evapotranspiration Service” in publications, websites, or other media, please include the following citation: \"Data provided by Sistema GmbH “High Resolution Evapotranspiration service”, part of the [GTIF-AT initiative](https://gtif-austria.info/narratives/evapotranspiration\\_maps).\"",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/evapotrans_monit/color_table_ET_Austria_simple.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Evapotrans_monit_2025_12"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Evapotranspiration Monitoring Demonstrator for Austria"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
+  "collection_group": "Carbon Accounting",
+  "endpointtype": "COG source",
+  "title": "Evapotranspiration Monitoring Demonstrator for Austria",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.040413513663806,
+          45.860352891576,
+          17.397020060526515,
+          49.46746319842481
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Sistema",
+      "url": "https://www.sistema.at/applications/technology/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
