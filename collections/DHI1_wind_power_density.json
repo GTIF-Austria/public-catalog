@@ -1,0 +1,75 @@
+{
+  "Name": "wind_power_density",
+  "Title": "Wind Energy Assessment",
+  "EodashIdentifier": "DHI1",
+  "Description": "Wind Power Density - The wind power density (w m 2 ) is a measure of the available wind resource. Higher wind power density indicates greater wind power potential.",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/test/dhi_style.json",
+      "Bbox": [
+        9.978753668096008,
+        45.791503409256876,
+        17.31470187720354,
+        49.19933750639548
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2018",
+          "Assets": [
+            {
+              "Identifier": "windpowerdensity",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/DHI/PowerDensity_100m_Austria_WGS84_COG_clipped_3857_fix.tif"
+            },
+            {
+              "Identifier": "elevation",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/DHI/Copernicus_DSM_COG_10m_3857_fix.tif"
+            },
+            {
+              "Identifier": "slope",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/DHI/Copernicus_10m_DSM_COG_Slope_3857_fix.tif"
+            },
+            {
+              "Identifier": "settlementdistance",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/DHI/WSF_EucDist_Austria_3857_COG_fix.tif"
+            }
+          ],
+          "Attribution": ""
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": "",
+      "Attribution": ""
+    }
+  ],
+  "Services": [],
+  "References": [],
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "CollectionGroup": "",
+  "Process": {
+    "Name": "",
+    "JsonForm": "",
+    "VegaDefinition": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "",
+        "EndPoint": "",
+        "Method": "GET",
+        "Body": "",
+        "Flatstyle": ""
+      }
+    ]
+  }
+}
