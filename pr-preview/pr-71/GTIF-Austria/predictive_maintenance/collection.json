@@ -16,9 +16,11 @@
       "type": "application/json",
       "title": "Predictive Maintenance",
       "endpointtype": "GeoJSON source",
-      "code": "AIT1",
       "id": "predictive_maintenance",
-      "subcode": "AIT1"
+      "providers": [
+        "AIT Center for Transport Technologies"
+      ],
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "service",
@@ -49,7 +51,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
@@ -67,7 +69,7 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
-  "subcode": "AIT1",
+  "collection_group": "Mobility Transition",
   "eox:colorlegend": {
     "title": "Ground movement",
     "range": [
@@ -117,10 +119,13 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Transport Technologies",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+  ],
   "summaries": {
-    "subcode": [
-      "AIT1"
-    ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg"
     ]
