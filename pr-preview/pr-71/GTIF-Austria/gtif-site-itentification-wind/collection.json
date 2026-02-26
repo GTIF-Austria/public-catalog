@@ -19,6 +19,16 @@
       "id": "gtif-site-itentification-wind"
     },
     {
+      "rel": "service",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-windatlas-process/execution",
+      "type": "application/json",
+      "id": "git-windatlas-process",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_body.json",
+      "eox:flatstyle": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_flatstyle.json"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -74,6 +84,7 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_form.json",
   "title": "Site Identification Wind",
   "extent": {
     "spatial": {
