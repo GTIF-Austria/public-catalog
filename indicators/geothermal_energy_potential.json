@@ -1,0 +1,30 @@
+{
+  "Name": "geothermal_energy_potential",
+  "Title": "Geothermal Energy Potential",
+  "Description": "Thermal conductivity is the ability of a ground to conduct heat from one location to another without the movement of the soil conducting the heat. It is expressed in watts per meter kelvin (W/mK). The thermal diffusivity is a measure that represents how fast heat diffuses through the soil. It is measured as mm2/sec. The two models were calculated using remote sensing data  (Sentinel-1, Sentinel-3) and interpolated ground data  (bulk density, soil texture, slope DEM, organic content, land use map, natura2000) by applying a model of water distribution to the first meter of the soil profile. The thermal conductivity layer was calculated for the whole Austria for 2024 and 2025.",
+  "CollectionGroup": "Energy Transition",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geothermal_potential_energy_preview.jpg",
+  "Provider": [
+    {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+    }
+  ],
+  "Process": {
+    "Name": "geothermal_statistics",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/form.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/vega2025.json",
+    "EndPoints": [
+      {
+        "Identifier": "geothermal_stats",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/csv/{{feature.values_.year}}/{{feature.values_.BDLNAME}}.csv",
+        "Type": "text/csv"
+      }
+    ]
+  },
+  "Collections": [
+    "austria_geothermal_stats",
+    "wr07-geothermal-energy-potential",
+    "wr07-diffusivity"
+  ]
+}

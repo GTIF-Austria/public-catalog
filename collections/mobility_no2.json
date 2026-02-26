@@ -1,0 +1,2146 @@
+{
+  "Name": "mobility_no2",
+  "Title": "Daily mobility vs NO2",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_traffic_no2_2.jpg",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "CollectionGroup": "Mobility Transition",
+  "Tags": [
+    "mobility"
+  ],
+  "Description": "## Purpose and Context\nThis layer explores the relationship between daily mobility indicators and atmospheric NO₂ concentrations by jointly analyzing HFLB-based mobility metrics and EO-based air quality data. \nEarth observation satellites, such as the TROPOMI instrument on Copernicus Sentinel-5P, provide spatially continuous measurements of tropospheric nitrogen dioxide (NO₂), a pollutant commonly associated with traffic and industrial activities.\nThe layer is designed as an exploratory analysis tool to support the identification of potential spatial and temporal associations between mobility patterns and air quality indicators, rather than to establish causal relationships.\n\n## Data Basis\nThe analysis integrates two main data sources:\n1) HFLB Mobility Indicators (daily resolution):\n - Speed\n - Motorized Share\n - Motorized Count\n - Trajectories (max)\n - Trajectories (scaled)\n\n2) EO-based NO₂ Concentrations (Sentinel-5P / TROPOMI): Tropospheric NO₂ concentrations derived from satellite observations.\nTo reduce atmospheric and observational disturbances, a quality masking procedure is applied to the NO₂ data. Only pixels with a Quality Assurance value ≥ 75 are considered, excluding measurements affected by clouds, aerosols, or unfavorable viewing conditions.\n\n## Spatial and Temporal Harmonization\nSatellite observations are acquired under varying viewing geometries, resulting in differing pixel footprints. To ensure spatial comparability NO₂ data are regridded onto a fixed, regular grid. An equirectangular grid with a resolution of 0.022° (~3 km) is used. Regridding is performed using a nearest neighbour approach on masked data.\nDue to strong day-to-day variability driven by meteorological conditions, NO₂ concentrations are temporally aggregated using a 14-day averaging window.\nOnly grid cells with at least two valid observations within the averaging period are considered.\nThis temporal aggregation reduces meteorological noise and enhances the visibility of signals related to human activity.\n\nTo enable a consistent spatial comparison between mobility and air quality indicators, mobility indicators are aggregated onto the same regular spatial grid.\n\n## Visualization and Interaction\nThe map visualizes gridded daily mobility indicators and NO₂ concentrations. By selecting an individual grid cell, scatter plots are generated showing the correlation between each mobility indicator and the corresponding NO₂ concentration.\nThis interactive functionality allows users to explore indicator-specific relationships, compare the explanatory behavior of different mobility metrics, and to identify outliers and non-linear patterns.\n\n## Interpretation and Limitations\nObserved correlations should be interpreted with caution. Atmospheric NO₂ concentrations are influenced by multiple factors, including meteorological conditions or background pollution levels. As a result, the displayed relationships represent statistical associations rather than direct emission–immission linkages.\nThe layer is therefore intended for hypothesis generation and comparative exploration, not for quantitative impact assessment.",
+  "Provider": [
+    {
+      "Name": "AIT Center for Transport Technologies",
+      "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+    ],
+   "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/style_no2.json",
+      "Bbox": [
+        9.5,
+        44.5,
+        18,
+        49.9
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20210701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-01T00:00:00"
+        },
+        {
+          "Time": "20210702",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-02T00:00:00"
+        },
+        {
+          "Time": "20210703",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-03T00:00:00"
+        },
+        {
+          "Time": "20210704",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-04T00:00:00"
+        },
+        {
+          "Time": "20210705",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-05T00:00:00"
+        },
+        {
+          "Time": "20210706",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-06T00:00:00"
+        },
+        {
+          "Time": "20210707",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-07T00:00:00"
+        },
+        {
+          "Time": "20210708",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-08T00:00:00"
+        },
+        {
+          "Time": "20210709",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-09T00:00:00"
+        },
+        {
+          "Time": "20210710",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-10T00:00:00"
+        },
+        {
+          "Time": "20210711",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-11T00:00:00"
+        },
+        {
+          "Time": "20210712",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-12T00:00:00"
+        },
+        {
+          "Time": "20210713",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-13T00:00:00"
+        },
+        {
+          "Time": "20210714",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-14T00:00:00"
+        },
+        {
+          "Time": "20210715",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-15T00:00:00"
+        },
+        {
+          "Time": "20210716",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-16T00:00:00"
+        },
+        {
+          "Time": "20210717",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-17T00:00:00"
+        },
+        {
+          "Time": "20210718",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-18T00:00:00"
+        },
+        {
+          "Time": "20210719",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-19T00:00:00"
+        },
+        {
+          "Time": "20210720",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-20T00:00:00"
+        },
+        {
+          "Time": "20210721",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-21T00:00:00"
+        },
+        {
+          "Time": "20210722",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-22T00:00:00"
+        },
+        {
+          "Time": "20210723",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-23T00:00:00"
+        },
+        {
+          "Time": "20210724",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-24T00:00:00"
+        },
+        {
+          "Time": "20210725",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-25T00:00:00"
+        },
+        {
+          "Time": "20210726",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-26T00:00:00"
+        },
+        {
+          "Time": "20210727",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-27T00:00:00"
+        },
+        {
+          "Time": "20210728",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-28T00:00:00"
+        },
+        {
+          "Time": "20210729",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-29T00:00:00"
+        },
+        {
+          "Time": "20210730",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-30T00:00:00"
+        },
+        {
+          "Time": "20210731",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-31T00:00:00"
+        },
+        {
+          "Time": "20210801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-01T00:00:00"
+        },
+        {
+          "Time": "20210802",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-02T00:00:00"
+        },
+        {
+          "Time": "20210803",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-03T00:00:00"
+        },
+        {
+          "Time": "20210804",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-04T00:00:00"
+        },
+        {
+          "Time": "20210806",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-06T00:00:00"
+        },
+        {
+          "Time": "20210807",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-07T00:00:00"
+        },
+        {
+          "Time": "20210808",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-08T00:00:00"
+        },
+        {
+          "Time": "20210809",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-09T00:00:00"
+        },
+        {
+          "Time": "20210810",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-10T00:00:00"
+        },
+        {
+          "Time": "20210811",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-11T00:00:00"
+        },
+        {
+          "Time": "20210812",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-12T00:00:00"
+        },
+        {
+          "Time": "20210813",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-13T00:00:00"
+        },
+        {
+          "Time": "20210814",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-14T00:00:00"
+        },
+        {
+          "Time": "20210815",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-15T00:00:00"
+        },
+        {
+          "Time": "20210816",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-16T00:00:00"
+        },
+        {
+          "Time": "20210817",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-17T00:00:00"
+        },
+        {
+          "Time": "20210818",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-18T00:00:00"
+        },
+        {
+          "Time": "20210819",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-19T00:00:00"
+        },
+        {
+          "Time": "20210820",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-20T00:00:00"
+        },
+        {
+          "Time": "20210821",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-21T00:00:00"
+        },
+        {
+          "Time": "20210822",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-22T00:00:00"
+        },
+        {
+          "Time": "20210823",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-23T00:00:00"
+        },
+        {
+          "Time": "20210824",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-24T00:00:00"
+        },
+        {
+          "Time": "20210825",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-25T00:00:00"
+        },
+        {
+          "Time": "20210826",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-26T00:00:00"
+        },
+        {
+          "Time": "20210827",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-27T00:00:00"
+        },
+        {
+          "Time": "20210828",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-28T00:00:00"
+        },
+        {
+          "Time": "20210829",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-29T00:00:00"
+        },
+        {
+          "Time": "20210830",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-30T00:00:00"
+        },
+        {
+          "Time": "20210831",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-31T00:00:00"
+        },
+        {
+          "Time": "20210901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-01T00:00:00"
+        },
+        {
+          "Time": "20210902",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-02T00:00:00"
+        },
+        {
+          "Time": "20210903",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-03T00:00:00"
+        },
+        {
+          "Time": "20210904",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-04T00:00:00"
+        },
+        {
+          "Time": "20210905",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-05T00:00:00"
+        },
+        {
+          "Time": "20210906",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-06T00:00:00"
+        },
+        {
+          "Time": "20210907",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-07T00:00:00"
+        },
+        {
+          "Time": "20210908",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-08T00:00:00"
+        },
+        {
+          "Time": "20210909",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-09T00:00:00"
+        },
+        {
+          "Time": "20210910",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-10T00:00:00"
+        },
+        {
+          "Time": "20210911",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-11T00:00:00"
+        },
+        {
+          "Time": "20210912",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-12T00:00:00"
+        },
+        {
+          "Time": "20210913",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-13T00:00:00"
+        },
+        {
+          "Time": "20210914",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-14T00:00:00"
+        },
+        {
+          "Time": "20210915",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-15T00:00:00"
+        },
+        {
+          "Time": "20210916",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-16T00:00:00"
+        },
+        {
+          "Time": "20210917",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-17T00:00:00"
+        },
+        {
+          "Time": "20210918",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-18T00:00:00"
+        },
+        {
+          "Time": "20210919",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-19T00:00:00"
+        },
+        {
+          "Time": "20210921",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-21T00:00:00"
+        },
+        {
+          "Time": "20210922",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-22T00:00:00"
+        },
+        {
+          "Time": "20210923",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-23T00:00:00"
+        },
+        {
+          "Time": "20210924",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-24T00:00:00"
+        },
+        {
+          "Time": "20210925",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-25T00:00:00"
+        },
+        {
+          "Time": "20210926",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-26T00:00:00"
+        },
+        {
+          "Time": "20210927",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-27T00:00:00"
+        },
+        {
+          "Time": "20210928",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-28T00:00:00"
+        },
+        {
+          "Time": "20210929",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-29T00:00:00"
+        },
+        {
+          "Time": "20210930",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-30T00:00:00"
+        },
+        {
+          "Time": "20211001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-01T00:00:00"
+        },
+        {
+          "Time": "20211002",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-02T00:00:00"
+        },
+        {
+          "Time": "20211003",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-03T00:00:00"
+        },
+        {
+          "Time": "20211004",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-04T00:00:00"
+        },
+        {
+          "Time": "20211005",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-05T00:00:00"
+        },
+        {
+          "Time": "20211006",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-06T00:00:00"
+        },
+        {
+          "Time": "20211007",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-07T00:00:00"
+        },
+        {
+          "Time": "20211008",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-08T00:00:00"
+        },
+        {
+          "Time": "20211009",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-09T00:00:00"
+        },
+        {
+          "Time": "20211010",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-10T00:00:00"
+        },
+        {
+          "Time": "20211011",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-11T00:00:00"
+        },
+        {
+          "Time": "20211012",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-12T00:00:00"
+        },
+        {
+          "Time": "20211013",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-13T00:00:00"
+        },
+        {
+          "Time": "20211014",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-14T00:00:00"
+        },
+        {
+          "Time": "20211015",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-15T00:00:00"
+        },
+        {
+          "Time": "20211016",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-16T00:00:00"
+        },
+        {
+          "Time": "20211017",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-17T00:00:00"
+        },
+        {
+          "Time": "20211018",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-18T00:00:00"
+        },
+        {
+          "Time": "20211019",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-19T00:00:00"
+        },
+        {
+          "Time": "20211020",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-20T00:00:00"
+        },
+        {
+          "Time": "20211021",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-21T00:00:00"
+        },
+        {
+          "Time": "20211022",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-22T00:00:00"
+        },
+        {
+          "Time": "20211023",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-23T00:00:00"
+        },
+        {
+          "Time": "20211024",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-24T00:00:00"
+        },
+        {
+          "Time": "20211025",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-25T00:00:00"
+        },
+        {
+          "Time": "20211026",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-26T00:00:00"
+        },
+        {
+          "Time": "20211027",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-27T00:00:00"
+        },
+        {
+          "Time": "20211028",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-28T00:00:00"
+        },
+        {
+          "Time": "20211029",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-29T00:00:00"
+        },
+        {
+          "Time": "20211030",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-30T00:00:00"
+        },
+        {
+          "Time": "20211031",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-31T00:00:00"
+        },
+        {
+          "Time": "20211101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-01T00:00:00"
+        },
+        {
+          "Time": "20211102",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-02T00:00:00"
+        },
+        {
+          "Time": "20211103",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-03T00:00:00"
+        },
+        {
+          "Time": "20211105",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-05T00:00:00"
+        },
+        {
+          "Time": "20211106",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-06T00:00:00"
+        },
+        {
+          "Time": "20211107",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-07T00:00:00"
+        },
+        {
+          "Time": "20211109",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-09T00:00:00"
+        },
+        {
+          "Time": "20211110",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-10T00:00:00"
+        },
+        {
+          "Time": "20211111",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-11T00:00:00"
+        },
+        {
+          "Time": "20211112",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-12T00:00:00"
+        },
+        {
+          "Time": "20211113",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-13T00:00:00"
+        },
+        {
+          "Time": "20211114",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-14T00:00:00"
+        },
+        {
+          "Time": "20211115",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-15T00:00:00"
+        },
+        {
+          "Time": "20211116",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-16T00:00:00"
+        },
+        {
+          "Time": "20211117",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-17T00:00:00"
+        },
+        {
+          "Time": "20211118",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-18T00:00:00"
+        },
+        {
+          "Time": "20211119",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-19T00:00:00"
+        },
+        {
+          "Time": "20211120",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-20T00:00:00"
+        },
+        {
+          "Time": "20211121",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-21T00:00:00"
+        },
+        {
+          "Time": "20211122",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-22T00:00:00"
+        },
+        {
+          "Time": "20211123",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-23T00:00:00"
+        },
+        {
+          "Time": "20211124",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-24T00:00:00"
+        },
+        {
+          "Time": "20211125",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-25T00:00:00"
+        },
+        {
+          "Time": "20211127",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-27T00:00:00"
+        },
+        {
+          "Time": "20211128",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-28T00:00:00"
+        },
+        {
+          "Time": "20211129",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-29T00:00:00"
+        },
+        {
+          "Time": "20211130",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-30T00:00:00"
+        },
+        {
+          "Time": "20211201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-01T00:00:00"
+        },
+        {
+          "Time": "20211202",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-02T00:00:00"
+        },
+        {
+          "Time": "20211203",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-03T00:00:00"
+        },
+        {
+          "Time": "20211204",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-04T00:00:00"
+        },
+        {
+          "Time": "20211205",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-05T00:00:00"
+        },
+        {
+          "Time": "20211206",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-06T00:00:00"
+        },
+        {
+          "Time": "20211207",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-07T00:00:00"
+        },
+        {
+          "Time": "20211208",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-08T00:00:00"
+        },
+        {
+          "Time": "20211210",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-10T00:00:00"
+        },
+        {
+          "Time": "20211212",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-12T00:00:00"
+        },
+        {
+          "Time": "20211213",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-13T00:00:00"
+        },
+        {
+          "Time": "20211214",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-14T00:00:00"
+        },
+        {
+          "Time": "20211215",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-15T00:00:00"
+        },
+        {
+          "Time": "20211216",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-16T00:00:00"
+        },
+        {
+          "Time": "20211217",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-17T00:00:00"
+        },
+        {
+          "Time": "20211218",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-18T00:00:00"
+        },
+        {
+          "Time": "20211219",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-19T00:00:00"
+        },
+        {
+          "Time": "20211220",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-20T00:00:00"
+        },
+        {
+          "Time": "20211221",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-21T00:00:00"
+        },
+        {
+          "Time": "20211222",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-22T00:00:00"
+        },
+        {
+          "Time": "20211223",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-23T00:00:00"
+        },
+        {
+          "Time": "20211224",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-24T00:00:00"
+        },
+        {
+          "Time": "20211225",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-25T00:00:00"
+        },
+        {
+          "Time": "20211226",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-26T00:00:00"
+        },
+        {
+          "Time": "20211227",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-27T00:00:00"
+        },
+        {
+          "Time": "20211228",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-28T00:00:00"
+        },
+        {
+          "Time": "20211229",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-29T00:00:00"
+        },
+        {
+          "Time": "20211230",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-30T00:00:00"
+        },
+        {
+          "Time": "20211231",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-31T00:00:00"
+        },
+        {
+          "Time": "20220101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-01T00:00:00"
+        },
+        {
+          "Time": "20220102",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-02T00:00:00"
+        },
+        {
+          "Time": "20220103",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-03T00:00:00"
+        },
+        {
+          "Time": "20220104",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-04T00:00:00"
+        },
+        {
+          "Time": "20220106",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-06T00:00:00"
+        },
+        {
+          "Time": "20220107",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-07T00:00:00"
+        },
+        {
+          "Time": "20220108",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-08T00:00:00"
+        },
+        {
+          "Time": "20220109",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-09T00:00:00"
+        },
+        {
+          "Time": "20220110",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-10T00:00:00"
+        },
+        {
+          "Time": "20220111",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-11T00:00:00"
+        },
+        {
+          "Time": "20220112",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-12T00:00:00"
+        },
+        {
+          "Time": "20220115",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-15T00:00:00"
+        },
+        {
+          "Time": "20220116",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-16T00:00:00"
+        },
+        {
+          "Time": "20220117",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-17T00:00:00"
+        },
+        {
+          "Time": "20220118",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-18T00:00:00"
+        },
+        {
+          "Time": "20220119",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-19T00:00:00"
+        },
+        {
+          "Time": "20220120",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-20T00:00:00"
+        },
+        {
+          "Time": "20220121",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-21T00:00:00"
+        },
+        {
+          "Time": "20220122",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-22T00:00:00"
+        },
+        {
+          "Time": "20220123",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-23T00:00:00"
+        },
+        {
+          "Time": "20220124",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-24T00:00:00"
+        },
+        {
+          "Time": "20220125",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-25T00:00:00"
+        },
+        {
+          "Time": "20220126",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-26T00:00:00"
+        },
+        {
+          "Time": "20220127",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-27T00:00:00"
+        },
+        {
+          "Time": "20220128",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-28T00:00:00"
+        },
+        {
+          "Time": "20220129",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-29T00:00:00"
+        },
+        {
+          "Time": "20220130",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-30T00:00:00"
+        },
+        {
+          "Time": "20220131",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-31T00:00:00"
+        },
+        {
+          "Time": "20220201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-01T00:00:00"
+        },
+        {
+          "Time": "20220202",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-02T00:00:00"
+        },
+        {
+          "Time": "20220203",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-03T00:00:00"
+        },
+        {
+          "Time": "20220204",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-04T00:00:00"
+        },
+        {
+          "Time": "20220205",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-05T00:00:00"
+        },
+        {
+          "Time": "20220206",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-06T00:00:00"
+        },
+        {
+          "Time": "20220207",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-07T00:00:00"
+        },
+        {
+          "Time": "20220208",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-08T00:00:00"
+        },
+        {
+          "Time": "20220209",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-09T00:00:00"
+        },
+        {
+          "Time": "20220210",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-10T00:00:00"
+        },
+        {
+          "Time": "20220211",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-11T00:00:00"
+        },
+        {
+          "Time": "20220212",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-12T00:00:00"
+        },
+        {
+          "Time": "20220213",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-13T00:00:00"
+        },
+        {
+          "Time": "20220214",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-14T00:00:00"
+        },
+        {
+          "Time": "20220215",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-15T00:00:00"
+        },
+        {
+          "Time": "20220216",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-16T00:00:00"
+        },
+        {
+          "Time": "20220217",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-17T00:00:00"
+        },
+        {
+          "Time": "20220218",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-18T00:00:00"
+        },
+        {
+          "Time": "20220219",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-19T00:00:00"
+        },
+        {
+          "Time": "20220220",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-20T00:00:00"
+        },
+        {
+          "Time": "20220221",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-21T00:00:00"
+        },
+        {
+          "Time": "20220222",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-22T00:00:00"
+        },
+        {
+          "Time": "20220223",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-23T00:00:00"
+        },
+        {
+          "Time": "20220224",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-24T00:00:00"
+        },
+        {
+          "Time": "20220226",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-26T00:00:00"
+        },
+        {
+          "Time": "20220227",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-27T00:00:00"
+        },
+        {
+          "Time": "20220228",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-02-28T00:00:00"
+        },
+        {
+          "Time": "20220301",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-01T00:00:00"
+        },
+        {
+          "Time": "20220302",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-02T00:00:00"
+        },
+        {
+          "Time": "20220303",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-03T00:00:00"
+        },
+        {
+          "Time": "20220304",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-04T00:00:00"
+        },
+        {
+          "Time": "20220305",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-05T00:00:00"
+        },
+        {
+          "Time": "20220306",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-06T00:00:00"
+        },
+        {
+          "Time": "20220307",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-07T00:00:00"
+        },
+        {
+          "Time": "20220308",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-08T00:00:00"
+        },
+        {
+          "Time": "20220309",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-09T00:00:00"
+        },
+        {
+          "Time": "20220310",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-10T00:00:00"
+        },
+        {
+          "Time": "20220311",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-11T00:00:00"
+        },
+        {
+          "Time": "20220312",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-12T00:00:00"
+        },
+        {
+          "Time": "20220313",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-13T00:00:00"
+        },
+        {
+          "Time": "20220314",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-14T00:00:00"
+        },
+        {
+          "Time": "20220315",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-15T00:00:00"
+        },
+        {
+          "Time": "20220316",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-16T00:00:00"
+        },
+        {
+          "Time": "20220317",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-17T00:00:00"
+        },
+        {
+          "Time": "20220318",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-18T00:00:00"
+        },
+        {
+          "Time": "20220319",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-19T00:00:00"
+        },
+        {
+          "Time": "20220320",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-20T00:00:00"
+        },
+        {
+          "Time": "20220321",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-21T00:00:00"
+        },
+        {
+          "Time": "20220322",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-22T00:00:00"
+        },
+        {
+          "Time": "20220323",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-23T00:00:00"
+        },
+        {
+          "Time": "20220324",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-24T00:00:00"
+        },
+        {
+          "Time": "20220325",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-25T00:00:00"
+        },
+        {
+          "Time": "20220326",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-26T00:00:00"
+        },
+        {
+          "Time": "20220327",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-27T00:00:00"
+        },
+        {
+          "Time": "20220328",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-28T00:00:00"
+        },
+        {
+          "Time": "20220329",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-29T00:00:00"
+        },
+        {
+          "Time": "20220330",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-30T00:00:00"
+        },
+        {
+          "Time": "20220331",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-03-31T00:00:00"
+        },
+        {
+          "Time": "20220401",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-01T00:00:00"
+        },
+        {
+          "Time": "20220402",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-02T00:00:00"
+        },
+        {
+          "Time": "20220403",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-03T00:00:00"
+        },
+        {
+          "Time": "20220404",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-04T00:00:00"
+        },
+        {
+          "Time": "20220405",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-05T00:00:00"
+        },
+        {
+          "Time": "20220406",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-06T00:00:00"
+        },
+        {
+          "Time": "20220407",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-07T00:00:00"
+        },
+        {
+          "Time": "20220408",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-08T00:00:00"
+        },
+        {
+          "Time": "20220409",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-09T00:00:00"
+        },
+        {
+          "Time": "20220410",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-10T00:00:00"
+        },
+        {
+          "Time": "20220411",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-11T00:00:00"
+        },
+        {
+          "Time": "20220412",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-12T00:00:00"
+        },
+        {
+          "Time": "20220413",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-13T00:00:00"
+        },
+        {
+          "Time": "20220414",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-14T00:00:00"
+        },
+        {
+          "Time": "20220415",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-15T00:00:00"
+        },
+        {
+          "Time": "20220416",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-16T00:00:00"
+        },
+        {
+          "Time": "20220417",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-17T00:00:00"
+        },
+        {
+          "Time": "20220418",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-18T00:00:00"
+        },
+        {
+          "Time": "20220419",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-19T00:00:00"
+        },
+        {
+          "Time": "20220420",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-20T00:00:00"
+        },
+        {
+          "Time": "20220421",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-21T00:00:00"
+        },
+        {
+          "Time": "20220422",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-22T00:00:00"
+        },
+        {
+          "Time": "20220423",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-23T00:00:00"
+        },
+        {
+          "Time": "20220424",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-24T00:00:00"
+        },
+        {
+          "Time": "20220425",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-25T00:00:00"
+        },
+        {
+          "Time": "20220426",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-26T00:00:00"
+        },
+        {
+          "Time": "20220427",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-27T00:00:00"
+        },
+        {
+          "Time": "20220428",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-28T00:00:00"
+        },
+        {
+          "Time": "20220429",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-29T00:00:00"
+        },
+        {
+          "Time": "20220430",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-04-30T00:00:00"
+        },
+        {
+          "Time": "20220503",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-03T00:00:00"
+        },
+        {
+          "Time": "20220504",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-04T00:00:00"
+        },
+        {
+          "Time": "20220505",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-05T00:00:00"
+        },
+        {
+          "Time": "20220506",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-06T00:00:00"
+        },
+        {
+          "Time": "20220507",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-07T00:00:00"
+        },
+        {
+          "Time": "20220508",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-08T00:00:00"
+        },
+        {
+          "Time": "20220509",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-09T00:00:00"
+        },
+        {
+          "Time": "20220510",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-10T00:00:00"
+        },
+        {
+          "Time": "20220511",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-11T00:00:00"
+        },
+        {
+          "Time": "20220513",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-13T00:00:00"
+        },
+        {
+          "Time": "20220514",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-14T00:00:00"
+        },
+        {
+          "Time": "20220515",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-15T00:00:00"
+        },
+        {
+          "Time": "20220517",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-17T00:00:00"
+        },
+        {
+          "Time": "20220518",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-18T00:00:00"
+        },
+        {
+          "Time": "20220522",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-22T00:00:00"
+        },
+        {
+          "Time": "20220523",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-23T00:00:00"
+        },
+        {
+          "Time": "20220524",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-24T00:00:00"
+        },
+        {
+          "Time": "20220525",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-25T00:00:00"
+        },
+        {
+          "Time": "20220526",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-26T00:00:00"
+        },
+        {
+          "Time": "20220527",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-27T00:00:00"
+        },
+        {
+          "Time": "20220528",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-28T00:00:00"
+        },
+        {
+          "Time": "20220529",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-29T00:00:00"
+        },
+        {
+          "Time": "20220530",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-30T00:00:00"
+        },
+        {
+          "Time": "20220531",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-05-31T00:00:00"
+        },
+        {
+          "Time": "20220601",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-01T00:00:00"
+        },
+        {
+          "Time": "20220602",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-02T00:00:00"
+        },
+        {
+          "Time": "20220603",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-03T00:00:00"
+        },
+        {
+          "Time": "20220604",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-04T00:00:00"
+        },
+        {
+          "Time": "20220605",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-05T00:00:00"
+        },
+        {
+          "Time": "20220606",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-06T00:00:00"
+        },
+        {
+          "Time": "20220607",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-07T00:00:00"
+        },
+        {
+          "Time": "20220608",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-08T00:00:00"
+        },
+        {
+          "Time": "20220609",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-09T00:00:00"
+        },
+        {
+          "Time": "20220610",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-10T00:00:00"
+        },
+        {
+          "Time": "20220611",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-11T00:00:00"
+        },
+        {
+          "Time": "20220612",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-12T00:00:00"
+        },
+        {
+          "Time": "20220613",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-13T00:00:00"
+        },
+        {
+          "Time": "20220614",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-14T00:00:00"
+        },
+        {
+          "Time": "20220615",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-15T00:00:00"
+        },
+        {
+          "Time": "20220616",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-16T00:00:00"
+        },
+        {
+          "Time": "20220617",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-17T00:00:00"
+        },
+        {
+          "Time": "20220618",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-18T00:00:00"
+        },
+        {
+          "Time": "20220619",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-19T00:00:00"
+        },
+        {
+          "Time": "20220620",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-20T00:00:00"
+        },
+        {
+          "Time": "20220621",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-21T00:00:00"
+        },
+        {
+          "Time": "20220622",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-22T00:00:00"
+        },
+        {
+          "Time": "20220623",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-23T00:00:00"
+        },
+        {
+          "Time": "20220624",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-24T00:00:00"
+        },
+        {
+          "Time": "20220625",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-25T00:00:00"
+        },
+        {
+          "Time": "20220626",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-26T00:00:00"
+        },
+        {
+          "Time": "20220627",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-27T00:00:00"
+        },
+        {
+          "Time": "20220628",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-28T00:00:00"
+        },
+        {
+          "Time": "20220629",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-29T00:00:00"
+        },
+        {
+          "Time": "20220630",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-06-30T00:00:00"
+        },
+        {
+          "Time": "20220701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-01T00:00:00"
+        },
+        {
+          "Time": "20220702",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-02T00:00:00"
+        },
+        {
+          "Time": "20220703",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-03T00:00:00"
+        },
+        {
+          "Time": "20220704",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-04T00:00:00"
+        },
+        {
+          "Time": "20220705",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-05T00:00:00"
+        },
+        {
+          "Time": "20220706",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-06T00:00:00"
+        },
+        {
+          "Time": "20220707",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-07T00:00:00"
+        },
+        {
+          "Time": "20220708",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-08T00:00:00"
+        },
+        {
+          "Time": "20220709",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-09T00:00:00"
+        },
+        {
+          "Time": "20220710",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-10T00:00:00"
+        },
+        {
+          "Time": "20220711",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-11T00:00:00"
+        },
+        {
+          "Time": "20220712",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-12T00:00:00"
+        },
+        {
+          "Time": "20220713",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-13T00:00:00"
+        },
+        {
+          "Time": "20220714",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-14T00:00:00"
+        },
+        {
+          "Time": "20220715",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-15T00:00:00"
+        },
+        {
+          "Time": "20220716",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-16T00:00:00"
+        },
+        {
+          "Time": "20220717",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-17T00:00:00"
+        },
+        {
+          "Time": "20220718",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-18T00:00:00"
+        },
+        {
+          "Time": "20220719",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-19T00:00:00"
+        },
+        {
+          "Time": "20220720",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-20T00:00:00"
+        },
+        {
+          "Time": "20220721",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-21T00:00:00"
+        },
+        {
+          "Time": "20220722",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-22T00:00:00"
+        },
+        {
+          "Time": "20220723",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-23T00:00:00"
+        },
+        {
+          "Time": "20220724",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-24T00:00:00"
+        },
+        {
+          "Time": "20220725",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-25T00:00:00"
+        },
+        {
+          "Time": "20220726",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-26T00:00:00"
+        },
+        {
+          "Time": "20220727",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-27T00:00:00"
+        },
+        {
+          "Time": "20220728",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-28T00:00:00"
+        },
+        {
+          "Time": "20220729",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-29T00:00:00"
+        },
+        {
+          "Time": "20220730",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-30T00:00:00"
+        },
+        {
+          "Time": "20220731",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-07-31T00:00:00"
+        },
+        {
+          "Time": "20220801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-01T00:00:00"
+        },
+        {
+          "Time": "20220802",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-02T00:00:00"
+        },
+        {
+          "Time": "20220803",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-03T00:00:00"
+        },
+        {
+          "Time": "20220804",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-04T00:00:00"
+        },
+        {
+          "Time": "20220805",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-05T00:00:00"
+        },
+        {
+          "Time": "20220806",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-06T00:00:00"
+        },
+        {
+          "Time": "20220807",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-07T00:00:00"
+        },
+        {
+          "Time": "20220808",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-08T00:00:00"
+        },
+        {
+          "Time": "20220809",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-09T00:00:00"
+        },
+        {
+          "Time": "20220810",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-10T00:00:00"
+        },
+        {
+          "Time": "20220811",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-11T00:00:00"
+        },
+        {
+          "Time": "20220812",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-12T00:00:00"
+        },
+        {
+          "Time": "20220813",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-13T00:00:00"
+        },
+        {
+          "Time": "20220814",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-14T00:00:00"
+        },
+        {
+          "Time": "20220815",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-15T00:00:00"
+        },
+        {
+          "Time": "20220816",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-16T00:00:00"
+        },
+        {
+          "Time": "20220817",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-17T00:00:00"
+        },
+        {
+          "Time": "20220818",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-18T00:00:00"
+        },
+        {
+          "Time": "20220819",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-19T00:00:00"
+        },
+        {
+          "Time": "20220820",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-20T00:00:00"
+        },
+        {
+          "Time": "20220821",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-21T00:00:00"
+        },
+        {
+          "Time": "20220822",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-22T00:00:00"
+        },
+        {
+          "Time": "20220823",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-23T00:00:00"
+        },
+        {
+          "Time": "20220824",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-24T00:00:00"
+        },
+        {
+          "Time": "20220825",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-25T00:00:00"
+        },
+        {
+          "Time": "20220826",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-26T00:00:00"
+        },
+        {
+          "Time": "20220827",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-27T00:00:00"
+        },
+        {
+          "Time": "20220828",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-28T00:00:00"
+        },
+        {
+          "Time": "20220829",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-29T00:00:00"
+        },
+        {
+          "Time": "20220830",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-30T00:00:00"
+        },
+        {
+          "Time": "20220831",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-08-31T00:00:00"
+        },
+        {
+          "Time": "20220901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-01T00:00:00"
+        },
+        {
+          "Time": "20220902",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-02T00:00:00"
+        },
+        {
+          "Time": "20220903",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-03T00:00:00"
+        },
+        {
+          "Time": "20220904",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-04T00:00:00"
+        },
+        {
+          "Time": "20220905",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-05T00:00:00"
+        },
+        {
+          "Time": "20220906",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-06T00:00:00"
+        },
+        {
+          "Time": "20220907",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-07T00:00:00"
+        },
+        {
+          "Time": "20220908",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-08T00:00:00"
+        },
+        {
+          "Time": "20220909",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-09T00:00:00"
+        },
+        {
+          "Time": "20220910",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-10T00:00:00"
+        },
+        {
+          "Time": "20220911",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-11T00:00:00"
+        },
+        {
+          "Time": "20220912",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-12T00:00:00"
+        },
+        {
+          "Time": "20220913",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-13T00:00:00"
+        },
+        {
+          "Time": "20220914",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-14T00:00:00"
+        },
+        {
+          "Time": "20220915",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-15T00:00:00"
+        },
+        {
+          "Time": "20220916",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-16T00:00:00"
+        },
+        {
+          "Time": "20220917",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-17T00:00:00"
+        },
+        {
+          "Time": "20220918",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-18T00:00:00"
+        },
+        {
+          "Time": "20220919",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-19T00:00:00"
+        },
+        {
+          "Time": "20220920",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-20T00:00:00"
+        },
+        {
+          "Time": "20220921",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-21T00:00:00"
+        },
+        {
+          "Time": "20220922",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-22T00:00:00"
+        },
+        {
+          "Time": "20220923",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-23T00:00:00"
+        },
+        {
+          "Time": "20220924",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-24T00:00:00"
+        },
+        {
+          "Time": "20220925",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-25T00:00:00"
+        },
+        {
+          "Time": "20220926",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-26T00:00:00"
+        },
+        {
+          "Time": "20220927",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-27T00:00:00"
+        },
+        {
+          "Time": "20220929",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-29T00:00:00"
+        },
+        {
+          "Time": "20220930",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-09-30T00:00:00"
+        },
+        {
+          "Time": "20221001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-01T00:00:00"
+        },
+        {
+          "Time": "20221002",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-02T00:00:00"
+        },
+        {
+          "Time": "20221003",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-03T00:00:00"
+        },
+        {
+          "Time": "20221004",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-04T00:00:00"
+        },
+        {
+          "Time": "20221005",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-05T00:00:00"
+        },
+        {
+          "Time": "20221006",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-06T00:00:00"
+        },
+        {
+          "Time": "20221007",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-07T00:00:00"
+        },
+        {
+          "Time": "20221008",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-08T00:00:00"
+        },
+        {
+          "Time": "20221009",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-09T00:00:00"
+        },
+        {
+          "Time": "20221010",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-10T00:00:00"
+        },
+        {
+          "Time": "20221011",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-11T00:00:00"
+        },
+        {
+          "Time": "20221012",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-12T00:00:00"
+        },
+        {
+          "Time": "20221013",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-13T00:00:00"
+        },
+        {
+          "Time": "20221014",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-14T00:00:00"
+        },
+        {
+          "Time": "20221016",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-16T00:00:00"
+        },
+        {
+          "Time": "20221017",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-17T00:00:00"
+        },
+        {
+          "Time": "20221018",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-18T00:00:00"
+        },
+        {
+          "Time": "20221019",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-19T00:00:00"
+        },
+        {
+          "Time": "20221020",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-20T00:00:00"
+        },
+        {
+          "Time": "20221021",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-21T00:00:00"
+        },
+        {
+          "Time": "20221022",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-22T00:00:00"
+        },
+        {
+          "Time": "20221023",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-23T00:00:00"
+        },
+        {
+          "Time": "20221024",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-24T00:00:00"
+        },
+        {
+          "Time": "20221025",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-25T00:00:00"
+        },
+        {
+          "Time": "20221026",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-26T00:00:00"
+        },
+        {
+          "Time": "20221027",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-27T00:00:00"
+        },
+        {
+          "Time": "20221028",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-28T00:00:00"
+        },
+        {
+          "Time": "20221029",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-29T00:00:00"
+        },
+        {
+          "Time": "20221030",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-30T00:00:00"
+        },
+        {
+          "Time": "20221031",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-10-31T00:00:00"
+        },
+        {
+          "Time": "20221101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-01T00:00:00"
+        },
+        {
+          "Time": "20221102",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-02T00:00:00"
+        },
+        {
+          "Time": "20221103",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-03T00:00:00"
+        },
+        {
+          "Time": "20221104",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-04T00:00:00"
+        },
+        {
+          "Time": "20221105",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-05T00:00:00"
+        },
+        {
+          "Time": "20221106",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-06T00:00:00"
+        },
+        {
+          "Time": "20221107",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-07T00:00:00"
+        },
+        {
+          "Time": "20221108",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-08T00:00:00"
+        },
+        {
+          "Time": "20221109",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-09T00:00:00"
+        },
+        {
+          "Time": "20221110",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-10T00:00:00"
+        },
+        {
+          "Time": "20221111",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-11T00:00:00"
+        },
+        {
+          "Time": "20221112",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-12T00:00:00"
+        },
+        {
+          "Time": "20221113",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-13T00:00:00"
+        },
+        {
+          "Time": "20221114",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-14T00:00:00"
+        },
+        {
+          "Time": "20221115",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-15T00:00:00"
+        },
+        {
+          "Time": "20221116",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-16T00:00:00"
+        },
+        {
+          "Time": "20221117",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-17T00:00:00"
+        },
+        {
+          "Time": "20221118",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-18T00:00:00"
+        },
+        {
+          "Time": "20221119",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-19T00:00:00"
+        },
+        {
+          "Time": "20221120",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-20T00:00:00"
+        },
+        {
+          "Time": "20221121",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-21T00:00:00"
+        },
+        {
+          "Time": "20221122",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-22T00:00:00"
+        },
+        {
+          "Time": "20221123",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-23T00:00:00"
+        },
+        {
+          "Time": "20221124",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-24T00:00:00"
+        },
+        {
+          "Time": "20221125",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-25T00:00:00"
+        },
+        {
+          "Time": "20221126",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-26T00:00:00"
+        },
+        {
+          "Time": "20221127",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-27T00:00:00"
+        },
+        {
+          "Time": "20221128",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-28T00:00:00"
+        },
+        {
+          "Time": "20221129",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-29T00:00:00"
+        },
+        {
+          "Time": "20221130",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-11-30T00:00:00"
+        },
+        {
+          "Time": "20221201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-01T00:00:00"
+        },
+        {
+          "Time": "20221202",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-02T00:00:00"
+        },
+        {
+          "Time": "20221203",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-03T00:00:00"
+        },
+        {
+          "Time": "20221204",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-04T00:00:00"
+        },
+        {
+          "Time": "20221205",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-05T00:00:00"
+        },
+        {
+          "Time": "20221206",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-06T00:00:00"
+        },
+        {
+          "Time": "20221207",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-07T00:00:00"
+        },
+        {
+          "Time": "20221208",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-08T00:00:00"
+        },
+        {
+          "Time": "20221209",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-09T00:00:00"
+        },
+        {
+          "Time": "20221211",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-11T00:00:00"
+        },
+        {
+          "Time": "20221212",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-12T00:00:00"
+        },
+        {
+          "Time": "20221213",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-13T00:00:00"
+        },
+        {
+          "Time": "20221214",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-14T00:00:00"
+        },
+        {
+          "Time": "20221215",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-15T00:00:00"
+        },
+        {
+          "Time": "20221217",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-17T00:00:00"
+        },
+        {
+          "Time": "20221218",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-18T00:00:00"
+        },
+        {
+          "Time": "20221219",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-19T00:00:00"
+        },
+        {
+          "Time": "20221220",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-20T00:00:00"
+        },
+        {
+          "Time": "20221221",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-21T00:00:00"
+        },
+        {
+          "Time": "20221222",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-22T00:00:00"
+        },
+        {
+          "Time": "20221224",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-24T00:00:00"
+        },
+        {
+          "Time": "20221225",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-25T00:00:00"
+        },
+        {
+          "Time": "20221226",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-26T00:00:00"
+        },
+        {
+          "Time": "20221227",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-27T00:00:00"
+        },
+        {
+          "Time": "20221228",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-28T00:00:00"
+        },
+        {
+          "Time": "20221229",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-29T00:00:00"
+        },
+        {
+          "Time": "20221230",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.mobility_no2_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-12-30T00:00:00"
+        }
+      ]
+    }
+  ],
+    "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_no2.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_no2.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_mobility_no2_by_id/items?target_id={{feature.values_.object_id }}&f=json&limit=10000&geom-column=#.json",
+        "Type": "text/csv",
+        "Method": "GET"
+      }
+    ]
+  }
+}

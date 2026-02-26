@@ -1,10 +1,15 @@
 {
     "Name": "land_use",
     "Title": "LULUCF Time Series",
-    "EodashIdentifier": "LULUCF",
     "Description": "TBD",
     "Themes": ["TBD"],
     "Tags": ["land use"],
+    "Provider": [
+    {
+      "Name": "GeoVille",
+      "Url": "https://www.geoville.com/"
+    }
+   ],
     "DataSource": {"Spaceborne": {"Satellite": ["Combined"]}},
     "Agency": ["None"],
     "Colorlegend": {
@@ -50,7 +55,7 @@
             "Alpine dwarf shrub heaths"
         ],
         "scaleType": "categorical",
-        "markType": "rectangle"
+        "markType": "rect"
     },
     "Image": "assets/LULUCF_preview.jpg",
     "Resources": [
