@@ -670,7 +670,7 @@
       "rel": "child",
       "href": "./gtif-wind-atlas/collection.json",
       "type": "application/json",
-      "title": "Wind%20Atlas",
+      "title": "Wind Atlas",
       "id": "gtif-wind-atlas",
       "providers": [
         "Energiewerkstatt"
