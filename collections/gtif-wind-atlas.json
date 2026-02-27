@@ -32,5 +32,17 @@
         }
       ]
     }
-  ]
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/wind_atlas_form.json",
+    "EndPoints": [
+      {
+        "Identifier": "cogstats",
+        "Url": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/gtif-wind-atlas/gtif-wind-atlas/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+        "Type": "application/json"
+      }
+    ],
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/wind_atlas_vega.json"
+  }
 }
