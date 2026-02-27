@@ -670,13 +670,13 @@
       "rel": "child",
       "href": "./gtif-wind-atlas/collection.json",
       "type": "application/json",
-      "title": "Wind Atlas",
+      "title": "Wind%20Atlas",
       "id": "gtif-wind-atlas",
       "providers": [
         "Energiewerkstatt"
       ],
       "thumbnail": [
-        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png"
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png"
       ],
       "collection_group": "Energy Transition"
     },
