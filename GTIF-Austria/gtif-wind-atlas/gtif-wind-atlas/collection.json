@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/gtif-wr-01-wind-atlas-style.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/gtif-wr-01-wind-atlas-style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "cog01-WM100-all-heights"
@@ -22,13 +22,13 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wind Atlas"
+      "title": "Wind%20Atlas"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png",
   "collection_group": "Energy Transition",
   "endpointtype": "COG source",
-  "title": "Wind Atlas",
+  "title": "Wind%20Atlas",
   "extent": {
     "spatial": {
       "bbox": [
@@ -66,7 +66,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
