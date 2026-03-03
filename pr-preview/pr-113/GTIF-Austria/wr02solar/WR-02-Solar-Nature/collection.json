@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "id": "WR-02-Solar-Nature",
+  "stac_version": "1.1.0",
+  "description": "This layer presents the national parks in Austria.\nThe data can be downloaded from [data.gc.at](https://docs.umweltbundesamt.at/s/C5AKbtBp9BTPiMK).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/style_wr_02_nature.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "National Parks"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Support for REDIII - PV"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp",
+  "endpointtype": "COG source",
+  "title": "National Parks",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.144373204774606,
+          45.32263166908202,
+          18.06091477860709,
+          50.13400803885565
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "0001-01-01T00:00:00Z",
+          "0001-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Umweltbundesamt",
+      "url": "https://www.umweltbundesamt.at/en/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
