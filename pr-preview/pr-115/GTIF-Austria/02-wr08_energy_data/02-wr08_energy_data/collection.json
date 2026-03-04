@@ -1,0 +1,65 @@
+{
+  "type": "Collection",
+  "id": "02-wr08_energy_data",
+  "stac_version": "1.1.0",
+  "description": "Renewable energy production is naturally inconsistent; for instance, a dry year can significantly reduce hydropower output. Because of these fluctuations, installed capacity serves as a more stable metric for evaluating the renewable energy infrastructure across different regions.\n**The Leaderboard (2024)**\n\nThe distribution of installed capacity varies significantly across the federal states:\n\nLower Austria (Niederösterreich): Remains the undisputed leader in total capacity.\n\nUpper Austria (Oberösterreich): Claimed the second-place spot in 2024, overtaking Tyrol.\n\nTyrol (Tirol): Now holds the third position.\n\n**The \"Size\" Factor**\n\nThere is a clear correlation between a state's physical size and its capacity. Smaller states like Vienna, Burgenland, and Salzburg record the lowest shares. This isn't necessarily a lack of effort—smaller land areas simply offer less space for large-scale renewable installations compared to their sprawling neighbors.\n\nThis information has been published initially on https://www.energie.gv.at",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-energy_data_styles.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "RenewableEnergyCapacity2020",
+        "RenewableEnergyCapacity2021",
+        "RenewableEnergyCapacity2022",
+        "RenewableEnergyCapacity2023",
+        "RenewableEnergyCapacity2024"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Installed renewable energy capacity by federal state"
+    }
+  ],
+  "endpointtype": "GeoJSON source",
+  "title": "Installed renewable energy capacity by federal state",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
