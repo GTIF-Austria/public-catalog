@@ -766,24 +766,10 @@
     },
     {
       "rel": "child",
-      "href": "./01-wr08-counties/collection.json",
-      "type": "application/json",
-      "title": "Austrian Federal States",
-      "id": "01-wr08-counties"
-    },
-    {
-      "rel": "child",
       "href": "./01-wr08_energy_data/collection.json",
       "type": "application/json",
       "title": "Renewable Energy Production per State",
       "id": "01-wr08_energy_data"
-    },
-    {
-      "rel": "child",
-      "href": "./01-wr08-energy_production_comparison/collection.json",
-      "type": "application/json",
-      "title": "Renewable Energy Production Comparison per Counties",
-      "id": "01-wr08-energy_production_comparison"
     },
     {
       "rel": "self",
