@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./01-wr08_energy_data/collection.json",
       "type": "application/json",
-      "title": "Renewable Energy Production per State",
+      "title": "II Renewable Energy Production per State",
       "endpointtype": "GeoJSON source",
       "id": "01-wr08_energy_data"
     },
@@ -73,7 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Renewable Energy Production per State",
+  "title": "II Renewable Energy Production per State",
   "extent": {
     "spatial": {
       "bbox": [

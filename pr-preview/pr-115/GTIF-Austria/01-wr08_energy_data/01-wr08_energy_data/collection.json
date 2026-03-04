@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Renewable Energy Production per State"
+      "title": "II Renewable Energy Production per State"
     }
   ],
   "endpointtype": "GeoJSON source",
-  "title": "Renewable Energy Production per State",
+  "title": "II Renewable Energy Production per State",
   "extent": {
     "spatial": {
       "bbox": [
