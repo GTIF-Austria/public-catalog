@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "child",
+      "href": "./01-wr08-counties/collection.json",
+      "type": "application/json",
+      "title": "Austrian Federal States",
+      "endpointtype": "GeoJSON source",
+      "id": "01-wr08-counties"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -71,17 +79,23 @@
       "bbox": [
         [
           -180.0,
-          -90.0,
+          -85.0,
           180.0,
-          90.0
+          85.0
+        ],
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-03-04T17:19:26.595624Z",
-          null
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
         ]
       ]
     }
