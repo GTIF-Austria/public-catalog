@@ -772,6 +772,13 @@
       "id": "01-wr08-counties"
     },
     {
+      "rel": "child",
+      "href": "./01-wr08_energy_data/collection.json",
+      "type": "application/json",
+      "title": "Renewable Energy Production per State",
+      "id": "01-wr08_energy_data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
