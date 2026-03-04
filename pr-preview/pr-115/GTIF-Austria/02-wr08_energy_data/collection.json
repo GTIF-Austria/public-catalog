@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "02-wr08_energy_data",
   "stac_version": "1.1.0",
-  "description": "Renewable energy production is naturally inconsistent; for instance, a dry year can significantly reduce hydropower output. Because of these fluctuations, installed capacity serves as a more stable metric for evaluating the renewable energy infrastructure across different regions.\n**The Leaderboard (2024)**\n\nThe distribution of installed capacity varies significantly across the federal states:\n\nLower Austria (Niederösterreich): Remains the undisputed leader in total capacity.\n\nUpper Austria (Oberösterreich): Claimed the second-place spot in 2024, overtaking Tyrol.\n\nTyrol (Tirol): Now holds the third position.\n\n**The \"Size\" Factor**\n\nThere is a clear correlation between a state's physical size and its capacity. Smaller states like Vienna, Burgenland, and Salzburg record the lowest shares. This isn't necessarily a lack of effort—smaller land areas simply offer less space for large-scale renewable installations compared to their sprawling neighbors.\n\nThis information has been published initially on https://www.energie.gv.at",
+  "description": "Renewable energy production is naturally inconsistent; for instance, a dry year can significantly reduce hydropower output. Because of these fluctuations, installed capacity serves as a more stable metric for evaluating the renewable energy infrastructure across different regions.\n\n**The Leaderboard (2024)**\n\nThe distribution of installed capacity varies significantly across the federal states:\n\nLower Austria (Niederösterreich): Remains the undisputed leader in total capacity.\n\nUpper Austria (Oberösterreich): Claimed the second-place spot in 2024, overtaking Tyrol.\n\nTyrol (Tirol): Now holds the third position.\n\n**The \"Size\" Factor**\n\nThere is a clear correlation between a state's physical size and its capacity. Smaller states like Vienna, Burgenland, and Salzburg record the lowest shares. This isn't necessarily a lack of effort—smaller land areas simply offer less space for large-scale renewable installations compared to their sprawling neighbors.\n\nThis information has been published initially on https://www.energie.gv.at",
   "links": [
     {
       "rel": "root",
@@ -16,7 +16,8 @@
       "type": "application/json",
       "title": "Installed renewable energy capacity by federal state",
       "endpointtype": "GeoJSON source",
-      "id": "02-wr08_energy_data"
+      "id": "02-wr08_energy_data",
+      "collection_group": "Energy Dashboard"
     },
     {
       "rel": "xyz",
@@ -73,21 +74,23 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-austrian_renewable_energy.png",
+  "collection_group": "Energy Dashboard",
   "title": "Installed renewable energy capacity by federal state",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          9.578556248103666,
+          46.11052454356342,
+          17.379707726320735,
+          49.46206668427328
         ],
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          9.578556248103666,
+          46.11052454356342,
+          17.379707726320735,
+          49.46206668427328
         ]
       ]
     },
@@ -100,5 +103,19 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-austrian_renewable_energy.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-austrian_renewable_energy.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
