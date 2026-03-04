@@ -18,7 +18,7 @@
           "Assets": [
             {
               "Identifier": "RenewableEnergyProduction2020",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2020_v2.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2020_.geojson"
             }
           ]
         },
@@ -27,7 +27,7 @@
           "Assets": [
             {
               "Identifier": "RenewableEnergyProduction2021",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2021_v2.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2021.geojson"
             }
           ]
         },
@@ -36,7 +36,7 @@
           "Assets": [
             {
               "Identifier": "RenewableEnergyProduction2022",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2022_v2.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2022.geojson"
             }
           ]
         },
@@ -45,7 +45,7 @@
           "Assets": [
             {
               "Identifier": "RenewableEnergyProduction2023",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2023_v2.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2023.geojson"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "Assets": [
             {
               "Identifier": "RenewableEnergyProduction2024",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2023_v2.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2024.geojson"
             }
           ]
         }
