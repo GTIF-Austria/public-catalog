@@ -11,6 +11,15 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "child",
+      "href": "./03-wr08-energy_data/collection.json",
+      "type": "application/json",
+      "title": "Solar energy production",
+      "endpointtype": "GeoJSON source",
+      "id": "03-wr08-energy_data",
+      "collection_group": "Energy Dashboard"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -72,23 +81,34 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          9.449323364490283,
+          46.25304525187856,
+          17.4065661320537,
+          49.3887026320391
+        ],
+        [
+          9.449323364490283,
+          46.25304525187856,
+          17.4065661320537,
+          49.3887026320391
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-03-04T23:30:36.751869Z",
-          null
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/03/03-austrian_renewable_energy.png"
+    ]
+  },
   "assets": {
     "thumbnail": {
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/03/03-austrian_renewable_energy.png",
