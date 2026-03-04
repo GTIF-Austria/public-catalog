@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_energy_data_styles.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "RenewableEnergyProduction2023"
+        "RenewableEnergyProduction2024"
       ]
     },
     {
@@ -43,7 +43,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
