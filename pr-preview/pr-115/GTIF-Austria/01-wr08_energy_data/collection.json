@@ -19,6 +19,13 @@
       "id": "01-wr08_energy_data"
     },
     {
+      "rel": "service",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/features/{{feature}}.json",
+      "type": "application/json",
+      "id": "01-wr08-energy_production_statistics",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -73,6 +80,8 @@
       "title": "GTIF Austria"
     }
   ],
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-form.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-vega_chart.json",
   "title": "II Renewable Energy Production per State",
   "extent": {
     "spatial": {
