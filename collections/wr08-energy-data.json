@@ -17,7 +17,7 @@
           "Time": "2020",
           "Assets": [
             {
-              "Identifier": "GeoJsonFile2020v2",
+              "Identifier": "RenewableEnergyProduction2020",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2020_v2.geojson"
             }
           ]
@@ -26,7 +26,7 @@
           "Time": "2021",
           "Assets": [
             {
-              "Identifier": "GeoJsonFile2021v2",
+              "Identifier": "RenewableEnergyProduction2021",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2021_v2.geojson"
             }
           ]
@@ -35,7 +35,7 @@
           "Time": "2022",
           "Assets": [
             {
-              "Identifier": "GeoJsonFile2022v2",
+              "Identifier": "RenewableEnergyProduction2022",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2022_v2.geojson"
             }
           ]
@@ -44,7 +44,7 @@
           "Time": "2023",
           "Assets": [
             {
-              "Identifier": "GeoJsonFile2023v2",
+              "Identifier": "RenewableEnergyProduction2023",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/renewable_Austria_states_2023_v2.geojson"
             }
           ]
