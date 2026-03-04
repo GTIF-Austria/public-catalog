@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/wr08_energy_data_styles.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "GeoJsonFile2023v2"
+        "RenewableEnergyProduction2023"
       ]
     },
     {
