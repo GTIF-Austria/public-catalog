@@ -25,6 +25,7 @@
       "title": "II Renewable Energy Production per State"
     }
   ],
+  "collection_group": "Energy Dashboard",
   "endpointtype": "GeoJSON source",
   "title": "II Renewable Energy Production per State",
   "extent": {

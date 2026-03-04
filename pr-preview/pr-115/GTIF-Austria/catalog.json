@@ -769,7 +769,8 @@
       "href": "./01-wr08_energy_data/collection.json",
       "type": "application/json",
       "title": "II Renewable Energy Production per State",
-      "id": "01-wr08_energy_data"
+      "id": "01-wr08_energy_data",
+      "collection_group": "Energy Dashboard"
     },
     {
       "rel": "self",
