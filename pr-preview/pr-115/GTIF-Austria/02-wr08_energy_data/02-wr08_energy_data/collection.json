@@ -15,10 +15,6 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-wr08-energy_data_styles.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "RenewableEnergyCapacity2020",
-        "RenewableEnergyCapacity2021",
-        "RenewableEnergyCapacity2022",
-        "RenewableEnergyCapacity2023",
         "RenewableEnergyCapacity2024"
       ]
     },
@@ -48,7 +44,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
