@@ -805,6 +805,13 @@
       "collection_group": "Energy Dashboard"
     },
     {
+      "rel": "child",
+      "href": "./04-wr08-energy_data/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Capacity per Federal State",
+      "id": "04-wr08-energy_data"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
