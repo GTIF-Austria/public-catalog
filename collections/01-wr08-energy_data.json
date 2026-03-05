@@ -1,0 +1,78 @@
+{
+  "Name": "01-wr08_energy_data",
+  "Title": "Renewable Energy Production per State",
+  "Description": "Austria’s energy transition is progressing rapidly. From 2023 to 2024, electricity generation from renewable energy sources increased by 13 percent. The strongest relative growth within individual federal states was recorded in Vorarlberg, Tyrol, and Carinthia. By energy source, solar power saw the largest increase in installed capacity at 18 percent, followed by wind power (15 percent) and hydropower (12 percent). However, expansion differs significantly between the federal states.\nHydropower remains Austria’s most important renewable electricity source. Accordingly, Tyrol, Upper Austria, and Lower Austria lead in renewable generation, largely due to major hydropower plants along the Danube, Inn, Drau, Enns, and Mur rivers. The greatest expansion potential lies in photovoltaics and wind energy, where there is still considerable room for improvement. For example, in 2024 Lower Austria alone generated more electricity from photovoltaics than four western federal states combined. Additionally, five western states together accounted for only 1.60 percent of total wind energy production. To meet its national targets, Austria will need stronger efforts in certain regions, including the designation of more suitable areas for wind farms and large-scale PV systems, as well as further expansion of grids, storage systems, and flexibility options.\nThe data depicted is based on information published on the energie.gv.at website.",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "RenewableEnergyProduction2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20210101",
+          "Assets": [
+            {
+              "Identifier": "RenewableEnergyProduction2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20220101",
+          "Assets": [
+            {
+              "Identifier": "RenewableEnergyProduction2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "RenewableEnergyProduction2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "RenewableEnergyProduction2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.54356624389958,
+        46.23366880427099,
+        17.214922341866227,
+        49.02111030223346
+      ]
+    }
+  ],
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "01-wr08-energy_production_statistics",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "01-wr08-production_comparison",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-wr08-vega_chart.json"
+  },
+  "CollectionGroup": "Energy Dashboard",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/01/01-austrian_renewable_energy.png"
+}
