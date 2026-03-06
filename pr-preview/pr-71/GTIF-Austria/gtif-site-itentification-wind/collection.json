@@ -20,9 +20,9 @@
     },
     {
       "rel": "service",
-      "href": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-git-windatlas-process-3-0/execution",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-windatlas-process-3-0/execution",
       "type": "application/json",
-      "id": "git-git-windatlas-process-3-0",
+      "id": "git-windatlas-process-3-0",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
       "body": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_body.json",
