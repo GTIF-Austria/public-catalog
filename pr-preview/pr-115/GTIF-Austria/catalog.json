@@ -842,7 +842,11 @@
       "href": "./07-wr08-energy_data/collection.json",
       "type": "application/json",
       "title": "Wind power production",
-      "id": "07-wr08-energy_data"
+      "id": "07-wr08-energy_data",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-austrian_renewable_energy.png"
+      ],
+      "collection_group": "Energy Dashboard"
     },
     {
       "rel": "self",
