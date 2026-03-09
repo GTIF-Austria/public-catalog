@@ -12,10 +12,10 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-wr08-energy_data_styles.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-wr08-energy_data_styles.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "PhotovoltaicProductionConsumpion2024"
+        "PhotovoltaicProductionConsumption2024"
       ]
     },
     {
