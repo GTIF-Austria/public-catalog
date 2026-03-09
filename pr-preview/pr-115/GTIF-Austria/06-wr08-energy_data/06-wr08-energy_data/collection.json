@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "06-wr08-energy_data",
   "stac_version": "1.1.0",
-  "description": "The \"Photovoltaic Generation from 2005 to 2024 by Federal State\" vividly illustrates the massive solar energy boom that has taken hold in Austria since 2020. Lower Austria, Upper Austria, and Styria have emerged as the clear frontrunners, leading the nation in newly installed capacity. This growth is driven by ambitious national targets: the Renewable Energy Expansion Act (EAG) mandates an increase of at least 11 TWh in solar production by 2030 compared to 2020 levels. However, the Austrian Grid Infrastructure Plan (ÖNIP) suggests that even higher expansion may be necessary to keep pace with the country’s steadily rising demand for electricity.\n\nA particularly revealing metric is the ratio of solar generation to actual electricity consumption. In this category, Burgenland is the standout performer; following a sharp upward trend since 2022, the state reached a milestone in 2024, covering nearly 36% of its electricity needs through photovoltaics. Other major states are also making significant strides: Lower Austria, Styria, and Upper Austria have all seen substantial growth during this period, now sourcing between 13% and 17% of their total electricity requirements from the sun.",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-wr08-energy_data_styles.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-wr08-energy_data_styles.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "PhotovoltaicProductionConsumpion2024"
@@ -22,13 +22,13 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "PV energy production vs. consumption"
+      "title": "PV Energy Production vs. Consumption"
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-austrian_renewable_energy.png",
   "collection_group": "Energy Dashboard",
   "endpointtype": "GeoJSON source",
-  "title": "PV energy production vs. consumption",
+  "title": "PV Energy Production vs. Consumption",
   "extent": {
     "spatial": {
       "bbox": [
