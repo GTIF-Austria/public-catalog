@@ -861,10 +861,10 @@
     },
     {
       "rel": "child",
-      "href": "./06-wr08-wind_production/collection.json",
+      "href": "./10-wr08-wind_production/collection.json",
       "type": "application/json",
       "title": "Wind Energy Production vs. Consumption",
-      "id": "06-wr08-wind_production",
+      "id": "10-wr08-wind_production",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-austrian_renewable_energy.png"
       ],
