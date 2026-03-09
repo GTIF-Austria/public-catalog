@@ -25,6 +25,8 @@
       "title": "Wind Capacity per Federal State"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-austrian_renewable_energy.png",
+  "collection_group": "Energy Dashboard",
   "endpointtype": "GeoJSON source",
   "title": "Wind Capacity per Federal State",
   "extent": {
@@ -55,6 +57,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/08/08-austrian_renewable_energy.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
