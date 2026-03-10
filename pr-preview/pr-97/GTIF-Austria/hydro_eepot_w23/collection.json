@@ -152,6 +152,13 @@
       "href": "https://gtif-austria.info/narratives/tf2-hydropower",
       "type": "text/markdown",
       "title": "Narrative Hydropower",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/tf2-hydropower.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

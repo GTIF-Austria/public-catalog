@@ -79,6 +79,13 @@
       "href": "https://gtif-austria.info/narratives/comparison-grid",
       "type": "text/markdown",
       "title": "Narrative Comparison of Grid Capacities and Renewable Energy Potentials",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/comparison-grid.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

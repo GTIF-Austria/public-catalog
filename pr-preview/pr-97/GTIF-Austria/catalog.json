@@ -574,10 +574,10 @@
     },
     {
       "rel": "child",
-      "href": "./evapotranspiration_monitoring_indicator/collection.json",
+      "href": "./evapotranspiration-monitoring/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "id": "evapotranspiration_monitoring_indicator",
+      "id": "evapotranspiration-monitoring",
       "providers": [
         "Sistema"
       ],
@@ -676,7 +676,7 @@
         "Energiewerkstatt"
       ],
       "thumbnail": [
-        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Atlas.png"
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png"
       ],
       "collection_group": "Energy Transition"
     },
@@ -758,17 +758,21 @@
     },
     {
       "rel": "child",
-      "href": "./wr03_wind_power_enercon/collection.json",
+      "href": "./UEPI_visualizer_2/collection.json",
       "type": "application/json",
-      "title": "Wind Power Output - Enercon E-101 (3.0 MW)",
-      "id": "wr03_wind_power_enercon"
-    },
-    {
-      "rel": "child",
-      "href": "./wr03_wind_power_vestas/collection.json",
-      "type": "application/json",
-      "title": "Wind Power Output - Vestas V90 (2.0 MW)",
-      "id": "wr03_wind_power_vestas"
+      "title": "Urban energy performance monitor",
+      "id": "UEPI_visualizer_2",
+      "themes": [
+        "Sustainable Cities",
+        "Energy Transition"
+      ],
+      "providers": [
+        "Austrian Institute of Technology - Digital resilient cities and regions"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg"
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "self",

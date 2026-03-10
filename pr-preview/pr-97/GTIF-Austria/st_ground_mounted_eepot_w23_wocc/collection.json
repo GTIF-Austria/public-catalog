@@ -152,6 +152,13 @@
       "href": "https://gtif-austria.info/narratives/solar-thermal",
       "type": "text/markdown",
       "title": "Narrative Solar Thermal",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/solar-thermal.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

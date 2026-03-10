@@ -71,6 +71,13 @@
       "href": "https://gtif-austria.info/narratives/tf3-wind-energy",
       "type": "text/markdown",
       "title": "Narrative Wind Power",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/tf3-wind-energy.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"
