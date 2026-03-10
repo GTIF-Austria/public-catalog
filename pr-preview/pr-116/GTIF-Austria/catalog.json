@@ -775,6 +775,13 @@
       "collection_group": "Sustainable Cities"
     },
     {
+      "rel": "child",
+      "href": "./wr03_wind_power_vestas/collection.json",
+      "type": "application/json",
+      "title": "Wind Power Output - Vestas V90 (2.0 MW)",
+      "id": "wr03_wind_power_vestas"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
