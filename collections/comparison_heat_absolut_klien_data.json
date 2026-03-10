@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Support for Energy Planning – Heat Demand and Supply Potentials",
-            "Url": "https://gtif-austria.info/narratives/t70-comparison-heat"
+            "Id": "t70-comparison-heat"
         }
     ],
     "Provider": [

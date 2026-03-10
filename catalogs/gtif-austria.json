@@ -6,6 +6,10 @@
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
   "assets_endpoint": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main",
+  "stories_endpoint": {
+     "rendered_url": "https://gtif-austria.info/narratives/{id}",
+     "raw_url": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main"
+   },
   "collections": [
     "LULUCF_land_use_indicator",
     "ait_predictive_maintenance",
@@ -35,7 +39,7 @@
     "comparison_electricity_mv_klien_data",
     "comparison_grid_c_klien_data",
     "comparison_grid_e_klien_data",
-    "evapotranspiration_monitoring_indicator",
+    "evapotranspiration-monitoring",
     "mobility_ihr_pm25_pm10",
     "mobility_asfinag",
     "mobility_no2",
@@ -45,6 +49,7 @@
     "pvpot_fc",
     "n_vision_indicator",
     "brownfield-recovery-potential",
-    "wr03_wind_nowcasting"
+    "wr03_wind_nowcasting",
+    "wp04_uepi"
   ]
 }

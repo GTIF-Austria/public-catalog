@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Support for Energy Planning – Electricity Demand and Supply Potentials",
-            "Url": "https://gtif-austria.info/narratives/tf00-comparison-electricity"
+            "Id": "tf00-comparison-electricity"
         }
     ],
     "Provider": [

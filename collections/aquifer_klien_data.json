@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Shallow Geothermal Energy and Groundwater",
-            "Url": "https://gtif-austria.info/narratives/geothermal"
+            "Id": "geothermal"
         }
     ],
     "Provider": [
