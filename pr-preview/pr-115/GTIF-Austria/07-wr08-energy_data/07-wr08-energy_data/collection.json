@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "07-wr08-energy_data",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "**Wind Energy Expansion: Bridging the Gap Between Potential and Production**\nWhile solar energy has seen a rapid \"boom\" in recent years, wind power represents the second vital pillar of Austria’s renewable energy strategy. Despite possessing immense natural potential, the wind sector has not yet achieved the same expansion velocity as photovoltaics. This disparity is largely attributed to the regulatory and administrative landscape; the project planning and permitting phases for wind turbines are significantly more complex and time-consuming than those for solar installations.\n**Geographic Imbalance and the Need for \"Tailwind\"**\nCurrently, Austria’s wind energy landscape is characterized by a sharp geographic divide. Development is heavily concentrated in the eastern regions, while the western and southern provinces continue to lag behind. To move the needle, a stronger \"tailwind\" from regional governments is essential to modernize the current infrastructure.\nThis information has been published initially on https://www.energie.gv.at\nElectricity generation from wind power in GWh, source: Data on output from EAG Monitoring Report 2025 by E-Control, data on generation from Energy Balance 2024 by Statistics Austria via energie.gv.at, accessed on: February 26, 2026, 10:38 a.m.",
   "links": [
     {
       "rel": "root",
@@ -22,13 +22,13 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wind power production"
+      "title": "Wind Energy Production"
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-austrian_renewable_energy.png",
   "collection_group": "Energy Dashboard",
   "endpointtype": "GeoJSON source",
-  "title": "Wind power production",
+  "title": "Wind Energy Production",
   "extent": {
     "spatial": {
       "bbox": [
