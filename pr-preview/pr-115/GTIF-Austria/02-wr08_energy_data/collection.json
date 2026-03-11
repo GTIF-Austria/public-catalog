@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./02-wr08_energy_data/collection.json",
       "type": "application/json",
-      "title": "Installed renewable energy capacity by federal state",
+      "title": "Installed Renewable Energy Capacity by Federal State",
       "endpointtype": "GeoJSON source",
       "id": "02-wr08_energy_data",
       "collection_group": "Energy Dashboard"
@@ -85,7 +85,7 @@
   "collection_group": "Energy Dashboard",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-wr08-form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-wr08-vega_chart.json",
-  "title": "Installed renewable energy capacity by federal state",
+  "title": "Installed Renewable Energy Capacity by Federal State",
   "extent": {
     "spatial": {
       "bbox": [
