@@ -797,7 +797,7 @@
       "rel": "child",
       "href": "./03-wr08-energy_data/collection.json",
       "type": "application/json",
-      "title": "Solar energy production",
+      "title": "Solar Energy Production",
       "id": "03-wr08-energy_data",
       "thumbnail": [
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/03/03-austrian_renewable_energy.png"
