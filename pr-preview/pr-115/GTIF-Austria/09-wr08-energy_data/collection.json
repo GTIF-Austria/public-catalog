@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "05-wr08-energy_data",
+  "id": "09-wr08-energy_data",
   "stac_version": "1.1.0",
-  "description": "**The Solar Boom in Austria: Trends and Targets**\nSince 2020, Austria hasn’t just been soaking up the sun; it’s been aggressively converting it into a powerhouse. Data from 2005 through 2024 reveals a massive \"photovoltaic boom,\" with Lower Austria, Upper Austria, and Styria emerging as the heavy hitters in regional solar expansion. This steep climb in generation highlights a significant shift in the national energy landscape, showing that the country's transition to renewables has effectively shifted into high gear over the last few years.\nLooking ahead to 2030, the targets are even sunnier—if a bit more demanding. The Renewable Energy Expansion Act (EAG) mandates a minimum boost of 11 TWh over 2020 levels, but that might only be the baseline. According to the Austrian Network Infrastructure Plan (ÖNIP), rising electricity consumption means the actual expansion potential—and necessity—is likely much higher. These scenarios suggest that to keep the grid stable and the carbon footprint low, the infrastructure will need to support an even more ambitious rollout than originally planned.\nThis information has been published initially on https://www.energie.gv.at\nElectricity generation from photovoltaics in GWh, source: Energy balance from Statistics Austria 2024 via energie.gv.at, accessed on: February 26, 2026, 10:36 a.m.",
+  "description": "The data reveals a striking East-West divide in the distribution of Austria’s wind energy infrastructure. While the eastern provinces have aggressively expanded their capacity, the western Alpine regions—specifically Tyrol, Vorarlberg, and Salzburg—currently have no operational wind turbines. Closing this geographic gap is viewed as a critical priority for ensuring national energy security and long-term price stability as the country approaches its 2030 renewable energy targets.\n**Leaders, Followers, and Pioneers**\nThe concentration of wind power remains heavily weighted toward the eastern states, though the roles of individual provinces have shifted over time:\n* The Powerhouses: Lower Austria stands as the undisputed leader, generating more than half of the nation's total wind power. Burgenland also remains a major contributor, accounting for roughly one-third of the national output.\n* Moderate Contributors: In contrast, Carinthia, Vienna, and Upper Austria maintain a more limited presence in the sector, providing moderate shares of both installed capacity and total generation.\n* Historical Context: Interestingly, the data shows that Upper Austria was the original pioneer of the industry, hosting the nation’s very first wind farm in Eberschwang back in 1996. While wind energy utilization began well before the mid-2000s, the current landscape reflects highly divergent regional development paths.\nThis information has been published initially on https://www.energie.gv.at\nElectricity generation from wind power in GWh, source: Energy balance 2024 from Statistics Austria via energie.gv.at, accessed on: February 26, 2026, 10:38 a.m.",
   "links": [
     {
       "rel": "root",
@@ -12,19 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./05-wr08-energy_data/collection.json",
+      "href": "./09-wr08-energy_data/collection.json",
       "type": "application/json",
-      "title": "Yearly Photovoltaik Production per Federal State",
+      "title": "Yearly Wind Energy Production per Federal State",
       "endpointtype": "GeoJSON source",
-      "id": "05-wr08-energy_data",
+      "id": "09-wr08-energy_data",
       "collection_group": "Energy Dashboard"
-    },
-    {
-      "rel": "service",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/features/{{feature}}.json",
-      "type": "application/json",
-      "id": "05-wr08-energy_production_statistics",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -81,24 +74,23 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-austrian_renewable_energy.png",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/09/09-austrian_renewable_energy.png",
   "collection_group": "Energy Dashboard",
-  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-wr08-form.json",
-  "title": "Yearly Photovoltaik Production per Federal State",
+  "title": "Yearly Wind Energy Production per Federal State",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.650396871861009,
-          46.15526955541784,
-          17.240821996999596,
-          49.067212395935364
+          9.35604909065767,
+          46.269450097034124,
+          17.380645554915933,
+          49.380049175375134
         ],
         [
-          9.650396871861009,
-          46.15526955541784,
-          17.240821996999596,
-          49.067212395935364
+          9.35604909065767,
+          46.269450097034124,
+          17.380645554915933,
+          49.380049175375134
         ]
       ]
     },
@@ -114,12 +106,12 @@
   "license": "other",
   "summaries": {
     "thumbnail": [
-      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-austrian_renewable_energy.png"
+      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/09/09-austrian_renewable_energy.png"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-austrian_renewable_energy.png",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/09/09-austrian_renewable_energy.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
