@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Solar Thermal",
-            "Url": "https://gtif-austria.info/narratives/solar-thermal"
+            "Id": "solar-thermal"
         }
     ],
     "Provider": [

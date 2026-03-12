@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Comparison of Grid Capacities and Renewable Energy Potentials",
-            "Url": "https://gtif-austria.info/narratives/comparison-grid"
+            "Id": "comparison-grid"
         }
     ],
     "Provider": [

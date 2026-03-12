@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Hydropower",
-            "Url": "https://gtif-austria.info/narratives/tf2-hydropower"
+            "Id": "tf2-hydropower"
         }
     ],
     "Provider": [

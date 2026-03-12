@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Aquathermy",
-            "Url": "https://gtif-austria.info/narratives/aquathermy-narrative"
+            "Id": "aquathermy-narrative"
         }
     ],
     "Provider": [

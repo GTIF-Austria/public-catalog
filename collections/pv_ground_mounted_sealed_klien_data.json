@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Photovoltaic",
-            "Url": "https://gtif-austria.info/narratives/photovoltaic"
+            "Id": "photovoltaic"
         }
     ],
     "Provider": [

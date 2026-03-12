@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Air Source Heat Pump Narrative",
-            "Url": "https://gtif-austria.info/narratives/austrian-air-source-heating-potential"
+            "Id": "austrian-air-source-heating-potential"
         }
     ],
     "Provider": [

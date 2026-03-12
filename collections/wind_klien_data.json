@@ -9,7 +9,7 @@
     "Stories": [
         {
             "Name": "Narrative Wind Power",
-            "Url": "https://gtif-austria.info/narratives/tf3-wind-energy"
+            "Id": "tf3-wind-energy"
         }
     ],
     "Provider": [
