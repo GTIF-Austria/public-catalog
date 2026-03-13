@@ -748,6 +748,16 @@
     },
     {
       "rel": "child",
+      "href": "./wr03_wind_nowcasting/collection.json",
+      "type": "application/json",
+      "title": "Wind Speed and Power Nowcasting",
+      "id": "wr03_wind_nowcasting",
+      "providers": [
+        "GeoSphere"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./UEPI_visualizer_2/collection.json",
       "type": "application/json",
       "title": "Urban energy performance monitor",
