@@ -36,7 +36,7 @@
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/pr-preview/pr-97/GTIF-Austria/wr03_wind_nowcasting/wr03_wind_nowcasting_collection/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/wr03_wind_nowcasting/wr03_wind_nowcasting_collection/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
       "type": "application/json",
       "id": "cogstats",
       "method": "GET"
