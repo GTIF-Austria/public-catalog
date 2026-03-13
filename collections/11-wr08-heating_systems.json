@@ -1,0 +1,42 @@
+{
+  "Name": "11-wr08-heating_systems",
+  "Title": "Primary Heating System in Dwellings",
+  "Description": "**Residential Heating in Austria: National Trends and Regional Diversity**\nIn the broader context of Austria’s energy balance, thermal energy is a heavyweight: more than half of the country's final energy consumption is dedicated to heat production. A significant portion of this energy fuels the heating systems of Austria’s roughly four million primary residences.\n**The National Heating Mix**\nWhile the transition to renewables is underway, fossil fuels still maintain a significant footprint. As of the current reporting period, the national breakdown of heating systems across all primary residences is as follows:\nThis information has been published initially on https://www.energie.gv.at\n",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "HeatingSystems2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.408147578785538,
+        45.84677419354837,
+        17.08685626441198,
+        50.06336405529952
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard",
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "11-wr08-heating_systems",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "11-wr08-heating_system",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-wr08-vega_chart.json"
+  }
+}

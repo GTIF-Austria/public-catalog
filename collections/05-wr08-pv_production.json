@@ -1,0 +1,40 @@
+{
+  "Name": "05-wr08-energy_data",
+  "Title": "Yearly Photovoltaik Production per Federal State",
+  "Description": "**The Solar Boom in Austria: Trends and Targets**\nSince 2020, Austria hasn’t just been soaking up the sun; it’s been aggressively converting it into a powerhouse. Data from 2005 through 2024 reveals a massive \"photovoltaic boom,\" with Lower Austria, Upper Austria, and Styria emerging as the heavy hitters in regional solar expansion. This steep climb in generation highlights a significant shift in the national energy landscape, showing that the country's transition to renewables has effectively shifted into high gear over the last few years.\nLooking ahead to 2030, the targets are even sunnier—if a bit more demanding. The Renewable Energy Expansion Act (EAG) mandates a minimum boost of 11 TWh over 2020 levels, but that might only be the baseline. According to the Austrian Network Infrastructure Plan (ÖNIP), rising electricity consumption means the actual expansion potential—and necessity—is likely much higher. These scenarios suggest that to keep the grid stable and the carbon footprint low, the infrastructure will need to support an even more ambitious rollout than originally planned.\nThis information has been published initially on https://www.energie.gv.at\nElectricity generation from photovoltaics in GWh, source: Energy balance from Statistics Austria 2024 via energie.gv.at, accessed on: February 26, 2026, 10:36 a.m.",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "PhotovoltaicProduction2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.650396871861009,
+        46.15526955541784,
+        17.240821996999596,
+        49.067212395935364
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard",
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/05-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "05-wr08-energy_production_statistics",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/05/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

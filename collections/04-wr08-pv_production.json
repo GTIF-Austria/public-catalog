@@ -1,0 +1,78 @@
+{
+  "Name": "04-wr08-energy_data",
+  "Title": "Photovoltaic Capacity per Federal State",
+  "Description": "Photovoltaic capacity installed varies between Federal States in Austria. The differences between the states come down to their specific legal requirements. For example, Styria requires solar panels on all new buildings and has clear zoning laws for solar farms. Vienna is now trying to catch up by making PV mandatory for both new builds and major renovations.\nThis information has been published initially on https://www.energie.gv.at\nInstalled capacity with PV in MWp, source: EAG Monitoring Report 2025 by E-Control via energie.gv.at, accessed on: February 26, 2026, 10:33 a.m.",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "PhotovoltaicCapacity2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2021",
+          "Assets": [
+            {
+              "Identifier": "PhotovoltaicCapacity2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "PhotovoltaicCapacity2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "PhotovoltaicCapacity2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "PhotovoltaicCapacity2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.682753413298151,
+        45.49825098796226,
+        17.156292181396612,
+        49.647028056274294
+      ]
+    }
+  ],
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "04-wr08-energy_production_statistics",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "04-wr08-production_comparison",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-wr08-vega_chart.json"
+  },
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/04/04-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard"
+}

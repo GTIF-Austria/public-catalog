@@ -1,0 +1,78 @@
+{
+  "Name": "07-wr08-energy_data",
+  "Title": "Wind Energy Production",
+  "Description": "**Wind Energy Expansion: Bridging the Gap Between Potential and Production**\nWhile solar energy has seen a rapid \"boom\" in recent years, wind power represents the second vital pillar of Austria’s renewable energy strategy. Despite possessing immense natural potential, the wind sector has not yet achieved the same expansion velocity as photovoltaics. This disparity is largely attributed to the regulatory and administrative landscape; the project planning and permitting phases for wind turbines are significantly more complex and time-consuming than those for solar installations.\n**Geographic Imbalance and the Need for \"Tailwind\"**\nCurrently, Austria’s wind energy landscape is characterized by a sharp geographic divide. Development is heavily concentrated in the eastern regions, while the western and southern provinces continue to lag behind. To move the needle, a stronger \"tailwind\" from regional governments is essential to modernize the current infrastructure.\nThis information has been published initially on https://www.energie.gv.at\nElectricity generation from wind power in GWh, source: Data on output from EAG Monitoring Report 2025 by E-Control, data on generation from Energy Balance 2024 by Statistics Austria via energie.gv.at, accessed on: February 26, 2026, 10:38 a.m.",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "WindProduction2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20210101",
+          "Assets": [
+            {
+              "Identifier": "WindProduction2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20220101",
+          "Assets": [
+            {
+              "Identifier": "WindProduction2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "WindProduction2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "WindProduction2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.34588358830795,
+        46.12151015188523,
+        17.414809171798623,
+        49.474700873516944
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard",
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "07-wr08-energy_production_statistics",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "07-wr08-production_comparison",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/07/07-wr08-vega_chart.json"
+  }
+}
