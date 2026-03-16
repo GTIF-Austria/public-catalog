@@ -766,13 +766,6 @@
     },
     {
       "rel": "child",
-      "href": "./01-wr08-counties/collection.json",
-      "type": "application/json",
-      "title": "I Austrian Federal States",
-      "id": "01-wr08-counties"
-    },
-    {
-      "rel": "child",
       "href": "./01-wr08_energy_data/collection.json",
       "type": "application/json",
       "title": "Renewable Energy Production per State",
@@ -891,6 +884,13 @@
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-austrian_renewable_energy.png"
       ],
       "collection_group": "Energy Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./01-wr08-counties/collection.json",
+      "type": "application/json",
+      "title": "I Austrian Federal States",
+      "id": "01-wr08-counties"
     },
     {
       "rel": "self",
