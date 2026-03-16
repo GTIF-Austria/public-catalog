@@ -34,6 +34,16 @@
     "Solar Roofs"
   ],
   "collection_group": " ",
+  "eox:colorlegend": {
+    "title": "",
+    "range": [
+      "rgb(253, 217, 13)"
+    ],
+    "domain": [
+      "Solar Panels 2025"
+    ],
+    "scaleType": "categorical"
+  },
   "endpointtype": "GeoJSON source",
   "title": "Solar Panels",
   "extent": {
