@@ -34,6 +34,16 @@
     "Solar Roofs"
   ],
   "collection_group": " ",
+  "eox:colorlegend": {
+    "title": "",
+    "range": [
+      "rgb(84, 173, 49)"
+    ],
+    "domain": [
+      "Green Roofs 2025"
+    ],
+    "scaleType": "categorical"
+  },
   "endpointtype": "GeoJSON source",
   "title": "Green Roofs",
   "extent": {
