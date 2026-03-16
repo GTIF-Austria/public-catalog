@@ -98,7 +98,7 @@
   "collection_group": "Energy Transition",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/process/solar_pot_vega.json",
-  "title": "Support for REDIII - PV",
+  "title": "Solar Energy Potential",
   "extent": {
     "spatial": {
       "bbox": [

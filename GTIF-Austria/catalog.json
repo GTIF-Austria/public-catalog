@@ -684,7 +684,7 @@
       "rel": "child",
       "href": "./wr02solar/collection.json",
       "type": "application/json",
-      "title": "Support for REDIII - PV",
+      "title": "Solar Energy Potential",
       "id": "wr02solar",
       "providers": [
         "GeoSphere"
