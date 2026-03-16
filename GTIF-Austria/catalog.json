@@ -698,7 +698,7 @@
       "rel": "child",
       "href": "./pvpot_fc/collection.json",
       "type": "application/json",
-      "title": "Nowcasting of theoretical PV potential",
+      "title": "Solar Energy Potential",
       "id": "pvpot_fc",
       "providers": [
         "GeoSphere"
