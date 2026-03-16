@@ -574,10 +574,10 @@
     },
     {
       "rel": "child",
-      "href": "./evapotranspiration_monitoring_indicator/collection.json",
+      "href": "./evapotranspiration-monitoring/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "id": "evapotranspiration_monitoring_indicator",
+      "id": "evapotranspiration-monitoring",
       "providers": [
         "Sistema"
       ],
@@ -684,7 +684,7 @@
       "rel": "child",
       "href": "./wr02solar/collection.json",
       "type": "application/json",
-      "title": "Support for REDIII - PV",
+      "title": "Solar Energy Potential",
       "id": "wr02solar",
       "providers": [
         "GeoSphere"
@@ -743,24 +743,6 @@
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
-      ],
-      "collection_group": "Sustainable Cities"
-    },
-    {
-      "rel": "child",
-      "href": "./UEPI_visualizer_2/collection.json",
-      "type": "application/json",
-      "title": "Urban energy performance monitor",
-      "id": "UEPI_visualizer_2",
-      "themes": [
-        "Sustainable Cities",
-        "Energy Transition"
-      ],
-      "providers": [
-        "Austrian Institute of Technology - Digital resilient cities and regions"
-      ],
-      "thumbnail": [
-        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg"
       ],
       "collection_group": "Sustainable Cities"
     },
@@ -884,6 +866,44 @@
         "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-austrian_renewable_energy.png"
       ],
       "collection_group": "Energy Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./wr03_wind_nowcasting/collection.json",
+      "type": "application/json",
+      "title": "Wind Speed and Power Nowcasting",
+      "id": "wr03_wind_nowcasting",
+      "providers": [
+        "GeoSphere"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./UEPI_visualizer_2/collection.json",
+      "type": "application/json",
+      "title": "Urban energy performance monitor",
+      "id": "UEPI_visualizer_2",
+      "themes": [
+        "Sustainable Cities",
+        "Energy Transition"
+      ],
+      "providers": [
+        "Austrian Institute of Technology - Digital resilient cities and regions"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg"
+      ],
+      "collection_group": "Sustainable Cities"
+    },
+    {
+      "rel": "child",
+      "href": "./gtif-site-itentification-wind/collection.json",
+      "type": "application/json",
+      "title": "Site Identification Wind",
+      "id": "gtif-site-itentification-wind",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png"
+      ]
     },
     {
       "rel": "child",

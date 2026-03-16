@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Geothermal-diffusivity",
+  "id": "wr03_wind_power_vestas",
   "stac_version": "1.1.0",
-  "description": "# Geothermal diffusivity",
+  "description": "Estimated power output for Vestas V90 wind turbines (2.0 MW rated capacity, 80m hub height) across Austria.",
   "links": [
     {
       "rel": "root",
@@ -12,49 +12,42 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/diffusivity.json",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/style_power.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "diffusivity2025",
-        "natura2000"
+        "data"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Geothermal Energy Potential"
+      "title": "Wind Speed and Power Nowcasting"
     }
   ],
   "endpointtype": "COG source",
-  "title": "Geothermal Diffusivity",
+  "title": "Wind Power Output - Vestas V90 (2.0 MW)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.531202171084608,
-          45.37377564328037,
-          18.365981367262602,
-          49.29204018510405
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2025-06-16T09:00:00Z",
+          "2025-06-16T12:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "GeoSphere",
-      "url": "https://www.geosphere.at/en"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

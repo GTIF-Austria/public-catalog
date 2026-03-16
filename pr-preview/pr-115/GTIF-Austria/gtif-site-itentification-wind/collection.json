@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "gtif-wind-atlas",
+  "id": "gtif-site-itentification-wind",
   "stac_version": "1.1.0",
   "description": "The wind data presented on this page is based on long-term meteorological simulations, that have been interpolated and adjusted according to terrain, ground cover and in-situ wind measurements. The accuracy of the results very much depends on the local terrain complexity and the coverage of wind data. In addition, local wind systems, e.g. katabatic winds, are not covered by the numerical simulation. The data should thus be interpreted as a first indication only. In particular in complex terrain or at alpine sites, an on-site wind measurement with an adequate measurement height and duration is required to assess the wind energy potential.\nNo liability is assumed for the accuracy of the data.",
   "links": [
@@ -12,22 +12,21 @@
     },
     {
       "rel": "child",
-      "href": "./gtif-wind-atlas/collection.json",
+      "href": "./gtif-site-itentification-wind/collection.json",
       "type": "application/json",
-      "title": "Wind Atlas",
+      "title": "Site Identification Wind",
       "endpointtype": "COG source",
-      "id": "gtif-wind-atlas",
-      "providers": [
-        "Energiewerkstatt"
-      ],
-      "collection_group": "Energy Transition"
+      "id": "gtif-site-itentification-wind"
     },
     {
       "rel": "service",
-      "href": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url=https://gtif-austria.github.io/public-catalog/GTIF-Austria/gtif-wind-atlas/gtif-wind-atlas/items.parquet&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-eox.hub-otc.eox.at/processes/execute-git-windatlas-process-3-0/execution",
       "type": "application/json",
-      "id": "cogstats",
-      "method": "GET"
+      "id": "git-windatlas-process-3-0",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_body.json",
+      "eox:flatstyle": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_flatstyle.json"
     },
     {
       "rel": "xyz",
@@ -84,25 +83,23 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png",
-  "collection_group": "Energy Transition",
-  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/wind_atlas_form.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/wind_atlas_vega.json",
-  "title": "Wind Atlas",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
+  "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_form.json",
+  "title": "Site Identification Wind",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.329330840752046,
-          46.18972579652253,
-          17.27805928781191,
-          49.2375054222361
+          9.425247028117266,
+          46.15092956805772,
+          17.33428513130213,
+          49.22046434390927
         ],
         [
-          9.329330840752046,
-          46.18972579652253,
-          17.27805928781191,
-          49.2375054222361
+          9.425247028117266,
+          46.15092956805772,
+          17.33428513130213,
+          49.22046434390927
         ]
       ]
     },
@@ -116,20 +113,14 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Energiewerkstatt",
-      "url": "https://energiewerkstatt.org/?lang=en"
-    }
-  ],
   "summaries": {
     "thumbnail": [
-      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png"
+      "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/Thumbnail/Thumbnail%20Wind%20Atlas.png",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
