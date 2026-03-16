@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./predictive_maintenance/collection.json",
       "type": "application/json",
-      "title": "Predictive Maintenance",
+      "title": "Transport Infrastructure Predictive Maintenance",
       "id": "predictive_maintenance",
       "providers": [
         "AIT Center for Transport Technologies"
