@@ -15,7 +15,7 @@
       "href": "./Test_json_features_ab/collection.json",
       "type": "application/json",
       "title": "Test json features",
-      "endpointtype": "VectorTile source",
+      "endpointtype": "GeoJSON source",
       "id": "Test_json_features_ab"
     },
     {
