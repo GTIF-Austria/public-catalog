@@ -20,11 +20,11 @@
     }
   ],
   "Process": {
-    "JsonForm": "",
+    "JsonForm": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/features_demoform.json",
     "EndPoints": [
       {
-        "Identifier": "",
-        "Url": "",
+        "Identifier": "test_process_ab",
+        "Url": "https://test.url.none/timeseries/{{feature_id}}",
         "Type": "application/geo+json"
       }
     ]
