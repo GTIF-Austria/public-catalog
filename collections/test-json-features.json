@@ -11,7 +11,7 @@
           "Assets": [
             {
               "Identifier": "Test_json_features_ab",
-              "File": "https://baltic-gtif.ddns.net/gateway/tipg/collections/public.public___bremen_v0319_a01/items?f=geojson"
+              "File": "https://baltic-gtif.ddns.net/gateway/tipg/collections/public.public___bremen_v0319_a01/items?f=geojson&limit=10000"
             }
           ]
         }
