@@ -20,8 +20,8 @@
     },
     {
       "rel": "service",
-      "href": "https://test.url.none/timeseries/{{feature_id}}",
-      "type": "application/geo+json",
+      "href": "https://test.url.none/timeseries/{{feature_id}}.json",
+      "type": "application/json",
       "id": "test_process_ab",
       "method": "GET"
     },
@@ -81,6 +81,7 @@
     }
   ],
   "eodash:jsonform": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/features_demoform.json",
+  "eodash:vegadefinition": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/vega_chart.json",
   "title": "Test json features",
   "extent": {
     "spatial": {
