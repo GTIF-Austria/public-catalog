@@ -15,7 +15,7 @@
       "href": "./Test_json_features_ab/collection.json",
       "type": "application/json",
       "title": "Test json features",
-      "endpointtype": "GeoJSON source",
+      "endpointtype": "VectorTile source",
       "id": "Test_json_features_ab"
     },
     {
@@ -87,16 +87,16 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          8.48,
+          53.008,
+          8.998,
+          53.23
         ],
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          8.48,
+          53.008,
+          8.998,
+          53.23
         ]
       ]
     },
