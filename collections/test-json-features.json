@@ -5,18 +5,19 @@
   "Resources": [
     {
       "Style": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/features_demostyle.json",
+      "Bbox": [
+          8.480,
+          53.008,
+          8.998,
+          53.230
+      ],
       "TimeEntries": [
         {
           "Time": "2025",
-          "Assets": [
-            {
-              "Identifier": "Test_json_features_ab",
-              "File": "https://baltic-gtif.ddns.net/gateway/tipg/collections/public.public___bremen_v0319_a01/items?f=geojson&limit=10000"
-            }
-          ]
+          "Url": "https://baltic-gtif.ddns.net/gateway/tipg/collections/public.public___bremen_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
-      "Name": "GeoJSON source"
+      "Name": "VectorTile source"
     }
   ],
   "Process": {
