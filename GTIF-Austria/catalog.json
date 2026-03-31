@@ -574,10 +574,10 @@
     },
     {
       "rel": "child",
-      "href": "./evapotranspiration-monitoring/collection.json",
+      "href": "./evapotranspiration_monitoring_indicator/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration Monitoring Demonstrator for Austria",
-      "id": "evapotranspiration-monitoring",
+      "id": "evapotranspiration_monitoring_indicator",
       "providers": [
         "Sistema"
       ],
