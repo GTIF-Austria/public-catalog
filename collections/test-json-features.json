@@ -14,7 +14,7 @@
       "TimeEntries": [
         {
           "Time": "2025",
-          "Url": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
       "Name": "VectorTile source"
