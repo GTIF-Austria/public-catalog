@@ -1,0 +1,56 @@
+{
+  "type": "raster",
+  "color": [
+    "interpolate",
+    ["linear"],
+    ["band", 1],
+    0, "#FFFFFF",
+    2.5, "#F7FBFF",
+    5, "#C9DBF0",
+    7.5, "#A3CAE2",
+    10, "#75AFD8",
+    12.5, "#5D9DCE",
+    15, "#5093C8",
+    17.5, "#3371B8",
+    20, "#2962B3",
+    22.5, "#1E529F",
+    25, "#163982"
+  ],
+  "opacity": [
+    "case",
+    ["==", ["band", 1], 0],
+    0.5,
+    1
+  ],
+  "legend": {
+    "title": "Snow Melt Rate (mm/day)",
+    "domainProperties": {
+      "min": 0,
+      "max": 25
+    }
+  },
+  "variables": {
+    "vmin": {
+      "type": "number",
+      "default": 0,
+      "min": 0,
+      "max": 25
+    },
+    "vmax": {
+      "type": "number",
+      "default": 25,
+      "min": 0,
+      "max": 25
+    }
+  },
+  "jsonform": [
+    {
+      "key": "vmin",
+      "title": "Minimum Melt Rate (mm/day)"
+    },
+    {
+      "key": "vmax",
+      "title": "Maximum Melt Rate (mm/day)"
+    }
+  ]
+}
