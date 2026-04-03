@@ -1,0 +1,31 @@
+{
+  "Name": "Test_json_features_ab",
+  "Title": "Test json features",
+  "Description": "desc",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/features_demostyle.json",
+      "Bbox": [
+          12.0800, 51.8300, 14.7600, 53.1900
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Url": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        }
+      ],
+      "Name": "VectorTile source"
+    }
+  ],
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/features_demoform.json",
+    "VegaDefinition": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/LST_features_demo/vega_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "test_process_ab",
+        "Url": "https://baltic-gtif.ohb-ds.de/gateway/api/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2026-01-01T00:00:00Z&end_date=2026-03-30T23:59:59Z&drop_building_id=true&f=json",
+        "Type": "application/json"
+      }
+    ]
+  }
+}
