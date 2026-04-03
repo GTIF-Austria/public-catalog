@@ -23,7 +23,7 @@
     "EndPoints": [
       {
         "Identifier": "test_process_ab",
-        "Url": "https://baltic-gtif.ohb-ds.de/gateway/api/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z#.json",
+        "Url": "https://baltic-gtif.ohb-ds.de/gateway/api/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2026-01-01T00:00:00Z&end_date=2026-03-30T23:59:59Z&drop_building_id=true&f=json",
         "Type": "application/json"
       }
     ]
