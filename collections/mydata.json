@@ -4,10 +4,11 @@
   "Description": "My data description.",
   "Resources": [
     {
-      "Name": "Sentinel Hub WMS",
-      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/44faa60e-d972-432d-b02b-ec8c3efb7a8e",
-      "LayerId": "1_TRUE_COLOR",
-      "CollectionId": "sentinel-2-l2a"
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://sh.dataspace.copernicus.eu/",
+      "LayerId": "Dominant Leaf Type Confidence Layer",
+      "CollectionId": "9af67657-d5af-4554-bc6c-f2f7553867d1",
+      "Type": "byoc"
     }
   ]
 }
