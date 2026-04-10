@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "heatrisk_test",
+  "id": "hitzerisiko_v1",
   "stac_version": "1.1.0",
-  "description": "heatrisk test",
+  "description": "Hitzeexpositionskarten nach verschiedenen Altersgruppen",
   "links": [
     {
       "rel": "root",
@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "heatrisk_test"
+      "title": "Hitzerisiko"
     }
   ],
   "endpointtype": "GeoJSON source",
-  "title": "heatrisk_test",
+  "title": "Hitzerisiko",
   "extent": {
     "spatial": {
       "bbox": [

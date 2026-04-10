@@ -907,10 +907,10 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_test/collection.json",
+      "href": "./hitzerisiko_v1/collection.json",
       "type": "application/json",
-      "title": "heatrisk_test",
-      "id": "heatrisk_test"
+      "title": "Hitzerisiko",
+      "id": "hitzerisiko_v1"
     },
     {
       "rel": "self",

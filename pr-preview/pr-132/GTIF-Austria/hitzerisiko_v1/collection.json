@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "heatrisk_test",
+  "id": "hitzerisiko_v1",
   "stac_version": "1.1.0",
-  "description": "heatrisk test",
+  "description": "Hitzeexpositionskarten nach verschiedenen Altersgruppen",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_test/collection.json",
+      "href": "./hitzerisiko_v1/collection.json",
       "type": "application/json",
-      "title": "heatrisk_test",
+      "title": "Hitzerisiko",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_test"
+      "id": "hitzerisiko_v1"
     },
     {
       "rel": "xyz",
@@ -73,7 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "heatrisk_test",
+  "title": "Hitzerisiko",
   "extent": {
     "spatial": {
       "bbox": [
