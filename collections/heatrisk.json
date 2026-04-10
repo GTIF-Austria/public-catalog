@@ -7,15 +7,6 @@
       "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/styles/heat_exposure_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T132018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c78d9f6509565b7ddd41bfbeb25b4541fc48e5c8200de9f2a33e9809032c8473",
       "TimeEntries": [
         {
-          "Time": "20201031",
-          "Assets": [
-            {
-              "Identifier": "0-19",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/wien_fcst_0-19_2025_sc99_heat_hazard_2020_cog.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T131456Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b378fece5d26e837e9886d02f02451bf37cffeb2de65c77416dc88b86ac7b5a0"
-            }
-          ]
-        },
-        {
           "Time": "20301010",
           "Assets": [
             {
