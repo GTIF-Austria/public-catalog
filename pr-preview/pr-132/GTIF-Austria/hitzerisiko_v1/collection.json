@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "hitzerisiko_v1",
   "stac_version": "1.1.0",
-  "description": "Hitzeexpositionskarten nach verschiedenen Altersgruppen",
+  "description": "Hitzeexpositionskarten nach verschiedenen Altersgruppen - Altersgruppe 0-19",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./hitzerisiko_v1/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko",
+      "title": "Hitzerisiko Altersgruppe 0-19",
       "endpointtype": "GeoJSON source",
       "id": "hitzerisiko_v1"
     },
@@ -73,7 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Hitzerisiko",
+  "title": "Hitzerisiko Altersgruppe 0-19",
   "extent": {
     "spatial": {
       "bbox": [
@@ -94,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2090-01-01T00:00:00Z",
-          "2090-01-01T00:00:00Z"
+          "2020-01-01T00:00:00Z",
+          "2050-01-01T00:00:00Z"
         ]
       ]
     }

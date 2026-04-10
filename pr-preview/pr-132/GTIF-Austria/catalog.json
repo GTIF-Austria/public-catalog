@@ -909,7 +909,7 @@
       "rel": "child",
       "href": "./hitzerisiko_v1/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko",
+      "title": "Hitzerisiko Altersgruppe 0-19",
       "id": "hitzerisiko_v1"
     },
     {
