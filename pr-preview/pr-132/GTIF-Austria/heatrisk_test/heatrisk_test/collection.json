@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "style",
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/styles/heat_exposure_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T132018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c78d9f6509565b7ddd41bfbeb25b4541fc48e5c8200de9f2a33e9809032c8473",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "0-19"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
