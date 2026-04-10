@@ -907,10 +907,10 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk/collection.json",
+      "href": "./heatrisk_test/collection.json",
       "type": "application/json",
-      "title": "heatrisk",
-      "id": "heatrisk"
+      "title": "heatrisk_test",
+      "id": "heatrisk_test"
     },
     {
       "rel": "self",
