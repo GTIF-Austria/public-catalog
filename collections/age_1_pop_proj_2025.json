@@ -25,16 +25,16 @@
           ]
         },
         {
-          "Time": "Bevölkerungsstand 2025",
+          "Time": "20400101",
           "Assets": [
             {
-              "Identifier": "2025",
+              "Identifier": "Bevölkerungsstand 2025",
               "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2040.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T144604Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e6e4fd771a9b03d0d443c584457fcccce4ef6b86759617300857deb7a4429e5"
             }
           ]
         },
         {
-          "Time": "2050",
+          "Time": "20500101",
           "Assets": [
             {
               "Identifier": "Bevölkerungsstand 2025",
