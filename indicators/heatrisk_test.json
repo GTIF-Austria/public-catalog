@@ -1,1 +1,8 @@
-{}
+{
+  "Name": "heatrisk_v1",
+  "Title": "Hitzerisiko",
+  "Description": "Hitzerisiko",
+  "Collections": [
+    "heatrisk"
+  ]
+}
