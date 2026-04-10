@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "age_1_pop_proj_2025",
+  "id": "age_2_pop_proj_2025",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
+  "description": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2025",
   "links": [
     {
       "rel": "root",
@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020"
+      "title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020"
     }
   ],
   "endpointtype": "GeoJSON source",
-  "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
+  "title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020",
   "extent": {
     "spatial": {
       "bbox": [

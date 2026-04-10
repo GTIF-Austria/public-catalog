@@ -920,6 +920,13 @@
       "id": "age_1_pop_proj_2030"
     },
     {
+      "rel": "child",
+      "href": "./age_2_pop_proj_2025/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020",
+      "id": "age_2_pop_proj_2025"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
