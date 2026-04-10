@@ -1,14 +1,30 @@
 {
   "type": "Collection",
-  "id": "age_2_pop_proj_2025",
+  "id": "heatrisk_v1",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2025",
+  "description": "Hitzerisiko",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./age_1_pop_proj_2025/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
+      "endpointtype": "GeoJSON source",
+      "id": "age_1_pop_proj_2025"
+    },
+    {
+      "rel": "child",
+      "href": "./age_1_pop_proj_2030/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2030",
+      "endpointtype": "GeoJSON source",
+      "id": "age_1_pop_proj_2030"
     },
     {
       "rel": "child",
@@ -73,10 +89,22 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020",
+  "title": "Hitzerisiko",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
+        ],
         [
           -180.0,
           -85.0,

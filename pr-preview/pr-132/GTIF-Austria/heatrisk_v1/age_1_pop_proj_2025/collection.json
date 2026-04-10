@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020"
+      "title": "Hitzerisiko"
     }
   ],
   "endpointtype": "GeoJSON source",
