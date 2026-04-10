@@ -1,7 +1,7 @@
 {
-  "Name": "age_1_pop_proj_2025",
-  "Title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
-  "Description": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
+  "Name": "age_2_pop_proj_2025",
+  "Title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020",
+  "Description": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2025",
   "Resources": [
     {
       "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T141912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0b676a4f2a89ae129ade65298d30d25c85437736769432b898928817c23fae14",
@@ -11,7 +11,7 @@
           "Assets": [
             {
               "Identifier": "Bevölkerungsstand 2025",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2020.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T143701Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bc990e3ed84b72e3f1fd56a71a87d1364f1af32f33342f9ea1d41bd193f3eab4"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2020.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153251Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dd60773fdca30d7510b9c91280b0558f189cc0e9caaa26acb9f9155aaa017fd4"
             }
           ]
         },
@@ -20,7 +20,7 @@
           "Assets": [
             {
               "Identifier": "Bevölkerungsstand 2025",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T152500Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=74d048c0bb1e2c5f3a7214c406075f942546f09482ff2fc7c7a61ed0354148fe"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153311Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d999ed0e87a7ecbc47dcf5b8e9beb95809e4bc7d27cf075a0e94df2593ef2fdf"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "Assets": [
             {
               "Identifier": "Bevölkerungsstand 2025",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2040.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T144604Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e6e4fd771a9b03d0d443c584457fcccce4ef6b86759617300857deb7a4429e5"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2040.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d04acb859f6b97617c4dce505a3280081e577efb6466ab414dd6446681f429e9"
             }
           ]
         },
@@ -38,7 +38,7 @@
           "Assets": [
             {
               "Identifier": "Bevölkerungsstand 2025",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2050.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T144750Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=aa7cde8cb34ea672e794079a1f479dcf525d4cf65a4ef8b9bfc10d584af08daa"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2040.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d04acb859f6b97617c4dce505a3280081e577efb6466ab414dd6446681f429e9"
             }
           ]
         }
