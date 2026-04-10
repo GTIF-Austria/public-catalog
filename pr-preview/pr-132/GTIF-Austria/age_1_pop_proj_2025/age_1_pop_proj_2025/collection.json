@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "hitzerisiko_v1",
+  "id": "age_1_pop_proj_2025",
   "stac_version": "1.1.0",
-  "description": "Hitzeexpositionskarten nach verschiedenen Altersgruppen - Altersgruppe 0-19",
+  "description": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
   "links": [
     {
       "rel": "root",
@@ -15,21 +15,26 @@
       "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T141912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0b676a4f2a89ae129ade65298d30d25c85437736769432b898928817c23fae14",
       "type": "text/vector-styles",
       "asset:keys": [
-        "2025",
-        "2030",
-        "2040",
-        "2050"
+        "Bevölkerungsstand 2025"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T141912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0b676a4f2a89ae129ade65298d30d25c85437736769432b898928817c23fae14",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Bevölkerungsstand 2025"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko Altersgruppe 0-19"
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020"
     }
   ],
   "endpointtype": "GeoJSON source",
-  "title": "Hitzerisiko Altersgruppe 0-19",
+  "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
   "extent": {
     "spatial": {
       "bbox": [

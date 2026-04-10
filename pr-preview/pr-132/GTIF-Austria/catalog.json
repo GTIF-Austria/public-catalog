@@ -907,17 +907,17 @@
     },
     {
       "rel": "child",
-      "href": "./hitzerisiko_v1/collection.json",
+      "href": "./age_1_pop_proj_2025/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko Altersgruppe 0-19",
-      "id": "hitzerisiko_v1"
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
+      "id": "age_1_pop_proj_2025"
     },
     {
       "rel": "child",
-      "href": "./heatrisk_v1/collection.json",
+      "href": "./age_1_pop_proj_2030/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko",
-      "id": "heatrisk_v1"
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2030",
+      "id": "age_1_pop_proj_2030"
     },
     {
       "rel": "self",
