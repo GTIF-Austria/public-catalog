@@ -1,7 +1,7 @@
 {
-  "Name": "age_1_pop_proj_2020",
+  "Name": "age_1_pop_proj_2025",
   "Title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
-  "Description": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2020",
+  "Description": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
   "Resources": [
     {
       "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T141912Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0b676a4f2a89ae129ade65298d30d25c85437736769432b898928817c23fae14",
