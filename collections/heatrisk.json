@@ -1,6 +1,31 @@
 {
-  "Name": "heatrisk",
-  "Title": "heatrisk",
-  "Description": "",
-  "Resources": []
+  "Name": "heatrisk_test",
+  "Title": "heatrisk_test",
+  "Description": "heatrisk test",
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "0-19",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/wien_fcst_0-19_2025_sc99_heat_hazard_2020_cog.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T131456Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b378fece5d26e837e9886d02f02451bf37cffeb2de65c77416dc88b86ac7b5a0"
+            }
+          ]
+        },
+        {
+          "Time": "2030",
+          "Assets": [
+            {
+              "Identifier": "0-19",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/wien_fcst_0-19_2025_sc99_heat_hazard_2030_cog.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T131559Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=98999e95e5a3b5e249cfb18405ceda8169d41546e3f1eeb91a9f26135a2e3adb"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source"
+    }
+  ]
 }
