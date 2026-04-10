@@ -10,7 +10,7 @@
           "Time": "20200101",
           "Assets": [
             {
-              "Identifier": "Bevölkerungsstand 2025",
+              "Identifier": "Bevölkerungsstand 2025 0-44 Y",
               "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2020.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153251Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dd60773fdca30d7510b9c91280b0558f189cc0e9caaa26acb9f9155aaa017fd4"
             }
           ]
@@ -19,7 +19,7 @@
           "Time": "20300101",
           "Assets": [
             {
-              "Identifier": "Bevölkerungsstand 2025",
+              "Identifier": "Bevölkerungsstand 2025 0-44 Y",
               "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153311Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d999ed0e87a7ecbc47dcf5b8e9beb95809e4bc7d27cf075a0e94df2593ef2fdf"
             }
           ]
@@ -28,7 +28,7 @@
           "Time": "20400101",
           "Assets": [
             {
-              "Identifier": "Bevölkerungsstand 2025",
+              "Identifier": "Bevölkerungsstand 2025 0-44 Y",
               "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2040.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d04acb859f6b97617c4dce505a3280081e577efb6466ab414dd6446681f429e9"
             }
           ]
@@ -37,7 +37,7 @@
           "Time": "20500101",
           "Assets": [
             {
-              "Identifier": "Bevölkerungsstand 2025",
+              "Identifier": "Bevölkerungsstand 2025 0-44 Y",
               "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_20-44_2025_sc99_heat_hazard_2040.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260410%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260410T153326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d04acb859f6b97617c4dce505a3280081e577efb6466ab414dd6446681f429e9"
             }
           ]
