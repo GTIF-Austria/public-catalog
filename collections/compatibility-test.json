@@ -7,13 +7,46 @@
       "Name": "Sentinel Hub",
       "EndPoint": "https://sh.dataspace.copernicus.eu",
       "Type": "byoc",
-      "CollectionId": "acadf06e-8bcf-44b4-b595-d2c03302b9f5",
-      "LayerId": "c400fa51-a95b-4d87-bab7-1b8b34967799",
+      "CollectionId": "c320caa8-4d97-40e1-90c6-e34dd5e42b8b",
+      "LayerId": "79a8c1d9-c1c1-4ccd-a942-9e15f7b8e4e2",
       "Query": {
         "Start": "2025-01-01",
         "End": "2025-12-31"
       },
       "Attribution": "CDSE"
     }
-  ]
+  ],
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Provider": [],
+  "Stories": [],
+  "Citation": {},
+  "Process": {
+    "JsonForm": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json"
+      }
+    ]
+  },
+  "References": [],
+  "Image": "",
+  "Services": [],
+  "CollectionGroup": "",
+  "OverlayLayers": [],
+  "BaseLayers": [],
+  "ShortDescription": "",
+  "Subtitle": "",
+  "Subcollections": [],
+  "Locations": [],
+  "Legend": "",
+  "Colorlegend": {},
+  "MapProjection": {
+    "name": ""
+  }
 }
