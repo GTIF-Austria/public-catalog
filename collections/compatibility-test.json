@@ -2,5 +2,18 @@
   "Name": "compatibility-test",
   "Title": "compatibility-test",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://sh.dataspace.copernicus.eu",
+      "Type": "byoc",
+      "CollectionId": "acadf06e-8bcf-44b4-b595-d2c03302b9f5",
+      "LayerId": "c400fa51-a95b-4d87-bab7-1b8b34967799",
+      "Query": {
+        "Start": "2025-01-01",
+        "End": "2025-12-31"
+      },
+      "Attribution": "CDSE"
+    }
+  ]
 }
