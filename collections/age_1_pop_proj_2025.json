@@ -45,5 +45,6 @@
       ],
       "Name": "GeoJSON source"
     }
-  ]
+  ],
+  "Legend": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/heatrisk/heatrisk_legend_de.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260413%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260413T084434Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea4073e0cca22768ba5dd1d9a63a3e86d7000a2194b7002eb26632c7f5d375c7"
 }
