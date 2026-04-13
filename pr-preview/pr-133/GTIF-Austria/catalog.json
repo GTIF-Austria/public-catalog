@@ -906,6 +906,13 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./compatibility-test/collection.json",
+      "type": "application/json",
+      "title": "compatibility-test",
+      "id": "compatibility-test"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
