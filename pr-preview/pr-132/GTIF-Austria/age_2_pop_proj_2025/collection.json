@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "heatrisk_age_0_19_pop_2025",
+  "id": "age_2_pop_proj_2025",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2025. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "description": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2025",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_age_0_19_pop_2025/collection.json",
+      "href": "./age_2_pop_proj_2025/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
+      "title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_0_19_pop_2025"
+      "id": "age_2_pop_proj_2025"
     },
     {
       "rel": "xyz",
@@ -73,29 +73,29 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
+  "title": "Hitzerisiko, Altersgruppe 20-44, Bevölkerungsstand 2020",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          16.181,
-          48.118,
-          16.578,
-          48.324
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
         ],
         [
-          16.181,
-          48.118,
-          16.578,
-          48.324
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2030-01-01T00:00:00Z",
-          "2080-01-01T00:00:00Z"
+          "2020-01-01T00:00:00Z",
+          "2050-01-01T00:00:00Z"
         ]
       ]
     }
