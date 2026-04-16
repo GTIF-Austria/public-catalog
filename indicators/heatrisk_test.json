@@ -3,8 +3,9 @@
   "Title": "Hitzerisiko",
   "Description": "Hitzerisiko",
   "Collections": [
-    "age_1_pop_proj_2025",
-    "age_1_pop_proj_2030",
-    "age_2_pop_proj_2025"
+    "heatrisk_age_0_19_pop_2050",
+    "heatrisk_age_0_19_pop_2025",
+    "heatrisk_age_65-84_pop_2050",
+    "heatrisk_age_65-84_pop_2025"
   ]
 }
