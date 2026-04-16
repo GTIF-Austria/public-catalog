@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "heatrisk_mockup",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.\n\n![Legende](https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/heatrisk_legend_de.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T144355Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d4a6e288ba898075892d2991100b708c710ec3423ad572f43c12684e2b655509)",
+  "description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.\n",
   "links": [
     {
       "rel": "root",
