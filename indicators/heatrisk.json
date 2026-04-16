@@ -1,11 +1,21 @@
 {
   "Name": "heatrisk_mockup",
-  "Title": "Hitzerisiko",
-  "Description": "Hitzerisiko",
+  "Title": "Hitzerisiko Wien",
+  "Description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.",
+  "CollectionGroup": "Sustainable Cities",
   "Collections": [
-    "heatrisk_age_0_19_pop_2050",
     "heatrisk_age_0_19_pop_2025",
-    "heatrisk_age_65-84_pop_2050",
-    "heatrisk_age_65-84_pop_2025"
+    "heatrisk_age_0_19_pop_2050",
+    "heatrisk_age_65_84_pop_2025",
+    "heatrisk_age_65_84_pop_2050"
+  ],
+  "Themes": [
+    "Sustainable Cities"
+  ],
+  "Provider": [
+    {
+      "Name": "AIT Center for Energy",
+      "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
   ]
 }
