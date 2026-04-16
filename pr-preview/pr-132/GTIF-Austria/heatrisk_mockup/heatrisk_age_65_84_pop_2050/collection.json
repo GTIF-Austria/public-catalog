@@ -56,13 +56,6 @@
       "roles": [
         "collection-mirror"
       ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/heatrisk_legend_de.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T144355Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d4a6e288ba898075892d2991100b708c710ec3423ad572f43c12684e2b655509\"",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
     }
   }
 }
