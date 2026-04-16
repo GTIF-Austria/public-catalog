@@ -1,14 +1,38 @@
 {
   "type": "Collection",
-  "id": "heatrisk_age_65_84_pop_2050",
+  "id": "heatrisk_mockup",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für die Altersgruppe 65-84 und den Bevölkerungsstand 2050. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_0_19_pop_2025/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
+      "endpointtype": "GeoJSON source",
+      "id": "heatrisk_age_0_19_pop_2025"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_0_19_pop_2050/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
+      "endpointtype": "GeoJSON source",
+      "id": "heatrisk_age_0_19_pop_2050"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_65_84_pop_2025/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2025",
+      "endpointtype": "GeoJSON source",
+      "id": "heatrisk_age_65_84_pop_2025"
     },
     {
       "rel": "child",
@@ -73,10 +97,32 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
+  "themes": [
+    "Sustainable Cities"
+  ],
+  "collection_group": "Sustainable Cities",
+  "title": "Hitzerisiko Wien",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          16.181,
+          48.118,
+          16.578,
+          48.324
+        ],
+        [
+          16.181,
+          48.118,
+          16.578,
+          48.324
+        ],
+        [
+          16.181,
+          48.118,
+          16.578,
+          48.324
+        ],
         [
           16.181,
           48.118,
@@ -100,5 +146,11 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ]
 }

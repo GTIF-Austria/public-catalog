@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "heatrisk_age_65_84_pop_2050",
+  "id": "heatrisk_age_0_19_pop_2050",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für die Altersgruppe 65-84 und den Bevölkerungsstand 2050. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2050. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
   "links": [
     {
       "rel": "root",
@@ -15,18 +15,18 @@
       "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T121222Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=75858f560be37ecb74a0aece0b2607d4ffe6aa8cfd381134af10808509f7ee57",
       "type": "text/vector-styles",
       "asset:keys": [
-        "wien_fcst_65-84_2050_sc99_heat_hazard_2080"
+        "wien_fcst_0-19_2050_sc99_heat_hazard_2080"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050"
+      "title": "Hitzerisiko Wien"
     }
   ],
   "endpointtype": "GeoJSON source",
-  "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
+  "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
   "extent": {
     "spatial": {
       "bbox": [
