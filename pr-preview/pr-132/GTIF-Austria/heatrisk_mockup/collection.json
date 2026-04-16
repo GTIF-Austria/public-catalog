@@ -161,5 +161,23 @@
       "name": "AIT Center for Energy",
       "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
     }
-  ]
+  ],
+  "assets": {
+    "Narrativ Hitzerisiko": {
+      "href": "https://gtif-austria.info/narratives/Narrativ Hitzerisiko",
+      "type": "text/markdown",
+      "title": "",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/Narrativ Hitzerisiko.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  }
 }
