@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_0_19_pop_2025"
+      "id": "heatrisk_age_0_19_pop_2025",
+      "roles": [
+        "hidden"
+      ]
     },
     {
       "rel": "child",
@@ -24,7 +27,10 @@
       "type": "application/json",
       "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_0_19_pop_2050"
+      "id": "heatrisk_age_0_19_pop_2050",
+      "roles": [
+        "hidden"
+      ]
     },
     {
       "rel": "child",
@@ -40,7 +46,10 @@
       "type": "application/json",
       "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_65_84_pop_2050"
+      "id": "heatrisk_age_65_84_pop_2050",
+      "roles": [
+        "hidden"
+      ]
     },
     {
       "rel": "xyz",
