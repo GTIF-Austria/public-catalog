@@ -909,7 +909,7 @@
       "rel": "child",
       "href": "./HS/collection.json",
       "type": "application/json",
-      "title": "HS",
+      "title": "Height of Snow",
       "id": "HS"
     },
     {

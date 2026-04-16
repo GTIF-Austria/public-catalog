@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "HS",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": " Depth of the snowpack on the ground",
   "links": [
     {
       "rel": "root",
@@ -65,7 +65,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "HS",
+  "title": "Height of Snow",
   "extent": {
     "spatial": {
       "bbox": [
@@ -80,7 +80,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-04-16T11:55:57.990218Z",
+          "2026-04-16T11:57:29.926712Z",
           null
         ]
       ]
