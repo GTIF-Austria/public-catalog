@@ -906,6 +906,34 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./heatrisk_age_0_19_pop_2025/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
+      "id": "heatrisk_age_0_19_pop_2025"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_0_19_pop_2050/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
+      "id": "heatrisk_age_0_19_pop_2050"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_65_84_pop_2025/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2025",
+      "id": "heatrisk_age_65_84_pop_2025"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_65_84_pop_2050/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
+      "id": "heatrisk_age_65_84_pop_2050"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
