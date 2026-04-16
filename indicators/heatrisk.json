@@ -1,0 +1,11 @@
+{
+  "Name": "heatrisk_v1",
+  "Title": "Hitzerisiko",
+  "Description": "Hitzerisiko",
+  "Collections": [
+    "heatrisk_age_0_19_pop_2050",
+    "heatrisk_age_0_19_pop_2025",
+    "heatrisk_age_65-84_pop_2050",
+    "heatrisk_age_65-84_pop_2025"
+  ]
+}
