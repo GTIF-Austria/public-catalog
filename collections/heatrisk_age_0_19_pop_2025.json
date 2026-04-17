@@ -6,6 +6,23 @@
     {
       "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/heat_risk_style.json",
+      "Colorlegend": {
+    "title": "Hitzerisiko",
+    "range": [
+      "rgba(251,255,200,0.8)",
+      "rgba(254,221,144,0.8)",
+      "rgba(244,114,119,0.8)",
+      "rgba(147,60,220,0.8)"
+    ],
+    "domain": [
+      "Gering",
+      "Mittel",
+      "Stark",
+      "Sehr stark"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
       "Bbox": [
         16.181,
         48.118,
@@ -17,7 +34,7 @@
           "Time": "20200101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2020",
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2020.geojson"
             }
           ]
@@ -26,7 +43,7 @@
           "Time": "20300101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2030",
+              "Identifier": "0-19 Jahre",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson"
             }
           ]
@@ -35,7 +52,7 @@
           "Time": "20400101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2040",
+              "Identifier": "0-19 Jahre",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2040.geojson"
             }
           ]
@@ -44,7 +61,7 @@
           "Time": "20500101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2050",
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2050.geojson"
             }
           ]
@@ -53,7 +70,7 @@
           "Time": "20600101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2060",
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2060.geojson"
             }
           ]
@@ -62,7 +79,7 @@
           "Time": "20700101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2070",
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2070.geojson"
             }
           ]
@@ -71,7 +88,7 @@
           "Time": "20800101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2080",
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2080.geojson"
             }
           ]
@@ -80,7 +97,7 @@
           "Time": "20900101",
           "Assets": [
             {
-              "Identifier": "0-19 Jahre - Klimatologie 2090",
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2025",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2090.geojson"
             }
           ]
