@@ -133,7 +133,7 @@
     "heat_risk_maps": {
       "href": "https://gtif-austria.info/narratives/heat_risk_maps",
       "type": "text/markdown",
-      "title": "",
+      "title": "Hitzerisikokarten Narrativ",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
