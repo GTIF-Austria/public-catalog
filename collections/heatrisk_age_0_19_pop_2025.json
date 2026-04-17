@@ -1,7 +1,7 @@
 {
   "Name": "heatrisk_age_0_19_pop_2025",
   "Title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
-  "Description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2025. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "Description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2025.",
   "Resources": [
     {
       "Name": "GeoJSON source",
@@ -14,11 +14,56 @@
       ],
       "TimeEntries": [
         {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Klimatologie 2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2020.geojson"
+            }
+          ]
+        },
+        {
           "Time": "20300101",
           "Assets": [
             {
-              "Identifier": "wien_fcst_0-19_2025_sc99_heat_hazard_2030",
+              "Identifier": "0-19 Jahre - Klimatologie 2030",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20400101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Klimatologie 2040",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2040.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20500101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Klimatologie 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2050.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20600101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Klimatologie 2060",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2060.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20700101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Klimatologie 2070",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2070.geojson"
             }
           ]
         },
@@ -26,8 +71,17 @@
           "Time": "20800101",
           "Assets": [
             {
-              "Identifier": "wien_fcst_0-19_2025_sc99_heat_hazard_2080",
+              "Identifier": "0-19 Jahre - Klimatologie 2080",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2080.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20900101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Klimatologie 2090",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2090.geojson"
             }
           ]
         }
