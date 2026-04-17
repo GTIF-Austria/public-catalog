@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "heatrisk_age_0_19_pop_2025",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2025. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2025.",
   "links": [
     {
       "rel": "root",
@@ -94,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2030-01-01T00:00:00Z",
-          "2080-01-01T00:00:00Z"
+          "2020-01-01T00:00:00Z",
+          "2090-01-01T00:00:00Z"
         ]
       ]
     }
