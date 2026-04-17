@@ -89,6 +89,23 @@
     "Sustainable Cities"
   ],
   "collection_group": "Sustainable Cities",
+  "eox:colorlegend": {
+    "title": "Hitzerisiko",
+    "range": [
+      "rgba(251,255,200,0.8)",
+      "rgba(254,221,144,0.8)",
+      "rgba(244,114,119,0.8)",
+      "rgba(147,60,220,0.8)"
+    ],
+    "domain": [
+      "Gering",
+      "Mittel",
+      "Stark",
+      "Sehr stark"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "Hitzerisiko Wien",
   "extent": {
     "spatial": {
