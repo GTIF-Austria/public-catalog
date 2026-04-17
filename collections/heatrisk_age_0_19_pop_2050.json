@@ -6,23 +6,23 @@
     {
       "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/heat_risk_style.json",
-      "Colorlegend": {
-        "title": "Hitzerisiko",
-        "range": [
-          "rgba(251,255,200,0.8)",
-          "rgba(254,221,144,0.8)",
-          "rgba(244,114,119,0.8)",
-          "rgba(147,60,220,0.8)"
-        ],
-        "domain": [
-          "Gering",
-          "Mittel",
-          "Stark",
-          "Sehr stark"
-        ],
-        "scaleType": "categorical",
-        "markType": "rect"
-      },
+        "Colorlegend": {
+    "title": "Hitzerisiko",
+    "range": [
+      "#FBFFC8",
+      "#FEDD90",
+      "#F47277",
+      "#933CDC"
+    ],
+    "domain": [
+      "Gering",
+      "Mittel",
+      "Stark",
+      "Sehr stark"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
       "Bbox": [
         16.181,
         48.118,
