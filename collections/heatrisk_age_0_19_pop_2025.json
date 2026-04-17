@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": " https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260417%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260417T131820Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b9ab67b6587ae5cf145745e341e488c456905115c3d70bcec836995be8952068",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/heat_risk_style.json",
       "Bbox": [
         16.181,
         48.118,
@@ -18,7 +18,7 @@
           "Assets": [
             {
               "Identifier": "wien_fcst_0-19_2025_sc99_heat_hazard_2030",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T125746Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=791089d92777bb6d32b186e6bf68abd9bcf1d7bc6bc6dd0df19008980313d99a "
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson"
             }
           ]
         },
@@ -27,7 +27,7 @@
           "Assets": [
             {
               "Identifier": "wien_fcst_0-19_2025_sc99_heat_hazard_2080",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2080.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T125725Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e100d6cee4c411fdb76488884e657a358d5bef76e29f9d5fec58a1a1e97b997e"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2080.geojson"
             }
           ]
         }
