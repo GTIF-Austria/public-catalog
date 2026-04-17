@@ -31,7 +31,6 @@
     }
   ],
   "Disable": [
-    "heatrisk_age_0-19_pop_2025",
-    "heatrisk_age_0-19_pop_2050"
+    "heatrisk_age_0_19_pop_2050"
   ]
 }
