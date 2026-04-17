@@ -18,7 +18,7 @@
           "Assets": [
             {
               "Identifier": "wien_fcst_0-19_2025_sc99_heat_hazard_2030",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T125746Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=791089d92777bb6d32b186e6bf68abd9bcf1d7bc6bc6dd0df19008980313d99a"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2025_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T125746Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=791089d92777bb6d32b186e6bf68abd9bcf1d7bc6bc6dd0df19008980313d99a "
             }
           ]
         },
