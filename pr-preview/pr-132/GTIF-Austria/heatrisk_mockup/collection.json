@@ -73,7 +73,6 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/heatrisk_legend_de.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T143142Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3ffecb6f2347385bb0121c5a12470dbf2508a3efef5d5ad0f20a43d14de5e0c3",
   "themes": [
     "Sustainable Cities"
   ],
@@ -127,13 +126,6 @@
       "roles": [
         "metadata",
         "story"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/heatrisk_legend_de.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T143142Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3ffecb6f2347385bb0121c5a12470dbf2508a3efef5d5ad0f20a43d14de5e0c3",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
       ]
     }
   }
