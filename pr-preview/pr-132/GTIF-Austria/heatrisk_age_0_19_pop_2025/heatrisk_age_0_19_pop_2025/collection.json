@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T143953Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8b52862c3c584f03bea45d0c9f72766f2cb5052fddad93b813c37f4d409a66f3",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/ https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260417%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260417T131820Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b9ab67b6587ae5cf145745e341e488c456905115c3d70bcec836995be8952068",
       "type": "text/vector-styles",
       "asset:keys": [
         "wien_fcst_0-19_2025_sc99_heat_hazard_2080"
