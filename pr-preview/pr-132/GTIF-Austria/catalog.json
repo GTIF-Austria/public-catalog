@@ -907,17 +907,17 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_age_0_19_pop_2025/collection.json",
+      "href": "./heatrisk_mockup/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
-      "id": "heatrisk_age_0_19_pop_2025"
-    },
-    {
-      "rel": "child",
-      "href": "./heatrisk_age_0_19_pop_2050/collection.json",
-      "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
-      "id": "heatrisk_age_0_19_pop_2050"
+      "title": "Hitzerisiko Wien",
+      "id": "heatrisk_mockup",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "child",
