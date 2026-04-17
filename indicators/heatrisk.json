@@ -29,8 +29,8 @@
   "BaseLayers": [],
   "Stories": [
     {
-      "Url": "https://gtif-austria.info/narratives/heat_risk_maps",
-      "Id": "Narrativ Hitzerisiko",
+      "Url": "https://github.com/GTIF-Austria/public-narratives/blob/main/heat_risk_maps.md",
+      "Id": "heat_risk_maps",
       "Name": ""
     }
   ],
