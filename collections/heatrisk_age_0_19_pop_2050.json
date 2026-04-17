@@ -1,11 +1,28 @@
 {
   "Name": "heatrisk_age_0_19_pop_2050",
   "Title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
-  "Description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2050. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "Description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2050.",
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/eox_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T143953Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8b52862c3c584f03bea45d0c9f72766f2cb5052fddad93b813c37f4d409a66f3",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/heat_risk_style.json",
+      "Colorlegend": {
+        "title": "Hitzerisiko",
+        "range": [
+          "rgba(251,255,200,0.8)",
+          "rgba(254,221,144,0.8)",
+          "rgba(244,114,119,0.8)",
+          "rgba(147,60,220,0.8)"
+        ],
+        "domain": [
+          "Gering",
+          "Mittel",
+          "Stark",
+          "Sehr stark"
+        ],
+        "scaleType": "categorical",
+        "markType": "rect"
+      },
       "Bbox": [
         16.181,
         48.118,
@@ -14,11 +31,56 @@
       ],
       "TimeEntries": [
         {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2020.geojson"
+            }
+          ]
+        },
+        {
           "Time": "20300101",
           "Assets": [
             {
-              "Identifier": "wien_fcst_0-19_2050_sc99_heat_hazard_2030",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2030.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T125652Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bce637b0686b2339d7e74f21a4b320b7bf61ad755eb3d5711fe37dfe9dd16bb5"
+              "Identifier": "0-19 Jahre",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2030.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20400101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2040.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20500101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2050.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20600101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2060.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20700101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2070.geojson"
             }
           ]
         },
@@ -26,8 +88,17 @@
           "Time": "20800101",
           "Assets": [
             {
-              "Identifier": "wien_fcst_0-19_2050_sc99_heat_hazard_2080",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2080.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T125620Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2600a0861c85f32022b604ad37f45c3e50c7092df7a3776a2c695cf7a1a789dd"
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2080.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20900101",
+          "Assets": [
+            {
+              "Identifier": "0-19 Jahre - Bevölkerungsstand 2050",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/geojson/wien_fcst_0-19_2050_sc99_heat_hazard_2090.geojson"
             }
           ]
         }
