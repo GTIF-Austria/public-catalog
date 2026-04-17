@@ -24,7 +24,10 @@
       "type": "application/json",
       "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_0_19_pop_2050"
+      "id": "heatrisk_age_0_19_pop_2050",
+      "roles": [
+        "disable"
+      ]
     },
     {
       "rel": "xyz",
