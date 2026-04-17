@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "heatrisk_mockup",
+  "id": "heatrisk_age_0_19_pop_2025",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.\n",
+  "description": "Hitzerisiko in Wien für die Altersgruppe 0-19 und den Bevölkerungsstand 2025. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_age_65_84_pop_2050/collection.json",
+      "href": "./heatrisk_age_0_19_pop_2025/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_65_84_pop_2050"
+      "id": "heatrisk_age_0_19_pop_2025"
     },
     {
       "rel": "xyz",
@@ -73,12 +73,7 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/heatrisk_legend_de.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T143142Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3ffecb6f2347385bb0121c5a12470dbf2508a3efef5d5ad0f20a43d14de5e0c3",
-  "themes": [
-    "Sustainable Cities"
-  ],
-  "collection_group": "Sustainable Cities",
-  "title": "Hitzerisiko Wien",
+  "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
   "extent": {
     "spatial": {
       "bbox": [
@@ -105,36 +100,5 @@
       ]
     }
   },
-  "license": "other",
-  "providers": [
-    {
-      "name": "AIT Center for Energy",
-      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
-    }
-  ],
-  "assets": {
-    "heat_risk_maps": {
-      "href": "https://gtif-austria.info/narratives/heat_risk_maps",
-      "type": "text/markdown",
-      "title": "",
-      "alternate": {
-        "raw": {
-          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
-          "description": "Raw markdown content of the story"
-        }
-      },
-      "alternate:name": "rendered",
-      "roles": [
-        "metadata",
-        "story"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/heatrisk_legend_de.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260416%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260416T143142Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3ffecb6f2347385bb0121c5a12470dbf2508a3efef5d5ad0f20a43d14de5e0c3",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  "license": "other"
 }
