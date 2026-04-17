@@ -161,13 +161,13 @@
     }
   ],
   "assets": {
-    "Narrativ Hitzerisiko": {
-      "href": "https://gtif-austria.info/narratives/Narrativ Hitzerisiko",
+    "heat_risk_maps": {
+      "href": "https://gtif-austria.info/narratives/heat_risk_maps",
       "type": "text/markdown",
       "title": "",
       "alternate": {
         "raw": {
-          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/Narrativ Hitzerisiko.md",
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
           "description": "Raw markdown content of the story"
         }
       },
