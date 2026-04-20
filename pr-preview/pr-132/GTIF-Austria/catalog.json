@@ -906,6 +906,23 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./heatrisk_vienna/collection.json",
+      "type": "application/json",
+      "title": "Hitzeriskobewertung nach IPCC",
+      "id": "heatrisk_vienna",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png"
+      ],
+      "collection_group": "Sustainable Cities"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
