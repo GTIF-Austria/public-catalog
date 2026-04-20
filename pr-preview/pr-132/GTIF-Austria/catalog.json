@@ -907,38 +907,10 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_mockup/collection.json",
-      "type": "application/json",
-      "title": "Hitzerisiko Wien",
-      "id": "heatrisk_mockup",
-      "themes": [
-        "Sustainable Cities"
-      ],
-      "providers": [
-        "AIT Center for Energy"
-      ],
-      "collection_group": "Sustainable Cities"
-    },
-    {
-      "rel": "child",
       "href": "./heatrisk_vienna/collection.json",
       "type": "application/json",
       "title": "Hitzeriskobewertung nach IPCC",
       "id": "heatrisk_vienna",
-      "themes": [
-        "Sustainable Cities"
-      ],
-      "providers": [
-        "AIT Center for Energy"
-      ],
-      "collection_group": "Sustainable Cities"
-    },
-    {
-      "rel": "child",
-      "href": "./heatrisk_final/collection.json",
-      "type": "application/json",
-      "title": "Hitzerisiko Wien",
-      "id": "heatrisk_final",
       "themes": [
         "Sustainable Cities"
       ],
