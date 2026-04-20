@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "test_raster_band_switch",
+  "id": "heatrisk_vienna",
   "stac_version": "1.1.0",
-  "description": "Test if raster band switching works in GTIF.",
+  "description": "Hitzeexpositionskarten in Wien für ausgewählte Altersgruppen und Bevölkerungsprognosen. ",
   "links": [
     {
       "rel": "root",
@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Raster Band Test"
+      "title": "Hitzeriskobewertung nach IPCC"
     }
   ],
   "endpointtype": "COG source",
-  "title": "Raster Band Test",
+  "title": "Hitzeriskobewertung nach IPCC",
   "extent": {
     "spatial": {
       "bbox": [
