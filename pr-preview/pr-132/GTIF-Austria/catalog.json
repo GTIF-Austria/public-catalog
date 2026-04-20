@@ -924,7 +924,13 @@
       "href": "./heatrisk_vienna/collection.json",
       "type": "application/json",
       "title": "Hitzeriskobewertung nach IPCC",
-      "id": "heatrisk_vienna"
+      "id": "heatrisk_vienna",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ]
     },
     {
       "rel": "child",

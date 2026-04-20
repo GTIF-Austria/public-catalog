@@ -25,6 +25,26 @@
       "title": "Hitzeriskobewertung nach IPCC"
     }
   ],
+  "themes": [
+    "Sustainable Cities"
+  ],
+  "eox:colorlegend": {
+    "title": "Hitzeexposition",
+    "markType": "rect",
+    "scaleType": "categorical",
+    "range": [
+      "#FBFFC8",
+      "#FEDD90",
+      "#F47277",
+      "#933CDC"
+    ],
+    "domain": [
+      "gering",
+      "mittel",
+      "stark",
+      "sehr stark"
+    ]
+  },
   "endpointtype": "COG source",
   "title": "Hitzeriskobewertung nach IPCC",
   "extent": {
@@ -48,6 +68,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -55,6 +81,22 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "heat_risk_maps": {
+      "href": "https://gtif-austria.info/narratives/heat_risk_maps",
+      "type": "text/markdown",
+      "title": "Hitzerisikokarten Narrativ",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
       ]
     }
   }
