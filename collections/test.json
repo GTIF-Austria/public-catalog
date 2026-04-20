@@ -6,7 +6,17 @@
     {
       "Name": "COG source",
       "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/tif_test_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T074153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eef5f299947af53de27710cbc8b43340808c25b071e39635c2ef6e06b769d5ec",
-      "TimeEntries": []
+      "TimeEntries": [
+        {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "Frez",
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/test_multiband.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T074244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e9e5167b0f03089a69c938fb2f7e47ad96b29a0dd07aa6b49eef4fa155d66047"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
