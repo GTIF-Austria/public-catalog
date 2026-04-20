@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/multiband_by_hazard_4326/heat_risk_multiband_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T105422Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=93758778deacbde93d30a5e02e9030d82418ce17ae168d7c7f6b50bd40e82490",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/heat_risk_multiband_style.json",
       "TimeEntries": [
         {
           "Time": "20200101",
