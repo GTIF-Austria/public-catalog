@@ -1,0 +1,127 @@
+{
+  "Name": "heatrisk_vienna",
+  "Title": "Hitzeriskobewertung nach IPCC",
+  "Description": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/heat_risk_multiband_style.json",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2020_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2030",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2030_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2040",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2040_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2050",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2050_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2060",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2060_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2070",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2070_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2080",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2080_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2090",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2090_multiband_cog.tif"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        16.104187522388848,
+        48.03726357311608,
+        16.632657903519828,
+        48.35793806453949
+      ]
+    }
+  ],
+  "Themes": [
+    "Sustainable Cities"
+  ],
+  "Stories": [
+    {
+      "Url": "https://github.com/GTIF-Austria/public-narratives/blob/main/heat_risk_maps.md",
+      "Name": "Hitzerisikokarten Narrativ",
+      "Id": "heat_risk_maps"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "AIT Center for Energy",
+      "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
+  "Citation": {},
+  "CollectionGroup": "Sustainable Cities",
+  "Colorlegend": {
+    "title": "Hitzeexposition",
+    "markType": "rect",
+    "scaleType": "categorical",
+    "range": [
+      "#FBFFC8",
+      "#FEDD90",
+      "#F47277",
+      "#933CDC"
+    ],
+    "domain": [
+      "gering",
+      "mittel",
+      "stark",
+      "sehr stark"
+    ]
+  }
+}
