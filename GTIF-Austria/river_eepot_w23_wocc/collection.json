@@ -27,7 +27,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
+      "collection_group": "Study on Renewable Energy Potentials"
     },
     {
       "rel": "service",
@@ -98,7 +98,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials",
+  "collection_group": "Study on Renewable Energy Potentials",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/river_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/river_eepot_chart.json",
   "title": "Flowing Water Bodies (Aquathermy)",
