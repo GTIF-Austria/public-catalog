@@ -29,7 +29,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Grid Capacities and Renewable Energy Potentials"
+      "collection_group": "Study on Renewable Energy Potentials"
     },
     {
       "rel": "service",
@@ -100,7 +100,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Grid Capacities and Renewable Energy Potentials",
+  "collection_group": "Study on Renewable Energy Potentials",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/comparison_grid_e_eepot_form_comparison.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/comparison_grid_e_eepot_chart.json",
   "title": "Grid Capacity and Electricity Generation Potential",
