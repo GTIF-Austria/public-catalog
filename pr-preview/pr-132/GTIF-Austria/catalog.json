@@ -907,10 +907,10 @@
     },
     {
       "rel": "child",
-      "href": "./heatexposure_vienna/collection.json",
+      "href": "./heatrisk_vienna/collection.json",
       "type": "application/json",
-      "title": "Hitzeexposition nach IPCC",
-      "id": "heatexposure_vienna",
+      "title": "Hitzeriskobewertung nach IPCC",
+      "id": "heatrisk_vienna",
       "themes": [
         "Sustainable Cities"
       ],
