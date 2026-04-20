@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/tif_test_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T074153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eef5f299947af53de27710cbc8b43340808c25b071e39635c2ef6e06b769d5ec",
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/tif_test_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T093926Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3e21f0c36ba8e7c1b01ab3033211ad8bfef3b52df92bdc4ec5e9eb89cdcb8991",
       "type": "text/cog-styles",
       "asset:keys": [
         "Frez"
