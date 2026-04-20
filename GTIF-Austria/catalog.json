@@ -125,7 +125,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Heat Potential"
+      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -146,7 +146,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Heat Potential"
+      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -167,7 +167,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Heat Potential"
+      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -188,7 +188,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Wind Energy Potential"
+      "collection_group": "Wind Energy Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -209,7 +209,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Hydropower Potential"
+      "collection_group": "Hydropower Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -230,7 +230,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Heat Potential"
+      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -251,7 +251,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Heat Potential"
+      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -272,7 +272,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN data - Ambient Heat Potential"
+      "collection_group": "Ambient Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -293,7 +293,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+      "collection_group": "Photovoltaic Energy Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -314,7 +314,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+      "collection_group": "Photovoltaic Energy Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -335,7 +335,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+      "collection_group": "Photovoltaic Energy Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -356,7 +356,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Photovoltaic Energy Potential"
+      "collection_group": "Photovoltaic Energy Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -377,7 +377,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Solar Thermal Heat Potential"
+      "collection_group": "Solar Thermal Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
@@ -398,7 +398,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "KLIEN Data – Solar Thermal Heat Potential"
+      "collection_group": "Solar Thermal Heat Potentials – Study on Renewable Energy Potentials"
     },
     {
       "rel": "child",
