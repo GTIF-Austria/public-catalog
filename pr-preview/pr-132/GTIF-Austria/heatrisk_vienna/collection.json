@@ -26,14 +26,6 @@
       "collection_group": "Sustainable Cities"
     },
     {
-      "rel": "service",
-      "href": "./heatrisk_vienna/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -91,7 +83,6 @@
   "themes": [
     "Sustainable Cities"
   ],
-  "locations": true,
   "collection_group": "Sustainable Cities",
   "eox:colorlegend": {
     "title": "Hitzeexposition",
