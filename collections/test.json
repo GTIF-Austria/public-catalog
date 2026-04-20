@@ -6,13 +6,82 @@
     {
       "Name": "COG source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/heat_risk_multiband_style.json",
+      "Bbox": [
+        16.181,
+        48.118,
+        16.578,
+        48.324
+      ],
       "TimeEntries": [
         {
           "Time": "2020",
           "Assets": [
             {
-              "Identifier": "Hitzeexpositon",
+              "Identifier": "Hitzeexposition",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2020_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2030",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2030_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2040",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2040_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2050",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2050_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2060",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2060_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2070",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2070_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2080",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2080_multiband_cog.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2090",
+          "Assets": [
+            {
+              "Identifier": "Hitzeexposition",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2090_multiband_cog.tif"
             }
           ]
         }
