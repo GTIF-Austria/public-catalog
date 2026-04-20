@@ -16,9 +16,7 @@
     }
   ],
   "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
-  "Subtitle": "",
-  "ShortDescription": "",
-  "Legend": "",
+  "ShortDescription": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.",
   "Stories": [
     {
       "Url": "https://github.com/GTIF-Austria/public-narratives/blob/main/heat_risk_maps.md",
