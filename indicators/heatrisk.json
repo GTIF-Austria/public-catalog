@@ -23,5 +23,72 @@
       "Id": "heat_risk_maps",
       "Name": "Hitzerisikokarten Narrativ"
     }
-  ]
+  ],
+  "legend": [
+  {
+    "title": "Hitzerisiko",
+    "range": ["#FBFFC8", "#FEDD90", "#F47277", "#933CDC"],
+    "domain": [
+      "Sehr niedrig (0–5) — Gelegentliche warme Nächte können den Schlaf kurzzeitig stören, die Erholung gelingt jedoch meist gut. Wichtig sind ausreichendes Trinken sowie Vorsicht bei abendlichem Sport und intensivem Spielen im Freien.",
+      "Niedrig (6–15) — Wiederkehrend warme Nächte beeinträchtigen Schlaf und Tageserholung zunehmend; das Risiko für Dehydrierung und hitzebedingte Beschwerden steigt bei Camps, Sport und Spielen im Freien.",
+      "Mittel (16–30) — Warme Nächte prägen jeden Sommer; anhaltender Schlafmangel, schlechtere Konzentration und mehr hitzebedingte pädiatrische Behandlungsfälle werden wahrscheinlicher.",
+      "Hoch / Sehr hoch (>30) — Tropische Nächte werden zur sommerlichen Normalität; dauerhaft verkürzter Schlaf und Probleme beim Flüssigkeitsmanagement sind wahrscheinlich, besonders bei kleinen Kindern und aktiven Jugendlichen."
+    ],
+    "scaleType": "categorical",
+    "markType": "rect",
+    "boundTo": { "key": "age_group", "value": "a1" }
+  },
+  {
+    "title": "Hitzerisiko",
+    "range": ["#FBFFC8", "#FEDD90", "#F47277", "#933CDC"],
+    "domain": [
+      "Sehr niedrig (0–5) — Kurze Schlafdefizite und Müdigkeit am Folgetag sind möglich, bleiben aber meist gut kompensierbar. Besonders Personen mit Außen- oder Nachtarbeit können erste Leistungseinbußen bemerken.",
+      "Niedrig (6–15) — Wiederkehrendes Schlafdefizit und Müdigkeit nehmen zu; Arbeitsleistung und Sicherheit leiden besonders bei Außen-, Schicht- und körperlich belastender Arbeit.",
+      "Mittel (16–30) — Kumulatives Schlafdefizit wird saisonal relevant; Produktivitätsverluste, Dehydrierung und Nierenbelastung nehmen bei hitzeexponierten Beschäftigten zu.",
+      "Hoch / Sehr hoch (>30) — Anhaltende saisonale Schlafstörungen und berufliche Belastungen nehmen zu; in langen Hitzeperioden steigt der Druck auf Gesundheit und Versorgung, besonders bei stark exponierten Erwerbstätigen."
+    ],
+    "scaleType": "categorical",
+    "markType": "rect",
+    "boundTo": { "key": "age_group", "value": "a2" }
+  },
+  {
+    "title": "Hitzerisiko",
+    "range": ["#FBFFC8", "#FEDD90", "#F47277", "#933CDC"],
+    "domain": [
+      "Sehr niedrig (0–5) — Leichte Schlafstörungen sind möglich; Menschen mit bestehenden kardio-metabolischen oder respiratorischen Erkrankungen können früher belastet reagieren als jüngere Erwachsene.",
+      "Niedrig (6–15) — Kardio-respiratorische und metabolische Belastungen treten in heißen Phasen deutlicher hervor; auch die Inanspruchnahme von Gesundheitsleistungen beginnt zuzunehmen.",
+      "Mittel (16–30) — Kardio-respiratorische, renale und metabolische Krankenhausaufnahmen werden während Hitzeperioden deutlich wahrscheinlicher; heiße Nächte verstärken die Belastung des Tages zusätzlich.",
+      "Hoch / Sehr hoch (>30) — Die sommerliche kardio-metabolische Belastung wird chronisch; respiratorische, kardiovaskuläre, renale und metabolische Aufnahmen steigen verlässlich an."
+    ],
+    "scaleType": "categorical",
+    "markType": "rect",
+    "boundTo": { "key": "age_group", "value": "a3" }
+  },
+  {
+    "title": "Hitzerisiko",
+    "range": ["#FBFFC8", "#FEDD90", "#F47277", "#933CDC"],
+    "domain": [
+      "Sehr niedrig (0–5) — Bereits einzelne heiße Nächte können die nächtliche Erholung spürbar beeinträchtigen; ausreichende Flüssigkeit und eine kühle Schlafumgebung sind daher wichtig.",
+      "Niedrig (6–15) — Thermoregulatorischer Stress wird spürbar; kurze Hitzephasen mindern die Erholung und erhöhen die sommerliche Belastung von Notaufnahmen und Krankenhäusern.",
+      "Mittel (16–30) — Das Morbiditätsrisiko steigt klar an; der Schlaf verschlechtert sich, Alltagsaktivitäten fallen schwerer, und hitzewellenbedingte Aufnahmen nehmen zu.",
+      "Hoch / Sehr hoch (>30) — Es besteht ein hohes Risiko für Übersterblichkeit sowie anhaltenden Druck auf Krankenhäuser und Rettungsdienste während langer warmer Nächte und Hitzewellen."
+    ],
+    "scaleType": "categorical",
+    "markType": "rect",
+    "boundTo": { "key": "age_group", "value": "a4" }
+  },
+  {
+    "title": "Hitzerisiko",
+    "range": ["#FBFFC8", "#FEDD90", "#F47277", "#933CDC"],
+    "domain": [
+      "Sehr niedrig (0–5) — Bei hochaltrigen und gebrechlichen Menschen kann schon diese Stufe Check-ins während Hitzewarnungen sinnvoll machen, da selbst geringe Erholungsverluste Dehydrierung und Einschränkungen im Alltag verstärken können.",
+      "Niedrig (6–15) — Auch kurze Hitzephasen werden klinisch relevanter; Dehydrierung sowie funktionelle und kognitive Einschränkungen werden wahrscheinlicher, ebenso ein höherer Unterstützungs- und Pflegebedarf.",
+      "Mittel (16–30) — Übersterblichkeit und eine höhere Nachfrage nach Rettungsdiensten werden bei längeren Hitzeperioden zu einer realistischen Belastung.",
+      "Hoch / Sehr hoch (>30) — Höchste Priorität: Eingeschränkte Thermoregulation und ausgeprägte Gebrechlichkeit erhöhen das Risiko für wiederholte Hospitalisierungen, Notfallversorgung und Mortalitätsanstiege deutlich."
+    ],
+    "scaleType": "categorical",
+    "markType": "rect",
+    "boundTo": { "key": "age_group", "value": "a5" }
+  }
+]
 }
