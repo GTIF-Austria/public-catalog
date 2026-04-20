@@ -19,12 +19,41 @@
       ]
     }
   ],
-  "Themes": [],
-  "Stories": [],
-  "Provider": [],
+  "Themes": [
+    "Sustainable Cities"
+  ],
+  "Stories": [
+    {
+      "Url": "https://github.com/GTIF-Austria/public-narratives/blob/main/heat_risk_maps.md",
+      "Name": "Hitzerisikokarten Narrativ",
+      "Id": "heat_risk_maps"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "AIT Center for Energy",
+      "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
   "Image": "",
   "Citation": {},
   "CollectionGroup": "",
-  "Colorlegend": {},
+  "Colorlegend": {
+    "title": "Hitzeexposition",
+    "markType": "rect",
+    "scaleType": "categorical",
+    "range": [
+      "#FBFFC8",
+      "#FEDD90",
+      "#F47277",
+      "#933CDC"
+    ],
+    "domain": [
+      "gering",
+      "mittel",
+      "stark",
+      "sehr stark"
+    ]
+  },
   "Locations": []
 }
