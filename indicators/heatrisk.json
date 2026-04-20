@@ -1,11 +1,10 @@
 {
-  "Name": "heatrisk_mockup",
-  "Title": "Hitzerisiko Wien",
-  "Description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.\n",
+  "Name": "heatrisk_vienna",
+  "Title": "Hitzeriskobewertung nach IPCC",
+  "Description": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.\n",
   "CollectionGroup": "Sustainable Cities",
   "Collections": [
-    "heatrisk_age_0_19_pop_2025",
-    "heatrisk_age_0_19_pop_2050"
+    "heatexposure_maps"
   ],
   "Themes": [
     "Sustainable Cities"
@@ -19,34 +18,12 @@
   "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
   "Subtitle": "",
   "ShortDescription": "",
-  "Hidden": [],
   "Legend": "",
-  "Colorlegend": {
-    "title": "Hitzerisiko",
-    "range": [
-      "#FBFFC8",
-      "#FEDD90",
-      "#F47277",
-      "#933CDC"
-    ],
-    "domain": [
-      "Gering",
-      "Mittel",
-      "Stark",
-      "Sehr stark"
-    ],
-    "scaleType": "categorical",
-    "markType": "rect"
-  },
-  "BaseLayers": [],
   "Stories": [
     {
       "Url": "https://github.com/GTIF-Austria/public-narratives/blob/main/heat_risk_maps.md",
       "Id": "heat_risk_maps",
       "Name": "Hitzerisikokarten Narrativ"
     }
-  ],
-  "Disable": [
-    "heatrisk_age_0_19_pop_2050"
   ]
 }
