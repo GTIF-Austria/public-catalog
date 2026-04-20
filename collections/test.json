@@ -6,12 +6,6 @@
     {
       "Name": "COG source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/heat_risk_multiband_style.json",
-      "Bbox": [
-        16.181,
-        48.118,
-        16.578,
-        48.324
-      ],
       "TimeEntries": [
         {
           "Time": "2020",
