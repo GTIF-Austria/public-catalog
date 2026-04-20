@@ -25,6 +25,7 @@
       "title": "Hitzeriskobewertung nach IPCC"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
   "themes": [
     "Sustainable Cities"
   ],
@@ -98,6 +99,13 @@
       "roles": [
         "metadata",
         "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
