@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "test_raster_band_switch",
+  "stac_version": "1.1.0",
+  "description": "Test if raster band switching works in GTIF.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Raster Band Test"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "Raster Band Test",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-04-20T07:42:49.933952Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -921,6 +921,13 @@
     },
     {
       "rel": "child",
+      "href": "./test_raster_band_switch/collection.json",
+      "type": "application/json",
+      "title": "Raster Band Test",
+      "id": "test_raster_band_switch"
+    },
+    {
+      "rel": "child",
       "href": "./heatrisk_final/collection.json",
       "type": "application/json",
       "title": "Hitzerisiko Wien",
