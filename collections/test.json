@@ -12,7 +12,7 @@
           "Assets": [
             {
               "Identifier": "Frez",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/test_multiband.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T074244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e9e5167b0f03089a69c938fb2f7e47ad96b29a0dd07aa6b49eef4fa155d66047"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/test_multiband_classes.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T080616Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=998fba668df2d5c36ccf07bea4e9f9438a4907f20fc5e62dea7f3951d6cc08f1"
             }
           ]
         }
