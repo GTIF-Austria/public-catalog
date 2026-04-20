@@ -5,14 +5,14 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/tif_test_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T093926Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3e21f0c36ba8e7c1b01ab3033211ad8bfef3b52df92bdc4ec5e9eb89cdcb8991",
+      "Style": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/multiband_by_hazard_4326/heat_risk_multiband_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T105422Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=93758778deacbde93d30a5e02e9030d82418ce17ae168d7c7f6b50bd40e82490",
       "TimeEntries": [
         {
           "Time": "20200101",
           "Assets": [
             {
               "Identifier": "Frez",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/test_multiband_classes.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T080616Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=998fba668df2d5c36ccf07bea4e9f9438a4907f20fc5e62dea7f3951d6cc08f1"
+              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/multiband_by_hazard_4326/heatrisk_hazard_2020_multiband.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T105407Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2e276d18377ff55c402def617ca56b8660347056d91a80d53bfb092674253d11"
             }
           ]
         }
