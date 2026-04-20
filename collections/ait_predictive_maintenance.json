@@ -9,7 +9,7 @@
       "Name": "AIT Center for Transport Technologies",
       "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
     }
-    ],
+  ],
   "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
   "OverlayLayers": [
     {
@@ -28,7 +28,6 @@
       "url": "https://mapsneu.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png",
       "Attribution": "{ Datenquelle: <a href=\"https://basemap.at\" target=\"_blank\" property=\"dct:title\">basemap.at</a> }",
       "visible": true,
-      "maxNativeZoom": 18,
       "protocol": "xyz"
     }
   ],
