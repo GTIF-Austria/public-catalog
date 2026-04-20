@@ -930,7 +930,8 @@
       ],
       "providers": [
         "AIT Center for Energy"
-      ]
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "child",

@@ -28,6 +28,7 @@
   "themes": [
     "Sustainable Cities"
   ],
+  "collection_group": "Sustainable Cities",
   "eox:colorlegend": {
     "title": "Hitzeexposition",
     "markType": "rect",
