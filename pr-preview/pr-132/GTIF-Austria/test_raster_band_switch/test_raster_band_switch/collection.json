@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "style",
+      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/tif_test_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T074153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=eef5f299947af53de27710cbc8b43340808c25b071e39635c2ef6e06b769d5ec",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Frez"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -24,20 +32,30 @@
       "bbox": [
         [
           -180.0,
-          -90.0,
+          -85.0,
           180.0,
-          90.0
+          85.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-04-20T07:42:49.933952Z",
-          null
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
