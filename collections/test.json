@@ -1,7 +1,7 @@
 {
   "Name": "heatrisk_vienna",
   "Title": "Hitzeriskobewertung nach IPCC",
-  "Description": "Hitzeexpositionskarten in Wien für ausgewählte Altersgruppen und Bevölkerungsprognosen. ",
+  "Description": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.",
   "Resources": [
     {
       "Name": "COG source",
@@ -11,12 +11,20 @@
           "Time": "2020",
           "Assets": [
             {
-              "Identifier": "Frez",
-              "File": "https://obs.eu-nl.otc.t-systems.com/gtif-austria/public/heatrisk/multiband_by_hazard_4326/heatrisk_hazard_2020_multiband.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZF4DNQKHYPLZN95ABGS6%2F20260420%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260420T105407Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2e276d18377ff55c402def617ca56b8660347056d91a80d53bfb092674253d11"
+              "Identifier": "Hitzeexpositon",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2020_multiband_cog.tif"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "Themes": [],
+  "Stories": [],
+  "Provider": [],
+  "Image": "",
+  "Citation": {},
+  "CollectionGroup": "",
+  "Colorlegend": {},
+  "Locations": []
 }
