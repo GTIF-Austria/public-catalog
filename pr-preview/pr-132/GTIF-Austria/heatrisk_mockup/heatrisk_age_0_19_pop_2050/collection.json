@@ -19,14 +19,6 @@
       ]
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/heat_risk_style.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "0-19 Jahre - Bevölkerungsstand 2050"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

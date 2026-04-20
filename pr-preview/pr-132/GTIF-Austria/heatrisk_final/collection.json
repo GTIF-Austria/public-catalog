@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "heatrisk_age_65_84_pop_2050",
+  "id": "heatrisk_final",
   "stac_version": "1.1.0",
-  "description": "Hitzerisiko in Wien für die Altersgruppe 65-84 und den Bevölkerungsstand 2050. Minimalbeispiel mit Zeitschritten 2030 und 2080.",
+  "description": "Hitzerisiko in Wien für ausgewählte Altersgruppen und Bevölkerungsstände. Dieses Mockup enthält vier Test-Kombinationen aus Altersgruppe und Bevölkerungsprojektion sowie zwei Zeitschritte des Klimahorizonts.\n",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,22 @@
     },
     {
       "rel": "child",
-      "href": "./heatrisk_age_65_84_pop_2050/collection.json",
+      "href": "./heatrisk_age_0_19_pop_2025/collection.json",
       "type": "application/json",
-      "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2025",
       "endpointtype": "GeoJSON source",
-      "id": "heatrisk_age_65_84_pop_2050"
+      "id": "heatrisk_age_0_19_pop_2025"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_age_0_19_pop_2050/collection.json",
+      "type": "application/json",
+      "title": "Hitzerisiko, Altersgruppe 0-19, Bevölkerungsstand 2050",
+      "endpointtype": "GeoJSON source",
+      "id": "heatrisk_age_0_19_pop_2050",
+      "roles": [
+        "disable"
+      ]
     },
     {
       "rel": "xyz",
@@ -73,10 +84,38 @@
       "title": "GTIF Austria"
     }
   ],
-  "title": "Hitzerisiko, Altersgruppe 65-84, Bevölkerungsstand 2050",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
+  "themes": [
+    "Sustainable Cities"
+  ],
+  "collection_group": "Sustainable Cities",
+  "eox:colorlegend": {
+    "title": "Hitzerisiko",
+    "range": [
+      "#FBFFC8",
+      "#FEDD90",
+      "#F47277",
+      "#933CDC"
+    ],
+    "domain": [
+      "Gering",
+      "Mittel",
+      "Stark",
+      "Sehr stark"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
+  "title": "Hitzerisiko Wien",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          16.181,
+          48.118,
+          16.578,
+          48.324
+        ],
         [
           16.181,
           48.118,
@@ -94,11 +133,42 @@
     "temporal": {
       "interval": [
         [
-          "2030-01-01T00:00:00Z",
-          "2080-01-01T00:00:00Z"
+          "2020-01-01T00:00:00Z",
+          "2090-01-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "AIT Center for Energy",
+      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+    }
+  ],
+  "assets": {
+    "heat_risk_maps": {
+      "href": "https://gtif-austria.info/narratives/heat_risk_maps",
+      "type": "text/markdown",
+      "title": "Hitzerisikokarten Narrativ",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
