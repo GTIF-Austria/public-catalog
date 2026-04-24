@@ -875,7 +875,8 @@
       "id": "wr03_wind_nowcasting",
       "providers": [
         "GeoSphere"
-      ]
+      ],
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "child",
