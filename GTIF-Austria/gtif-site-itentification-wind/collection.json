@@ -16,7 +16,8 @@
       "type": "application/json",
       "title": "Site Identification Wind",
       "endpointtype": "COG source",
-      "id": "gtif-site-itentification-wind"
+      "id": "gtif-site-itentification-wind",
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "service",
@@ -84,6 +85,7 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
+  "collection_group": "Energy Transition",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind%20Atlas/process/windatlas_process_site_identification_form.json",
   "title": "Site Identification Wind",
   "extent": {

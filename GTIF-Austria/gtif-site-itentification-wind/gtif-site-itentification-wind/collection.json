@@ -38,6 +38,7 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-01-Wind Atlas/Thumbnail/Thumbnail Wind Potential.png",
+  "collection_group": "Energy Transition",
   "endpointtype": "COG source",
   "title": "Site Identification Wind",
   "extent": {
