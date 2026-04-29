@@ -8,7 +8,8 @@
   "assets_endpoint": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main",
   "stories_endpoint": {
     "rendered_url": "https://gtif-austria.info/narratives/{id}",
-    "raw_url": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main"
+    "raw_url": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main",
+    "additional_stac_property": "eodash:narratives"
   },
   "collections": [
     "LULUCF_land_use_indicator",
@@ -62,6 +63,7 @@
     "11-wr08-heating_systems",
     "wr03_wind_nowcasting",
     "wp04_uepi",
-    "gtif-site-itentification-wind"
+    "gtif-site-itentification-wind",
+    "heatrisk"
   ]
 }
