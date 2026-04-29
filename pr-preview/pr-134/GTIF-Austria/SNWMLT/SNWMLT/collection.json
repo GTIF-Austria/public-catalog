@@ -1,0 +1,277 @@
+{
+  "type": "Collection",
+  "id": "SNWMLT",
+  "stac_version": "1.1.0",
+  "description": "Melt rate in mm/day.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_84963"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_84964"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_85365"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_85366"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_85767"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_85768"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86169"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86170"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86171"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86570"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86571"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86572"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86573"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86972"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86973"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86974"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_86975"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87374"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87375"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87376"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87377"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87776"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87777"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87778"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_87779"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_88178"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_88179"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SNWMLT.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SNWMLT_202206300000_88180"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Melt"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "Snow Melt",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1800000.0,
+          5900000.0,
+          1900000.0,
+          6000000.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-10-02T00:00:00Z",
+          "2022-06-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "type": "Collection",
+  "id": "SCA",
+  "stac_version": "1.1.0",
+  "description": "Fraction of snow covered area per pixel.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206260957_87779"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206260957_88178"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206260957_88179"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206260957_88180"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206251027_84964"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206301017_85768"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86170"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271018_86171"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86570"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86571"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86972"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206301017_85767"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86169"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86572"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86573"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206271017_86973"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_86974"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_86975"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_87374"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_87375"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_87376"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206241007_87377"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_87776"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_87778"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206301027_85365"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206301027_85366"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206301027_84963"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "SCA_202206191007_87777"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Covered Area"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "Snow Covered Area",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1700000.0,
+          6000000.0,
+          1800000.0,
+          6100000.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-12-21T00:00:00Z",
+          "2022-06-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

@@ -913,6 +913,27 @@
       "id": "HS"
     },
     {
+      "rel": "child",
+      "href": "./SWE/collection.json",
+      "type": "application/json",
+      "title": "Snow Water Equivalent",
+      "id": "SWE"
+    },
+    {
+      "rel": "child",
+      "href": "./SNWMLT/collection.json",
+      "type": "application/json",
+      "title": "Snow Melt",
+      "id": "SNWMLT"
+    },
+    {
+      "rel": "child",
+      "href": "./SCA/collection.json",
+      "type": "application/json",
+      "title": "Snow Covered Area",
+      "id": "SCA"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
