@@ -25,6 +25,28 @@
       "title": "Hitzeriskobewertung nach IPCC"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:narratives": {
+    "heat_risk_maps": {
+      "href": "https://gtif-austria.info/narratives/heat_risk_maps",
+      "type": "text/markdown",
+      "title": "Hitzerisikokarten Narrativ",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png",
   "themes": [
     "Sustainable Cities"
@@ -89,13 +111,15 @@
       "href": "https://gtif-austria.info/narratives/heat_risk_maps",
       "type": "text/markdown",
       "title": "Hitzerisikokarten Narrativ",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/heat_risk_maps.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

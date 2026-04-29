@@ -17,6 +17,28 @@
       "title": "Hydropower"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:narratives": {
+    "tf2-hydropower": {
+      "href": "https://gtif-austria.info/narratives/tf2-hydropower",
+      "type": "text/markdown",
+      "title": "Narrative Hydropower",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/tf2-hydropower.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Hydropower.jpg",
   "themes": [
     "Energy Transition"
@@ -71,13 +93,15 @@
       "href": "https://gtif-austria.info/narratives/tf2-hydropower",
       "type": "text/markdown",
       "title": "Narrative Hydropower",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/tf2-hydropower.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

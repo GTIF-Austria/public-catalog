@@ -91,6 +91,28 @@
       "title": "GTIF Austria"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:narratives": {
+    "t74-waste-heat-v2": {
+      "href": "https://gtif-austria.info/narratives/t74-waste-heat-v2",
+      "type": "text/markdown",
+      "title": "Narrative Excess Heat",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/t74-waste-heat-v2.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Waste%20heat.jpg",
   "themes": [
     "Energy Transition"
@@ -152,13 +174,15 @@
       "href": "https://gtif-austria.info/narratives/t74-waste-heat-v2",
       "type": "text/markdown",
       "title": "Narrative Excess Heat",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/t74-waste-heat-v2.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

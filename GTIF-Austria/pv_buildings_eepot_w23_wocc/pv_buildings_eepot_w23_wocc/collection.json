@@ -17,6 +17,28 @@
       "title": "Building-Integrated PV Systems"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:narratives": {
+    "photovoltaic": {
+      "href": "https://gtif-austria.info/narratives/photovoltaic",
+      "type": "text/markdown",
+      "title": "Narrative Photovoltaic",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/photovoltaic.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/PV-building-integrated.jpg",
   "themes": [
     "Energy Transition"
@@ -71,13 +93,15 @@
       "href": "https://gtif-austria.info/narratives/photovoltaic",
       "type": "text/markdown",
       "title": "Narrative Photovoltaic",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/main/photovoltaic.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"
