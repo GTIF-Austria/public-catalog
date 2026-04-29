@@ -63,6 +63,9 @@
     "wr03_wind_nowcasting",
     "wp04_uepi",
     "gtif-site-itentification-wind",
-    "hs"
+    "hs",
+    "swe",
+    "snwmlt",
+    "sca"
   ]
 }
