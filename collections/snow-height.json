@@ -1,6 +1,14 @@
 {
-  "Name": "Snow Height",
+  "Name": "HS",
   "Title": "Snow Height",
-  "Description": "",
-  "Resources": []
+  "Description": "Depth of the snowpack on the ground.",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://sh.dataspace.copernicus.eu",
+      "Type": "byoc",
+      "CollectionId": "65796f36-0d0b-439e-8ea9-0d2e26ba02e3",
+      "LayerId": "SNOW-HEIGHT"
+    }
+  ]
 }
