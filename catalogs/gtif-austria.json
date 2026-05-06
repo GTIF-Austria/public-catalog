@@ -65,6 +65,7 @@
     "wp04_uepi",
     "gtif-site-itentification-wind",
     "heatrisk",
-    "snow-covered-area"
+    "snow-covered-area",
+    "snow-height"
   ]
 }
