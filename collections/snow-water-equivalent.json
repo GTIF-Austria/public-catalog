@@ -1,6 +1,14 @@
 {
-  "Name": "Snow Water Equivalent",
+  "Name": "SWE",
   "Title": "Snow Water Equivalent",
-  "Description": "",
-  "Resources": []
+  "Description": "Amount of water if the snowpack were melted.",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://sh.dataspace.copernicus.eu",
+      "Type": "byoc",
+      "CollectionId": "a4680223-782a-4ee3-b9cb-4f9ea68a27b0",
+      "LayerId": "SNOW-WATER-EQUIVALENT"
+    }
+  ]
 }
