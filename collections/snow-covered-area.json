@@ -1,6 +1,14 @@
 {
-  "Name": "Snow Covered Area",
+  "Name": "SCA",
   "Title": "Snow Covered Area",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://sh.dataspace.copernicus.eu",
+      "Type": "byoc",
+      "CollectionId": "05af24e4-4308-4277-b215-7e7f50167f30",
+      "LayerId": "SNOW-COVERED-AREA"
+    }
+  ]
 }
