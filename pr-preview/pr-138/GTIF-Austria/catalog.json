@@ -926,6 +926,13 @@
       "collection_group": "Sustainable Cities"
     },
     {
+      "rel": "child",
+      "href": "./Snow Covered Area/collection.json",
+      "type": "application/json",
+      "title": "Snow Covered Area",
+      "id": "Snow Covered Area"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
