@@ -67,6 +67,7 @@
     "heatrisk",
     "snow-covered-area",
     "snow-height",
-    "snow-water-equivalent"
+    "snow-water-equivalent",
+    "snow-melt"
   ]
 }
