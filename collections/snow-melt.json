@@ -1,6 +1,14 @@
 {
-  "Name": "Snow Melt",
+  "Name": "SNWMLT",
   "Title": "Snow Melt",
-  "Description": "",
-  "Resources": []
+  "Description": "Melt rate in mm/day.",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://sh.dataspace.copernicus.eu",
+      "Type": "byoc",
+      "CollectionId": "ef773ecc-fd3f-42e3-a210-4f76915515fb",
+      "LayerId": "SNOW-MELT"
+    }
+  ]
 }
