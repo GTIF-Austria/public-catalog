@@ -35,7 +35,6 @@
   "agency": [
     "None"
   ],
-  "subcode": "LULUCF",
   "satellite": [
     "Combined"
   ],
@@ -82,7 +81,7 @@
       "Alpine dwarf shrub heaths"
     ],
     "scaleType": "categorical",
-    "markType": "rectangle"
+    "markType": "rect"
   },
   "endpointtype": "COG source",
   "title": "LULUCF Time Series",
@@ -107,6 +106,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "GeoVille",
+      "url": "https://www.geoville.com/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
