@@ -1,0 +1,47 @@
+{
+  "Name": "UEPI_visualizer_2",
+  "Title": "Urban energy performance monitor",
+  "Description": "**UEPI (Urban Energy Performance Index)** combines heat‑loss signals (from LST analysis), building age, and building size into a relative retrofit‑priority score.  \n**Scale 0–100:** **0 = high retrofit need (high priority)**, **100 = good (low priority)**.  \n**Weighting:** heat loss **50%**, age **30%**, size **20%**. Critical cases (high loss + old building) and very large buildings receive additional amplification.\n",
+  "Themes": ["Sustainable Cities", "Energy Transition"],
+  "CollectionGroup": "Sustainable Cities",
+  "BaseLayers": [
+    {
+      "id": "bmaporthofoto30cm",
+      "name": "Geoland Basemap Orthofoto",
+      "url": "https://mapsneu.wien.gv.at/basemap/bmaporthofoto30cm/normal/google3857/{z}/{y}/{x}.jpeg",
+      "Attribution": "{ Datenquelle: <a href=\"https://basemap.at\" target=\"_blank\" property=\"dct:title\">basemap.at</a> }",
+      "visible": true,
+      "protocol": "xyz"
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/style.json",
+      "Bbox": [
+        16.255767946312947,
+        48.08438283145376,
+        16.316170870817853,
+        48.10503139601241
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "UEPI index",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/buildings_uepi_indexed.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg",
+  "Provider": [
+    {
+      "Name": "Austrian Institute of Technology - Digital resilient cities and regions",
+      "Url": "https://www.ait.ac.at/en/solutions/sustainable-cities-regions-and-living-spaces"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "Name": "10-wr08-wind_production",
+  "Title": "Wind Energy Production vs. Consumption",
+  "Description": "This description for a data publication analyzes the relationship between regional electricity consumption and wind power generation, highlighting the varying levels of energy self-sufficiency across Austria.\n**Wind Energy and Regional Energy Autonomy**\nWhen comparing electricity consumption directly to wind power generation, a striking hierarchy of regional self-sufficiency emerges, mirroring the disparities observed in the photovoltaic sector. This metric reveals which provinces are successfully decoupling their energy needs from external sources and which remain heavily reliant on imports.\n**The Net Exporters and Regional Leaders**\nBurgenland stands as a unique outlier and the undisputed national leader in energy autonomy. The state currently produces approximately 187% of its total electricity demand through wind power alone. This surplus allows Burgenland to function as a vital net exporter of renewable energy, supporting the wider national grid.\nLower Austria secures the second position in the national ranking. The province currently covers 44.5% of its total internal electricity consumption through wind generation, marking it as a critical pillar of regional energy security and a successful model for large-scale integration.\nThis information has been published initially on https://www.energie.gv.at\nComparison of electricity generation from wind power and electricity consumption in the federal states in 2024, source: Energy balance 2024 from Statistics Austria via energie.gv.at, accessed on: February 26, 2026, 10:38 a.m.",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-wr08-energy_data_styles.json",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2020",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-renewable_Austria_states_2020.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2021",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2021",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2021.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2022",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2022",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2022.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2023",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2023",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2023.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "WindProductionConsumption2024",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/06/06-renewable_Austria_states_2024.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.561311497636542,
+        46.309689940845686,
+        17.188098254092136,
+        49.16426472440946
+      ]
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-austrian_renewable_energy.png",
+  "CollectionGroup": "Energy Dashboard",
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-wr08-form.json",
+    "EndPoints": [
+      {
+        "Identifier": "10-wr08-energy_production_statistics",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/features/{{feature}}.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "10-wr08-production_comparison",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/10/10-wr08-vega_chart.json"
+  }
+}

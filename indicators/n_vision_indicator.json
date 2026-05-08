@@ -1,0 +1,35 @@
+{
+  "Name": "n_vision_indicator",
+  "Title": "Rooftop Characterisation",
+  "Description": "N Vision's rooftop charachterization capabilty provides efficient and accurate mapping of [solar panel installations](https://gtif-austria.info/narratives/solar_panel_mapping) and of [green roofs](https://gtif-austria.info/narratives/green-roof-mapping) in areas of interest by analysing satellite or aerial imagery using state-of-the-art computer vision methods.N Vision’s solar mapping service utilizes remote sensing and computer vision to automate the detection of solar infrastructure from high-resolution orthorectified imagery. By applying advanced deep learning architectures to satellite and aerial datasets, the system identifies solar modules with a statistical performance target of 95% or higher in both precision and recall. In case of remaining failures, human validation is performed to ensure high-quality data across the region of interest.\n\nFrom an operational perspective, this geospatial solution offers an increase in temporal resolution, allowing for the monitoring of solar deployment trends through comparative analysis of imagery captured at different intervals. The resulting datasets are exported in standardized Geographic Information System (GIS) formats, such as GeoPackage or GeoJSON, or accessed via an API for seamless integration into energy modeling workflows. While the analysis is constrained by the visibility of the 'nadir' or top-down view—meaning occluded or vertical facade-mounted panels are excluded—the approach provides a scalable, cost-efficient alternative to traditional ground-based surveys.",
+  "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+  "CollectionGroup": "Sustainable Cities",
+  "Collections": [
+    "n_vision_green_roofs",
+    "n_vision_solar_panels"
+  ],
+  "Themes": [
+    "Sustainable Cities"
+  ],
+  "Tags": [
+    "Green Roofs",
+    "Solar Roofs"
+  ],
+  "Provider": [
+    {
+      "Name": "N Vision",
+      "Url": "https://www.n-vision.ai/"
+    }
+  ],
+  "BaseLayers": [
+    {
+      "id": "n_vision",
+      "name": "Solar panels",
+      "url": "https://www.n-vision.ai/tiles/v1/gleisdorf_uce41_20221003_solar_panels/ortho/{z}/{x}/{y}.png",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": true
+    }
+  ]
+}

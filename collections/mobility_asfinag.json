@@ -1,0 +1,170 @@
+{
+  "Name": "mobility_asfinag",
+  "Title": "Monthly traffic volume",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_traffic.jpg",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Provider": [
+    {
+      "Name": "AIT Center for Transport Technologies",
+      "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-transport-technologies"
+    }
+    ],
+  "CollectionGroup": "Mobility Transition",
+  "Tags": [
+    "mobility"
+  ],
+  "Description": "## Purpose\nThis layer presents monthly traffic volumes mapped to road segments of the GIP graph and primarily serves the validation and calibration of HFLB-based mobility data using available reference measurements. This establishes a basis for further mobility analyses, correlation with EO-based environmental and air quality indicators, and spatially differentiated assessment and scenario analyses.\n\n## Data Sources\nTwo complementary datasets are used in this analysis:\n- ASFINAG Traffic Count Data (2019–2021)\nMonthly average daily traffic values (Monday–Sunday), provided as the indicator DTVMS.\nThese data are available only for road segments equipped with stationary traffic counting sensors.\n- HFLB Mobility Data (2019–2021)\nNetwork-wide mobility information based on High Frequency Location Based (HFLB) data with daily temporal resolution, covering all road segments of the high-level road network.\nTraffic volumes are represented by the variable trajectories (max) and describe relative traffic intensities.\n\n## Method\nMonthly traffic volumes from both datasets are mapped to the road segments of the GIP graph and directly compared.\nAs HFLB data do not represent absolute traffic counts, a scaling procedure is applied using ASFINAG reference measurements:\n- The monthly total traffic volume derived from the HFLB data is adjusted to match the corresponding total volume observed in the ASFINAG traffic counts.\n- The resulting scaling factor is location-independent and is applied uniformly to all road segments.\n- This process yields the variable HFLB Scaled, representing a calibrated estimate of monthly traffic volumes.\nThis approach enables a consistent calibration of HFLB data despite the limited spatial coverage and monthly temporal resolution of the reference traffic counts.\n\n## Visualization and Interaction\nThe layer visualizes monthly traffic volumes for individual road segments.\nUpon selecting a road segment on the map, time series of traffic volumes (ASFINAG DTVMS, HFLB trajectories (max), and HFLB Scaled) are displayed in a line chart.\nThis allows for direct comparison between datasets, assessment of temporal consistency and deviations, and transparent interpretation of the applied scaling procedure at segment level.",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/style_asfinag.json",
+      "Bbox": [
+        9.5,
+        44.5,
+        18,
+        49.9
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20220101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2022-01-01T00:00:00"
+        },
+        {
+          "Time": "20211201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-12-01T00:00:00"
+        },
+        {
+          "Time": "20211101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-11-01T00:00:00"
+        },
+        {
+          "Time": "20211001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-10-01T00:00:00"
+        },
+        {
+          "Time": "20210901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-09-01T00:00:00"
+        },
+        {
+          "Time": "20210801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-08-01T00:00:00"
+        },
+        {
+          "Time": "20210701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-07-01T00:00:00"
+        },
+        {
+          "Time": "20210601",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-06-01T00:00:00"
+        },
+        {
+          "Time": "20210501",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-05-01T00:00:00"
+        },
+        {
+          "Time": "20210401",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-04-01T00:00:00"
+        },
+        {
+          "Time": "20210301",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-03-01T00:00:00"
+        },
+        {
+          "Time": "20210201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-02-01T00:00:00"
+        },
+        {
+          "Time": "20210101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2021-01-01T00:00:00"
+        },
+        {
+          "Time": "20201201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-12-01T00:00:00"
+        },
+        {
+          "Time": "20201101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-11-01T00:00:00"
+        },
+        {
+          "Time": "20201001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-10-01T00:00:00"
+        },
+        {
+          "Time": "20200901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-09-01T00:00:00"
+        },
+        {
+          "Time": "20200801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-08-01T00:00:00"
+        },
+        {
+          "Time": "20200701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-07-01T00:00:00"
+        },
+        {
+          "Time": "20200601",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-06-01T00:00:00"
+        },
+        {
+          "Time": "20200501",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-05-01T00:00:00"
+        },
+        {
+          "Time": "20200401",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-04-01T00:00:00"
+        },
+        {
+          "Time": "20200301",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-03-01T00:00:00"
+        },
+        {
+          "Time": "20200201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-02-01T00:00:00"
+        },
+        {
+          "Time": "20200101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2020-01-01T00:00:00"
+        },
+        {
+          "Time": "20191201",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-12-01T00:00:00"
+        },
+        {
+          "Time": "20191101",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-11-01T00:00:00"
+        },
+        {
+          "Time": "20191001",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-10-01T00:00:00"
+        },
+        {
+          "Time": "20190901",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-09-01T00:00:00"
+        },
+        {
+          "Time": "20190801",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-08-01T00:00:00"
+        },
+        {
+          "Time": "20190701",
+          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.asfinag_geometries_for_date/tiles/WebMercatorQuad/{z}/{x}/{y}?target_date=2019-07-01T00:00:00"
+        }
+      ]
+    }
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/form_asfinag.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/chart_asfinag.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_asfinag_by_id/items?target_id={{feature.values_.unique_id }}&f=json&limit=10000&geom-column=#.json",
+        "Type": "text/csv",
+        "Method": "GET"
+      }
+    ]
+  }
+}

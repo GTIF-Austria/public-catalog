@@ -1,0 +1,35 @@
+{
+  "Name": "WR-02-Solar-Nature",
+  "Title": "National Parks",
+  "Image": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp",
+  "Description": "This layer presents the national parks in Austria.\nThe data can be downloaded from [data.gc.at](https://docs.umweltbundesamt.at/s/C5AKbtBp9BTPiMK).",
+  "Provider": [
+       {
+      "Name": "Umweltbundesamt",
+      "Url": "https://www.umweltbundesamt.at/en/"
+       }
+    ],
+   "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/style_wr_02_nature.json",
+      "Bbox": [
+        9.144373204774606,
+        45.32263166908202,
+        18.06091477860709,
+        50.13400803885565
+      ],
+      "TimeEntries": [
+        {
+          "Time": "0001",
+          "Assets": [
+            {
+              "Identifier": "National Parks",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-02-Site-Identification-Capabilities-REDIII/mask_nsg_4326_cog.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
