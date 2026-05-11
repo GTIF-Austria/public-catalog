@@ -26,7 +26,7 @@
     "Resources": [
         {
             "Name": "VectorTile source",
-            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/hydro/style.json",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/KLIEN-studie/hydro/style_2.json",
             "Bbox": [
                 9.5,
                 46.4,
@@ -36,7 +36,7 @@
             "TimeEntries": [
                 {
                     "Time": "20300101",
-                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.hydro_eepot_w23/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.hydro_2_eepot_w23/tiles/WebMercatorQuad/{z}/{x}/{y}"
                 }
             ]
         }
@@ -46,12 +46,12 @@
     ],
     "Process": {
         "Name": "timeseries",
-        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/hydro_eepot_form_comparison.json",
-        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/hydro_eepot_chart.json",
+        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/hydro_2_eepot_form_comparison.json",
+        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/hydro_2_eepot_chart.json",
         "EndPoints": [
             {
                 "Identifier": "timeseries",
-                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.hydro_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.hydro_2_eepot_w23/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
                 "Type": "application/json",
                 "Method": "GET"
             }
