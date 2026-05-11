@@ -192,10 +192,10 @@
     },
     {
       "rel": "child",
-      "href": "./hydro_eepot_w23/collection.json",
+      "href": "./hydro_2_eepot_w23/collection.json",
       "type": "application/json",
       "title": "Hydropower",
-      "id": "hydro_eepot_w23",
+      "id": "hydro_2_eepot_w23",
       "themes": [
         "Energy Transition"
       ],
