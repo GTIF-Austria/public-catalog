@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Heimspeicher Speicherpotential"
+      "title": "Heimspeicher Storage data"
     }
   ],
   "themes": [
@@ -24,7 +24,7 @@
     "ESA"
   ],
   "endpointtype": "VectorTile source",
-  "title": "Heimspeicher Speicherpotential",
+  "title": "Heimspeicher Storage data",
   "extent": {
     "spatial": {
       "bbox": [

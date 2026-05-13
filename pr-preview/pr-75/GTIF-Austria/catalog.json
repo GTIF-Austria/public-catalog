@@ -942,7 +942,7 @@
       "rel": "child",
       "href": "./speicherpot_storage_data/collection.json",
       "type": "application/json",
-      "title": "Heimspeicher Speicherpotential",
+      "title": "Heimspeicher Storage data",
       "id": "speicherpot_storage_data",
       "themes": [
         "sustainable-cities"

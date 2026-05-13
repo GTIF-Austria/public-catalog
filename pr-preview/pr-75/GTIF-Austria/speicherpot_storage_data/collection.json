@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./speicherpot_storage_data/collection.json",
       "type": "application/json",
-      "title": "Heimspeicher Speicherpotential",
+      "title": "Heimspeicher Storage data",
       "endpointtype": "VectorTile source",
       "id": "speicherpot_storage_data",
       "themes": [
@@ -92,9 +92,9 @@
   "agency": [
     "ESA"
   ],
-  "eodash:jsonform": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json.json",
+  "eodash:jsonform": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
-  "title": "Heimspeicher Speicherpotential",
+  "title": "Heimspeicher Storage data",
   "extent": {
     "spatial": {
       "bbox": [
