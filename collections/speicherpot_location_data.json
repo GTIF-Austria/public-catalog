@@ -1,10 +1,10 @@
 {
-  "Name": "speicherpot_storage_data",
-  "Title": "Heimspeicher Storage data",
+  "Name": "speicherpot_location_data",
+  "Title": "Heimspeicher location data",
   "Themes": [
     "sustainable-cities"
   ],
-  "Description": "This dataset provides information on the potential for home energy storage systems in residential buildings.",
+  "Description": "",
   "Resources": [
     {
       "Style": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations_style.json",
