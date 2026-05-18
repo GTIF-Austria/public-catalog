@@ -26,11 +26,11 @@
     },
     {
       "rel": "child",
-      "href": "./speicherpot_storage_data/collection.json",
+      "href": "./speicherpot_location_data/collection.json",
       "type": "application/json",
-      "title": "Heimspeicher Storage data",
+      "title": "Heimspeicher location data",
       "endpointtype": "GeoJSON source",
-      "id": "speicherpot_storage_data",
+      "id": "speicherpot_location_data",
       "themes": [
         "sustainable-cities"
       ],
