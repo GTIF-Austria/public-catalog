@@ -11,6 +11,14 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "style",
+      "href": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "locations"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -21,7 +29,7 @@
     "sustainable-cities"
   ],
   "agency": [
-    "ESA"
+    "AIT"
   ],
   "endpointtype": "VectorTile source",
   "title": "Heimspeicher Storage data",

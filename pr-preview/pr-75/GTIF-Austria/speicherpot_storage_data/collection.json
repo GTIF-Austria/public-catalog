@@ -21,7 +21,7 @@
         "sustainable-cities"
       ],
       "agency": [
-        "ESA"
+        "AIT"
       ]
     },
     {
@@ -90,7 +90,7 @@
     "sustainable-cities"
   ],
   "agency": [
-    "ESA"
+    "AIT"
   ],
   "eodash:jsonform": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
