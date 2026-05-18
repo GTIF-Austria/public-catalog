@@ -21,10 +21,31 @@
           "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_storage_data/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ]
+    },
+    {
+      "Style": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20300101",
+          "Assets": [
+            {
+              "Identifier": "locations",
+              "File": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        16.04,
+        47.94,
+        16.7,
+        48.48
+      ]
     }
   ],
   "Agency": [
-    "ESA"
+    "AIT"
   ],
   "Process": {
     "Name": "timeseries",
