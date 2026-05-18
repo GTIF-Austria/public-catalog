@@ -1,0 +1,28 @@
+{
+  "Name": "speicherpot_storage_data",
+  "Title": "Heimspeicher Storage data",
+  "Description": "This dataset provides information on the potential for home energy storage systems in residential buildings.",
+  "CollectionGroup": "Energy Transition", 
+  "Provider": [
+    {
+      "Name": "SpeicherPot Project"
+    }
+  ],
+  "Collections": [
+    "speicherpot_storage_collection",
+    "speicherpot_location_data"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
+    "VegaDefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_storage_data/items?limit=1&bbox-only=true&filter=g_id='{{feature}}'",
+        "Type": "application/json",
+        "Method": "GET"
+      }
+    ]
+  }
+}

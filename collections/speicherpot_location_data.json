@@ -1,0 +1,34 @@
+{
+  "Name": "speicherpot_storage_data",
+  "Title": "Heimspeicher Storage data",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Description": "This dataset provides information on the potential for home energy storage systems in residential buildings.",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20300101",
+          "Assets": [
+            {
+              "Identifier": "locations",
+              "File": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        16.04,
+        47.94,
+        16.7,
+        48.48
+      ]
+    }
+  ],
+  "Agency": [
+    "AIT"
+  ]
+}
