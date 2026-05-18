@@ -64,6 +64,10 @@
     "wr03_wind_nowcasting",
     "wp04_uepi",
     "gtif-site-itentification-wind",
-    "heatrisk"
+    "heatrisk",
+    "snow-covered-area",
+    "snow-height",
+    "snow-water-equivalent",
+    "snow-melt"
   ]
 }
