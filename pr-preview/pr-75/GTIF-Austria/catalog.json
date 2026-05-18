@@ -944,12 +944,13 @@
       "type": "application/json",
       "title": "Heimspeicher Storage data",
       "id": "speicherpot_storage_data",
+      "providers": [
+        "SpeicherPot Project"
+      ],
       "themes": [
         "sustainable-cities"
       ],
-      "agency": [
-        "AIT"
-      ]
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "self",

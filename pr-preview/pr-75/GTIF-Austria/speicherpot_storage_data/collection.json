@@ -12,10 +12,24 @@
     },
     {
       "rel": "child",
-      "href": "./speicherpot_storage_data/collection.json",
+      "href": "./speicherpot_storage_collection/collection.json",
       "type": "application/json",
       "title": "Heimspeicher Storage data",
       "endpointtype": "VectorTile source",
+      "id": "speicherpot_storage_collection",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "AIT"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./speicherpot_storage_data/collection.json",
+      "type": "application/json",
+      "title": "Heimspeicher Storage data",
+      "endpointtype": "GeoJSON source",
       "id": "speicherpot_storage_data",
       "themes": [
         "sustainable-cities"
@@ -86,18 +100,19 @@
       "title": "GTIF Austria"
     }
   ],
-  "themes": [
-    "sustainable-cities"
-  ],
-  "agency": [
-    "AIT"
-  ],
+  "collection_group": "Energy Transition",
   "eodash:jsonform": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
   "title": "Heimspeicher Storage data",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          16.04,
+          47.94,
+          16.7,
+          48.48
+        ],
         [
           16.04,
           47.94,
@@ -122,6 +137,11 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "SpeicherPot Project"
+    }
+  ],
   "summaries": {
     "themes": [
       "sustainable-cities"
