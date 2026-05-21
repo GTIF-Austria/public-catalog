@@ -933,6 +933,27 @@
       "id": "SCA"
     },
     {
+      "rel": "child",
+      "href": "./HS/collection.json",
+      "type": "application/json",
+      "title": "Snow Height",
+      "id": "HS"
+    },
+    {
+      "rel": "child",
+      "href": "./SNWMLT/collection.json",
+      "type": "application/json",
+      "title": "Snow Melt",
+      "id": "SNWMLT"
+    },
+    {
+      "rel": "child",
+      "href": "./SWE/collection.json",
+      "type": "application/json",
+      "title": "Snow Water Equivalent",
+      "id": "SWE"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
