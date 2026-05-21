@@ -29,24 +29,24 @@
       "title": "Snow Covered Area"
     }
   ],
-  "endpointtype": "Sentinel Hub WMS",
+  "endpointtype": "Sentinel Hub_byoc",
   "title": "Snow Covered Area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          8.983152841195214,
+          46.12248935673261,
+          17.067990398270908,
+          48.55685052214071
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-10-04T00:00:00Z",
-          "2022-06-30T00:00:00Z"
+          "2021-10-04T09:57:00Z",
+          "2022-06-30T10:27:00Z"
         ]
       ]
     }
