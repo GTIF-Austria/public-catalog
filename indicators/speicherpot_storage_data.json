@@ -1,8 +1,9 @@
 {
   "Name": "speicherpot_storage_data",
-  "Title": "Heimspeicher Storage data",
-  "Description": "This dataset provides information on the potential for home energy storage systems in residential buildings.",
-  "CollectionGroup": "Energy Transition", 
+  "Title": "Regionale Speicherpotenziale 2030/2040",
+  "Description": "**Wichtiger Hinweis**: Bei dieser Karte und den zugrundeliegenden Daten handelt es sich um **vorläufige Ergebnisse**, die noch laufend evaluiert und angepasst werden können.\n\nHier ist eine kurze Erklärung der angezeigten Metriken, damit die Daten besser eingeordnet werden können:\n\n* Heimspeicher 2030 / 2040 (GWh): Die prognostizierte Speicherkapazität von dezentralen, privaten Heimspeichern (z. B. Haushaltsbatterien in Kombination mit PV-Anlagen) für die jeweiligen Jahre.\n* Colocation 2030 / 2040 (GWh): Die erwartete Kapazität von Großspeichern, die direkt mit erneuerbaren Erzeugungsanlagen (wie großen Solar- oder Windparks) an einem Standort gekoppelt sind.\n* Total Combined Storage / Gesamtspeicher (GWh): Die Summe aus Heimspeichern und Colocation-Speichern. Dieser Wert zeigt das gesamte prognostizierte Speicherpotenzial der jeweiligen Gemeinde.\n* Anteil am Bezirk / Share of District (%): Zeigt, wie viel Prozent der gesamten Speicherkapazität eines übergeordneten Bezirks auf diese spezifische Gemeinde entfallen. Hilft dabei, die wichtigsten Speicherknotenpunkte innerhalb eines Bezirks zu identifizieren.\n* Absolutes Wachstum / Absolute Growth (GWh): Die reine Differenz der Speicherkapazität zwischen den Jahren 2030 und 2040 (jeweils für Heimspeicher und Colocation). Zeigt direkt, in welchen Regionen der stärkste absolute Ausbau erwartet wird.",
+  "CollectionGroup": "Energy Transition",
+  "Image": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/speicherpotenziale.png",
   "Provider": [
     {
       "Name": "SpeicherPot Project"
