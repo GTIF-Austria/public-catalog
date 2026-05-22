@@ -30,8 +30,9 @@
     "sustainable-cities"
   ],
   "agency": [
-    "AIT"
+    "SpeicherPot"
   ],
+  "collection_group": "Energy Transition",
   "endpointtype": "GeoJSON source",
   "title": "Flexibilitätsbedarf der Bezirke",
   "extent": {

@@ -21,8 +21,9 @@
         "sustainable-cities"
       ],
       "agency": [
-        "AIT"
-      ]
+        "SpeicherPot"
+      ],
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "xyz",
@@ -84,8 +85,9 @@
     "sustainable-cities"
   ],
   "agency": [
-    "AIT"
+    "SpeicherPot"
   ],
+  "collection_group": "Energy Transition",
   "title": "Flexibilitätsbedarf der Bezirke",
   "extent": {
     "spatial": {

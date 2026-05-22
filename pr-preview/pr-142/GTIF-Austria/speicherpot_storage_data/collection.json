@@ -101,6 +101,9 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/speicherpotenziale.png",
+  "agency": [
+    "SpeicherPot"
+  ],
   "collection_group": "Energy Transition",
   "eodash:jsonform": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",

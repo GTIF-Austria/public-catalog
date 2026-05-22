@@ -966,8 +966,9 @@
         "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/flexdemand.png"
       ],
       "agency": [
-        "AIT"
-      ]
+        "SpeicherPot"
+      ],
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "child",
@@ -980,6 +981,9 @@
       ],
       "themes": [
         "sustainable-cities"
+      ],
+      "agency": [
+        "SpeicherPot"
       ],
       "collection_group": "Energy Transition"
     },
