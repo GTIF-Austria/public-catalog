@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "speicherpot_location_data",
+  "id": "speicherpot_flex_demand",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./speicherpot_location_data/collection.json",
+      "href": "./speicherpot_flex_demand/collection.json",
       "type": "application/json",
-      "title": "Heimspeicher location data",
+      "title": "Flex demand data",
       "endpointtype": "GeoJSON source",
-      "id": "speicherpot_location_data",
+      "id": "speicherpot_flex_demand",
       "themes": [
         "sustainable-cities"
       ],
@@ -85,7 +85,7 @@
   "agency": [
     "AIT"
   ],
-  "title": "Heimspeicher location data",
+  "title": "Flex demand data",
   "extent": {
     "spatial": {
       "bbox": [

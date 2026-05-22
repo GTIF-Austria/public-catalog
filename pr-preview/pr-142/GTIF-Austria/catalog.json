@@ -955,10 +955,10 @@
     },
     {
       "rel": "child",
-      "href": "./speicherpot_location_data/collection.json",
+      "href": "./speicherpot_flex_demand/collection.json",
       "type": "application/json",
-      "title": "Heimspeicher location data",
-      "id": "speicherpot_location_data",
+      "title": "Flex demand data",
+      "id": "speicherpot_flex_demand",
       "themes": [
         "sustainable-cities"
       ],

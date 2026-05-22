@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "speicherpot_location_data",
+  "id": "speicherpot_flex_demand",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Heimspeicher location data"
+      "title": "Flex demand data"
     }
   ],
   "themes": [
@@ -32,7 +32,7 @@
     "AIT"
   ],
   "endpointtype": "GeoJSON source",
-  "title": "Heimspeicher location data",
+  "title": "Flex demand data",
   "extent": {
     "spatial": {
       "bbox": [
