@@ -955,6 +955,19 @@
     },
     {
       "rel": "child",
+      "href": "./speicherpot_location_data/collection.json",
+      "type": "application/json",
+      "title": "Heimspeicher location data",
+      "id": "speicherpot_location_data",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "agency": [
+        "AIT"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./speicherpot_storage_data/collection.json",
       "type": "application/json",
       "title": "Heimspeicher Storage data",
