@@ -13,7 +13,7 @@
           "Time": "20300101",
           "Assets": [
             {
-              "Identifier": "locations",
+              "Identifier": "Zukünftige Speicherkraftwerke",
               "File": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/locations.geojson"
             }
           ]
