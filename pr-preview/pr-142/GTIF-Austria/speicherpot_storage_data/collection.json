@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "speicherpot_storage_data",
   "stac_version": "1.1.0",
-  "description": "This dataset provides information on the potential for home energy storage systems in residential buildings.",
+  "description": "**Wichtiger Hinweis**: Bei dieser Karte und den zugrundeliegenden Daten handelt es sich um **vorläufige Ergebnisse**, die noch laufend evaluiert und angepasst werden können.\n\nHier ist eine kurze Erklärung der angezeigten Metriken, damit die Daten besser eingeordnet werden können:\n\n* Heimspeicher 2030 / 2040 (GWh): Die prognostizierte Speicherkapazität von dezentralen, privaten Heimspeichern (z. B. Haushaltsbatterien in Kombination mit PV-Anlagen) für die jeweiligen Jahre.\n* Colocation 2030 / 2040 (GWh): Die erwartete Kapazität von Großspeichern, die direkt mit erneuerbaren Erzeugungsanlagen (wie großen Solar- oder Windparks) an einem Standort gekoppelt sind.\n* Total Combined Storage / Gesamtspeicher (GWh): Die Summe aus Heimspeichern und Colocation-Speichern. Dieser Wert zeigt das gesamte prognostizierte Speicherpotenzial der jeweiligen Gemeinde.\n* Anteil am Bezirk / Share of District (%): Zeigt, wie viel Prozent der gesamten Speicherkapazität eines übergeordneten Bezirks auf diese spezifische Gemeinde entfallen. Hilft dabei, die wichtigsten Speicherknotenpunkte innerhalb eines Bezirks zu identifizieren.\n* Absolutes Wachstum / Absolute Growth (GWh): Die reine Differenz der Speicherkapazität zwischen den Jahren 2030 und 2040 (jeweils für Heimspeicher und Colocation). Zeigt direkt, in welchen Regionen der stärkste absolute Ausbau erwartet wird.",
   "links": [
     {
       "rel": "root",
@@ -100,10 +100,11 @@
       "title": "GTIF Austria"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/speicherpotenziale.png",
   "collection_group": "Energy Transition",
   "eodash:jsonform": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
-  "title": "Heimspeicher Storage data",
+  "title": "Regionale Speicherpotenziale 2030/2040",
   "extent": {
     "spatial": {
       "bbox": [
@@ -146,5 +147,14 @@
     "themes": [
       "sustainable-cities"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/speicherpotenziale.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

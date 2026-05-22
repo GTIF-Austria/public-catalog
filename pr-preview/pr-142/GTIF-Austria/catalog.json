@@ -957,10 +957,13 @@
       "rel": "child",
       "href": "./speicherpot_flex_demand/collection.json",
       "type": "application/json",
-      "title": "Flex demand data",
+      "title": "Flexibilitätsbedarf der Bezirke",
       "id": "speicherpot_flex_demand",
       "themes": [
         "sustainable-cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/flexdemand.png"
       ],
       "agency": [
         "AIT"
@@ -970,7 +973,7 @@
       "rel": "child",
       "href": "./speicherpot_storage_data/collection.json",
       "type": "application/json",
-      "title": "Heimspeicher Storage data",
+      "title": "Regionale Speicherpotenziale 2030/2040",
       "id": "speicherpot_storage_data",
       "providers": [
         "SpeicherPot Project"
