@@ -65,7 +65,9 @@
     "wp04_uepi",
     "gtif-site-itentification-wind",
     "heatrisk",
-    "speicherpot_heimspeicher",
-    "speicherpot_storage"
+    "snow-covered-area",
+    "snow-height",
+    "snow-melt",
+    "snow-water-equivalent"
   ]
 }
