@@ -5,6 +5,7 @@
   "Themes": [
     "sustainable-cities"
   ],
+  "CollectionGroup": "Energy Transition",
   "Description": "**Wichtiger Hinweis**: Bei dieser Karte und den zugrundeliegenden Daten handelt es sich um **vorläufige Ergebnisse**, die noch laufend evaluiert und angepasst werden können.\n\nHier ist eine kurze Erklärung der angezeigten Metriken, damit die Daten besser eingeordnet werden können:\n\n* Kurzfristiger Flexibilitätsbedarf (MW): Die absolute Leistung in Megawatt, die in diesem Bezirk benötigt wird, um kurzfristige Schwankungen im Stromnetz auszugleichen.\n* Nationaler Anteil (%): Zeigt, wie viel Prozent des gesamten österreichweiten Flexibilitätsbedarfs genau auf diesen Bezirk entfallen. Hilft dabei, die wichtigsten Hotspots zu identifizieren.\n* Perzentil / Rang: Ordnet den Bezirk im bundesweiten Vergleich auf einer Skala von 0 bis 100 ein. Ein Wert von 80 bedeutet beispielsweise, dass der Bezirk einen höheren Bedarf hat als 80 % aller anderen Bezirke (er gehört also zu den Top 20 %).\n* Abweichung vom Mittelwert (MW): Zeigt in absoluten Zahlen, ob der Bezirk über (positiver Wert) oder unter (negativer Wert) dem österreichischen Durchschnitt liegt.",
   "Resources": [
     {
@@ -30,6 +31,6 @@
     }
   ],
   "Agency": [
-    "AIT"
+    "SpeicherPot"
   ]
 }

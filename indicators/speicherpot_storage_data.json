@@ -9,6 +9,9 @@
       "Name": "SpeicherPot Project"
     }
   ],
+  "Agency": [
+    "SpeicherPot"
+  ],
   "Collections": [
     "speicherpot_storage_collection",
     "speicherpot_location_data"
