@@ -10,10 +10,10 @@
       "Name": "VectorTile source",
       "Style": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_style.json",
       "Bbox": [
-        16.04,
-        47.94,
-        16.7,
-        48.48
+        9.5,
+        44.5,
+        18,
+        49.9
       ],
       "TimeEntries": [
         {
