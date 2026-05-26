@@ -17,7 +17,7 @@
       "title": "Tropical Nights RCP 8.5"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif_at_ea/gtif_at_ea.png",
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png",
   "themes": [
     "Climate Change"
   ],
@@ -64,7 +64,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif_at_ea/gtif_at_ea.png",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
