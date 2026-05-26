@@ -16,7 +16,7 @@
     "Resources": [
         {
             "Name": "VectorTile source",
-            "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/destination_hot_days_rcp85_style.json",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/style_destination_hot_days_rcp85.json",
             "Bbox": [
                 9.5,
                 46.4,
