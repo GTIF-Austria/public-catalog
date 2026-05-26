@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "destination_hot_days_rcp45",
+  "id": "destination_tropical_nights_rcp85",
   "stac_version": "1.1.0",
-  "description": "# Hot Days RCP 4.5\n\nThis dataset provides information on the number of hot days under the RCP 4.5 climate scenario.\n\n## Data Structure\nThe data includes mean and standard deviation of hot days for different decades and months, categorized by tourism region and elevation.\n\n## Visualization\nSelect a region and elevation on the map to view the time series of hot days from 1951 to 2100.\n",
+  "description": "# Tropical Nights RCP 8.5\n\nThis dataset provides information on the number of tropical nights under the RCP 4.5 climate scenario.\n\n## Data Structure\nThe data includes mean and standard deviation of tropical nights for different decades and months, categorized by tourism region and elevation.\n\n## Visualization\nSelect a region and elevation on the map to view the time series of tropical nights from 1951 to 2100.\n",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hot Days RCP 4.5"
+      "title": "Tropical Nights RCP 8.5"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg",
@@ -26,7 +26,7 @@
   ],
   "collection_group": "Climate Scenarios",
   "endpointtype": "VectorTile source",
-  "title": "Hot Days RCP 4.5",
+  "title": "Tropical Nights RCP 8.5",
   "extent": {
     "spatial": {
       "bbox": [

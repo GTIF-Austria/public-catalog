@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "destination_hot_days_rcp45",
+  "id": "destination_tropical_nights_rcp85",
   "stac_version": "1.1.0",
-  "description": "# Hot Days RCP 4.5\n\nThis dataset provides information on the number of hot days under the RCP 4.5 climate scenario.\n\n## Data Structure\nThe data includes mean and standard deviation of hot days for different decades and months, categorized by tourism region and elevation.\n\n## Visualization\nSelect a region and elevation on the map to view the time series of hot days from 1951 to 2100.\n",
+  "description": "# Tropical Nights RCP 8.5\n\nThis dataset provides information on the number of tropical nights under the RCP 4.5 climate scenario.\n\n## Data Structure\nThe data includes mean and standard deviation of tropical nights for different decades and months, categorized by tourism region and elevation.\n\n## Visualization\nSelect a region and elevation on the map to view the time series of tropical nights from 1951 to 2100.\n",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./destination_hot_days_rcp45/collection.json",
+      "href": "./destination_tropical_nights_rcp85/collection.json",
       "type": "application/json",
-      "title": "Hot Days RCP 4.5",
+      "title": "Tropical Nights RCP 8.5",
       "endpointtype": "VectorTile source",
-      "id": "destination_hot_days_rcp45",
+      "id": "destination_tropical_nights_rcp85",
       "themes": [
         "Climate Change"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_hot_days_rcp45/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+      "href": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_tropical_nights_rcp85/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
@@ -98,9 +98,9 @@
     "ESA"
   ],
   "collection_group": "Climate Scenarios",
-  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_hot_days_rcp45_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/destination_hot_days_rcp45_chart.json",
-  "title": "Hot Days RCP 4.5",
+  "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_tropical_nights_rcp85_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/destination_tropical_nights_rcp85_chart.json",
+  "title": "Tropical Nights RCP 8.5",
   "extent": {
     "spatial": {
       "bbox": [

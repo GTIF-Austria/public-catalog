@@ -974,6 +974,66 @@
       "collection_group": "Climate Scenarios"
     },
     {
+      "rel": "child",
+      "href": "./destination_hot_days_rcp85/collection.json",
+      "type": "application/json",
+      "title": "Hot Days RCP 8.5",
+      "id": "destination_hot_days_rcp85",
+      "themes": [
+        "Climate Change"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Climate Scenarios"
+    },
+    {
+      "rel": "child",
+      "href": "./destination_tropical_nights_rcp45/collection.json",
+      "type": "application/json",
+      "title": "Tropical Nights RCP 4.5",
+      "id": "destination_tropical_nights_rcp45",
+      "themes": [
+        "Climate Change"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Climate Scenarios"
+    },
+    {
+      "rel": "child",
+      "href": "./destination_tropical_nights_rcp85/collection.json",
+      "type": "application/json",
+      "title": "Tropical Nights RCP 8.5",
+      "id": "destination_tropical_nights_rcp85",
+      "themes": [
+        "Climate Change"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/klien_data/Heat%20Pump.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Climate Scenarios"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
