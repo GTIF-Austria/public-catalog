@@ -15,7 +15,7 @@ on:
 concurrency: preview-${{ github.ref }}
 jobs:
   preview_changed_files:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-24.04 
     permissions:
       contents: write
       pages: write
@@ -24,7 +24,7 @@ jobs:
     name: Deploy changed-files
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v6 # v6
         with:
             submodules: 'true'
             ref: ${{ github.event.pull_request.head.ref }}
@@ -49,7 +49,7 @@ jobs:
         if: github.event.action != 'closed' # skip the build if the PR has been closed, just  for cleanup
         name: changed-files
         id: changed-files
-        uses: tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c # v45
+        uses: tj-actions/changed-files@v47 # v47
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
         # with:
         #   since_last_remote_commit: true 
@@ -70,14 +70,14 @@ jobs:
           docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.4.5 eodash_catalog -gp
       - if: steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Deploy preview
-        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1
+        uses: rossjrw/pr-preview-action@v1 # v1
         with:
           source-dir: ./build/
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Find existing comment
         id: find-comment
-        uses: peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e # v3
+        uses: peter-evans/find-comment@v4 # v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
           comment-author: github-actions
@@ -85,7 +85,7 @@ jobs:
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Create or update preview comment
-        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4
+        uses: peter-evans/create-or-update-comment@v5 # v5
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
