@@ -19,6 +19,14 @@
       ]
     },
     {
+      "rel": "style",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "COG1"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -43,8 +51,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-01-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
