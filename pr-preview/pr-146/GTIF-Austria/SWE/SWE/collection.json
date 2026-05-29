@@ -1,0 +1,65 @@
+{
+  "type": "Collection",
+  "id": "SWE",
+  "stac_version": "1.1.0",
+  "description": "Amount of water if the snowpack were melted.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
+      "type": "image/png",
+      "title": "Snow Water Equivalent",
+      "wms:layers": [
+        "SNOW-WATER-EQUIVALENT"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snow Water Equivalent"
+    }
+  ],
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Snow Water Equivalent",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.983152841195214,
+          46.12248935673261,
+          17.067990398270908,
+          48.55685052214071
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-10-02T00:00:00Z",
+          "2022-06-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
