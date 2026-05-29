@@ -968,6 +968,20 @@
       "collection_group": "EO Adaptation Services"
     },
     {
+      "rel": "child",
+      "href": "./GTIME_Layer_222324/collection.json",
+      "type": "application/json",
+      "title": "Multitemporal Vegetation Change Dynamics 2022 – 2023 – 2024",
+      "id": "GTIME_Layer_222324",
+      "providers": [
+        "ZGIS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
+      ],
+      "collection_group": "EO Adaptation Services"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
