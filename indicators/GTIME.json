@@ -1,1 +1,8 @@
-{}
+{
+  "Name": "GTIME",
+  "Title": "GTIME",
+  "Description": "",
+  "Collections": [
+    "gtime-layer"
+  ]
+}
