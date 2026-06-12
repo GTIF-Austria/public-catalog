@@ -6,9 +6,18 @@
     {
       "Name": "Sentinel Hub",
       "EndPoint": "https://sh.dataspace.copernicus.eu",
+      "Style": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/SCA.json",
       "Type": "byoc",
       "CollectionId": "05af24e4-4308-4277-b215-7e7f50167f30",
       "LayerId": "SNOW-COVERED-AREA"
+    }
+  ],
+  "CollectionGroup": "Hydrology",
+  "Agency": ["ESA"],
+  "Provider": [
+    {
+      "Name": "Waterjade S.r.l.",
+      "Url": "https://waterjade.com/"
     }
   ]
 }
