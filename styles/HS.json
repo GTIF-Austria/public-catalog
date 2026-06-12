@@ -1,0 +1,23 @@
+{
+  "color": [
+    "case",
+    [">", ["band", 1], 0],
+    [
+      "interpolate",
+      ["linear"],
+      ["band", 1],
+      0,
+      [255, 255, 255, 1],
+      250,
+      [8, 81, 156, 1]
+    ],
+    ["color", 0, 0, 0, 0]
+  ],
+  "legend": {
+    "title": "Height of Snow (cm)",
+    "domainProperties": {
+      "min": 0,
+      "max": 250
+    }
+  }
+}
