@@ -18,7 +18,7 @@
           "Time": "2024-01-01",
           "Assets": [
             {
-              "Identifier": "COG1",
+              "Identifier": "Veg_Change_ 2022_ 2023_ 2024",
               "File": "https://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_222324_cog_repr_1.tif"
             }
           ]
@@ -35,6 +35,6 @@
       "Name": "ZGIS",
       "Url": "https://www.plus.ac.at/geoinformatik/"
     }
-   ],
+  ],
   "Legend": "assets/Cube_legend_landscape_en.jpg"
 }
