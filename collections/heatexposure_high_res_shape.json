@@ -1,7 +1,7 @@
 {
-  "Name": "heatrisk_vienna",
-  "Title": "Hitzeriskobewertung nach IPCC",
-  "Description": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expositionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.\n",
+  "Name": "heatrisk_high_res",
+  "Title": "shape",
+  "Description": "sjape\n",
   "CollectionGroup": "Sustainable Cities",
   "Themes": [
     "Sustainable Cities"
