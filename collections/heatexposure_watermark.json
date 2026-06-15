@@ -23,19 +23,19 @@
   ],
   "Resources": [
     {
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/watermark_text_polygons_style.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/style1.json",
       "TimeEntries": [
         {
           "Time": "2020",
           "Assets": [
             {
               "Identifier": "",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/watermark_higher_resolution_possible_text_polygons.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/watermark.tif"
             }
           ]
         }
       ],
-      "Name": "GeoJSON source",
+      "Name": "COG source",
       "Bbox": [
         16.297565911091805,
         48.130752747801665,
