@@ -128,7 +128,8 @@
     {
       "id": "Watermark",
       "url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/watermark.tif",
-      "protocol": "COG source"
+      "protocol": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/watermark_style.tif"
     }
   ]
 }
