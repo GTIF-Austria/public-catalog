@@ -23,14 +23,14 @@
   ],
   "Resources": [
     {
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/watermark_higher_resolution_possible_style.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/watermark_text_polygons_style.json",
       "TimeEntries": [
         {
           "Time": "2020",
           "Assets": [
             {
               "Identifier": "",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/watermark_higher_resolution_possible.geojson"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/watermark_higher_resolution_possible_text_polygons.geojson"
             }
           ]
         }
