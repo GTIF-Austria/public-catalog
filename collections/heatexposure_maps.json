@@ -12,7 +12,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2020_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2020_multiband.tif"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2030_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2030_multiband.tif"
             }
           ]
         },
@@ -30,7 +30,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2040_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2040_multiband.tif"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2050_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2050_multiband.tif"
             }
           ]
         },
@@ -48,7 +48,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2060_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2060_multiband.tif"
             }
           ]
         },
@@ -57,7 +57,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2070_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2070_multiband.tif"
             }
           ]
         },
@@ -66,7 +66,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2080_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2080_multiband.tif"
             }
           ]
         },
@@ -75,7 +75,7 @@
           "Assets": [
             {
               "Identifier": "Hitzeexposition",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna/heatrisk_hazard_2090_multiband_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Heatexposure_Vienna_blurred/heatrisk_hazard_2090_multiband.tif"
             }
           ]
         }
