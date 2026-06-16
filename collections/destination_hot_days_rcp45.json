@@ -26,25 +26,12 @@
             "TimeEntries": [
                 {
                     "Time": "20260526",
-                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_hot_days_rcp45/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_rcp45/tiles/WebMercatorQuad/{z}/{x}/{y}"
                 }
             ]
         }
     ],
     "Agency": [
         "ESA"
-    ],
-    "Process": {
-        "Name": "timeseries",
-        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_hot_days_rcp45_form.json",
-        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/destination_hot_days_rcp45_chart.json",
-        "EndPoints": [
-            {
-                "Identifier": "timeseries",
-                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_hot_days_rcp45/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
-                "Type": "application/json",
-                "Method": "GET"
-            }
-        ]
-    }
+    ]
 }
