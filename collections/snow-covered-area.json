@@ -1,7 +1,8 @@
 {
   "Name": "SCA",
   "Title": "Snow Covered Area",
-  "Description": "Fraction of snow covered area per pixel.",
+  "Description": "## Snow Covered Area\n\nThis product was developed within the Digital Twin of Alps (DTA), a demonstration platform built by a Sinergise-led consortium and funded by the European Space Agency under Regional Initiative 3 (EXPRO+), ESA Contract No. 4000139281/22/I-DT. Running for two years from September 2022, the DTA combined Earth observation, numerical modelling and artificial intelligence into a single decision-support platform for water and risk management in the Alps, and serves as a stepping stone towards future Digital Twins  focused on mountainous regions. The Snow products available here were produced by Waterjade S.r.l. and serve as a development basis for the newer products available in the GTIF platform. These products are included in the GTIF platform for demonstration purposes.\n\nSnow Covered Area (SCA) maps delineate the extent of the snowpack, identifying which areas of the terrain are covered by snow and which are snow-free. Each pixel is classified from 0 (completely snow-free) to 1 (100% snow covered), producing representation of snow extent across the mountains at a given point in the season. SCA is a fundamental variable: it tracks the advance and retreat of the snow line along the slopes through winter and into the melt season, and provides an accessible entry point for characterising snow conditions, of value to water managers, the tourism sector and the research community alike.\n\nThe SCA maps were produced weekly through the winter season (October to June) at a spatial resolution of 250 metres across the entire Alps (here provided over Austria), with the full record spanning the 2017 to 2022 winters. They were derived from Sentinel-2 optical imagery, which provides a revisit interval of approximately five days over the Alps, using algorithms that combine several spectral indices (notably NDSI, NDVI and NDWI) with terrain information. A dedicated gap-filling procedure compensated for pixels obscured by cloud, dense vegetation or water, yielding a spatially complete map whose snow line is consistent with the underlying topography, including slope aspect and elevation. Beyond its value as a standalone product, SCA performed a central function within the snow service: it was assimilated into the GEOtop physical model to constrain and correct the simulated snowpack, keeping the modelled Snow Depth and Snow Water Equivalent outputs in agreement with satellite observations.",
+  "Image": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
   "Resources": [
     {
       "Name": "Sentinel Hub",
@@ -9,6 +10,15 @@
       "Type": "byoc",
       "CollectionId": "05af24e4-4308-4277-b215-7e7f50167f30",
       "LayerId": "SNOW-COVERED-AREA"
+    }
+  ],
+  "ShortDescription": "Fraction of snow covered area per pixel.",
+  "CollectionGroup": "Hydrology",
+  "Agency": ["ESA"],
+  "Provider": [
+    {
+      "Name": "Waterjade S.r.l.",
+      "Url": "https://waterjade.com/"
     }
   ]
 }
