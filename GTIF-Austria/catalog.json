@@ -930,28 +930,72 @@
       "href": "./SCA/collection.json",
       "type": "application/json",
       "title": "Snow Covered Area",
-      "id": "SCA"
+      "shortdescription": "Fraction of snow covered area per pixel.",
+      "id": "SCA",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "child",
       "href": "./HS/collection.json",
       "type": "application/json",
       "title": "Snow Height",
-      "id": "HS"
+      "shortdescription": "Depth of the snowpack on the ground.",
+      "id": "HS",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "child",
       "href": "./SNWMLT/collection.json",
       "type": "application/json",
       "title": "Snow Melt",
-      "id": "SNWMLT"
+      "shortdescription": "Melt rate in mm/day.",
+      "id": "SNWMLT",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "child",
       "href": "./SWE/collection.json",
       "type": "application/json",
       "title": "Snow Water Equivalent",
-      "id": "SWE"
+      "shortdescription": "Amount of water if the snowpack were melted.",
+      "id": "SWE",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE.jpg"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "self",
