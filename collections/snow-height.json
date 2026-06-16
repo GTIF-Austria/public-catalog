@@ -7,7 +7,6 @@
     {
       "Name": "Sentinel Hub WMS",
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
-      "Style": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/styles/HS.json",
       "OverwriteBBox": [
         8.983152841195214, 46.12248935673261, 17.067990398270908,
         48.55685052214071
