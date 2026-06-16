@@ -19,7 +19,7 @@
     ],
     "Process": {
         "Name": "timeseries",
-        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_rcp45_form.json",
+        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_rcp45_indicator_form.json",
         "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/destination_rcp45_chart.json",
         "EndPoints": [
             {
