@@ -18,7 +18,7 @@
       "endpointtype": "COG source",
       "id": "GTIME_Layer",
       "providers": [
-        "ZGIS"
+        "Univ. of Salzburg, Department of Geoinformatics – Z_GIS & Spatial Services"
       ],
       "collection_group": "EO Adaptation Services"
     },
@@ -109,7 +109,7 @@
   "license": "other",
   "providers": [
     {
-      "name": "ZGIS",
+      "name": "Univ. of Salzburg, Department of Geoinformatics – Z_GIS & Spatial Services",
       "url": "https://www.plus.ac.at/geoinformatik/"
     }
   ],
@@ -120,7 +120,7 @@
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Cube_legend_landscape_en.jpg",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Cube_2018_2021_2024_sm.png",
       "type": "image/png",
       "roles": [
         "metadata"

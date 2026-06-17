@@ -15,7 +15,7 @@
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/GTIME/gtime_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "COG1"
+        "Veg_Change_ 2018_ 2021_ 2024"
       ]
     },
     {
@@ -52,7 +52,7 @@
   "license": "other",
   "providers": [
     {
-      "name": "ZGIS",
+      "name": "Univ. of Salzburg, Department of Geoinformatics – Z_GIS & Spatial Services",
       "url": "https://www.plus.ac.at/geoinformatik/"
     }
   ],
@@ -66,7 +66,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Cube_legend_landscape_en.jpg",
+      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/Cube_2018_2021_2024_sm.png",
       "type": "image/png",
       "roles": [
         "metadata"
