@@ -35,6 +35,23 @@
     "ESA"
   ],
   "collection_group": "Hydrology",
+  "eox:colorlegend": {
+    "tickFormat": ".0f",
+    "domain": [
+      0,
+      1
+    ],
+    "range": [
+      "#ffffff",
+      "#13316c"
+    ],
+    "markType": "rect",
+    "scaleType": "continuous",
+    "tickValues": [
+      0,
+      1
+    ]
+  },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Snow Covered Area",
   "extent": {
