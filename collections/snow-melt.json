@@ -24,23 +24,23 @@
     }
   ],
   "Colorlegend": {
-    "tickFormat": "\".1f\"",
+    "tickFormat": ".1f",
     "domain": [
       0,
       25
     ],
     "range": [
-      "\"ffffff\"",
-      "\"f7fbff\"",
-      "\"c9dbf0\"",
-      "\"a3cae2\"",
-      "\"75afd8\"",
-      "\"5d9dce\"",
-      "\"5093c8\"",
-      "\"3371b8\"",
-      "\"2962b3\"",
-      "\"1e529f\"",
-      "\"163982\""
+      "ffffff",
+      "f7fbff",
+      "c9dbf0",
+      "a3cae2",
+      "75afd8",
+      "5d9dce",
+      "5093c8",
+      "3371b8",
+      "2962b3",
+      "1e529f",
+      "163982"
     ],
     "markType": "rect",
     "scaleType": "continuous",
