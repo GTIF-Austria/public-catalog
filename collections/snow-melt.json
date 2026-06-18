@@ -1387,8 +1387,7 @@
     }
   ],
   "Colorlegend": {
-    "title": "Snow Melt (mm/day)",
-    "tickFormat": ".1f",
+    "tickFormat": ".0f",
     "domain": [0, 25],
     "range": [
       "#ffffff",
@@ -1404,7 +1403,6 @@
       "#163982"
     ],
     "markType": "rect",
-    "scaleType": "continuous",
-    "tickValues": [0, 2.5, 5, 7.5, 10, 12.5, 15, 17.5, 20, 22.5, 25]
+    "scaleType": "continuous"
   }
 }
