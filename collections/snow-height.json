@@ -1393,7 +1393,6 @@
     "domain": [0, 250],
     "range": ["#ffffff", "#08519c"],
     "markType": "rect",
-    "scaleType": "continuous",
-    "tickValues": [0, 250]
+    "scaleType": "continuous"
   }
 }
