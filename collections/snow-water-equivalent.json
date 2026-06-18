@@ -1387,6 +1387,7 @@
     }
   ],
   "Colorlegend": {
+    "title": "Snow Water Equivalent (mm)",
     "tickFormat": ".0f",
     "domain": [0, 2500],
     "range": ["#ffffff", "#4382c0", "#1e529f", "#153273", "#142660", "#13316c"],
