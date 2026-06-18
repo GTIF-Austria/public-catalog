@@ -36,7 +36,7 @@
   ],
   "collection_group": "Hydrology",
   "eox:colorlegend": {
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "domain": [
       0,
       1
@@ -46,11 +46,7 @@
       "#13316c"
     ],
     "markType": "rect",
-    "scaleType": "continuous",
-    "tickValues": [
-      0,
-      1
-    ]
+    "scaleType": "continuous"
   },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Snow Covered Area",
