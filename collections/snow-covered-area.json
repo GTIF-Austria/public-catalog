@@ -22,11 +22,10 @@
     }
   ],
   "Colorlegend": {
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "domain": [0, 1],
     "range": ["#ffffff", "#13316c"],
     "markType": "rect",
-    "scaleType": "continuous",
-    "tickValues": [0, 1]
+    "scaleType": "continuous"
   }
 }
