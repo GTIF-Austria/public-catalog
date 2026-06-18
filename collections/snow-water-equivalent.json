@@ -1385,5 +1385,13 @@
       "Name": "Waterjade S.r.l.",
       "Url": "https://waterjade.com/"
     }
-  ]
+  ],
+  "Colorlegend": {
+    "tickFormat": ".0f",
+    "domain": [0, 2500],
+    "range": ["#ffffff", "#4382c0", "#1e529f", "#153273", "#142660", "#13316c"],
+    "markType": "rect",
+    "scaleType": "continuous",
+    "tickValues": [0, 500, 1000, 1500, 2000, 2500]
+  }
 }
