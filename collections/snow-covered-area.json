@@ -22,6 +22,7 @@
     }
   ],
   "Colorlegend": {
+    "title": "Snow Covered Area (0: snow-free - 1: 100% snow covered)",
     "tickFormat": ".0f",
     "domain": [0, 1],
     "range": ["#ffffff", "#13316c"],

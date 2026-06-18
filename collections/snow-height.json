@@ -1389,6 +1389,7 @@
     }
   ],
   "Colorlegend": {
+    "title": "Snow Height (cm)",
     "tickFormat": ".0f",
     "domain": [0, 250],
     "range": ["#ffffff", "#08519c"],
