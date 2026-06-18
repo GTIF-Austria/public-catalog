@@ -36,6 +36,7 @@
   ],
   "collection_group": "Hydrology",
   "eox:colorlegend": {
+    "title": "Snow Height (cm)",
     "tickFormat": ".0f",
     "domain": [
       0,

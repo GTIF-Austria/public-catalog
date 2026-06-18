@@ -88,6 +88,7 @@
   ],
   "collection_group": "Hydrology",
   "eox:colorlegend": {
+    "title": "Snow Covered Area (0: snow-free - 1: 100% snow covered)",
     "tickFormat": ".1f",
     "domain": [
       0,

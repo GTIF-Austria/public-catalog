@@ -88,6 +88,7 @@
   ],
   "collection_group": "Hydrology",
   "eox:colorlegend": {
+    "title": "Snow Water Equivalent (mm)",
     "tickFormat": ".0f",
     "domain": [
       0,
