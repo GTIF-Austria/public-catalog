@@ -4605,7 +4605,7 @@
     "EndPoints": [
       {
         "Identifier": "timeseries",
-        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_tourism_by_id/items?target_id={{feature.values_.id }}&f=json&limit=10000&geom-column=#.json",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.timeseries_tourism_by_id/items?target_id={{feature.values_.tourism_id }}&f=json&limit=10000&geom-column=#.json",
         "Type": "text/csv",
         "Method": "GET"
       }
