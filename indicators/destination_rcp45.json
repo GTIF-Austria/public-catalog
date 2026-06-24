@@ -1,0 +1,33 @@
+{
+    "Name": "destination_rcp45",
+    "Title": "Climate Indicators RCP 4.5",
+    "Themes": [
+        "Climate Change"
+    ],
+    "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png",
+    "CollectionGroup": "Climate Scenarios",
+    "Provider": [
+        {
+            "Name": "AIT Center for Energy",
+            "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/destination_rcp45.md",
+    "Collections": [
+        "destination_hot_days_rcp45",
+        "destination_tropical_nights_rcp45"
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_rcp45_indicator_form.json",
+        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/destination_rcp45_chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_rcp45/items?limit=100&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}
