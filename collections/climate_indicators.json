@@ -1,6 +1,6 @@
 {
-    "Name": "destination_rcp45",
-    "Title": "Climate Indicators RCP 4.5",
+    "Name": "climate_indicators",
+    "Title": "Climate Indicators",
     "Themes": [
         "Climate Change"
     ],
@@ -16,7 +16,7 @@
     "Resources": [
         {
             "Name": "VectorTile source",
-            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/style_destination_rcp45.json",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/style.json",
             "Bbox": [
                 9.5,
                 46.4,
@@ -26,7 +26,7 @@
             "TimeEntries": [
                 {
                     "Time": "20260526",
-                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_rcp45/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.destination_rcp45_rcp85/tiles/WebMercatorQuad/{z}/{x}/{y}"
                 }
             ]
         }
@@ -36,8 +36,8 @@
     ],
     "Process": {
         "Name": "timeseries",
-        "JsonForm": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/destination_rcp45_form.json",
-        "VegaDefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/destination_rcp45_chart.json",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/form.json",
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/chart.json",
         "EndPoints": [
             {
                 "Identifier": "timeseries",
