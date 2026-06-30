@@ -68,6 +68,10 @@
     "snow-covered-area",
     "snow-height",
     "snow-melt",
-    "snow-water-equivalent"
+    "snow-water-equivalent",
+    "destination_hot_days_rcp45",
+    "destination_hot_days_rcp85",
+    "destination_tropical_nights_rcp45",
+    "destination_tropical_nights_rcp85"
   ]
 }
