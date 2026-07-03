@@ -68,6 +68,7 @@
     "snow-covered-area",
     "snow-height",
     "snow-melt",
-    "snow-water-equivalent"
+    "snow-water-equivalent",
+    "ccs"
   ]
 }
