@@ -2,5 +2,21 @@
   "Name": "CCS",
   "Title": "CCS",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "2026",
+          "Assets": [
+            {
+              "Identifier": "scenario1_pipeline",
+              "File": ""
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
