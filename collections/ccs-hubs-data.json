@@ -1,6 +1,22 @@
 {
-  "Name": "CCS-Hubs Data",
+  "Name": "CCS-Hubs",
   "Title": "CCS-Hubs Data",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "CCS Data",
+              "File": "https://github.com/juergenzajicek-source/CCS-Hubs/blob/main/.gitattributes"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
