@@ -1,6 +1,22 @@
 {
   "Name": "ccs3",
-  "Title": "ccs3",
-  "Description": "",
-  "Resources": []
+  "Title": "ccs3austria",
+  "Description": "ccsdataaustria\n",
+  "Resources": [
+    {
+      "Style": "https://eodash.org/styling.html",
+      "TimeEntries": [
+        {
+          "Time": "2026",
+          "Assets": [
+            {
+              "Identifier": "geojsonfile",
+              "File": "C:\\__Projekte\\CCS-Hubs\\GIS-Karte\\GEOJSON\\CCS Data Source\\.git\\co2_sinks\\CCS-Area"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
