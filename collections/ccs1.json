@@ -1,6 +1,22 @@
 {
   "Name": "ccs1",
   "Title": "ccs1",
-  "Description": "",
-  "Resources": []
+  "Description": "ccs austria\n",
+  "Resources": [
+    {
+      "Style": "https://github.com/juergenzajicek-source/ccs_austria",
+      "TimeEntries": [
+        {
+          "Time": "2026",
+          "Assets": [
+            {
+              "Identifier": "ccs1",
+              "File": "https://github.com/juergenzajicek-source/CCS-Hubs/blob/main/.gitattributes"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
