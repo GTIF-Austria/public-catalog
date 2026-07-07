@@ -16,7 +16,7 @@
     "Resources": [
         {
             "Name": "VectorTile source",
-            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/style_all.json",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/style_url_filtering.json",
             "Bbox": [
                 9.5,
                 46.4,
