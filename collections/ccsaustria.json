@@ -4,7 +4,7 @@
   "Description": "data results ccs austria",
   "Resources": [
     {
-      "Style": "   {\"fill-color\": \"red\",     \"stroke-color\": \"black\",     \"stroke-width\": 1 }",
+      "Style": "https://openlayers.org/en/latest/apidoc/module-ol_style_flat.html",
       "TimeEntries": [
         {
           "Time": "2026",
