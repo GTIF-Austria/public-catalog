@@ -4,7 +4,7 @@
   "Description": "data results ccs austria",
   "Resources": [
     {
-      "Style": "     \"fill-color\": \"red\",     \"stroke-color\": \"black\",     \"stroke-width\": 1 }",
+      "Style": "   {\"fill-color\": \"red\",     \"stroke-color\": \"black\",     \"stroke-width\": 1 }",
       "TimeEntries": [
         {
           "Time": "2026",
