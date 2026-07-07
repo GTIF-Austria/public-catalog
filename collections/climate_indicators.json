@@ -26,7 +26,7 @@
             "TimeEntries": [
                 {
                     "Time": "20260526",
-                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.climate_flat_geoms_master/tiles/WebMercatorQuad/{z}/{x}/{y}?limit=1000"
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.climate_flat_geoms_master/tiles/WebMercatorQuad/{z}/{x}/{y}?limit=10000"
                 }
             ]
         }
