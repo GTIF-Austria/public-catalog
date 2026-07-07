@@ -1,6 +1,22 @@
 {
   "Name": "ccsaustria",
   "Title": "ccsaustria",
-  "Description": "",
-  "Resources": []
+  "Description": "data results ccs austria",
+  "Resources": [
+    {
+      "Style": "https://eodash.org/styling.html",
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "ccsaustria",
+              "File": "https://github.com/ait-energy/ccs_hubs_at/tree/main/GEOJSON"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
