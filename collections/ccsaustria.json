@@ -4,14 +4,14 @@
   "Description": "data results ccs austria",
   "Resources": [
     {
-      "Style": "https://github.com/ait-energy/ccs_hubs_at/blob/main/style/teststyle1.json",
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/teststyle1.json",
       "TimeEntries": [
         {
           "Time": "20260101",
           "Assets": [
             {
               "Identifier": "ccsaustria",
-              "File": "https://github.com/ait-energy/ccs_hubs_at/blob/main/GEOJSON/co2_sinks/CCS-Area/CCS-Area.geojson"
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sinks/CCS-Area/CCS-Area.geojson"
             }
           ]
         }
