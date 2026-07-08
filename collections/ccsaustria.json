@@ -12,10 +12,6 @@
             {
               "Identifier": "ccsaustria",
               "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sinks/CCS-Area/CCS-Area.geojson"
-            },
-            {
-              "Identifier": "ccsaustria",
-              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sinks/CCU-Site/CCU-Site.geojson"
             }
           ]
         }
