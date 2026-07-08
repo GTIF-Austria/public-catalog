@@ -1,0 +1,29 @@
+{
+  "Name": "ccsaustria",
+  "Title": "ccsaustria",
+  "Description": "data results ccs austria",
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/teststyle1.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "ccsaustria",
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sinks/CCS-Area/CCS-Area.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source",
+      "Bbox": [
+        9.650396871861009,
+        46.15526955541784,
+        17.240821996999596,
+        49.067212395935364
+      ]
+    }
+  ],
+  "OverlayLayers": []
+}
