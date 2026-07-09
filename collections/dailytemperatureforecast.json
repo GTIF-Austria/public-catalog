@@ -13,7 +13,7 @@
         16.7,
         48.48
       ],
-      "ParquetSource": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/city_temperature_timeseries.parquet"
+      "ParquetSource": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/stadtwetter.parquet"
     }
   ],
   "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
