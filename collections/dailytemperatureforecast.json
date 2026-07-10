@@ -27,7 +27,7 @@
     "daily_city_temperature"
   ],
   "Process": {
-    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/form.json",
+    "JsonForm": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/process/form.json",
     "EndPoints": [
       {
         "Identifier": "cogstats",
@@ -36,6 +36,6 @@
       }
     ],
     "Name": "timeseries",
-    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Temperature-Forecast-2019/process/vega.json"
+    "VegaDefinition": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/process/vega.json"
   }
 }
