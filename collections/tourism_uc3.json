@@ -3,7 +3,7 @@
   "Title": "Alpine Tourism & Climate Dynamics",
   "Image": "https://picsum.photos/seed/tourismmap/300/300",
   "Themes": [
-    "mobility-transition"
+    "Climate Change & Tourism"
   ],
   "Provider": [
     {
@@ -11,7 +11,7 @@
       "Url": "https://www.geoville.com/"
     }
     ],
-  "CollectionGroup": "Mobility Transition",
+  "CollectionGroup": "Climate Change & Tourism",
   "Tags": [
     "mobility"
   ],

@@ -3,7 +3,7 @@
   "Title": "Tourism & Climate Correlation Analysis",
   "Image": "https://picsum.photos/seed/picsum/536/354",
   "Themes": [
-    "mobility-transition"
+    "Climate Change & Tourism"
   ],
   "Provider": [
     {
@@ -11,7 +11,7 @@
       "Url": "https://www.geoville.com/"
     }
   ],
-  "CollectionGroup": "Mobility Transition",
+  "CollectionGroup": "Climate Change & Tourism",
   "Tags": [
     "mobility",
     "tourism",

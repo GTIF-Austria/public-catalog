@@ -2,10 +2,10 @@
     "Name": "climate_indicators",
     "Title": "Climate Indicators",
     "Themes": [
-        "Climate Change"
+        "Climate Change & Tourism"
     ],
     "Image": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png",
-    "CollectionGroup": "Climate Scenarios",
+    "CollectionGroup": "Climate Change & Tourism",
     "Provider": [
         {
             "Name": "AIT Center for Energy",
