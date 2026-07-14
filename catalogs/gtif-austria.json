@@ -14,7 +14,7 @@
   "collections": [
     "LULUCF_land_use_indicator",
     "ait_predictive_maintenance",
-    "gtime-layer",
+    "GTIME",
     "city_temperature_indicator",
     "geothermal_energy_potential",
     "multitemporal-footprints",

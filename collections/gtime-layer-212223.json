@@ -1,7 +1,7 @@
 {
-  "Name": "GTIME_Layer",
-  "Title": "Multitemporal Vegetation Change Dynamics 2018 – 2021 – 2024",
-  "Description": "The RGB colour model is used to visualize vegetation status and changes across three user-defined time periods (in this case: T1: 2018, T2: 2021, and T3: 2024). This vegetation change model is based on a semantic Earth Observation (EO) data cube, utilizing all available Sentinel-2 observations within each time frame. It calculates the percentage of vegetation presence among valid (cloud- and snow-free) observations. As a result, the model not only depicts changes over time but also reflects variations in vegetation intensity and transitions between vegetation and non-vegetation. Vegetation percentages are represented as integer values within the respective colour channels.",
+  "Name": "GTIME_Layer_212223",
+  "Title": "Multitemporal Vegetation Change Dynamics 2021 – 2022 – 2023",
+  "Description": "The RGB colour model is used to visualize vegetation status and changes across three user-defined time periods (in this case: T1: 2021, T2: 2022, and T3: 2023). This vegetation change model is based on a semantic Earth Observation (EO) data cube, utilizing all available Sentinel-2 observations within each time frame. It calculates the percentage of vegetation presence among valid (cloud- and snow-free) observations. As a result, the model not only depicts changes over time but also reflects variations in vegetation intensity and transitions between vegetation and non-vegetation. Vegetation percentages are represented as integer values within the respective colour channels.",
   "CollectionGroup": "EO Adaptation Services",
   "Resources": [
     {
@@ -18,8 +18,8 @@
           "Time": "2024-01-01",
           "Assets": [
             {
-              "Identifier": "Veg_Change_ 2018_ 2021_ 2024",
-              "File": "https://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_3band_cog_repr_1.tif"
+              "Identifier": "Veg_Change_ 2021_ 2022_ 2023",
+              "File": "https://s3.spatial-services.com/gtime-layer/veg_clsn_shveg_notusedveg_filtrd_perc_212223_cog_repr_1.tif"
             }
           ]
         }
@@ -36,5 +36,5 @@
       "Url": "https://www.plus.ac.at/geoinformatik/"
     }
   ],
-  "Legend": "assets/Cube_2018_2021_2024_sm.png"
+  "Legend": "assets/Cube_2021_2022_2023_sm.png"
 }
