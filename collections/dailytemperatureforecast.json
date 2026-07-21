@@ -1,0 +1,41 @@
+{
+  "Name": "dailytemperatureforecast",
+  "Title": "Hourly urban temperature forecast",
+  "Description": "High-resolution hourly air temperature forecasts at 100 m resolution based on the AROME weather model and SURFEX urban surface modelling. Physical downscaling incorporates urban characteristics such as land cover, building density, vegetation, and anthropogenic heat emissions to represent neighbourhood-scale temperature variations and urban heat hotspots.\n\n**Resolution:** 100 m · **Update:** daily · **Forecast range:** +30 h · **Time step:** 1 h\n\nFurther background and context are available in the [narrative](https://gtif-austria.info/narratives/temperature-forecast).\n\n**Displayed variables**\n\n* 2 m Air Temperature (°C).\nHourly air temperature at pedestrian level, provided on a 100 m grid.\n\n**Purpose and use**\n* Assessment of urban heat exposure and identification of local heat hotspots\n* Support for urban climate adaptation and heat risk management\n* Analysis of neighbourhood-scale temperature variations\n \n**Note:** This dataset is provided as a pre-operational demonstration product for testing and evaluation purposes. While every effort is made to ensure data quality, no guarantee is given regarding the accuracy, completeness, or availability of the information, and GeoSphere Austria accepts no liability for its use.\n\n**Licence:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [],
+      "Name": "COG source",
+      "Bbox": [
+        16.04,
+        47.94,
+        16.7,
+        48.48
+      ],
+      "ParquetSource": "https://public.hub-staging.geosphere.at/datahub/resources/stadtwetter_wien_tagesaktuell_oeffentlich-v1-1h-100m/filelisting/stadtwetter.parquet"
+    }
+  ],
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
+  "Provider": [
+    {
+      "Name": "GeoSphere",
+      "Url": "https://www.geosphere.at/en"
+    }
+  ],
+  "Tags": [
+    "daily_city_temperature"
+  ],
+  "Process": {
+    "JsonForm": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/process/form.json",
+    "EndPoints": [
+      {
+        "Identifier": "cogstats",
+        "Url": "https://statistics.gtif.eox.at/geoparquet-stats/?geoparquet_url={{{process_parquet_url}}}&bbox={{bbox.0}}&bbox={{bbox.1}}&bbox={{bbox.2}}&bbox={{bbox.3}}#.json",
+        "Type": "application/json"
+      }
+    ],
+    "Name": "timeseries",
+    "VegaDefinition": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/process/vega.json"
+  }
+}
