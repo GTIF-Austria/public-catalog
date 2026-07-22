@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "Sentinel Hub WMS",
-      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
+      "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID_WATERJADEL2}",
       "OverwriteBBox": [
         10.41166,
         46.716906,
