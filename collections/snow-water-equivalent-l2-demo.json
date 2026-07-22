@@ -1,7 +1,8 @@
 {
   "Name": "SWE-L2-DEMO",
   "Title": "Snow Water Equivalent (2022–2023)",
-  "ShortDescription": "Amount of water if the snowpack were melted.",
+  "Description": "## Snow Water Equivalent (SWE)\n\nSnow Water Equivalent (SWE) is the amount of water held in the snowpack — the depth of liquid water that would result if all the snow melted, given here in millimetres. It is a critical metric for estimating water availability, since the Alpine snowpack acts as a natural reservoir that releases its water through the melt season. This layer is a demonstration subset of Waterjade's Level-2 snow products, covering the 2022–2023 winter season over Tyrol, modelled daily at 500 m resolution with the SnowMaps processing chain and the GEOtop physical model. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
+  "Image": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE.jpg",
   "Resources": [
     {
       "Name": "Sentinel Hub WMS",
@@ -380,5 +381,42 @@
         "2023-09-30"
       ]
     }
-  ]
+  ],
+  "ShortDescription": "Amount of water if the snowpack were melted.",
+  "CollectionGroup": "Hydrology",
+  "Agency": [
+    "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Waterjade S.r.l.",
+      "Url": "https://waterjade.com/"
+    }
+  ],
+  "Colorlegend": {
+    "title": "Snow Water Equivalent (mm)",
+    "tickFormat": ".0f",
+    "domain": [
+      0,
+      2500
+    ],
+    "range": [
+      "#ffffff",
+      "#4382c0",
+      "#1e529f",
+      "#153273",
+      "#142660",
+      "#13316c"
+    ],
+    "markType": "rect",
+    "scaleType": "continuous",
+    "tickValues": [
+      0,
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ]
+  }
 }
