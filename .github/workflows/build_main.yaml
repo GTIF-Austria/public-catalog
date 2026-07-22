@@ -28,6 +28,7 @@ jobs:
       - name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
+          SH_INSTANCE_ID_WATERJADEL2: ${{ secrets.SH_INSTANCE_ID_WATERJADEL2 }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
         # actually run the catalog generation
