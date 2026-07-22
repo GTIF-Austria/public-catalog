@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ad7f199d-76fd-4c7a-963e-38ce889a46e4",
       "type": "image/png",
       "title": "Snow Water Equivalent (2022–2023)",
       "wms:layers": [
