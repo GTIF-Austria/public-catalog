@@ -68,6 +68,9 @@
     "snow-covered-area",
     "snow-height",
     "snow-melt",
-    "snow-water-equivalent"
+    "snow-water-equivalent",
+    "snow-height-l2-demo",
+    "snow-water-equivalent-l2-demo",
+    "snow-melt-l2-demo"
   ]
 }
