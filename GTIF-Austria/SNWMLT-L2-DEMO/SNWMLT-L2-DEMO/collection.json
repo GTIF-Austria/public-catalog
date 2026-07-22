@@ -1,0 +1,66 @@
+{
+  "type": "Collection",
+  "id": "SNWMLT-L2-DEMO",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF Austria"
+    },
+    {
+      "rel": "wms",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
+      "type": "image/png",
+      "title": "Snowmelt (2022–2023)",
+      "wms:layers": [
+        "SNOW_MELTING"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Snowmelt (2022–2023)"
+    }
+  ],
+  "shortdescription": "Daily snowmelt water runoff.",
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Snowmelt (2022–2023)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.41166,
+          46.716906,
+          11.977302,
+          47.615112
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-10-02T00:00:00Z",
+          "2023-09-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

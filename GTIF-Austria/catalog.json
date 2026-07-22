@@ -995,6 +995,30 @@
       "collection_group": "Hydrology"
     },
     {
+      "rel": "child",
+      "href": "./HS-L2-DEMO/collection.json",
+      "type": "application/json",
+      "title": "Snow Height (2022–2023)",
+      "shortdescription": "Depth of snow on the ground.",
+      "id": "HS-L2-DEMO"
+    },
+    {
+      "rel": "child",
+      "href": "./SWE-L2-DEMO/collection.json",
+      "type": "application/json",
+      "title": "Snow Water Equivalent (2022–2023)",
+      "shortdescription": "Amount of water if the snowpack were melted.",
+      "id": "SWE-L2-DEMO"
+    },
+    {
+      "rel": "child",
+      "href": "./SNWMLT-L2-DEMO/collection.json",
+      "type": "application/json",
+      "title": "Snowmelt (2022–2023)",
+      "shortdescription": "Daily snowmelt water runoff.",
+      "id": "SNWMLT-L2-DEMO"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
