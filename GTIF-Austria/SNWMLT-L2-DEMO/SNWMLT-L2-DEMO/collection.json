@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/",
       "type": "image/png",
       "title": "Snowmelt (2022–2023)",
       "wms:layers": [

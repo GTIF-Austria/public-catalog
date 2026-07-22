@@ -19,6 +19,9 @@
       "id": "WR02-PVpot",
       "providers": [
         "GeoSphere"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp"
       ]
     },
     {
@@ -30,6 +33,9 @@
       "id": "WR-02-Solar-Nature",
       "providers": [
         "Umweltbundesamt"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/Enefit-Greeni-Purtse-hybriidpark-Ida-Virumaal-1749907570161.webp"
       ]
     },
     {

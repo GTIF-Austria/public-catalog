@@ -24,6 +24,9 @@
       "providers": [
         "Austrian Institute of Technology - Digital resilient cities and regions"
       ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg"
+      ],
       "collection_group": "Sustainable Cities"
     },
     {
@@ -99,8 +102,8 @@
   ],
   "summaries": {
     "themes": [
-      "Energy Transition",
-      "Sustainable Cities"
+      "Sustainable Cities",
+      "Energy Transition"
     ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg"

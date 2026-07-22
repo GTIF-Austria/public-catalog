@@ -20,6 +20,9 @@
       "providers": [
         "Sistema"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
+      ],
       "collection_group": "Carbon Accounting"
     },
     {
@@ -34,6 +37,9 @@
       ],
       "roles": [
         "disable"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png"
       ],
       "collection_group": "Carbon Accounting"
     },

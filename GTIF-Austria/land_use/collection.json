@@ -43,6 +43,9 @@
       "providers": [
         "GeoVille"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/LULUCF_preview.jpg"
+      ],
       "tags": [
         "land use"
       ],

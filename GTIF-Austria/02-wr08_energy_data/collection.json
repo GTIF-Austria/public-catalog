@@ -17,6 +17,9 @@
       "title": "Installed Renewable Energy Capacity by Federal State",
       "endpointtype": "GeoJSON source",
       "id": "02-wr08_energy_data",
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/02/02-austrian_renewable_energy.png"
+      ],
       "collection_group": "Energy Dashboard"
     },
     {

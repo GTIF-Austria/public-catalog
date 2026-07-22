@@ -20,6 +20,9 @@
       "providers": [
         "Univ. of Salzburg, Department of Geoinformatics – Z_GIS & Spatial Services"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
+      ],
       "collection_group": "EO Adaptation Services"
     },
     {
@@ -32,6 +35,9 @@
       "providers": [
         "Univ. of Salzburg, Department of Geoinformatics – Z_GIS & Spatial Services"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
+      ],
       "collection_group": "EO Adaptation Services"
     },
     {
@@ -43,6 +49,9 @@
       "id": "GTIME_Layer_222324",
       "providers": [
         "Univ. of Salzburg, Department of Geoinformatics – Z_GIS & Spatial Services"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/thumbnail_gtime_layer.png"
       ],
       "collection_group": "EO Adaptation Services"
     },
