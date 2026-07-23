@@ -1,8 +1,8 @@
 {
   "Name": "HS-L2-DEMO",
-  "Title": "Snow Height (2022–2023)",
+  "Title": "GTIF demo - Snow Height",
   "Description": "## Snow Depth (Snow Height)\n\nSnow Depth (snow height) is the most intuitive snow measurement — how much snow is lying on the ground, given here in centimetres. It shows how the snowpack builds up and thins out through the winter, a familiar reference point for civil protection, the tourism sector, and researchers alike. This layer is a demonstration subset of Waterjade's Level-2 snow products, covering the 2022–2023 winter season over Tyrol, modelled daily at 500 m resolution with the SnowMaps processing chain and the GEOtop physical model. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
-  "Image": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS.jpg",
+  "Image": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS_GTIF_DEMO.png",
   "Resources": [
     {
       "Name": "Sentinel Hub WMS",
