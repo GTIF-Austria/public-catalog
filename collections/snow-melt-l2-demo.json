@@ -1,7 +1,8 @@
 {
   "Name": "SNWMLT-L2-DEMO",
-  "Title": "Snowmelt (2022–2023)",
-  "ShortDescription": "Daily snowmelt water runoff.",
+  "Title": "GTIF demo - Snow Melt",
+  "Description": "## Snow Melt\n\nSnow Melt shows how much water the snowpack is releasing, given here in millimetres per day. Meltwater makes its way into the ground, streams and rivers, making snowmelt a key driver of spring runoff and flooding — valuable for flood forecasting, reservoir operation and early-warning systems. This layer is a demonstration subset of Waterjade's Level-2 snow products, covering the 2022–2023 winter season over Tyrol, modelled daily at 500 m resolution with the SnowMaps processing chain and the GEOtop physical model. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
+  "Image": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
   "Resources": [
     {
       "Name": "Sentinel Hub WMS",
@@ -381,5 +382,36 @@
         "2023-09-30"
       ]
     }
-  ]
+  ],
+  "ShortDescription": "Daily snowmelt water runoff.",
+  "CollectionGroup": "Hydrology",
+  "Provider": [
+    {
+      "Name": "Waterjade S.r.l.",
+      "Url": "https://waterjade.com/"
+    }
+  ],
+  "Colorlegend": {
+    "title": "Snow Melt (mm/day)",
+    "tickFormat": ".0f",
+    "domain": [
+      0,
+      25
+    ],
+    "range": [
+      "#ffffff",
+      "#f7fbff",
+      "#c9dbf0",
+      "#a3cae2",
+      "#75afd8",
+      "#5d9dce",
+      "#5093c8",
+      "#3371b8",
+      "#2962b3",
+      "#1e529f",
+      "#163982"
+    ],
+    "markType": "rect",
+    "scaleType": "continuous"
+  }
 }
