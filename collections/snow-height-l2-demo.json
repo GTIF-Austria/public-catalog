@@ -384,9 +384,6 @@
   ],
   "ShortDescription": "Depth of snow on the ground.",
   "CollectionGroup": "Hydrology",
-  "Agency": [
-    "ESA"
-  ],
   "Provider": [
     {
       "Name": "Waterjade S.r.l.",

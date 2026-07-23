@@ -384,9 +384,6 @@
   ],
   "ShortDescription": "Amount of water if the snowpack were melted.",
   "CollectionGroup": "Hydrology",
-  "Agency": [
-    "ESA"
-  ],
   "Provider": [
     {
       "Name": "Waterjade S.r.l.",

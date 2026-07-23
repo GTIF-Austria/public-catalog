@@ -384,9 +384,6 @@
   ],
   "ShortDescription": "Daily snowmelt water runoff.",
   "CollectionGroup": "Hydrology",
-  "Agency": [
-    "ESA"
-  ],
   "Provider": [
     {
       "Name": "Waterjade S.r.l.",
