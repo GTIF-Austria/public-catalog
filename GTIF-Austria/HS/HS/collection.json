@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
       "type": "image/png",
-      "title": "Snow Height",
+      "title": "DTA - Snow Height",
       "wms:layers": [
         "SNOW-HEIGHT"
       ],
@@ -26,7 +26,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Snow Height"
+      "title": "DTA - Snow Height"
     }
   ],
   "shortdescription": "Depth of the snowpack on the ground.",
@@ -50,7 +50,7 @@
     "scaleType": "continuous"
   },
   "endpointtype": "Sentinel Hub WMS_byoc",
-  "title": "Snow Height",
+  "title": "DTA - Snow Height",
   "extent": {
     "spatial": {
       "bbox": [

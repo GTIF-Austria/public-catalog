@@ -14,9 +14,9 @@
       "rel": "child",
       "href": "./SCA/collection.json",
       "type": "application/json",
-      "title": "Snow Covered Area",
+      "title": "DTA - Snow Covered Area",
       "endpointtype": "Sentinel Hub_byoc",
-      "shortdescription": "Fraction of snow covered area per pixel.",
+      "shortdescription": "Binary mask of snow covered area per pixel.",
       "id": "SCA",
       "providers": [
         "Waterjade S.r.l."
@@ -84,14 +84,14 @@
       "title": "GTIF Austria"
     }
   ],
-  "shortdescription": "Fraction of snow covered area per pixel.",
+  "shortdescription": "Binary mask of snow covered area per pixel.",
   "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
   "agency": [
     "ESA"
   ],
   "collection_group": "Hydrology",
   "eox:colorlegend": {
-    "title": "Snow Covered Area (0: snow-free - 1: 100% snow covered)",
+    "title": "Snow Covered Area (0: no snow - 1: snow)",
     "tickFormat": ".1f",
     "domain": [
       0,
@@ -102,9 +102,9 @@
       "#13316c"
     ],
     "markType": "rect",
-    "scaleType": "continuous"
+    "scaleType": "categorical"
   },
-  "title": "Snow Covered Area",
+  "title": "DTA - Snow Covered Area",
   "extent": {
     "spatial": {
       "bbox": [

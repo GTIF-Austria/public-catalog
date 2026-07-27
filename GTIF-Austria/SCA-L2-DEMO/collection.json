@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "SNWMLT",
+  "id": "SCA-L2-DEMO",
   "stac_version": "1.1.0",
-  "description": "## Snow Melt\n\nThis product was developed within the Digital Twin of Alps (DTA), a demonstration platform built by a Sinergise-led consortium and funded by the European Space Agency under Regional Initiative 3 (EXPRO+), ESA Contract No. 4000139281/22/I-DT. Running for two years from September 2022, the DTA combined Earth observation, numerical modelling and artificial intelligence into a single decision-support platform for water and risk management in the Alps, and serves as a stepping stone towards future Digital Twins  focused on mountainous regions. The Snow products available here were produced by Waterjade S.r.l. and serve as a development basis for the newer products available in the GTIF platform. These products are included in the GTIF platform for demonstration purposes.\n\nSnow Melt shows how much water the snowpack is being released.  Meltwater leaves the snow and makes its way into the ground, streams and rivers, and consequently into the downstream river basin. Snow Melt is a key driver of spring runoff and flooding, and it also affects slope stability, since meltwater seeping into the ground can help trigger shallow landslides. A clear view of melt is therefore valuable for flood forecasting, reservoir operation and early-warning systems for geohazards.\n\nSnow Melt was one of the latest additions in the DTA and was not available in earlier Alpine snow services. It was produced at 250 metre resolution. The product comes from the SnowMaps processing chain and the GEOtop physical model that drive the other snow layers, assimilating satellite observations and weather data and updating in near real time.",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -12,20 +12,14 @@
     },
     {
       "rel": "child",
-      "href": "./SNWMLT/collection.json",
+      "href": "./SCA-L2-DEMO/collection.json",
       "type": "application/json",
-      "title": "DTA - Snow Melt",
+      "title": "GTIF demo - Snow Covered Area",
       "endpointtype": "Sentinel Hub WMS",
-      "shortdescription": "Melt rate in mm/day.",
-      "id": "SNWMLT",
+      "shortdescription": "Binary snow cover classification.",
+      "id": "SCA-L2-DEMO",
       "providers": [
         "Waterjade S.r.l."
-      ],
-      "thumbnail": [
-        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT.jpg"
-      ],
-      "agency": [
-        "ESA"
       ],
       "collection_group": "Hydrology"
     },
@@ -84,52 +78,41 @@
       "title": "GTIF Austria"
     }
   ],
-  "shortdescription": "Melt rate in mm/day.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT.jpg",
-  "agency": [
-    "ESA"
-  ],
+  "shortdescription": "Binary snow cover classification.",
   "collection_group": "Hydrology",
   "eox:colorlegend": {
-    "title": "Snow Melt (mm/day)",
-    "tickFormat": ".0f",
+    "title": "Snow Covered Area (0: no snow, 1: snow, 255: no valid classification)",
+    "tickFormat": ".1f",
     "domain": [
       0,
-      25
+      1,
+      255
     ],
     "range": [
-      "#ffffff",
-      "#f7fbff",
-      "#c9dbf0",
-      "#a3cae2",
-      "#75afd8",
-      "#5d9dce",
-      "#5093c8",
-      "#3371b8",
-      "#2962b3",
-      "#1e529f",
-      "#163982"
+      "#ffffff80",
+      "#13316c",
+      "#00000080"
     ],
     "markType": "rect",
-    "scaleType": "continuous"
+    "scaleType": "categorical"
   },
-  "title": "DTA - Snow Melt",
+  "title": "GTIF demo - Snow Covered Area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.983152841195214,
-          46.12248935673261,
-          17.067990398270908,
-          48.55685052214071
+          10.41166,
+          46.716906,
+          11.977302,
+          47.615112
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-10-02T00:00:00Z",
-          "2022-06-30T00:00:00Z"
+          "2022-10-07T00:00:00Z",
+          "2026-07-14T00:00:00Z"
         ]
       ]
     }
@@ -140,19 +123,5 @@
       "name": "Waterjade S.r.l.",
       "url": "https://waterjade.com/"
     }
-  ],
-  "summaries": {
-    "thumbnail": [
-      "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT.jpg"
-    ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT.jpg",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  ]
 }

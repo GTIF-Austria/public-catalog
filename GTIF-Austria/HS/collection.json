@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./HS/collection.json",
       "type": "application/json",
-      "title": "Snow Height",
+      "title": "DTA - Snow Height",
       "endpointtype": "Sentinel Hub WMS_byoc",
       "shortdescription": "Depth of the snowpack on the ground.",
       "id": "HS",
@@ -104,7 +104,7 @@
     "markType": "rect",
     "scaleType": "continuous"
   },
-  "title": "Snow Height",
+  "title": "DTA - Snow Height",
   "extent": {
     "spatial": {
       "bbox": [

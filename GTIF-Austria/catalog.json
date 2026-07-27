@@ -926,8 +926,8 @@
       "rel": "child",
       "href": "./SCA/collection.json",
       "type": "application/json",
-      "title": "Snow Covered Area",
-      "shortdescription": "Fraction of snow covered area per pixel.",
+      "title": "DTA - Snow Covered Area",
+      "shortdescription": "Binary mask of snow covered area per pixel.",
       "id": "SCA",
       "providers": [
         "Waterjade S.r.l."
@@ -944,7 +944,7 @@
       "rel": "child",
       "href": "./HS/collection.json",
       "type": "application/json",
-      "title": "Snow Height",
+      "title": "DTA - Snow Height",
       "shortdescription": "Depth of the snowpack on the ground.",
       "id": "HS",
       "providers": [
@@ -962,7 +962,7 @@
       "rel": "child",
       "href": "./SNWMLT/collection.json",
       "type": "application/json",
-      "title": "Snow Melt",
+      "title": "DTA - Snow Melt",
       "shortdescription": "Melt rate in mm/day.",
       "id": "SNWMLT",
       "providers": [
@@ -980,7 +980,7 @@
       "rel": "child",
       "href": "./SWE/collection.json",
       "type": "application/json",
-      "title": "Snow Water Equivalent",
+      "title": "DTA - Snow Water Equivalent",
       "shortdescription": "Amount of water if the snowpack were melted.",
       "id": "SWE",
       "providers": [
@@ -991,6 +991,18 @@
       ],
       "agency": [
         "ESA"
+      ],
+      "collection_group": "Hydrology"
+    },
+    {
+      "rel": "child",
+      "href": "./SCA-L2-DEMO/collection.json",
+      "type": "application/json",
+      "title": "GTIF demo - Snow Covered Area",
+      "shortdescription": "Binary snow cover classification.",
+      "id": "SCA-L2-DEMO",
+      "providers": [
+        "Waterjade S.r.l."
       ],
       "collection_group": "Hydrology"
     },

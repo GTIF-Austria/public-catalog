@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SWE/collection.json",
       "type": "application/json",
-      "title": "Snow Water Equivalent",
+      "title": "DTA - Snow Water Equivalent",
       "endpointtype": "Sentinel Hub WMS",
       "shortdescription": "Amount of water if the snowpack were melted.",
       "id": "SWE",
@@ -116,7 +116,7 @@
       2500
     ]
   },
-  "title": "Snow Water Equivalent",
+  "title": "DTA - Snow Water Equivalent",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
       "type": "image/png",
-      "title": "Snow Covered Area",
+      "title": "DTA - Snow Covered Area",
       "wms:layers": [
         "SNOW-COVERED-AREA"
       ],
@@ -26,17 +26,17 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Snow Covered Area"
+      "title": "DTA - Snow Covered Area"
     }
   ],
-  "shortdescription": "Fraction of snow covered area per pixel.",
+  "shortdescription": "Binary mask of snow covered area per pixel.",
   "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
   "agency": [
     "ESA"
   ],
   "collection_group": "Hydrology",
   "eox:colorlegend": {
-    "title": "Snow Covered Area (0: snow-free - 1: 100% snow covered)",
+    "title": "Snow Covered Area (0: no snow - 1: snow)",
     "tickFormat": ".1f",
     "domain": [
       0,
@@ -47,10 +47,10 @@
       "#13316c"
     ],
     "markType": "rect",
-    "scaleType": "continuous"
+    "scaleType": "categorical"
   },
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "Snow Covered Area",
+  "title": "DTA - Snow Covered Area",
   "extent": {
     "spatial": {
       "bbox": [
