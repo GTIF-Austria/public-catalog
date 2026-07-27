@@ -998,25 +998,46 @@
       "rel": "child",
       "href": "./HS-L2-DEMO/collection.json",
       "type": "application/json",
-      "title": "Snow Height (2022–2023)",
+      "title": "GTIF demo - Snow Height",
       "shortdescription": "Depth of snow on the ground.",
-      "id": "HS-L2-DEMO"
+      "id": "HS-L2-DEMO",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS_GTIF_DEMO.png"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "child",
       "href": "./SWE-L2-DEMO/collection.json",
       "type": "application/json",
-      "title": "Snow Water Equivalent (2022–2023)",
+      "title": "GTIF demo - Snow Water Equivalent",
       "shortdescription": "Amount of water if the snowpack were melted.",
-      "id": "SWE-L2-DEMO"
+      "id": "SWE-L2-DEMO",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "child",
       "href": "./SNWMLT-L2-DEMO/collection.json",
       "type": "application/json",
-      "title": "Snowmelt (2022–2023)",
+      "title": "GTIF demo - Snow Melt",
       "shortdescription": "Daily snowmelt water runoff.",
-      "id": "SNWMLT-L2-DEMO"
+      "id": "SNWMLT-L2-DEMO",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "self",

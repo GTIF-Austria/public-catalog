@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "SNWMLT-L2-DEMO",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "## Snow Melt\n\nSnow Melt shows how much water the snowpack is releasing, given here in millimetres per day. Meltwater makes its way into the ground, streams and rivers, making snowmelt a key driver of spring runoff and flooding — valuable for flood forecasting, reservoir operation and early-warning systems. This layer is a demonstration subset of Waterjade's Level-2 snow products, covering the 2022–2023 winter season over Tyrol, modelled daily at 500 m resolution with the SnowMaps processing chain and the GEOtop physical model. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ad7f199d-76fd-4c7a-963e-38ce889a46e4",
       "type": "image/png",
-      "title": "Snowmelt (2022–2023)",
+      "title": "GTIF demo - Snow Melt",
       "wms:layers": [
         "SNOW_MELTING"
       ],
@@ -26,12 +26,37 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Snowmelt (2022–2023)"
+      "title": "GTIF demo - Snow Melt"
     }
   ],
   "shortdescription": "Daily snowmelt water runoff.",
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
+  "collection_group": "Hydrology",
+  "eox:colorlegend": {
+    "title": "Snow Melt (mm/day)",
+    "tickFormat": ".0f",
+    "domain": [
+      0,
+      25
+    ],
+    "range": [
+      "#ffffff",
+      "#f7fbff",
+      "#c9dbf0",
+      "#a3cae2",
+      "#75afd8",
+      "#5d9dce",
+      "#5093c8",
+      "#3371b8",
+      "#2962b3",
+      "#1e529f",
+      "#163982"
+    ],
+    "markType": "rect",
+    "scaleType": "continuous"
+  },
   "endpointtype": "Sentinel Hub WMS",
-  "title": "Snowmelt (2022–2023)",
+  "title": "GTIF demo - Snow Melt",
   "extent": {
     "spatial": {
       "bbox": [
@@ -53,6 +78,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Waterjade S.r.l.",
+      "url": "https://waterjade.com/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -60,6 +91,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

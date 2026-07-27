@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "SWE-L2-DEMO",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "## Snow Water Equivalent (SWE)\n\nSnow Water Equivalent (SWE) is the amount of water held in the snowpack — the depth of liquid water that would result if all the snow melted, given here in millimetres. It is a critical metric for estimating water availability, since the Alpine snowpack acts as a natural reservoir that releases its water through the melt season. This layer is a demonstration subset of Waterjade's Level-2 snow products, covering the 2022–2023 winter season over Tyrol, modelled daily at 500 m resolution with the SnowMaps processing chain and the GEOtop physical model. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
   "links": [
     {
       "rel": "root",
@@ -14,10 +14,17 @@
       "rel": "child",
       "href": "./SWE-L2-DEMO/collection.json",
       "type": "application/json",
-      "title": "Snow Water Equivalent (2022–2023)",
+      "title": "GTIF demo - Snow Water Equivalent",
       "endpointtype": "Sentinel Hub WMS",
       "shortdescription": "Amount of water if the snowpack were melted.",
-      "id": "SWE-L2-DEMO"
+      "id": "SWE-L2-DEMO",
+      "providers": [
+        "Waterjade S.r.l."
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png"
+      ],
+      "collection_group": "Hydrology"
     },
     {
       "rel": "xyz",
@@ -75,7 +82,35 @@
     }
   ],
   "shortdescription": "Amount of water if the snowpack were melted.",
-  "title": "Snow Water Equivalent (2022–2023)",
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png",
+  "collection_group": "Hydrology",
+  "eox:colorlegend": {
+    "title": "Snow Water Equivalent (mm)",
+    "tickFormat": ".0f",
+    "domain": [
+      0,
+      2500
+    ],
+    "range": [
+      "#ffffff",
+      "#4382c0",
+      "#1e529f",
+      "#153273",
+      "#142660",
+      "#13316c"
+    ],
+    "markType": "rect",
+    "scaleType": "continuous",
+    "tickValues": [
+      0,
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ]
+  },
+  "title": "GTIF demo - Snow Water Equivalent",
   "extent": {
     "spatial": {
       "bbox": [
@@ -96,5 +131,25 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Waterjade S.r.l.",
+      "url": "https://waterjade.com/"
+    }
+  ],
+  "summaries": {
+    "thumbnail": [
+      "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
