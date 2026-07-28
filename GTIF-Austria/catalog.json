@@ -1052,6 +1052,68 @@
       "collection_group": "Hydrology"
     },
     {
+      "rel": "child",
+      "href": "./climate_indicators/collection.json",
+      "type": "application/json",
+      "title": "Climate Indicators",
+      "id": "climate_indicators",
+      "themes": [
+        "Climate Change & Tourism"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Climate Change & Tourism"
+    },
+    {
+      "rel": "child",
+      "href": "./tourism_uc3/collection.json",
+      "type": "application/json",
+      "title": "Alpine Tourism & Climate Dynamics",
+      "id": "tourism_uc3",
+      "themes": [
+        "Climate Change & Tourism"
+      ],
+      "providers": [
+        "GeoVille"
+      ],
+      "thumbnail": [
+        "https://picsum.photos/seed/tourismmap/300/300"
+      ],
+      "tags": [
+        "mobility"
+      ],
+      "collection_group": "Climate Change & Tourism"
+    },
+    {
+      "rel": "child",
+      "href": "./tourism_uc3_correlation/collection.json",
+      "type": "application/json",
+      "title": "Tourism & Climate Correlation Analysis",
+      "id": "tourism_uc3_correlation",
+      "themes": [
+        "Climate Change & Tourism"
+      ],
+      "providers": [
+        "GeoVille"
+      ],
+      "thumbnail": [
+        "https://picsum.photos/seed/picsum/536/354"
+      ],
+      "tags": [
+        "mobility",
+        "tourism",
+        "climate"
+      ],
+      "collection_group": "Climate Change & Tourism"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
