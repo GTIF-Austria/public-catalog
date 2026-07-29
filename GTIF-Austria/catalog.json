@@ -1114,6 +1114,22 @@
       "collection_group": "Climate Change & Tourism"
     },
     {
+      "rel": "child",
+      "href": "./dailytemperatureforecast/collection.json",
+      "type": "application/json",
+      "title": "Hourly urban temperature forecast",
+      "id": "dailytemperatureforecast",
+      "providers": [
+        "GeoSphere"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
+      ],
+      "tags": [
+        "daily_city_temperature"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
