@@ -75,6 +75,7 @@
     "snow-melt-l2-demo",
     "climate_indicators",
     "tourism_uc3",
-    "tourism_uc3_correlation"
+    "tourism_uc3_correlation",
+    "dailytemperatureforecast"
   ]
 }
