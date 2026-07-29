@@ -6,7 +6,7 @@
     "properties": {
         "feature": {
             "type": "string",
-            "title": "Select administrative area on map",
+            "title": "Select admin. area on map",
             "options": {
                 "drawtools": {
                     "for": "eox-map#main",
