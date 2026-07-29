@@ -17,6 +17,9 @@
       "title": "City temperature forecast",
       "endpointtype": "COG source",
       "id": "citytemperaturecollection",
+      "themes": [
+        "Sustainable Cities"
+      ],
       "providers": [
         "GeoSphere"
       ],
@@ -25,7 +28,8 @@
       ],
       "tags": [
         "city_temperature"
-      ]
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "child",
@@ -176,6 +180,9 @@
     }
   ],
   "summaries": {
+    "themes": [
+      "Sustainable Cities"
+    ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
     ]
