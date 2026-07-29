@@ -17,6 +17,9 @@
       "title": "Hourly urban temperature forecast",
       "endpointtype": "COG source",
       "id": "dailytemperatureforecast",
+      "themes": [
+        "Sustainable Cities"
+      ],
       "providers": [
         "GeoSphere"
       ],
@@ -25,7 +28,8 @@
       ],
       "tags": [
         "daily_city_temperature"
-      ]
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "service",
@@ -90,9 +94,13 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
+  "themes": [
+    "Sustainable Cities"
+  ],
   "tags": [
     "daily_city_temperature"
   ],
+  "collection_group": "Sustainable Cities",
   "eodash:jsonform": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/process/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.aducat.hub-otc-sc.eox.at/api/public/share/public-3bmaz2ur-01/daily_temperature_forecast/process/vega.json",
   "title": "Hourly urban temperature forecast",
@@ -130,6 +138,9 @@
     }
   ],
   "summaries": {
+    "themes": [
+      "Sustainable Cities"
+    ],
     "thumbnail": [
       "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png"
     ]

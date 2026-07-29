@@ -18,9 +18,13 @@
     }
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/city_temperature_preview2.png",
+  "themes": [
+    "Sustainable Cities"
+  ],
   "tags": [
     "daily_city_temperature"
   ],
+  "collection_group": "Sustainable Cities",
   "endpointtype": "COG source",
   "title": "Hourly urban temperature forecast",
   "extent": {

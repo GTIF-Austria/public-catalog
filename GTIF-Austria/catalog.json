@@ -1119,6 +1119,9 @@
       "type": "application/json",
       "title": "Hourly urban temperature forecast",
       "id": "dailytemperatureforecast",
+      "themes": [
+        "Sustainable Cities"
+      ],
       "providers": [
         "GeoSphere"
       ],
@@ -1127,7 +1130,8 @@
       ],
       "tags": [
         "daily_city_temperature"
-      ]
+      ],
+      "collection_group": "Sustainable Cities"
     },
     {
       "rel": "self",
