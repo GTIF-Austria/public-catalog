@@ -4,7 +4,7 @@
   "Description": "data results ccs austria",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/teststyle1.json",
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/style.json",
       "TimeEntries": [
         {
           "Time": "20260101",
