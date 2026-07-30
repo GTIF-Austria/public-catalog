@@ -12,6 +12,10 @@
             {
               "Identifier": "co2_sources Pulp-And-Paper-Industry",
               "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sources/Pulp-And-Paper-Industry/Pulp-And-Paper-Industry.geojson"
+            },
+            {
+              "Identifier": "Waste_2_Energy",
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sources/Waste-To-Energy/Waste-To-Energy.geojson "
             }
           ]
         }
