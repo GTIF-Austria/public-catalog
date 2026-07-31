@@ -2,5 +2,21 @@
   "Name": "Pulp-And-Paper-Industry",
   "Title": "Pulp-And-Paper-Industry",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/style_point1.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "Pulp-And-Paper-Industry",
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sources/Pulp-And-Paper-Industry/Pulp-And-Paper-Industry.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
