@@ -2,5 +2,21 @@
   "Name": "Iron-And-Steel-Production",
   "Title": "Iron-And-Steel-Production",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/style_point1.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "Iron-And-Steel-Production",
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sources/Iron-And-Steel-Production/Iron-And-Steel-Production.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
