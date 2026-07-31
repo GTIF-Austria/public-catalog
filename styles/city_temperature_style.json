@@ -36,7 +36,7 @@
   },
   "variables": {
     "vmin": -20,
-    "vmax": 40
+    "vmax": 45
   },
   "jsonform": {
     "type": "object",
@@ -50,15 +50,15 @@
             "type": "number",
             "title": "Minimum Temperature (°C)",
             "minimum": -20,
-            "maximum": 40,
+            "maximum": 45,
             "default": -20
           },
           "vmax": {
             "type": "number",
             "title": "Maximum Temperature (°C)",
             "minimum": -20,
-            "maximum": 40,
-            "default": 40
+            "maximum": 45,
+            "default": 45
           }
         },
         "format": "minmax"
