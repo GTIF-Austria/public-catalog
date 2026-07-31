@@ -1,7 +1,7 @@
 {
   "Name": "SCA-L2-DEMO",
   "Title": "GTIF demo - Snow Covered Area",
-  "Description": "## Snow Covered Area\n\nSnow Covered Area (SCA) maps delineate the extent of the snowpack, identifying which areas of the terrain are covered by snow and which are snow-free. Each pixel is classified from 0 (snow free) to 1 (snow covered). This binary mask is obtained by thresholding EO-retrieved snow maps from Copernicus. The SCA is then assimilated through a first correction loop that helps the GEOtop physical model results to comply with the snow line resulted by the satellite data, i.e., the minimum snow cover elevation. This layer is a demonstration subset of Waterjade's snow products over Tyrol. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
+  "Description": "## Snow Covered Area\n\nSnow Covered Area (SCA) maps delineate the extent of the snowpack, identifying which areas of the terrain are covered by snow and which are snow-free. Each pixel is classified as 0 (snow free) or 1 (snow covered). This binary mask is obtained by thresholding Earth Observation-derived snow maps from the Copernicus Land Monitoring Service (CLMS). The SCA is further used as an assimilation dataset for a correction loop in the GEOtop physical model to adjust the snow line, and thus the minimum snow cover elevation. This layer is a demonstration subset of Waterjade's snow products over Tyrol. It builds on the snow-modelling work first developed within the Digital Twin of the Alps (DTA).",
   "Image": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA_GTIF_DEMO.jpg",
   "Resources": [
     {
