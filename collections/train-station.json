@@ -2,5 +2,21 @@
   "Name": "Train-Station",
   "Title": "Train-Station",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/style_point1.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "Train-Station",
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/infrastructure/Train-Station/Train-Station.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
