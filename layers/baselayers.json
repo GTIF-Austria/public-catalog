@@ -1,13 +1,13 @@
 {
   "layers": [
     {
-      "id": "cloudless-2024",
-      "name": "EOxCloudless 2024",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "id": "cloudless-2025",
+      "name": "EOxCloudless 2025",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
       "protocol": "xyz",
       "visible": true,
-      "Attribution": "{ EOxCloudless 2024: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+      "Attribution": "{ EOxCloudless 2025: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "id": "terrain-light",
