@@ -4,7 +4,7 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/style_point1.json",
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/co2_sources/Energy-Supply/style.json",
       "TimeEntries": [
         {
           "Time": "20260101",
