@@ -86,6 +86,7 @@
     "train-station",
     "pipeline",
     "railway",
-    "ship-route"
+    "ship-route",
+    "ccs-site"
   ]
 }
