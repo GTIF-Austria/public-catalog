@@ -11,7 +11,7 @@
           "Assets": [
             {
               "Identifier": "ship",
-              "File": "https://raw.githubusercontent.com/juergenzajicek-source/ccs_austria/refs/heads/main/scenarios/scenario_04/shipping/shipping.geojson?token=GHSAT0AAAAAAEFNK3G2RP3F6PVQVTRGEKZA2T3CL7Q"
+              "File": "https://raw.githubusercontent.com/juergenzajicek-source/ccs_austria/refs/heads/main/scenarios/scenario_04/shipping/shipping.geojson"
             }
           ]
         }
