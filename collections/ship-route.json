@@ -1,6 +1,22 @@
 {
-  "Name": "ship route",
-  "Title": "ship route",
+  "Name": "ship",
+  "Title": "ship",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/ship.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "ship",
+              "File": "https://raw.githubusercontent.com/juergenzajicek-source/ccs_austria/refs/heads/main/scenarios/scenario_04/shipping/shipping.geojson?token=GHSAT0AAAAAAEFNK3G2RP3F6PVQVTRGEKZA2T3CL7Q"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
