@@ -85,6 +85,7 @@
     "inland-port",
     "train-station",
     "pipeline",
-    "railway"
+    "railway",
+    "ship-route"
   ]
 }
