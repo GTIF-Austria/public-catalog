@@ -1,6 +1,22 @@
 {
-  "Name": "CCS site",
-  "Title": "CCS site",
+  "Name": "CCS_site",
+  "Title": "CCS_site",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/factory.json  ",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "CCS site",
+              "File": "https://raw.githubusercontent.com/juergenzajicek-source/ccs_austria/refs/heads/main/co2_sinks/CCU-Site/CCU-Site.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
