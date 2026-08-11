@@ -2,5 +2,21 @@
   "Name": "railway",
   "Title": "railway",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/train.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "railway",
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/scenarios/scenario_01/railway/railway.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
