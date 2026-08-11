@@ -84,6 +84,7 @@
     "export",
     "inland-port",
     "train-station",
-    "pipeline"
+    "pipeline",
+    "railway"
   ]
 }
