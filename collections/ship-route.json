@@ -4,14 +4,14 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/ship.json",
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/ship1.json",
       "TimeEntries": [
         {
           "Time": "20260101",
           "Assets": [
             {
               "Identifier": "ship",
-              "File": "https://raw.githubusercontent.com/juergenzajicek-source/ccs_austria/refs/heads/main/scenarios/scenario_04/shipping/shipping.geojson"
+              "File": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/GEOJSON/scenarios/scenario_04/shipping/shipping.geojson"
             }
           ]
         }
