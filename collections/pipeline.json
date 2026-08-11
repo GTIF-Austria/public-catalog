@@ -2,5 +2,21 @@
   "Name": "Pipeline",
   "Title": "Pipeline",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/ait-energy/ccs_hubs_at/refs/heads/main/style/pipeline.json",
+      "TimeEntries": [
+        {
+          "Time": "20260101",
+          "Assets": [
+            {
+              "Identifier": "pipeline",
+              "File": "https://raw.githubusercontent.com/juergenzajicek-source/ccs_austria/refs/heads/main/scenarios/scenario_01/pipeline/pipeline.geojson?token=GHSAT0AAAAAAEFNK3G2AC56GGW4JC4222PW2T3BUKQ"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ]
 }
