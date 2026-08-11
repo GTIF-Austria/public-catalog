@@ -83,6 +83,7 @@
     "waste-to-energy",
     "export",
     "inland-port",
-    "train-station"
+    "train-station",
+    "pipeline"
   ]
 }
