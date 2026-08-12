@@ -1,0 +1,78 @@
+{
+  "Name": "ubicube_footprint",
+  "Title": "Ubicube Footprint Run 1",
+  "EodashIdentifier": "ubi-footprint-run1",
+  "Subtitle": "",
+  "Description": "under construction",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [],
+      "Sensor": []
+    },
+    "InSitu": [],
+    "Other": []
+  },
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": "",
+    "Publications": []
+  },
+  "Image": "",
+  "Legend": "",
+  "Subcollections": [],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/ubicube.json",
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "ubicube-footprint",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/ubicube/ubicube_buildings_epsg4326.geojson"
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ],
+  "Services": [],
+  "References": [],
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "CollectionGroup": "",
+  "Process": {
+    "Name": "",
+    "JsonForm": "",
+    "VegaDefinition": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "",
+        "EndPoint": "",
+        "Method": "GET",
+        "Body": "",
+        "Flatstyle": ""
+      }
+    ]
+  }
+}
