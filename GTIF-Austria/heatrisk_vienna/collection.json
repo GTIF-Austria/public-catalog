@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "heatrisk_vienna",
   "stac_version": "1.1.0",
-  "description": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.\n",
+  "description": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expositionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.\n",
   "links": [
     {
       "rel": "root",
@@ -17,6 +17,44 @@
       "title": "Hitzeexposition nach IPCC",
       "endpointtype": "COG source",
       "id": "heatexposure_vienna",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png"
+      ],
+      "collection_group": "Sustainable Cities"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_high_res/collection.json",
+      "type": "application/json",
+      "title": "shape",
+      "endpointtype": "GeoJSON source",
+      "shortdescription": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.",
+      "id": "heatrisk_high_res",
+      "themes": [
+        "Sustainable Cities"
+      ],
+      "providers": [
+        "AIT Center for Energy"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/Mockup_heatrisk.png"
+      ],
+      "collection_group": "Sustainable Cities"
+    },
+    {
+      "rel": "child",
+      "href": "./heatrisk_watermark/collection.json",
+      "type": "application/json",
+      "title": "Höhere Auflösung verfügbar - Wassermarke",
+      "endpointtype": "COG source",
+      "shortdescription": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.",
+      "id": "heatrisk_watermark",
       "themes": [
         "Sustainable Cities"
       ],
@@ -116,16 +154,28 @@
     "spatial": {
       "bbox": [
         [
-          16.104187522388848,
-          48.03726357311608,
-          16.632657903519828,
-          48.35793806453949
+          16.297565911091805,
+          48.130752747801665,
+          16.43430742496407,
+          48.21959610427235
         ],
         [
-          16.104187522388848,
-          48.03726357311608,
-          16.632657903519828,
-          48.35793806453949
+          16.344378960411063,
+          48.15546167077023,
+          16.403815697377915,
+          48.19132294223626
+        ],
+        [
+          16.297565911091805,
+          48.130752747801665,
+          16.43430742496407,
+          48.21959610427235
+        ],
+        [
+          16.297565911091805,
+          48.130752747801665,
+          16.43430742496407,
+          48.21959610427235
         ]
       ]
     },
