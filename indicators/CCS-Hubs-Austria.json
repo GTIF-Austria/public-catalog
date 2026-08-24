@@ -9,5 +9,11 @@
   ],
   "Themes": [
     "Fallstudie_1"
+  ],
+  "Disable": [
+    "Fallstudie_1"
+  ],
+  "Hidden": [
+    "NUTS2_AT_copy_test"
   ]
 }
