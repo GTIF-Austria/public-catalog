@@ -1,1 +1,13 @@
-{}
+{
+  "Name": "CCS-indicator-new",
+  "Title": "CCS-Hubs-Austria-Fallstudien",
+  "Description": "",
+  "Collections": [
+    "railway",
+    "pipeline",
+    "ccs-site"
+  ],
+  "Themes": [
+    "Fallstudie_1"
+  ]
+}
