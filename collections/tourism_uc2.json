@@ -1,0 +1,39 @@
+{
+    "Name": "tourism_uc2",
+    "Title": "Snow Depth Anomaly",
+    "Image": "https://loremflickr.com/g/300/300/snow?lock=300",
+    "CollectionGroup": "Climate Change & Tourism",
+    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/description_text.md",
+    "Resources": [
+        {
+            "Name": "Collection-only",
+            "OverwriteBBox": [9.530749, 46.372299, 17.160742, 49.020608]
+        }
+    ],
+    "Themes": ["Climate Change & Tourism"],
+    "Provider": [
+        {
+            "Name": "GeoVille",
+            "Url": "https://www.geoville.com/"
+        }
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/snow_depth_anomaly_jsonform.json",
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/snow_depth_anomaly_vega.json",
+        "EndPoints": [
+            {
+                "Identifier": "snow_variation",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.snow_anomaly_geoville/items?limit=1&bbox-only=true&filter=S_INTERSECTS(geometry,%20POINT({{point.0}}%20{{point.1}}))",
+                "Type": "application/json",
+                "Method": "GET"
+            },
+            {
+                "Identifier": "hora",
+                "Url": "https://hora.gv.at/services/data/85f342bb-c9e0-05c2-9d52-d30039f4a925/?epsg=4326&x={{point.0}}&y={{point.1}}",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}
