@@ -10,6 +10,10 @@
   "Themes": [
     "Fallstudie_1"
   ],
-  "Disable": [],
-  "Hidden": []
+  "Disable": [
+    "Fallstudie_1"
+  ],
+  "Hidden": [
+    "CCS-site"
+  ]
 }
