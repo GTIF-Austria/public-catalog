@@ -1,0 +1,19 @@
+{
+  "Name": "CCS-Hubs-Austria_",
+  "Title": "CCS-Hubs-Austria-Fallstudien",
+  "Description": "",
+  "Collections": [
+    "railway",
+    "pipeline",
+    "ccs-site"
+  ],
+  "Themes": [
+    "Fallstudie_1"
+  ],
+  "Disable": [
+    "Fallstudie_1"
+  ],
+  "Hidden": [
+    "NUTS2_AT_copy_test"
+  ]
+}
