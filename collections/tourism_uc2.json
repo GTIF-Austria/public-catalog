@@ -7,10 +7,17 @@
     "Resources": [
         {
             "Name": "Collection-only",
-            "OverwriteBBox": [9.530749, 46.372299, 17.160742, 49.020608]
+            "OverwriteBBox": [
+                9.530749,
+                46.372299,
+                17.160742,
+                49.020608
+            ]
         }
     ],
-    "Themes": ["Climate Change & Tourism"],
+    "Themes": [
+        "Climate Change & Tourism"
+    ],
     "Provider": [
         {
             "Name": "GeoVille",
@@ -24,7 +31,7 @@
         "EndPoints": [
             {
                 "Identifier": "snow_variation",
-                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.pv_total_eepot_w23/items?limit=1&bbox-only=true&filter=S_INTERSECTS(geometry,%20POINT({{point.0}}%20{{point.1}}))",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.snow_anomaly_geoville/items?limit=1&bbox-only=true&filter=S_INTERSECTS(geometry,%20POINT({{point.0}}%20{{point.1}}))",
                 "Type": "application/json",
                 "Method": "GET"
             },
