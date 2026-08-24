@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "CCS_Hubs_Austria",
+  "Title": "Fallstudie_1",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
+}
