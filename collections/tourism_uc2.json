@@ -37,7 +37,7 @@
             },
             {
                 "Identifier": "hora",
-                "Url": "https://hora.gv.at/services/data/85f342bb-c9e0-05c2-9d52-d30039f4a925/?epsg=4326&x={{point.0}}&y={{point.1}}",
+                "Url": "https://cors.eox.at/get?url=https%3A%2F%2Fhora.gv.at%2Fservices%2Fdata%2F85f342bb-c9e0-05c2-9d52-d30039f4a925%2F%3Fepsg%3D4326%26x%3D{{point.0}}%26y%3D{{point.1}}",
                 "Type": "application/json",
                 "Method": "GET"
             }
