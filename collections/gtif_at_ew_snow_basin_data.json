@@ -41,7 +41,7 @@
         "EndPoints": [
             {
                 "Identifier": "timeseries",
-                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.snow_basin_data/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.snow_basin_data/items?limit=1000&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
                 "Type": "application/json",
                 "Method": "GET"
             }
