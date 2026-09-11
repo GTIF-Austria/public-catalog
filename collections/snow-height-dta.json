@@ -8,7 +8,9 @@
       "Name": "Sentinel Hub WMS",
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
       "OverwriteBBox": [
-        8.983152841195214, 46.12248935673261, 17.067990398270908,
+        8.983152841195214,
+        46.12248935673261,
+        17.067990398270908,
         48.55685052214071
       ],
       "LayerId": "SNOW-HEIGHT",
@@ -1381,18 +1383,26 @@
   ],
   "ShortDescription": "Depth of the snowpack on the ground.",
   "CollectionGroup": "Hydrology",
-  "Agency": ["ESA"],
+  "Agency": [
+    "ESA"
+  ],
   "Provider": [
     {
-      "Name": "Waterjade S.r.l.",
+      "Name": "Waterjade",
       "Url": "https://waterjade.com/"
     }
   ],
   "Colorlegend": {
     "title": "Snow Height (cm)",
     "tickFormat": ".0f",
-    "domain": [0, 250],
-    "range": ["#ffffff", "#08519c"],
+    "domain": [
+      0,
+      250
+    ],
+    "range": [
+      "#ffffff",
+      "#08519c"
+    ],
     "markType": "rect",
     "scaleType": "continuous"
   }
