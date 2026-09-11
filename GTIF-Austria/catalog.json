@@ -1137,6 +1137,31 @@
       "collection_group": "Sustainable Cities"
     },
     {
+      "rel": "child",
+      "href": "./tourism_uc2_stats/collection.json",
+      "type": "application/json",
+      "title": "Climate Threats",
+      "id": "tourism_uc2_stats",
+      "themes": [
+        "Climate Change & Tourism"
+      ],
+      "providers": [
+        "GeoVille"
+      ],
+      "thumbnail": [
+        "https://picsum.photos/seed/picsum/536/354"
+      ],
+      "tags": [
+        "mobility",
+        "tourism",
+        "climate"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Climate Change & Tourism"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
