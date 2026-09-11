@@ -14,18 +14,26 @@
   ],
   "ShortDescription": "Binary mask of snow covered area per pixel.",
   "CollectionGroup": "Hydrology",
-  "Agency": ["ESA"],
+  "Agency": [
+    "ESA"
+  ],
   "Provider": [
     {
-      "Name": "Waterjade S.r.l.",
+      "Name": "Waterjade",
       "Url": "https://waterjade.com/"
     }
   ],
   "Colorlegend": {
     "title": "Snow Covered Area (0: no snow - 1: snow)",
     "tickFormat": ".1f",
-    "domain": [0, 1],
-    "range": ["#ffffff", "#13316c"],
+    "domain": [
+      0,
+      1
+    ],
+    "range": [
+      "#ffffff",
+      "#13316c"
+    ],
     "markType": "rect",
     "scaleType": "categorical"
   }
