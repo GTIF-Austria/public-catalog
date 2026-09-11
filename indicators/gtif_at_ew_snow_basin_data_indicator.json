@@ -7,9 +7,6 @@
         "snow-water-equivalent-l2-demo",
         "gtif_at_ew_snow_basin_data"
     ],
-    "Disable": [
-        "gtif_at_ew_snow_basin_data"
-    ],
     "Themes": [
         "Hydrology"
     ],
@@ -27,5 +24,18 @@
             "Url": "https://www.sinergise.com/"
         }
     ],
-    "Image": "https://picsum.photos/id/29/300/300"
+    "Image": "https://picsum.photos/id/29/300/300",
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ew/form.json",
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ew/chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.snow_basin_data/items?limit=1000&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
 }
