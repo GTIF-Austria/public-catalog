@@ -1,0 +1,31 @@
+{
+    "Name": "gtif_at_ew_snow_basin_data_indicator",
+    "Title": "Basin Snow Data",
+    "Description": "Snow Basin Data for the Austrian Alps",
+    "CollectionGroup": "Hydrology",
+    "Collections": [
+        "snow-water-equivalent-l2-demo",
+        "gtif_at_ew_snow_basin_data"
+    ],
+    "Disable": [
+        "gtif_at_ew_snow_basin_data"
+    ],
+    "Themes": [
+        "Hydrology"
+    ],
+    "Provider": [
+        {
+            "Name": "Waterjade",
+            "Url": "https://waterjade.com/"
+        },
+        {
+            "Name": "TIWAG",
+            "Url": "https://www.tiwag.at/"
+        },
+        {
+            "Name": "Sinergise Austria",
+            "Url": "https://www.sinergise.com/"
+        }
+    ],
+    "Image": "https://picsum.photos/id/29/300/300"
+}

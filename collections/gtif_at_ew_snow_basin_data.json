@@ -3,12 +3,20 @@
     "Title": "Basin Snow Data",
     "Image": "https://picsum.photos/id/29/300/300",
     "Themes": [
-        "Climate Change & Tourism"
+        "Hydrology"
     ],
     "Provider": [
         {
-            "Name": "Waterjade S.r.l.",
+            "Name": "Waterjade",
             "Url": "https://waterjade.com/"
+        },
+        {
+            "Name": "TIWAG",
+            "Url": "https://www.tiwag.at/"
+        },
+        {
+            "Name": "Sinergise Austria",
+            "Url": "https://www.sinergise.com/"
         }
     ],
     "CollectionGroup": "Hydrology",
