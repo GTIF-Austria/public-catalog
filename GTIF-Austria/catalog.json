@@ -1138,6 +1138,25 @@
     },
     {
       "rel": "child",
+      "href": "./gtif_at_ew_snow_basin_data_indicator/collection.json",
+      "type": "application/json",
+      "title": "Basin Snow Data",
+      "id": "gtif_at_ew_snow_basin_data_indicator",
+      "themes": [
+        "Hydrology"
+      ],
+      "providers": [
+        "Waterjade",
+        "TIWAG",
+        "Sinergise Austria"
+      ],
+      "thumbnail": [
+        "https://picsum.photos/id/29/300/300"
+      ],
+      "collection_group": "Hydrology"
+    },
+    {
+      "rel": "child",
       "href": "./tourism_uc2_stats/collection.json",
       "type": "application/json",
       "title": "Climate Threats",
