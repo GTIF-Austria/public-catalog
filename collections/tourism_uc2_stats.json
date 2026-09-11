@@ -1,6 +1,6 @@
 {
     "Name": "tourism_uc2_stats",
-    "Title": "Tourism Risk Statistics UC2",
+    "Title": "Climate Threats",
     "Themes": [
         "Climate Change & Tourism"
     ],
@@ -31,7 +31,7 @@
             "TimeEntries": [
                 {
                     "Time": "20300101",
-                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.tourism_risk_stats/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.tourism_risk_stats_new/tiles/WebMercatorQuad/{z}/{x}/{y}"
                 }
             ]
         }
@@ -46,7 +46,7 @@
         "EndPoints": [
             {
                 "Identifier": "timeseries",
-                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.tourism_risk_stats/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.tourism_risk_stats_new/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
                 "Type": "application/json",
                 "Method": "GET"
             }
