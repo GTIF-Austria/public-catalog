@@ -930,7 +930,7 @@
       "shortdescription": "Binary mask of snow covered area per pixel.",
       "id": "SCA",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg"
@@ -948,7 +948,7 @@
       "shortdescription": "Depth of the snowpack on the ground.",
       "id": "HS",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS.jpg"
@@ -966,7 +966,7 @@
       "shortdescription": "Melt rate in mm/day.",
       "id": "SNWMLT",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT.jpg"
@@ -984,7 +984,7 @@
       "shortdescription": "Amount of water if the snowpack were melted.",
       "id": "SWE",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE.jpg"
@@ -1002,7 +1002,7 @@
       "shortdescription": "Binary snow cover classification.",
       "id": "SCA-L2-DEMO",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA_GTIF_DEMO.png"
@@ -1017,7 +1017,7 @@
       "shortdescription": "Depth of snow on the ground.",
       "id": "HS-L2-DEMO",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS_GTIF_DEMO.png"
@@ -1032,7 +1032,7 @@
       "shortdescription": "Amount of water if the snowpack were melted.",
       "id": "SWE-L2-DEMO",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png"
@@ -1047,7 +1047,7 @@
       "shortdescription": "Daily snowmelt water runoff.",
       "id": "SNWMLT-L2-DEMO",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png"

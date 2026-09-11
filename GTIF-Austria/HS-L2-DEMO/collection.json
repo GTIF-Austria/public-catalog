@@ -19,7 +19,7 @@
       "shortdescription": "Depth of snow on the ground.",
       "id": "HS-L2-DEMO",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS_GTIF_DEMO.png"
@@ -122,7 +122,7 @@
   "license": "other",
   "providers": [
     {
-      "name": "Waterjade S.r.l.",
+      "name": "Waterjade",
       "url": "https://waterjade.com/"
     }
   ],

@@ -19,7 +19,7 @@
       "shortdescription": "Binary mask of snow covered area per pixel.",
       "id": "SCA",
       "providers": [
-        "Waterjade S.r.l."
+        "Waterjade"
       ],
       "thumbnail": [
         "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg"
@@ -134,7 +134,7 @@
   "license": "other",
   "providers": [
     {
-      "name": "Waterjade S.r.l.",
+      "name": "Waterjade",
       "url": "https://waterjade.com/"
     }
   ],
