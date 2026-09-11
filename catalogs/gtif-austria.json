@@ -76,6 +76,7 @@
     "climate_indicators",
     "tourism_uc3",
     "tourism_uc3_correlation",
-    "dailytemperatureforecast"
+    "dailytemperatureforecast",
+    "tourism_uc2_stats"
   ]
 }

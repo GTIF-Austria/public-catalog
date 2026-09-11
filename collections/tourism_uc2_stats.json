@@ -1,0 +1,66 @@
+{
+    "Name": "tourism_uc2_stats",
+    "Title": "Climate Threats",
+    "Themes": [
+        "Climate Change & Tourism"
+    ],
+    "Provider": [
+        {
+            "Name": "GeoVille",
+            "Url": "https://www.geoville.com/"
+        }
+    ],
+    "CollectionGroup": "Climate Change & Tourism",
+    "Tags": [
+        "mobility",
+        "tourism",
+        "climate"
+    ],
+    "Image": "https://picsum.photos/seed/picsum/536/354",
+    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/description_text.md",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_risk_stats_style.json",
+            "Bbox": [
+                9.5,
+                46.4,
+                17.1,
+                49.1
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20300101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.tourism_risk_stats_new/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_risk_stats_jsonform.json",
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_risk_stats_chart.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.tourism_risk_stats_new/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    },
+    "BaseLayers": [
+        {
+            "id": "geoland_base",
+            "name": "Geoland Basemap",
+            "url": "https://mapsneu.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png",
+            "Attribution": "{ Datenquelle: <a href=\"https://basemap.at\" target=\"_blank\" property=\"dct:title\">basemap.at</a> }",
+            "visible": true,
+            "maxNativeZoom": 18,
+            "protocol": "xyz"
+        }
+    ]
+}

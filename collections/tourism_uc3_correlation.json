@@ -17,7 +17,7 @@
         "tourism",
         "climate"
     ],
-    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/description_text.md",
+    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc3/description_text_correlation.md",
     "Resources": [
         {
             "Name": "VectorTile source",
