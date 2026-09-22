@@ -2,5 +2,12 @@
   "Name": "natural_retention_ponds_austria",
   "Title": "natural_retention_ponds_austria",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [],
+      "Name": "FlatGeobuf source",
+      "ParquetSource": ""
+    }
+  ]
 }
