@@ -26,7 +26,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Basin Snow Data"
+      "title": "Alpine Hydropower Snow Potential Energy"
     }
   ],
   "shortdescription": "Amount of water if the snowpack were melted.",

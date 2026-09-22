@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "gtif_at_ew_snow_basin_data_indicator",
   "stac_version": "1.1.0",
-  "description": "Snow Basin Data for the Austrian Alps",
+  "description": "## Hydropower Snow Potential Energy\n\nThis dataset provides daily time-series estimates of the electrical energy stored within the Alpine snowpack across three hydroelectric reservoir catchment areas in Tyrol. By translating snowpack water volume into potential energy, this layer serves as an indicator for forecasting potential renewable energy production from spring snowmelt.\nThis service covers Achensee, Längentalspeicher (Kühtai), and Gepatschspeicher (Kaunertal) reservoir catchments over the 2022–2023 winter season. The underlying snow data is sourced from Waterjade's Level-2 snow products, which are modelled daily at 500m resolution. Daily mean Snow Water Equivalent (SWE, in mm) is extracted across catchment geometries via the Copernicus Data Space Ecosystem (CDSE) Sentinel Hub API, converted to total water-equivalent volume (m³), and multiplied by energy conversion coefficients (energy per m³) to calculate total stored potential energy over time.",
   "links": [
     {
       "rel": "root",
@@ -111,14 +111,14 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://picsum.photos/id/29/300/300",
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ew/assets/achensee-thumbnail.jpg",
   "themes": [
     "Hydrology"
   ],
   "collection_group": "Hydrology",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ew/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ew/chart.json",
-  "title": "Basin Snow Data",
+  "title": "Alpine Hydropower Snow Potential Energy",
   "extent": {
     "spatial": {
       "bbox": [
@@ -171,13 +171,13 @@
       "Hydrology"
     ],
     "thumbnail": [
-      "https://picsum.photos/id/29/300/300",
-      "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png"
+      "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE_GTIF_DEMO.png",
+      "https://picsum.photos/id/29/300/300"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://picsum.photos/id/29/300/300",
+      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ew/assets/achensee-thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
