@@ -16,7 +16,16 @@
           ]
         }
       ],
-      "Name": "FlatGeobuf source"
+      "Name": "FlatGeobuf source",
+      "Bbox": [
+        9.561456012111156,
+        46.36205734329752,
+        17.153002243507153,
+        49.023851728545495
+      ],
+      "DataProjection": {
+        "name": "\"EPSG\"31287"
+      }
     }
   ]
 }
