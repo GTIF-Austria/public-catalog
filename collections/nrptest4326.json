@@ -1,0 +1,31 @@
+{
+  "Name": "nrp_test",
+  "Title": "nrp_test",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
+      "TimeEntries": [
+        {
+          "Time": "20240915",
+          "Assets": [
+            {
+              "Identifier": "nrp_test",
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_test_4326.fgb"
+            }
+          ]
+        }
+      ],
+      "Name": "FlatGeobuf source",
+      "Bbox": [
+        9.561456012111156,
+        46.36205734329752,
+        17.153002243507153,
+        49.023851728545495
+      ],
+      "DataProjection": {
+        "name": "\"EPSG\"4326"
+      }
+    }
+  ]
+}
