@@ -5,7 +5,17 @@
   "Resources": [
     {
       "Style": "",
-      "TimeEntries": [],
+      "TimeEntries": [
+        {
+          "Time": "20210321 ",
+          "Assets": [
+            {
+              "Identifier": "test_fgb",
+              "File": "https://github.com/flatgeobuf/flatgeobuf/blob/master/test/data/countries_nocrs.fgb"
+            }
+          ]
+        }
+      ],
       "Name": "FlatGeobuf source",
       "ParquetSource": ""
     }
