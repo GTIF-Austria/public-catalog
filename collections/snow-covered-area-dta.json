@@ -152,9 +152,7 @@
         "2022-06-26",
         "2022-06-27",
         "2022-06-30"
-      ],
-      "Type": "byoc",
-      "CollectionId": ""
+      ]
     }
   ],
   "ShortDescription": "Binary mask of snow covered area per pixel.",
