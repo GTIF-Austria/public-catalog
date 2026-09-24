@@ -24,7 +24,7 @@
         49.023851728545495
       ],
       "DataProjection": {
-        "name": "\"EPSG\"31287"
+        "name": "EPSG:31287"
       }
     }
   ]
