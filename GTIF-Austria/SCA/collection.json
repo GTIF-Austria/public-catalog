@@ -15,7 +15,7 @@
       "href": "./SCA/collection.json",
       "type": "application/json",
       "title": "DTA - Snow Covered Area",
-      "endpointtype": "Sentinel Hub_byoc",
+      "endpointtype": "Sentinel Hub WMS",
       "shortdescription": "Binary mask of snow covered area per pixel.",
       "id": "SCA",
       "providers": [
@@ -113,20 +113,14 @@
           46.12248935673261,
           17.067990398270908,
           48.55685052214071
-        ],
-        [
-          8.983152841195214,
-          46.12248935673261,
-          17.067990398270908,
-          48.55685052214071
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-10-04T09:57:00Z",
-          "2022-06-30T10:27:00Z"
+          "2021-10-04T00:00:00Z",
+          "2022-06-30T00:00:00Z"
         ]
       ]
     }

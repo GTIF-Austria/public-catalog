@@ -49,7 +49,7 @@
     "markType": "rect",
     "scaleType": "categorical"
   },
-  "endpointtype": "Sentinel Hub_byoc",
+  "endpointtype": "Sentinel Hub WMS",
   "title": "DTA - Snow Covered Area",
   "extent": {
     "spatial": {
@@ -65,8 +65,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-10-04T09:57:00Z",
-          "2022-06-30T10:27:00Z"
+          "2021-10-04T00:00:00Z",
+          "2022-06-30T00:00:00Z"
         ]
       ]
     }
