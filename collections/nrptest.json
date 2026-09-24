@@ -2,22 +2,5 @@
   "Name": "nrp_test",
   "Title": "nrp_test",
   "Description": "",
-  "Resources": [
-    {
-      "Style": "",
-      "TimeEntries": [
-        {
-          "Time": "20210321T153200",
-          "Assets": [
-            {
-              "Identifier": "test_fgb",
-              "File": "https://github.com/flatgeobuf/flatgeobuf/blob/master/test/data/countries_nocrs.fgb"
-            }
-          ]
-        }
-      ],
-      "Name": "FlatGeobuf source",
-      "ParquetSource": ""
-    }
-  ]
+  "Resources": []
 }
