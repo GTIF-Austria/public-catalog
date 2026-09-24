@@ -10,7 +10,7 @@
           "Time": "20240915",
           "Assets": [
             {
-              "Identifier": "nrp_test",
+              "Identifier": "nrp_test_4326",
               "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_test_4326.fgb"
             }
           ]
