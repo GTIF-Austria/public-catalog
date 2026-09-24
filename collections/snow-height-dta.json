@@ -1376,9 +1376,7 @@
         "2022-06-28",
         "2022-06-29",
         "2022-06-30"
-      ],
-      "Type": "byoc",
-      "CollectionId": ""
+      ]
     }
   ],
   "ShortDescription": "Depth of the snowpack on the ground.",
