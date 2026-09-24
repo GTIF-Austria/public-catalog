@@ -4,14 +4,14 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://github.com/smfloery/moniQue/blob/uncertainty/tests/style.json",
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
       "TimeEntries": [
         {
           "Time": "20240915",
           "Assets": [
             {
               "Identifier": "nrp_test",
-              "File": "https://github.com/smfloery/moniQue/blob/uncertainty/tests/nrp_test.fgb"
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_test.fgb"
             }
           ]
         }
