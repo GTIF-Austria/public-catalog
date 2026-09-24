@@ -49,7 +49,7 @@
     "markType": "rect",
     "scaleType": "continuous"
   },
-  "endpointtype": "Sentinel Hub WMS_byoc",
+  "endpointtype": "Sentinel Hub WMS",
   "title": "DTA - Snow Height",
   "extent": {
     "spatial": {

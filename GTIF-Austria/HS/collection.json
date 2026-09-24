@@ -15,7 +15,7 @@
       "href": "./HS/collection.json",
       "type": "application/json",
       "title": "DTA - Snow Height",
-      "endpointtype": "Sentinel Hub WMS_byoc",
+      "endpointtype": "Sentinel Hub WMS",
       "shortdescription": "Depth of the snowpack on the ground.",
       "id": "HS",
       "providers": [
