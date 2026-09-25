@@ -29,6 +29,6 @@
     }
   ],
   "MapProjection": {
-    "name": "\"EPSG\"3857"
+    "name": "\"EPSG\"4326"
   }
 }
