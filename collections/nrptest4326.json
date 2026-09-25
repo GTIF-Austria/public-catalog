@@ -4,7 +4,7 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://dev.hda.eodchosting.eu/collections/TOP4EO/GTIF/style.json",
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
       "TimeEntries": [
         {
           "Time": "20240915",
