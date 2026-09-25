@@ -4,7 +4,7 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://dev.hda.eodchosting.eu/collections/TOP4EO/GTIF/nrp_test_4326.fgb/style.json",
+      "Style": "https://dev.hda.eodchosting.eu/collections/TOP4EO/GTIF/style.json",
       "TimeEntries": [
         {
           "Time": "20240915",
