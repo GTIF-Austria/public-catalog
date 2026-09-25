@@ -4,14 +4,14 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
+      "Style": "https://dev.hda.eodchosting.eu/collections/TOP4EO/GTIF/nrp_test_4326.fgb/style.json",
       "TimeEntries": [
         {
           "Time": "20240915",
           "Assets": [
             {
               "Identifier": "nrp_test_4326",
-              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_test_4326.fgb"
+              "File": "https://dev.hda.eodchosting.eu/collections/TOP4EO/GTIF/nrp_test_4326.fgb"
             }
           ]
         }
