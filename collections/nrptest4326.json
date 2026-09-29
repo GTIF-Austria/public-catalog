@@ -4,7 +4,7 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/",
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
       "TimeEntries": [
         {
           "Time": "20240915",
