@@ -1,0 +1,39 @@
+{
+  "Name": "tourism_uc2_avalanche",
+  "Title": "Avalanche Hazard Zones",
+  "CollectionGroup": "Climate Change & Tourism",
+  "Description": "Avalanche hazard zones from the Austrian HORA/WLV hazard-zone plan. Yellow zones represent medium hazard and red zones represent high hazard. This layer is provided as contextual information for the selected tourism location.",
+  "Themes": [
+    "Climate Change & Tourism"
+  ],
+  "Provider": [
+    {
+      "Name": "HORA – Natural Hazard Overview & Risk Assessment Austria",
+      "Url": "https://www.hora.gv.at/"
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/hora_avalanche_style.json",
+      "Bbox": [
+        9.40356439416315,
+        46.345563479243154,
+        17.21172084373003,
+        49.03321991805956
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "hora_avalanche_zones",
+              "Title": "HORA Avalanche Hazard Zones",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/hora_avalanche_zones_100m_3857_cog.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

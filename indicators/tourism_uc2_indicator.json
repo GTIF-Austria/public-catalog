@@ -5,7 +5,21 @@
     "CollectionGroup": "Climate Change & Tourism",
     "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/description_text.md",
     "Collections": [
-        "tourism_uc2_flood"
+        "tourism_uc2_snow_anomaly",
+        "tourism_uc2_flood",
+        "tourism_uc2_avalanche",
+        "tourism_uc2_heat_episodes",
+        "tourism_uc2_hot_days_30",
+        "tourism_uc2_hot_days_35",
+        "tourism_uc2_tropical_nights"
+    ],
+    "Disable": [
+        "tourism_uc2_flood",
+        "tourism_uc2_avalanche",
+        "tourism_uc2_heat_episodes",
+        "tourism_uc2_hot_days_30",
+        "tourism_uc2_hot_days_35",
+        "tourism_uc2_tropical_nights"
     ],
     "Themes": [
         "Climate Change & Tourism"
@@ -34,5 +48,24 @@
                 "Method": "GET"
             }
         ]
-    }
+    },
+    "OverlayLayers": [
+        {
+            "id": "tourism_regions",
+            "name": "Tourism Regions",
+            "url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourismregions_FINAL.geojson",
+            "protocol": "GeoJSON source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_regions_overlay_style.json",
+            "DataProjection": "EPSG:4326",
+            "visible": true
+        },
+        {
+            "id": "overlay_bright",
+            "name": "Overlay labels",
+            "url": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+            "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
+            "visible": true,
+            "protocol": "xyz"
+        }
+    ]
 }
