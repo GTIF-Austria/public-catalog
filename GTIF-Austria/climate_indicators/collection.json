@@ -21,13 +21,11 @@
         "Climate Change & Tourism"
       ],
       "providers": [
-        "AIT Center for Energy"
+        "GeoVille",
+        "Austria Tourism"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png"
-      ],
-      "agency": [
-        "ESA"
       ],
       "collection_group": "Climate Change & Tourism"
     },
@@ -97,9 +95,6 @@
   "themes": [
     "Climate Change & Tourism"
   ],
-  "agency": [
-    "ESA"
-  ],
   "collection_group": "Climate Change & Tourism",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/chart.json",
@@ -133,8 +128,12 @@
   "license": "other",
   "providers": [
     {
-      "name": "AIT Center for Energy",
-      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+      "name": "GeoVille",
+      "url": "https://www.geoville.com/"
+    },
+    {
+      "name": "Austria Tourism",
+      "url": "https://b2b.austria.info/uk/"
     }
   ],
   "summaries": {

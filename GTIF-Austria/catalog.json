@@ -1064,13 +1064,11 @@
         "Climate Change & Tourism"
       ],
       "providers": [
-        "AIT Center for Energy"
+        "GeoVille",
+        "Austria Tourism"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png"
-      ],
-      "agency": [
-        "ESA"
       ],
       "collection_group": "Climate Change & Tourism"
     },
@@ -1084,7 +1082,8 @@
         "Climate Change & Tourism"
       ],
       "providers": [
-        "GeoVille"
+        "GeoVille",
+        "Austria Tourism"
       ],
       "thumbnail": [
         "https://picsum.photos/seed/tourismmap/300/300"
@@ -1104,7 +1103,8 @@
         "Climate Change & Tourism"
       ],
       "providers": [
-        "GeoVille"
+        "GeoVille",
+        "Austria Tourism"
       ],
       "thumbnail": [
         "https://picsum.photos/seed/picsum/536/354"
@@ -1165,7 +1165,8 @@
         "Climate Change & Tourism"
       ],
       "providers": [
-        "GeoVille"
+        "GeoVille",
+        "Austria Tourism"
       ],
       "thumbnail": [
         "https://picsum.photos/seed/picsum/536/354"

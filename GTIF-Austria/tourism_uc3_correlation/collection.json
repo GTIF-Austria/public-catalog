@@ -21,7 +21,8 @@
         "Climate Change & Tourism"
       ],
       "providers": [
-        "GeoVille"
+        "GeoVille",
+        "Austria Tourism"
       ],
       "thumbnail": [
         "https://picsum.photos/seed/picsum/536/354"
@@ -139,6 +140,10 @@
     {
       "name": "GeoVille",
       "url": "https://www.geoville.com/"
+    },
+    {
+      "name": "Austria Tourism",
+      "url": "https://b2b.austria.info/uk/"
     }
   ],
   "summaries": {

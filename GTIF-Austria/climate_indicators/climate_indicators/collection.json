@@ -21,9 +21,6 @@
   "themes": [
     "Climate Change & Tourism"
   ],
-  "agency": [
-    "ESA"
-  ],
   "collection_group": "Climate Change & Tourism",
   "endpointtype": "VectorTile source",
   "title": "Climate Indicators",
@@ -50,8 +47,12 @@
   "license": "other",
   "providers": [
     {
-      "name": "AIT Center for Energy",
-      "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+      "name": "GeoVille",
+      "url": "https://www.geoville.com/"
+    },
+    {
+      "name": "Austria Tourism",
+      "url": "https://b2b.austria.info/uk/"
     }
   ],
   "assets": {
