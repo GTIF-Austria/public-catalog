@@ -1414,7 +1414,8 @@
       "#7f007f",
       "#ef0aff",
       "#ff7300",
-      "#996633"
+      "#996633",
+      "#ff0000"
     ],
     "markType": "rect",
     "scaleType": "discrete"
