@@ -5,8 +5,9 @@
   "Collections": [
     "railway",
     "pipeline",
+    "ccs-site",
     "biomethanolplant",
-    "ccs-site"
+    "biomass-plant"
   ],
   "Themes": [
     "CCS Landschaft"
