@@ -69,24 +69,6 @@
     "snow-height",
     "snow-melt",
     "snow-water-equivalent",
-    "ccsaustria",
-    "ccsaustria",
-    "co2-source-pulp-and-paper-industry",
-    "bioethanolplant",
-    "biomass-plant",
-    "chemistry",
-    "energy-supply",
-    "iron-and-steel-production",
-    "mining",
-    "other-non-metallic-mineral-products",
-    "pulp-and-paper-industry",
-    "waste-to-energy",
-    "export",
-    "inland-port",
-    "train-station",
-    "pipeline",
-    "railway",
-    "ship-route",
-    "CCS-indicator-test"
+    "CCS-indicator-final"
   ]
 }
