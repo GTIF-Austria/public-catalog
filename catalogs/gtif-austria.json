@@ -76,6 +76,7 @@
     "climate_indicators",
     "tourism_uc3",
     "tourism_uc3_correlation",
+    "tourism_uc2_indicator",
     "dailytemperatureforecast",
     "gtif_at_ew_snow_basin_data_indicator",
     "tourism_uc2_stats"

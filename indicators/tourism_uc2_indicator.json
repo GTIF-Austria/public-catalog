@@ -1,0 +1,71 @@
+{
+    "Name": "tourism_uc2_indicator",
+    "Title": "Snow Depth Anomaly",
+    "Image": "https://picsum.photos/seed/picsum/536/354",
+    "CollectionGroup": "Climate Change & Tourism",
+    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/description_text.md",
+    "Collections": [
+        "tourism_uc2_snow_anomaly",
+        "tourism_uc2_flood",
+        "tourism_uc2_avalanche",
+        "tourism_uc2_heat_episodes",
+        "tourism_uc2_hot_days_30",
+        "tourism_uc2_hot_days_35",
+        "tourism_uc2_tropical_nights"
+    ],
+    "Disable": [
+        "tourism_uc2_flood",
+        "tourism_uc2_avalanche",
+        "tourism_uc2_heat_episodes",
+        "tourism_uc2_hot_days_30",
+        "tourism_uc2_hot_days_35",
+        "tourism_uc2_tropical_nights"
+    ],
+    "Themes": [
+        "Climate Change & Tourism"
+    ],
+    "Provider": [
+        {
+            "Name": "GeoVille",
+            "Url": "https://www.geoville.com/"
+        }
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/snow_depth_anomaly_jsonform.json",
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/snow_depth_anomaly_vega.json",
+        "EndPoints": [
+            {
+                "Identifier": "snow_variation",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.snow_anomaly_geoville/items?limit=1&bbox-only=true&filter=S_INTERSECTS(geometry,%20POINT({{point.0}}%20{{point.1}}))",
+                "Type": "application/json",
+                "Method": "GET"
+            },
+            {
+                "Identifier": "hora",
+                "Url": "https://cors.eox.at/get?url=https%3A%2F%2Fhora.gv.at%2Fservices%2Fdata%2F85f342bb-c9e0-05c2-9d52-d30039f4a925%2F%3Fepsg%3D4326%26x%3D{{point.0}}%26y%3D{{point.1}}",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    },
+    "OverlayLayers": [
+        {
+            "id": "tourism_regions",
+            "name": "Tourism Regions",
+            "url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourismregions_FINAL.geojson",
+            "protocol": "GeoJSON source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_regions_overlay_style.json",
+            "DataProjection": "EPSG:4326",
+            "visible": true
+        },
+        {
+            "id": "overlay_bright",
+            "name": "Overlay labels",
+            "url": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+            "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
+            "visible": true,
+            "protocol": "xyz"
+        }
+    ]
+}

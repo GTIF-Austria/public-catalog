@@ -1,0 +1,39 @@
+{
+  "Name": "tourism_uc2_snow_anomaly",
+  "Title": "Snow Depth Anomaly",
+  "CollectionGroup": "Climate Change & Tourism",
+  "Description": "Snow-depth anomaly across Austria, displayed in centimetres. Negative values indicate less snow than the reference conditions; positive values indicate more snow. This raster is an auxiliary visualization layer; the selected-location result is still requested from the point-data service.",
+  "Themes": [
+    "Climate Change & Tourism"
+  ],
+  "Provider": [
+    {
+      "Name": "GeoVille",
+      "Url": "https://www.geoville.com/"
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/snow_depth_anomaly_style.json",
+      "Bbox": [
+        9.530749,
+        46.372299,
+        17.160742,
+        49.020608
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "snow_depth_anomaly_cm",
+              "Title": "Snow Depth Anomaly (cm)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/snow_depth_anomaly_cm_1000m_3857_cog.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

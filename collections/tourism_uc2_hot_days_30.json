@@ -1,0 +1,39 @@
+{
+  "Name": "tourism_uc2_hot_days_30",
+  "Title": "Hot Days Above 30 °C",
+  "CollectionGroup": "Climate Change & Tourism",
+  "Description": "Average annual number of hot days with a maximum temperature above 30 °C for the 1991–2020 climate reference period. This HORA raster is provided as contextual information for the selected tourism location.",
+  "Themes": [
+    "Climate Change & Tourism"
+  ],
+  "Provider": [
+    {
+      "Name": "HORA – Natural Hazard Overview & Risk Assessment Austria",
+      "Url": "https://www.hora.gv.at/"
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/hora_hot_days_30_style.json",
+      "Bbox": [
+        9.40356439416315,
+        46.345563479243154,
+        17.21172084373003,
+        49.03321991805956
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2020",
+          "Assets": [
+            {
+              "Identifier": "hora_hot_days_30_1991_2020",
+              "Title": "Average Annual Hot Days Above 30 °C (1991–2020)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/hora_hot_days_30_1991_2020_1000m_3857_cog.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
