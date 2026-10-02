@@ -418,6 +418,6 @@
       "#ff0000"
     ],
     "markType": "rect",
-    "scaleType": "discrete"
+    "scaleType": "categorical"
   }
 }
