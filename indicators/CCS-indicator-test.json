@@ -15,5 +15,12 @@
   ],
   "Hidden": [
     "CCS-site"
+  ],
+  "BaseLayers": [
+    {
+      "id": "OSM",
+      "url": " https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "protocol": "xyz"
+    }
   ]
 }
