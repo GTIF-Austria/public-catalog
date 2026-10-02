@@ -5,9 +5,20 @@
   "Collections": [
     "railway",
     "pipeline",
+    "bioethanolplant",
+    "biomass-plant",
+    "chemistry",
+    "energy-supply",
+    "export",
+    "inland-port",
     "ccs-site",
-    "biomethanolplant",
-    "biomass-plant"
+    "iron-and-steel-production",
+    "mining",
+    "other-non-metallic-mineral-products",
+    "ship-route",
+    "train-station",
+    "waste-to-energy",
+    ""
   ],
   "Themes": [
     "CCS Landschaft"
