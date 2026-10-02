@@ -1118,6 +1118,23 @@
     },
     {
       "rel": "child",
+      "href": "./tourism_uc2_indicator/collection.json",
+      "type": "application/json",
+      "title": "Snow Depth Anomaly",
+      "id": "tourism_uc2_indicator",
+      "themes": [
+        "Climate Change & Tourism"
+      ],
+      "providers": [
+        "GeoVille"
+      ],
+      "thumbnail": [
+        "https://picsum.photos/seed/picsum/536/354"
+      ],
+      "collection_group": "Climate Change & Tourism"
+    },
+    {
+      "rel": "child",
       "href": "./dailytemperatureforecast/collection.json",
       "type": "application/json",
       "title": "Hourly urban temperature forecast",
