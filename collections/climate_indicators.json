@@ -8,11 +8,15 @@
     "CollectionGroup": "Climate Change & Tourism",
     "Provider": [
         {
-            "Name": "AIT Center for Energy",
-            "Url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-energy"
+            "Name": "GeoVille",
+            "Url": "https://www.geoville.com/"
+        },
+        {
+            "Name": "Austria Tourism",
+            "Url": "https://b2b.austria.info/uk/"
         }
     ],
-    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/description_text.md",
+    "Description": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc1/description_text.md",
     "Resources": [
         {
             "Name": "VectorTile source",
@@ -30,9 +34,6 @@
                 }
             ]
         }
-    ],
-    "Agency": [
-        "ESA"
     ],
     "Process": {
         "Name": "timeseries",

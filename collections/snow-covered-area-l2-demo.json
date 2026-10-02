@@ -7,7 +7,12 @@
     {
       "Name": "Sentinel Hub WMS",
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID_WATERJADEL2}",
-      "OverwriteBBox": [10.41166, 46.716906, 11.977302, 47.615112],
+      "OverwriteBBox": [
+        10.41166,
+        46.716906,
+        11.977302,
+        47.615112
+      ],
       "CustomSHEnvId": "WATERJADEL2",
       "LayerId": "SNOW-COVERED-AREA",
       "Times": [
@@ -445,15 +450,23 @@
   "CollectionGroup": "Hydrology",
   "Provider": [
     {
-      "Name": "Waterjade S.r.l.",
+      "Name": "Waterjade",
       "Url": "https://waterjade.com/"
     }
   ],
   "Colorlegend": {
     "title": "Snow Covered Area (0: no snow, 1: snow, 255: no valid classification)",
     "tickFormat": ".1f",
-    "domain": [0, 1, 255],
-    "range": ["#ffffff80", "#13316c", "#00000080"],
+    "domain": [
+      0,
+      1,
+      255
+    ],
+    "range": [
+      "#ffffff80",
+      "#13316c",
+      "#00000080"
+    ],
     "markType": "rect",
     "scaleType": "categorical"
   }
