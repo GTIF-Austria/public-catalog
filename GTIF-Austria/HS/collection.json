@@ -94,15 +94,35 @@
     "title": "Snow Height (cm)",
     "tickFormat": ".0f",
     "domain": [
-      0,
-      250
+      "2-5 cm",
+      "6-10 cm",
+      "11-20 cm",
+      "21-40 cm",
+      "41-60 cm",
+      "61-80 cm",
+      "81-100 cm",
+      "101-120 cm",
+      "121-160 cm",
+      "161-200 cm",
+      "201-250 cm",
+      "> 250 cm"
     ],
     "range": [
-      "#ffffff",
-      "#08519c"
+      "#ffffad",
+      "#ffdd2f",
+      "#99ff81",
+      "#1dd307",
+      "#00ffff",
+      "#0078ff",
+      "#000096",
+      "#7f007f",
+      "#ef0aff",
+      "#ff7300",
+      "#996633",
+      "#ff0000"
     ],
     "markType": "rect",
-    "scaleType": "continuous"
+    "scaleType": "categorical"
   },
   "title": "DTA - Snow Height",
   "extent": {
