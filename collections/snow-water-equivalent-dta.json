@@ -8,9 +8,7 @@
       "Name": "Sentinel Hub WMS",
       "EndPoint": "https://sh.dataspace.copernicus.eu/ogc/wms/{SH_INSTANCE_ID}",
       "OverwriteBBox": [
-        8.983152841195214,
-        46.12248935673261,
-        17.067990398270908,
+        8.983152841195214, 46.12248935673261, 17.067990398270908,
         48.55685052214071
       ],
       "LayerId": "SNOW-WATER-EQUIVALENT",
@@ -1381,9 +1379,7 @@
   ],
   "ShortDescription": "Amount of water if the snowpack were melted.",
   "CollectionGroup": "Hydrology",
-  "Agency": [
-    "ESA"
-  ],
+  "Agency": ["ESA"],
   "Provider": [
     {
       "Name": "Waterjade",
@@ -1394,26 +1390,34 @@
     "title": "Snow Water Equivalent (mm)",
     "tickFormat": ".0f",
     "domain": [
-      0,
-      2500
+      "1-10 mm",
+      "11-20 mm",
+      "21-50 mm",
+      "51-100 mm",
+      "101-200 mm",
+      "201-400 mm",
+      "401-600 mm",
+      "601-800 mm",
+      "801-1000 mm",
+      "1001-1200 mm",
+      "1201-1500 mm",
+      "> 1500 mm"
     ],
     "range": [
-      "#ffffff",
-      "#4382c0",
-      "#1e529f",
-      "#153273",
-      "#142660",
-      "#13316c"
+      "#ffffad",
+      "#ffdd2f",
+      "#99ff81",
+      "#1dd307",
+      "#00ffff",
+      "#0078ff",
+      "#000096",
+      "#7f007f",
+      "#ef0aff",
+      "#ff7300",
+      "#996633",
+      "#ff0000"
     ],
     "markType": "rect",
-    "scaleType": "continuous",
-    "tickValues": [
-      0,
-      500,
-      1000,
-      1500,
-      2000,
-      2500
-    ]
+    "scaleType": "categorical"
   }
 }
