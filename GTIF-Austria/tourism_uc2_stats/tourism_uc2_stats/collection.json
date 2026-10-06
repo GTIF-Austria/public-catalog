@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Climate Threats"
+      "title": "Climate Hazards Statistics"
     }
   ],
   "thumbnail": "https://picsum.photos/seed/picsum/536/354",
@@ -31,7 +31,7 @@
   ],
   "collection_group": "Climate Change & Tourism",
   "endpointtype": "VectorTile source",
-  "title": "Climate Threats",
+  "title": "Climate Hazards Statistics",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./tourism_uc2_stats/collection.json",
       "type": "application/json",
-      "title": "Climate Threats",
+      "title": "Climate Hazards Statistics",
       "endpointtype": "VectorTile source",
       "id": "tourism_uc2_stats",
       "themes": [
@@ -90,7 +90,7 @@
   "collection_group": "Climate Change & Tourism",
   "eodash:jsonform": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_risk_stats_jsonform.json",
   "eodash:vegadefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea/uc2/tourism_risk_stats_chart.json",
-  "title": "Climate Threats",
+  "title": "Climate Hazards Statistics",
   "extent": {
     "spatial": {
       "bbox": [

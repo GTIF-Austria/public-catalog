@@ -1176,7 +1176,7 @@
       "rel": "child",
       "href": "./tourism_uc2_stats/collection.json",
       "type": "application/json",
-      "title": "Climate Threats",
+      "title": "Climate Hazards Statistics",
       "id": "tourism_uc2_stats",
       "themes": [
         "Climate Change & Tourism"
