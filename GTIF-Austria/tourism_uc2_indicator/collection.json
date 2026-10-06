@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./tourism_uc2_snow_anomaly/collection.json",
       "type": "application/json",
-      "title": "Snow Depth Anomaly",
+      "title": "Climate Hazards",
       "endpointtype": "COG source",
       "id": "tourism_uc2_snow_anomaly",
       "themes": [
