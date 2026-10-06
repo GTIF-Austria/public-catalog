@@ -1,6 +1,6 @@
 {
   "Name": "tourism_uc2_snow_anomaly",
-  "Title": "Snow Depth Anomaly",
+  "Title": "Climate Hazards",
   "CollectionGroup": "Climate Change & Tourism",
   "Description": "Snow-depth anomaly across Austria, displayed in centimetres. Negative values indicate less snow than the reference conditions; positive values indicate more snow. This raster is an auxiliary visualization layer; the selected-location result is still requested from the point-data service.",
   "Themes": [
