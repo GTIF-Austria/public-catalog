@@ -11,7 +11,7 @@
           "Assets": [
             {
               "Identifier": "nrp",
-              "File": "https://github.com/smfloery/moniQue/raw/refs/heads/uncertainty/tests/nrp_austria_4326_clipped.fgb"
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_austria_4326_clipped.fgb"
             }
           ]
         }
