@@ -2,5 +2,21 @@
   "Name": "nrp_and_dams_test",
   "Title": "nrp_and_dams_test",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
+      "TimeEntries": [
+        {
+          "Time": "20240915",
+          "Assets": [
+            {
+              "Identifier": "nrp",
+              "File": "https://github.com/smfloery/moniQue/raw/refs/heads/uncertainty/tests/nrp_austria_4326_clipped.fgb"
+            }
+          ]
+        }
+      ],
+      "Name": "FlatGeobuf source"
+    }
+  ]
 }
