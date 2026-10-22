@@ -4,15 +4,11 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style_dams.json",
       "TimeEntries": [
         {
           "Time": "20240915",
           "Assets": [
-            {
-              "Identifier": "dams",
-              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif_dams.fgb"
-            },
             {
               "Identifier": "nrps",
               "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif.fgb"
