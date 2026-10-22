@@ -12,10 +12,6 @@
             {
               "Identifier": "nrps",
               "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif.fgb"
-            },
-            {
-              "Identifier": "dams",
-              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif_dams.fgb"
             }
           ]
         }
