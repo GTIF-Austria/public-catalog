@@ -10,12 +10,8 @@
           "Time": "20240915",
           "Assets": [
             {
-              "Identifier": "nrps",
+              "Identifier": "nrps1",
               "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_austria_4326_clipped.fgb"
-            },
-            {
-              "Identifier": "nrps2",
-              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif.fgb"
             }
           ]
         }
