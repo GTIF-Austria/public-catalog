@@ -4,7 +4,7 @@
   "Description": "",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style_dams.json",
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
       "TimeEntries": [
         {
           "Time": "20240915",
@@ -12,6 +12,10 @@
             {
               "Identifier": "nrps",
               "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif.fgb"
+            },
+            {
+              "Identifier": "nrps2",
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_austria_4326_clipped.fgb"
             }
           ]
         }
