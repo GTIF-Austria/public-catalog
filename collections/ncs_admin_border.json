@@ -26,7 +26,7 @@
     "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_NCS.md",
     "Resources": [
         {
-            "Name": "VectorTile source",
+            "Name": "FlatGeobuf source",
             "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_NUT_AT1.json",
             "Bbox": [
                 9.5,
