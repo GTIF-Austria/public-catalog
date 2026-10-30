@@ -5,9 +5,10 @@
     "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Thumbnail/grassland_lt.png",
     "CollectionGroup": "Carbon Accounting",
     "Collections": [
-        "ncs_landscape_feature",
         "ncs_admin_border",
-        "ncs_LULUCFgsa"
+        "ncs_LULUCFgsa",
+        "ncs_landscape_feature",
+        "ncs_BCFI_AL"
     ],
     "Provider": [
         {
