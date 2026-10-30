@@ -1,0 +1,48 @@
+{
+    "Name": "ncs_nutat1",
+    "Title": "NUT AT1 border",
+    "Themes": [
+        "Carbon Accoutning"
+    ],
+    "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Thumbnail/grassland_lt.png",
+    "CollectionGroup": "Carbon Accoutning",
+    "Stories": [
+        {
+            "Name": "Natural Capital Solution",
+            "Id": "natural_capital_solution"
+        }
+    ],
+    "Provider": [
+        {
+            "Name": "ECOSYS",
+            "Url": "https://ncs.eox.at/"
+        },
+
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_NCS.md",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_NUT_AT1.json",
+            "Bbox": [
+                9.5,
+                46.4,
+                17.1,
+                49.1
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20250101",
+                    "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/NUT_AT1/NUT_AT1.fgb"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ]
+}
