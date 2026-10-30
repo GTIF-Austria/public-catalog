@@ -1,0 +1,48 @@
+{
+    "Name": "ncs_LF",
+    "Title": "Landscape Features",
+    "Themes": [
+        "Carbon Accoutning"
+    ],
+    "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Thumbnail/grassland_lt.png",
+    "CollectionGroup": "Carbon Accoutning",
+    "Stories": [
+        {
+            "Name": "Natural Capital Solution",
+            "Id": "natural_capital_solution"
+        }
+    ],
+    "Provider": [
+        {
+            "Name": "ECOSYS",
+            "Url": "https://ncs.eox.at/"
+        },
+
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_NCS.md",
+    "Resources": [
+        {
+            "Name": "VectorTile source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_LF.json",
+            "Bbox": [
+                9.5,
+                46.4,
+                17.1,
+                49.1
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20250101",
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.ncs_landscapefeature_merged_2025/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ]
+}
