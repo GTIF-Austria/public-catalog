@@ -24,7 +24,7 @@
       "TilesCollection": "public.geometries_for_date",
       "TimesCollection": "public.timeseries_mobility_daily_by_id?target_id=1&datetime=2021-07-01T00:00:00Z/2022-12-18T23:59:59Z",
       "TimeParameter": "date",
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/style_ihr.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/test/style_2.json",
       "Bbox": [
         15,
         47.69,
