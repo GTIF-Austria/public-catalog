@@ -11,19 +11,14 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/process/mapstyle.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "geothermal_stats2"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Geothermal Energy Potential"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geothermal_potential_energy_preview.jpg",
   "endpointtype": "GeoJSON source",
@@ -60,6 +55,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 17539,
       "roles": [
         "collection-mirror"
       ]

@@ -11,30 +11,16 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
-      "type": "image/png",
-      "title": "DTA - Snow Covered Area",
-      "wms:layers": [
-        "SNOW-COVERED-AREA"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "DTA - Snow Covered Area"
     }
   ],
-  "shortdescription": "Binary mask of snow covered area per pixel.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
-  "agency": [
-    "ESA"
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
-  "collection_group": "Hydrology",
+  "shortdescription": "Binary mask of snow covered area per pixel.",
   "eox:colorlegend": {
     "title": "Snow Covered Area (0: no snow - 1: snow)",
     "tickFormat": ".1f",
@@ -49,6 +35,11 @@
     "markType": "rect",
     "scaleType": "categorical"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Hydrology",
   "endpointtype": "Sentinel Hub WMS",
   "title": "DTA - Snow Covered Area",
   "extent": {
@@ -83,6 +74,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 18020,
       "roles": [
         "collection-mirror"
       ]

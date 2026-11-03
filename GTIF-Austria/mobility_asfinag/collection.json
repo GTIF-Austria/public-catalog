@@ -15,7 +15,7 @@
       "href": "./mobility_asfinag/collection.json",
       "type": "application/json",
       "title": "Monthly traffic volume",
-      "endpointtype": "VectorTile source",
+      "endpointtype": "tipg",
       "id": "mobility_asfinag",
       "themes": [
         "mobility-transition"
@@ -112,12 +112,6 @@
           44.5,
           18.0,
           49.9
-        ],
-        [
-          9.5,
-          44.5,
-          18.0,
-          49.9
         ]
       ]
     },
@@ -125,7 +119,7 @@
       "interval": [
         [
           "2019-07-01T00:00:00Z",
-          "2022-01-01T00:00:00Z"
+          "2022-12-01T00:00:00Z"
         ]
       ]
     }

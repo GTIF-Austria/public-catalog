@@ -18,6 +18,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "eodash:narratives": {
@@ -85,6 +86,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14115,
       "roles": [
         "collection-mirror"
       ]

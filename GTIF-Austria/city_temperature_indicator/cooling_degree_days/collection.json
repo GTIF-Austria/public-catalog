@@ -17,6 +17,9 @@
       "title": "Temperature Forecast, Cooling/Heating Degree Days for Cities in Austria"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "tags": [
     "city_temperature"
   ],
@@ -54,6 +57,7 @@
       "href": "https://public.hub.geosphere.at/datahub/resources/stadtwetter_wien_demo_oeffentlich-v1-1h-100m/filelisting/cooling_degree_days_timeseries.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 16519,
       "roles": [
         "collection-mirror"
       ]

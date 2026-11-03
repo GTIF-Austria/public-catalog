@@ -11,14 +11,6 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/style_shape.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "Testgebiet mit hoher Auflösung"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -26,6 +18,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "shortdescription": "Hitzerisikobewertung nach Risikokonzept des IPCC für das Beispiel Wien. Die Klimagefahr wird abgebildet durch eine Kombination von Klimadaten und Stadtklimaanalysen und mit Expostionsdaten der Bevölkerung nach Altersgruppen zu hochaufgelösten Hitzeexpostionskarten verschnitten. Die Risikobewertung wird durch Vulnerabilität in Form einen Overlaylayers besonders vulnerabler Einrichtungen und relevanter Infrastruktur vervollständigt.",
@@ -87,6 +80,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14870,
       "roles": [
         "collection-mirror"
       ]

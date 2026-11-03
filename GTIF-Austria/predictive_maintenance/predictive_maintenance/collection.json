@@ -11,22 +11,15 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/styles/AIT_v2.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "overview"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Transport Infrastructure Predictive Maintenance"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
-  "collection_group": "Mobility Transition",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eox:colorlegend": {
     "title": "Ground movement",
     "range": [
@@ -46,6 +39,8 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
+  "collection_group": "Mobility Transition",
   "endpointtype": "GeoJSON source",
   "title": "Transport Infrastructure Predictive Maintenance",
   "extent": {
@@ -80,6 +75,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14617,
       "roles": [
         "collection-mirror"
       ]

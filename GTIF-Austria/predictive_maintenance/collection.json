@@ -71,8 +71,6 @@
       "title": "GTIF Austria"
     }
   ],
-  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
-  "collection_group": "Mobility Transition",
   "eox:colorlegend": {
     "title": "Ground movement",
     "range": [
@@ -92,18 +90,14 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-10-Transport-Infrastructure-Predictive-Maintenance/WR10_thumbnail.jpg",
+  "collection_group": "Mobility Transition",
   "eodash:jsonform": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/forms/AIT1_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/charts/AIT_chart_v2.json",
   "title": "Transport Infrastructure Predictive Maintenance",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          9.607703910147158,
-          47.28857258754364,
-          9.763577928600249,
-          47.452296376710194
-        ],
         [
           9.607703910147158,
           47.28857258754364,

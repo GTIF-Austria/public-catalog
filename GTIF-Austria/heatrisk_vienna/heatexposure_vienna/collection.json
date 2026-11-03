@@ -11,14 +11,6 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/heatrisk/styles/heat_risk_multiband_style.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "Hitzeexposition"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -26,8 +18,26 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
+  "eox:colorlegend": {
+    "title": "Hitzeexposition",
+    "markType": "rect",
+    "scaleType": "categorical",
+    "range": [
+      "#FBFFC8",
+      "#FEDD90",
+      "#F47277",
+      "#933CDC"
+    ],
+    "domain": [
+      "gering",
+      "mittel",
+      "stark",
+      "sehr stark"
+    ]
+  },
   "eodash:narratives": {
     "heat_risk_maps": {
       "href": "https://gtif-austria.info/narratives/heat_risk_maps",
@@ -52,23 +62,6 @@
     "Sustainable Cities"
   ],
   "collection_group": "Sustainable Cities",
-  "eox:colorlegend": {
-    "title": "Hitzeexposition",
-    "markType": "rect",
-    "scaleType": "categorical",
-    "range": [
-      "#FBFFC8",
-      "#FEDD90",
-      "#F47277",
-      "#933CDC"
-    ],
-    "domain": [
-      "gering",
-      "mittel",
-      "stark",
-      "sehr stark"
-    ]
-  },
   "endpointtype": "COG source",
   "title": "Hitzeexposition nach IPCC",
   "extent": {
@@ -103,6 +96,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15003,
       "roles": [
         "collection-mirror"
       ]

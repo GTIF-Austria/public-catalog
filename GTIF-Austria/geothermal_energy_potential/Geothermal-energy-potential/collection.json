@@ -11,20 +11,14 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-07-Geothermal-Energy-Potential-Assessment/geo_pot_fin.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "conductivity2",
-        "natura2000"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Geothermal Energy Potential"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "endpointtype": "COG source",
   "title": "Geothermal Energy Potential ",
@@ -60,6 +54,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 19890,
       "roles": [
         "collection-mirror"
       ]

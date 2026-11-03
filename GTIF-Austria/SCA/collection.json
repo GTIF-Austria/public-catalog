@@ -85,11 +85,6 @@
     }
   ],
   "shortdescription": "Binary mask of snow covered area per pixel.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
-  "agency": [
-    "ESA"
-  ],
-  "collection_group": "Hydrology",
   "eox:colorlegend": {
     "title": "Snow Covered Area (0: no snow - 1: snow)",
     "tickFormat": ".1f",
@@ -104,6 +99,11 @@
     "markType": "rect",
     "scaleType": "categorical"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA.jpg",
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Hydrology",
   "title": "DTA - Snow Covered Area",
   "extent": {
     "spatial": {

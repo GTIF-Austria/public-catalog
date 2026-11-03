@@ -11,30 +11,16 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
-      "type": "image/png",
-      "title": "DTA - Snow Water Equivalent",
-      "wms:layers": [
-        "SNOW-WATER-EQUIVALENT"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "DTA - Snow Water Equivalent"
     }
   ],
-  "shortdescription": "Amount of water if the snowpack were melted.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE.jpg",
-  "agency": [
-    "ESA"
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
-  "collection_group": "Hydrology",
+  "shortdescription": "Amount of water if the snowpack were melted.",
   "eox:colorlegend": {
     "title": "Snow Water Equivalent (mm)",
     "tickFormat": ".0f",
@@ -69,6 +55,11 @@
     "markType": "rect",
     "scaleType": "categorical"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SWE.jpg",
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Hydrology",
   "endpointtype": "Sentinel Hub WMS",
   "title": "DTA - Snow Water Equivalent",
   "extent": {
@@ -103,6 +94,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 47478,
       "roles": [
         "collection-mirror"
       ]

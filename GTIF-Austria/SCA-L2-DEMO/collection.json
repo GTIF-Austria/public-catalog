@@ -82,8 +82,6 @@
     }
   ],
   "shortdescription": "Binary snow cover classification.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA_GTIF_DEMO.png",
-  "collection_group": "Hydrology",
   "eox:colorlegend": {
     "title": "Snow Covered Area (0: no snow, 1: snow, 255: no valid classification)",
     "tickFormat": ".1f",
@@ -100,6 +98,8 @@
     "markType": "rect",
     "scaleType": "categorical"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SCA_GTIF_DEMO.png",
+  "collection_group": "Hydrology",
   "title": "GTIF demo - Snow Covered Area",
   "extent": {
     "spatial": {

@@ -17,6 +17,9 @@
       "title": "Alpine Hydropower Snow Potential Energy"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://picsum.photos/id/29/300/300",
   "themes": [
     "Hydrology"
@@ -67,6 +70,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 13916,
       "roles": [
         "collection-mirror"
       ]

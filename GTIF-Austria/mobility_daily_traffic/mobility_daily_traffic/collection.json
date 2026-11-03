@@ -17,6 +17,9 @@
       "title": "Daily Traffic Volume"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_monthly_daily.jpg",
   "themes": [
     "mobility-transition"
@@ -25,7 +28,7 @@
     "mobility"
   ],
   "collection_group": "Mobility Transition",
-  "endpointtype": "VectorTile source",
+  "endpointtype": "tipg",
   "title": "Daily Traffic Volume",
   "extent": {
     "spatial": {
@@ -59,6 +62,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 145994,
       "roles": [
         "collection-mirror"
       ]

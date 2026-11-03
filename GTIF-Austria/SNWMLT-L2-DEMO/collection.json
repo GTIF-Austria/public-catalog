@@ -82,8 +82,6 @@
     }
   ],
   "shortdescription": "Daily snowmelt water runoff.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
-  "collection_group": "Hydrology",
   "eox:colorlegend": {
     "title": "Snow Melt (mm/day)",
     "tickFormat": ".0f",
@@ -107,6 +105,8 @@
     "markType": "rect",
     "scaleType": "continuous"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
+  "collection_group": "Hydrology",
   "title": "GTIF demo - Snow Melt",
   "extent": {
     "spatial": {

@@ -11,19 +11,14 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/style_wr03_solar.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "run2-pvpot-1200"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Nowcasting of theoretical PV potential"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp",
   "endpointtype": "COG source",
@@ -60,6 +55,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 33054,
       "roles": [
         "collection-mirror"
       ]

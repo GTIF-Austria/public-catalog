@@ -11,19 +11,14 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-03-Energy-Nowcasting-Solar-Wind/wind/style_power.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Wind Speed and Power Nowcasting"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "endpointtype": "COG source",
   "title": "Wind Power Output - Enercon E-101 (3.0 MW)",
@@ -53,6 +48,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15247,
       "roles": [
         "collection-mirror"
       ]

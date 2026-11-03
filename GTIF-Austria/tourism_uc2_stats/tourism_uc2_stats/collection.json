@@ -17,6 +17,9 @@
       "title": "Climate Hazards Statistics"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://picsum.photos/seed/picsum/536/354",
   "themes": [
     "Climate Change & Tourism"
@@ -68,6 +71,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14053,
       "roles": [
         "collection-mirror"
       ]

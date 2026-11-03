@@ -15,7 +15,7 @@
       "href": "./mobility_no2/collection.json",
       "type": "application/json",
       "title": "Daily mobility vs NO2",
-      "endpointtype": "VectorTile source",
+      "endpointtype": "tipg",
       "id": "mobility_no2",
       "themes": [
         "mobility-transition"
@@ -108,16 +108,10 @@
     "spatial": {
       "bbox": [
         [
-          9.5,
-          44.5,
-          18.0,
-          49.9
-        ],
-        [
-          9.5,
-          44.5,
-          18.0,
-          49.9
+          15.0,
+          47.69,
+          17.7,
+          48.5
         ]
       ]
     },

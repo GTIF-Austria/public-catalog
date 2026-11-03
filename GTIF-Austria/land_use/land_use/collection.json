@@ -11,32 +11,14 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/styles/LULUCF_style.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "LULUCF"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Land Use, Land Use Change and Forestry (LULUCF)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/LULUCF_preview.jpg",
-  "themes": [
-    "TBD"
-  ],
-  "tags": [
-    "land use"
-  ],
-  "agency": [
-    "None"
-  ],
-  "satellite": [
-    "Combined"
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "eox:colorlegend": {
     "title": "Land cover classes",
@@ -83,6 +65,19 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-catalog/refs/heads/main/assets/LULUCF_preview.jpg",
+  "themes": [
+    "TBD"
+  ],
+  "tags": [
+    "land use"
+  ],
+  "agency": [
+    "None"
+  ],
+  "satellite": [
+    "Combined"
+  ],
   "endpointtype": "COG source",
   "title": "LULUCF Time Series",
   "extent": {
@@ -117,6 +112,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 16145,
       "roles": [
         "collection-mirror"
       ]

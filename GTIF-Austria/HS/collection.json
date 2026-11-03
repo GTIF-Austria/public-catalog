@@ -85,11 +85,6 @@
     }
   ],
   "shortdescription": "Depth of the snowpack on the ground.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS.jpg",
-  "agency": [
-    "ESA"
-  ],
-  "collection_group": "Hydrology",
   "eox:colorlegend": {
     "title": "Snow Height (cm)",
     "tickFormat": ".0f",
@@ -124,6 +119,11 @@
     "markType": "rect",
     "scaleType": "categorical"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/HS.jpg",
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Hydrology",
   "title": "DTA - Snow Height",
   "extent": {
     "spatial": {

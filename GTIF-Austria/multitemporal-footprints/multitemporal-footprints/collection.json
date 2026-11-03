@@ -11,19 +11,14 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/Taenja/public-assets/main/assets/styles/ubicube.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "ubifootprint"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Multitemporal Footprints"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "thumbnail": "https://workspace-ui-public.gtif-at-sc.hub-otc.eox.at/api/public/share/public-4wazei3y-02/multitemporal_footprints/Extraction_partial.png",
   "themes": [
@@ -64,6 +59,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14273,
       "roles": [
         "collection-mirror"
       ]

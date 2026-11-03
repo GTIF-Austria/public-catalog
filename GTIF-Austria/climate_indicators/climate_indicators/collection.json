@@ -17,6 +17,9 @@
       "title": "Climate Indicators"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/thumbnails/gtif-at-ea/gtif_at_ea.png",
   "themes": [
     "Climate Change & Tourism"
@@ -60,6 +63,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14019,
       "roles": [
         "collection-mirror"
       ]

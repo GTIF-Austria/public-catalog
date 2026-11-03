@@ -15,7 +15,7 @@
       "href": "./mobility_daily_traffic/collection.json",
       "type": "application/json",
       "title": "Daily Traffic Volume",
-      "endpointtype": "VectorTile source",
+      "endpointtype": "tipg",
       "id": "mobility_daily_traffic",
       "themes": [
         "mobility-transition"
@@ -107,12 +107,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          15.0,
-          47.69,
-          17.7,
-          48.5
-        ],
         [
           15.0,
           47.69,

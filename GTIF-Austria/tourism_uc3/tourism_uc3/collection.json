@@ -17,6 +17,9 @@
       "title": "Alpine Tourism & Climate Dynamics"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://picsum.photos/seed/tourismmap/300/300",
   "themes": [
     "Climate Change & Tourism"
@@ -63,6 +66,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 131849,
       "roles": [
         "collection-mirror"
       ]

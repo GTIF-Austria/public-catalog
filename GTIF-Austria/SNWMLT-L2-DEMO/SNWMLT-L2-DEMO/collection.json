@@ -11,27 +11,16 @@
       "title": "GTIF Austria"
     },
     {
-      "rel": "wms",
-      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/ad7f199d-76fd-4c7a-963e-38ce889a46e4",
-      "type": "image/png",
-      "title": "GTIF demo - Snow Melt",
-      "wms:layers": [
-        "SNOW_MELTING"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "GTIF demo - Snow Melt"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "shortdescription": "Daily snowmelt water runoff.",
-  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
-  "collection_group": "Hydrology",
   "eox:colorlegend": {
     "title": "Snow Melt (mm/day)",
     "tickFormat": ".0f",
@@ -55,6 +44,8 @@
     "markType": "rect",
     "scaleType": "continuous"
   },
+  "thumbnail": "https://workspace-ui-public.gtif-at-ew.hub-cf.eox.at/api/public/share/public-5fc4gif9-83/thumbnails/SNWMLT_GTIF_DEMO.png",
+  "collection_group": "Hydrology",
   "endpointtype": "Sentinel Hub WMS",
   "title": "GTIF demo - Snow Melt",
   "extent": {
@@ -89,6 +80,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 23547,
       "roles": [
         "collection-mirror"
       ]
