@@ -79,6 +79,11 @@
     "tourism_uc2_indicator",
     "dailytemperatureforecast",
     "gtif_at_ew_snow_basin_data_indicator",
-    "tourism_uc2_stats"
+    "tourism_uc2_stats",
+    "naturalretentionpondsaustria",
+    "nrptest31287",
+    "nrptest32633",
+    "nrptest3857",
+    "nrpanddamstest"
   ]
 }

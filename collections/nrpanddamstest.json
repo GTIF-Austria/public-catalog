@@ -1,0 +1,39 @@
+{
+  "Name": "nrp_and_dams_test",
+  "Title": "nrp_and_dams_test",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/style.json",
+      "TimeEntries": [
+        {
+          "Time": "20240915",
+          "Assets": [
+            {
+              "Identifier": "nrp",
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif.fgb",
+              "Title": "Natural Retention Ponds"
+            },
+            {
+              "Identifier": "dams",
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif_dams.fgb"
+            }
+          ]
+        }
+      ],
+      "Name": "FlatGeobuf source",
+      "Bbox": [
+        9.59799309851504,
+        46.35144955777947,
+        17.168409038140055,
+        49.09579918220359
+      ],
+      "DataProjection": {
+        "name": "\"EPSG\"4326"
+      }
+    }
+  ],
+  "MapProjection": {
+    "name": "\"EPSG\"4326"
+  }
+}
