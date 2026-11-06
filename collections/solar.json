@@ -1,10 +1,10 @@
 {
   "Name": "solar",
-  "Title": "solar",
+  "Title": "High-Resolution Forecasts of Solar Energy Potential",
   "Description": "",
   "Resources": [
     {
-      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info-solar/info-solar-glo.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/info-solar-glo.json",
       "TimeEntries": [
         {
           "Time": "20260305T100000",
