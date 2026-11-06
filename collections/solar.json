@@ -1,0 +1,37 @@
+{
+  "Name": "solar",
+  "Title": "High-Resolution Forecasts of Solar Energy Potential",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/info-solar-glo.json",
+      "TimeEntries": [
+        {
+          "Time": "20260305T100000",
+          "Assets": [
+            {
+              "Identifier": "Globalstrahlung auf die reale Fläche",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info-solar/gloreal_100m_20260305-1000.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20260503T110000",
+          "Assets": [
+            {
+              "Identifier": "Globalstrahlung auf die reale Fläche",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info-solar/gloreal_100m_20260305-1100.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source",
+      "Bbox": [
+        16.050794872166318,
+        47.82124841914762,
+        16.51024760386663,
+        48.14833190337827
+      ]
+    }
+  ]
+}
