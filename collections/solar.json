@@ -10,7 +10,7 @@
           "Time": "20260305T100000",
           "Assets": [
             {
-              "Identifier": "Globalstrahlung 1000UTC",
+              "Identifier": "Globalstrahlung auf die reale Fläche",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info-solar/gloreal_100m_20260305-1000.tif"
             }
           ]
@@ -19,7 +19,7 @@
           "Time": "20260503T110000",
           "Assets": [
             {
-              "Identifier": "Globalstrahlung 1100UTC",
+              "Identifier": "Globalstrahlung auf die reale Fläche",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info-solar/gloreal_100m_20260305-1100.tif"
             }
           ]
