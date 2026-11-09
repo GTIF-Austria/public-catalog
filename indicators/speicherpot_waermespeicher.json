@@ -1,0 +1,32 @@
+{
+  "Name": "speicherpot_waermespeicher",
+  "Title": "Regionale Wärmespeicherpotenziale 2030/2040",
+  "Description": "**Wichtiger Hinweis**: Bei dieser Karte und den zugrundeliegenden Daten handelt es sich um **vorläufige Ergebnisse** aus dem Projekt **SpeicherPot**, die laufend evaluiert und angepasst werden.\n\nDie Daten stehen auf **politischer Bezirksebene** zur Verfügung und umfassen folgende Kernaspekte:\n\n* **Dezentrale Wärmespeicher (GWh)**: Prognostizierte Speicherkapazität von Gebäudewärmespeichern (Warmwasser- und Pufferspeicher im Wohn- und Dienstleistungssektor).\n* **Zentrale Großwärmespeicher (GWh)**: Erwartete Kapazität von Groß- und Fernwärmespeichern (z. B. Heißwasser-Wärmespeicher, Aquifer-Speicher, saisonale Erdwärmespeicher).\n* **Gesamtkapazität Wärmespeicher (GWh)**: Summe des thermischen Speicherpotenzials zur Unterstützung der Wärmewende im jeweiligen Bezirk.\n* **Anteil am Bundesland / Österreich (%)**: Relativer Beitrag des Bezirks zum gesamten thermischen Speicherbedarf.",
+  "CollectionGroup": "Energy Transition",
+  "Image": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/speicherpotenziale.png",
+  "Provider": [
+    {
+      "Name": "SpeicherPot Project"
+    }
+  ],
+  "Agency": [
+    "SpeicherPot"
+  ],
+  "Collections": [
+    "speicherpot_waermespeicher_collection",
+    "speicherpot_location_data"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
+    "VegaDefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_storage_data/items?limit=1&bbox-only=true&filter=g_id='{{feature}}'",
+        "Type": "application/json",
+        "Method": "GET"
+      }
+    ]
+  }
+}

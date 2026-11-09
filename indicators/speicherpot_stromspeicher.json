@@ -1,0 +1,32 @@
+{
+  "Name": "speicherpot_stromspeicher",
+  "Title": "Regionale Stromspeicherpotenziale 2030/2040",
+  "Description": "**Wichtiger Hinweis**: Bei dieser Karte und den zugrundeliegenden Daten handelt es sich um **vorläufige Ergebnisse** aus dem Projekt **SpeicherPot**, die laufend evaluiert und angepasst werden.\n\nDie Daten stehen auf **politischer Bezirksebene** zur Verfügung und umfassen folgende Kernaspekte:\n\n* **Dezentrale Stromspeicher (GWh)**: Prognostizierte Speicherkapazität von privaten und kleineren gewerblichen Batteriemodulen (z. B. Haushaltsbatterien gekoppelt mit PV-Anlagen) für 2030/2040.\n* **Großbatteriespeicher & Colocation (GWh)**: Erwartete Kapazität von Großspeichern, die direkt mit erneuerbaren Erzeugungsanlagen (PV-, Windparks) an einem Standort gekoppelt sind.\n* **Gesamtkapazität Stromspeicher (GWh)**: Summe aller elektrischen Speicherpotenziale auf Bezirksebene.\n* **Anteil am Bundesland / Österreich (%)**: Relativer Beitrag des jeweiligen Bezirks zur elektrischen Speicherinfrastruktur.",
+  "CollectionGroup": "Energy Transition",
+  "Image": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/images/speicherpotenziale.png",
+  "Provider": [
+    {
+      "Name": "SpeicherPot Project"
+    }
+  ],
+  "Agency": [
+    "SpeicherPot"
+  ],
+  "Collections": [
+    "speicherpot_stromspeicher_collection",
+    "speicherpot_location_data"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_form.json",
+    "VegaDefinition": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_storage_data/items?limit=1&bbox-only=true&filter=g_id='{{feature}}'",
+        "Type": "application/json",
+        "Method": "GET"
+      }
+    ]
+  }
+}
