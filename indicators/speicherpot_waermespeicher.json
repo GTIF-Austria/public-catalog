@@ -22,7 +22,7 @@
     "EndPoints": [
       {
         "Identifier": "statistics",
-        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"pot_2030\":{{feature.values_.pot_2030}},\"pot_2040\":{{feature.values_.pot_2040}},\"waerme_growth_abs\":{{feature.values_.waerme_growth_abs}},\"share_of_bezirk_2040_perc\":{{feature.values_.share_of_bezirk_2040_perc}}}]",
+        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"pot_2030\":\"{{feature.values_.pot_2030}}\",\"pot_2040\":\"{{feature.values_.pot_2040}}\",\"waerme_growth_abs\":\"{{feature.values_.waerme_growth_abs}}\",\"share_of_bezirk_2040_perc\":\"{{feature.values_.share_of_bezirk_2040_perc}}\"}]",
         "Type": "application/json"
       }
     ]

@@ -22,7 +22,7 @@
     "EndPoints": [
       {
         "Identifier": "statistics",
-        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"methanspeicher_2030_mwh\":{{feature.values_.methanspeicher_2030_mwh}},\"methanspeicher_2040_mwh\":{{feature.values_.methanspeicher_2040_mwh}},\"h2_speicher_2030_mwh\":{{feature.values_.h2_speicher_2030_mwh}},\"h2_speicher_2040_mwh\":{{feature.values_.h2_speicher_2040_mwh}},\"gas_total_2030_mwh\":{{feature.values_.gas_total_2030_mwh}},\"gas_total_2040_mwh\":{{feature.values_.gas_total_2040_mwh}},\"methan_storage_name\":\"{{feature.values_.methan_storage_name}}\"}]",
+        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"methanspeicher_2030_mwh\":\"{{feature.values_.methanspeicher_2030_mwh}}\",\"methanspeicher_2040_mwh\":\"{{feature.values_.methanspeicher_2040_mwh}}\",\"h2_speicher_2030_mwh\":\"{{feature.values_.h2_speicher_2030_mwh}}\",\"h2_speicher_2040_mwh\":\"{{feature.values_.h2_speicher_2040_mwh}}\",\"gas_total_2030_mwh\":\"{{feature.values_.gas_total_2030_mwh}}\",\"gas_total_2040_mwh\":\"{{feature.values_.gas_total_2040_mwh}}\",\"methan_storage_name\":\"{{feature.values_.methan_storage_name}}\",\"austria_h2_total_mwh\":\"{{feature.values_.austria_h2_total_mwh}}\"}]",
         "Type": "application/json"
       }
     ]
