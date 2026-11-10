@@ -7,7 +7,7 @@
   "Description": "Dieses Dataset liefert Informationen zum prognostizierten Potenzial thermischer Energiespeicher (z. B. Großwärmespeicher, Fernwärmespeicher, Aquiferspeicher und dezentrale Puffer- und Warmwasserspeicher) auf politischer Bezirksebene in Österreich.",
   "Resources": [
     {
-      "Name": "FlatGeobuf source",
+      "Name": "GeoJSON source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/style_waerme.json",
       "Bbox": [
         9.5,
@@ -18,7 +18,12 @@
       "TimeEntries": [
         {
           "Time": "20300101",
-          "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/bezirke_energiesystem.fgb"
+          "Assets": [
+            {
+              "Identifier": "20300101",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/bezirke_energiesystem.geojson"
+            }
+          ]
         }
       ]
     }
