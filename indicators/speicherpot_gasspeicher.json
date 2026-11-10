@@ -13,8 +13,7 @@
     "SpeicherPot"
   ],
   "Collections": [
-    "speicherpot_gasspeicher_collection",
-    "speicherpot_location_data"
+    "speicherpot_gasspeicher_collection"
   ],
   "Process": {
     "Name": "timeseries",

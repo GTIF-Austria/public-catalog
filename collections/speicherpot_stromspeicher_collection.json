@@ -7,7 +7,7 @@
   "Description": "Dieses Dataset liefert Informationen zum prognostizierten Potenzial elektrischer Energiespeicher (z. B. dezentrale Heimspeicher, Großbatteriespeicher und Colocation-Speicher) auf politischer Bezirksebene in Österreich.",
   "Resources": [
     {
-      "Name": "VectorTile source",
+      "Name": "FlatGeobuf source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/style_strom.json",
       "Bbox": [
         9.5,
@@ -18,7 +18,12 @@
       "TimeEntries": [
         {
           "Time": "20300101",
-          "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/bezirke_energiesystem.fgb"
+          "Assets": [
+            {
+              "Identifier": "20300101",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/bezirke_energiesystem.fgb"
+            }
+          ]
         }
       ]
     }

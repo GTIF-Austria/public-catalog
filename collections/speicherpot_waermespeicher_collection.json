@@ -7,7 +7,7 @@
   "Description": "Dieses Dataset liefert Informationen zum prognostizierten Potenzial thermischer Energiespeicher (z. B. Großwärmespeicher, Fernwärmespeicher, Aquiferspeicher und dezentrale Puffer- und Warmwasserspeicher) auf politischer Bezirksebene in Österreich.",
   "Resources": [
     {
-      "Name": "VectorTile source",
+      "Name": "FlatGeobuf source",
       "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/style_waerme.json",
       "Bbox": [
         9.5,
