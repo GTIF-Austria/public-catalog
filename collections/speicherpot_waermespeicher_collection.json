@@ -8,7 +8,7 @@
   "Resources": [
     {
       "Name": "VectorTile source",
-      "Style": "https://workspace-ui-public.speicherpot.hub-otc.eox.at/api/public/share/public-4rtqvcdt/storage_style.json",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/style_waerme.json",
       "Bbox": [
         9.5,
         44.5,
@@ -18,7 +18,7 @@
       "TimeEntries": [
         {
           "Time": "20300101",
-          "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.speicherpot_fast_tiles/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/bezirke_energiesystem.fgb"
         }
       ]
     }
