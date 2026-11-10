@@ -14,5 +14,17 @@
   ],
   "Collections": [
     "speicherpot_stromspeicher_collection"
-  ]
+  ],
+  "Process": {
+    "Name": "stats_strom",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/process/form_strom.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/process/chart_strom.json",
+    "EndPoints": [
+      {
+        "Identifier": "statistics",
+        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"heimspeicher_2030\":{{feature.values_.heimspeicher_2030}},\"heimspeicher_2040\":{{feature.values_.heimspeicher_2040}},\"heimspeicher_growth_abs\":{{feature.values_.heimspeicher_growth_abs}},\"colocation_2030\":{{feature.values_.colocation_2030}},\"colocation_2040\":{{feature.values_.colocation_2040}},\"colocation_growth_abs\":{{feature.values_.colocation_growth_abs}},\"standalone_2030\":{{feature.values_.standalone_2030}},\"standalone_2040\":{{feature.values_.standalone_2040}},\"total_combined_2030\":{{feature.values_.total_combined_2030}},\"total_combined_2040\":{{feature.values_.total_combined_2040}},\"share_of_bezirk_2040_perc\":{{feature.values_.share_of_bezirk_2040_perc}},\"pumpspeicher_p_nom_mw\":{{feature.values_.pumpspeicher_p_nom_mw}},\"pumpspeicher_e_nom_mwh\":{{feature.values_.pumpspeicher_e_nom_mwh}},\"pumpspeicher_name\":\"{{feature.values_.pumpspeicher_name}}\"}]",
+        "Type": "application/json"
+      }
+    ]
+  }
 }

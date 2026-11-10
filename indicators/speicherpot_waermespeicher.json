@@ -14,5 +14,17 @@
   ],
   "Collections": [
     "speicherpot_waermespeicher_collection"
-  ]
+  ],
+  "Process": {
+    "Name": "stats_waerme",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/process/form_waerme.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/process/chart_waerme.json",
+    "EndPoints": [
+      {
+        "Identifier": "statistics",
+        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"pot_2030\":{{feature.values_.pot_2030}},\"pot_2040\":{{feature.values_.pot_2040}},\"waerme_growth_abs\":{{feature.values_.waerme_growth_abs}},\"share_of_bezirk_2040_perc\":{{feature.values_.share_of_bezirk_2040_perc}}}]",
+        "Type": "application/json"
+      }
+    ]
+  }
 }
