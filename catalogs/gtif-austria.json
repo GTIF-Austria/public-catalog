@@ -83,7 +83,6 @@
     "speicherpot_stromspeicher",
     "speicherpot_waermespeicher",
     "speicherpot_gasspeicher",
-    "speicherpot_flex_demand",
-    "speicherpot_storage_data"
+    "speicherpot_flex_demand"
   ]
 }
