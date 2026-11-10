@@ -32,7 +32,6 @@
         16.51024760386663,
         48.14833190337827
       ],
-      "ParquetSource": "",
       "DataProjection": {
         "name": "\"EPSG\"4326"
       }
