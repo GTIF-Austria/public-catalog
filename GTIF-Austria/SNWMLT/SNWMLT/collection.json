@@ -11,6 +11,18 @@
       "title": "GTIF Austria"
     },
     {
+      "rel": "wms",
+      "href": "https://sh.dataspace.copernicus.eu/ogc/wms/1da8fb59-f62e-4a93-b51a-f4f05dd9792c",
+      "type": "image/png",
+      "title": "DTA - Snow Melt",
+      "wms:layers": [
+        "SNOW-MELT"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
