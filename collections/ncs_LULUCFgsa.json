@@ -37,7 +37,12 @@
             "TimeEntries": [
                 {
                     "Time": "20250101",
-                    "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LULUCF/stacked_datasets_masked_2025.cog"
+                    "Assets": [
+                        {
+                        "Identifier": "Land Cover Land Use - with GSA Parcels Dataset",
+                        "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LULUCF/stacked_datasets_masked_2025.cog"
+                        }
+                    ]
                 }
             ]
         }
