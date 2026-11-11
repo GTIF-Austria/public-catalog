@@ -11,7 +11,7 @@
           "Assets": [
             {
               "Identifier": "Globalstrahlung auf die reale Fläche",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/gloreal_100m_20260305-1000_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/gloreal_1m_20260305-1000_cog.tif"
             }
           ]
         },
@@ -20,7 +20,7 @@
           "Assets": [
             {
               "Identifier": "Globalstrahlung auf die reale Fläche",
-              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/gloreal_100m_20260305-1100_cog.tif"
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/gloreal_1m_20260305-1100_cog.tif"
             }
           ]
         }
