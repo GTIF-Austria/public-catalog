@@ -1,0 +1,30 @@
+{
+  "Name": "speicherpot_gasspeicher",
+  "Title": "Regionale Gasspeicherpotenziale 2030/2040",
+  "Description": "**Wichtiger Hinweis**: Bei dieser Karte und den zugrundeliegenden Daten handelt es sich um **vorläufige Ergebnisse** aus dem Projekt **SpeicherPot**, die laufend evaluiert und angepasst werden.\n\nDie Daten stehen auf **politischer Bezirksebene** zur Verfügung und umfassen folgende Kernaspekte:\n\n* **Wasserstoffspeicher (GWh)**: Prognostiziertes Potenzial für die Speicherung von grünem Wasserstoff (H2) zur saisonalen Entlastung des Energiesystems.\n* **Power-to-Gas & Synthetische Gase (GWh)**: Kapazitäten für synthetisches Methan und chemische Energieträger auf Bezirksebene.\n* **Gesamtkapazität Gasspeicher (GWh)**: Das aggregierte Speicherpotenzial für gasförmige Energieträger zur lang- und mittelfristigen Flexibilitätsbereitstellung.\n* **Anteil am Bundesland / Österreich (%)**: Einordnung des Bezirks im österreichweiten Vergleich der Gas- und Wasserstoffspeicherung.",
+  "CollectionGroup": "Energy Transition",
+  "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/gas_pot.jpeg",
+  "Provider": [
+    {
+      "Name": "SpeicherPot Project"
+    }
+  ],
+  "Agency": [
+    "SpeicherPot"
+  ],
+  "Collections": [
+    "speicherpot_gasspeicher_collection"
+  ],
+  "Process": {
+    "Name": "stats_gas",
+    "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/process/form_gas.json",
+    "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/process/chart_gas.json",
+    "EndPoints": [
+      {
+        "Identifier": "statistics",
+        "Url": "data:application/json,[{\"id\":\"{{feature.values_.id}}\",\"g_name\":\"{{feature.values_.g_name}}\",\"methanspeicher_2030_mwh\":\"{{feature.values_.methanspeicher_2030_mwh}}\",\"methanspeicher_2040_mwh\":\"{{feature.values_.methanspeicher_2040_mwh}}\",\"h2_speicher_2030_mwh\":\"{{feature.values_.h2_speicher_2030_mwh}}\",\"h2_speicher_2040_mwh\":\"{{feature.values_.h2_speicher_2040_mwh}}\",\"gas_total_2030_mwh\":\"{{feature.values_.gas_total_2030_mwh}}\",\"gas_total_2040_mwh\":\"{{feature.values_.gas_total_2040_mwh}}\",\"methan_storage_name\":\"{{feature.values_.methan_storage_name}}\",\"austria_h2_total_mwh\":\"{{feature.values_.austria_h2_total_mwh}}\"}]",
+        "Type": "application/json"
+      }
+    ]
+  }
+}

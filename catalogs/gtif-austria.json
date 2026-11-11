@@ -79,6 +79,10 @@
     "tourism_uc2_indicator",
     "dailytemperatureforecast",
     "gtif_at_ew_snow_basin_data_indicator",
-    "tourism_uc2_stats"
+    "tourism_uc2_stats",
+    "speicherpot_stromspeicher",
+    "speicherpot_waermespeicher",
+    "speicherpot_gasspeicher",
+    "speicherpot_flex_demand"
   ]
 }

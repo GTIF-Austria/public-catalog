@@ -1,0 +1,34 @@
+{
+  "Name": "speicherpot_waermespeicher_collection",
+  "Title": "Wärmespeicher - Regionale Speicherpotenziale",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Description": "Dieses Dataset liefert Informationen zum prognostizierten Potenzial thermischer Energiespeicher (z. B. Großwärmespeicher, Fernwärmespeicher, Aquiferspeicher und dezentrale Puffer- und Warmwasserspeicher) auf politischer Bezirksebene in Österreich.",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/style_waerme.json",
+      "Bbox": [
+        9.5,
+        44.5,
+        18,
+        49.9
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20300101",
+          "Assets": [
+            {
+              "Identifier": "Wärmespeicherpotenziale",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/speicherpot/bezirke_energiesystem.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Agency": [
+    "SpeicherPot"
+  ]
+}
