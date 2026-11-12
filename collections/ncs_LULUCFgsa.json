@@ -1,0 +1,53 @@
+{
+    "Name": "ncs_LULUCFgsa",
+    "Title": "Land Cover Land Use with GSA parcels",
+    "Themes": [
+        "Carbon Accounting"
+    ],
+    "Image": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Thumbnail/grassland_lt.png",
+    "CollectionGroup": "Carbon Accounting",
+    "Stories": [
+        {
+            "Name": "Natural Capital Solution",
+            "Id": "natural_capital_solution"
+        }
+    ],
+    "Provider": [
+        {
+            "Name": "ECOSYS",
+            "Url": "https://ncs.eox.at/"
+        },
+
+        {
+            "Name": "EOX",
+            "Url": "https://eox.at/"
+        }
+    ],
+    "Description": "https://raw.githubusercontent.com/GTIF-Austria/public-assets/refs/heads/main/assets/descriptions/Web_Box_NCS.md",
+    "Resources": [
+        {
+            "Name": "COG source",
+            "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_LULUCF.json",
+            "Bbox": [
+                15.5,
+                48.1,
+                15.9,
+                48.5
+            ],
+            "TimeEntries": [
+                {
+                    "Time": "20250101",
+                    "Assets": [
+                        {
+                        "Identifier": "Land Cover Land Use with GSA parcels",
+                        "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LULUCF/stacked_datasets_masked_2025.cog"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Agency": [
+        "ESA"
+    ]
+}
