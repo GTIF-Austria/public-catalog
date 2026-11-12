@@ -1,6 +1,6 @@
 {
     "Name": "ncs_nutat1",
-    "Title": "NUT AT1 border",
+    "Title": "NUT AT1",
     "Themes": [
         "Carbon Accounting"
     ],
@@ -29,17 +29,17 @@
             "Name": "FlatGeobuf source",
             "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_NUT_AT1.json",
             "Bbox": [
-                9.5,
-                46.4,
-                17.1,
-                49.1
+                15.5,
+                48.1,
+                15.9,
+                48.5
             ],
             "TimeEntries": [
                 {
                     "Time": "20250101",
                     "Assets": [
                         {
-                        "Identifier": "NUT AT1 border",
+                        "Identifier": "NUT AT1",
                         "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/NUT_AT1/NUT_AT1.fgb"
                         }
                     ]

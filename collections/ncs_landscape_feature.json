@@ -29,15 +29,15 @@
             "Name": "VectorTile source",
             "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_LF.json",
             "Bbox": [
-                9.5,
-                46.4,
-                17.1,
-                49.1
+                15.5,
+                48.1,
+                15.9,
+                48.5
             ],
             "TimeEntries": [
                 {
                     "Time": "20250101",
-                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.ncs_landscapefeature_merged_2025/tiles/WebMercatorQuad/{z}/{x}/{y}"
+                    "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.ncs_landscape_feature_merged_2025/tiles/WebMercatorQuad/{z}/{x}/{y}"
                 }
             ]
         }

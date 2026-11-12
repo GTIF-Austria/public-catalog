@@ -1,6 +1,6 @@
 {
     "Name": "ncs_LULUCFgsa",
-    "Title": "Land Cover Land Use - with GSA Parcels Dataset",
+    "Title": "Land Cover Land Use with GSA parcels",
     "Themes": [
         "Carbon Accounting"
     ],
@@ -29,10 +29,10 @@
             "Name": "COG source",
             "Style": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Style/style_LULUCF.json",
             "Bbox": [
-                9.5,
-                46.4,
-                17.1,
-                49.1
+                15.5,
+                48.1,
+                15.9,
+                48.5
             ],
             "TimeEntries": [
                 {
