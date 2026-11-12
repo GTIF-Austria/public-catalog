@@ -1199,6 +1199,24 @@
       "collection_group": "Climate Change & Tourism"
     },
     {
+      "rel": "child",
+      "href": "./nature_capital_solution/collection.json",
+      "type": "application/json",
+      "title": "Biodiversity Carbon Farming Index",
+      "id": "nature_capital_solution",
+      "themes": [
+        "Carbon Accounting"
+      ],
+      "providers": [
+        "ECOSYS",
+        "EOX"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Thumbnail/grassland_lt.png"
+      ],
+      "collection_group": "Carbon Accounting"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/catalog.json",
       "type": "application/json"
