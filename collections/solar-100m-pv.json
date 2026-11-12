@@ -10,7 +10,7 @@
           "Time": "20260305T100000",
           "Assets": [
             {
-              "Identifier": "theoretical solar potential 100x100m",
+              "Identifier": "Solar Potential 100m",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/pvpot_100m_20260305-1000_cog.tif"
             }
           ]
@@ -19,7 +19,7 @@
           "Time": "20260503T110000",
           "Assets": [
             {
-              "Identifier": "theoretical solar potential 100x100m",
+              "Identifier": "Solar Potential 100m",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/pvpot_100m_20260305-1100_cog.tif"
             }
           ]
@@ -28,7 +28,7 @@
           "Time": "20260503T130000",
           "Assets": [
             {
-              "Identifier": "theoretical solar potential 100x100m",
+              "Identifier": "Solar Potential 100m",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/pvpot_100m_20260305-1300_cog.tif"
             }
           ]
@@ -37,7 +37,7 @@
           "Time": "20260503T140000",
           "Assets": [
             {
-              "Identifier": "theoretical solar potential 100x100m",
+              "Identifier": "Solar Potential 100m",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/pvpot_100m_20260305-1400_cog.tif"
             }
           ]
@@ -46,7 +46,7 @@
           "Time": "20260503T150000",
           "Assets": [
             {
-              "Identifier": "theoretical solar potential 100x100m",
+              "Identifier": "Solar Potential 100m",
               "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/info_solar/pvpot_100m_20260305-1500_cog.tif"
             }
           ]
