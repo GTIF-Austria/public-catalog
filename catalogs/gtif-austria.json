@@ -2,6 +2,7 @@
   "id": "GTIF-Austria",
   "title": "GTIF Austria",
   "description": "Green Transition Information Factory - Austria",
+  "geodb_default_form": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "endpoint": "https://gtif-austria.github.io/public-catalog/GTIF-Austria/",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
@@ -80,6 +81,7 @@
     "dailytemperatureforecast",
     "gtif_at_ew_snow_basin_data_indicator",
     "tourism_uc2_stats",
-    "nature_capital_solution"
+    "nature_capital_solution",
+    "heatgrid_lst"
   ]
 }
