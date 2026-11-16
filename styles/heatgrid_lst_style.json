@@ -1,0 +1,241 @@
+{
+  "legend": {
+    "title": "Land Surface Temperature (°C)",
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#bd0026"
+    ],
+    "domainProperties": [
+      "vmin",
+      "vmax"
+    ]
+  },
+  "variables": {
+    "vmin": 0,
+    "vmax": 50,
+    "daytimeOffset": 1,
+    "lucBase": 1,
+    "scenarioKey": "afternoon_no_change"
+  },
+  "tooltip": [
+    {
+      "id": "band1",
+      "title": "Morning - Baseline",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band2",
+      "title": "Afternoon - Baseline",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band3",
+      "title": "Morning - 511 -> 521 (Trees)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band4",
+      "title": "Afternoon - 511 -> 521 (Trees)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band5",
+      "title": "Morning - 511 -> 522 (Grassland)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band6",
+      "title": "Afternoon - 511 -> 522 (Grassland)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band7",
+      "title": "Morning - 120 -> 511 (Forest -> Settlement)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band8",
+      "title": "Afternoon - 120 -> 511 (Forest -> Settlement)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band9",
+      "title": "Morning - 311 -> 511 (Grass -> Settlement)",
+      "appendix": " °C",
+      "decimals": 2
+    },
+    {
+      "id": "band10",
+      "title": "Afternoon - 311 -> 511 (Grass -> Settlement)",
+      "appendix": " °C",
+      "decimals": 2
+    }
+  ],
+  "jsonform": {
+    "type": "object",
+    "title": "Data configuration",
+    "properties": {
+      "daytime": {
+        "title": "Daytime",
+        "type": "string",
+        "enum": [
+          "afternoon",
+          "morning"
+        ],
+        "default": "afternoon",
+        "options": {
+          "enum_titles": [
+            "Afternoon (hottest hot-spell hour)",
+            "Morning (coldest hot-spell hour)"
+          ]
+        }
+      },
+      "luc": {
+        "title": "Land Use Change (LUC)",
+        "type": "string",
+        "enum": [
+          "no_change",
+          "511_521",
+          "511_522",
+          "120_511",
+          "311_511"
+        ],
+        "default": "no_change",
+        "options": {
+          "enum_titles": [
+            "No change (Baseline)",
+            "unvegetated settlement (511) -> settlement with trees (521)",
+            "unvegetated settlement (511) -> settlement with grassland (522)",
+            "deciduous forest (120) -> unvegetated settlement (511)",
+            "grassland (311) -> unvegetated settlement (511)"
+          ]
+        }
+      },
+      "scenarioKey": {
+        "type": "string",
+        "template": "{{daytime}}_{{luc}}",
+        "watch": {
+          "daytime": "daytime",
+          "luc": "luc"
+        },
+        "options": {
+          "hidden": true
+        }
+      },
+      "temperatureRange": {
+        "title": "Temperature range (°C)",
+        "type": "object",
+        "properties": {
+          "vmin": {
+            "type": "number",
+            "title": "Minimum Temperature (°C)",
+            "format": "range",
+            "minimum": 0,
+            "maximum": 50,
+            "default": 0
+          },
+          "vmax": {
+            "type": "number",
+            "title": "Maximum Temperature (°C)",
+            "format": "range",
+            "minimum": 0,
+            "maximum": 50,
+            "default": 50
+          }
+        },
+        "format": "minmax"
+      }
+    }
+  },
+  "color": [
+    "case",
+    [
+      "<=",
+      [
+        "match",
+        ["var", "scenarioKey"],
+        "morning_no_change", ["band", 1],
+        "afternoon_no_change", ["band", 2],
+        "morning_511_521", ["band", 3],
+        "afternoon_511_521", ["band", 4],
+        "morning_511_522", ["band", 5],
+        "afternoon_511_522", ["band", 6],
+        "morning_120_511", ["band", 7],
+        "afternoon_120_511", ["band", 8],
+        "morning_311_511", ["band", 9],
+        "afternoon_311_511", ["band", 10],
+        ["band", 2]
+      ],
+      -9000
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "interpolate",
+      [
+        "linear"
+      ],
+      [
+        "/",
+        [
+          "-",
+          [
+            "match",
+            ["var", "scenarioKey"],
+            "morning_no_change", ["band", 1],
+            "afternoon_no_change", ["band", 2],
+            "morning_511_521", ["band", 3],
+            "afternoon_511_521", ["band", 4],
+            "morning_511_522", ["band", 5],
+            "afternoon_511_522", ["band", 6],
+            "morning_120_511", ["band", 7],
+            "afternoon_120_511", ["band", 8],
+            "morning_311_511", ["band", 9],
+            "afternoon_311_511", ["band", 10],
+            ["band", 2]
+          ],
+          [
+            "var",
+            "vmin"
+          ]
+        ],
+        [
+          "-",
+          [
+            "var",
+            "vmax"
+          ],
+          [
+            "var",
+            "vmin"
+          ]
+        ]
+      ],
+      0.0,
+      [255, 255, 178, 1.0],
+      0.25,
+      [254, 204, 92, 1.0],
+      0.5,
+      [253, 141, 60, 1.0],
+      0.75,
+      [240, 59, 32, 1.0],
+      1.0,
+      [189, 0, 38, 1.0]
+    ]
+  ]
+}
