@@ -1,0 +1,221 @@
+{
+  "Name": "heatgrid_lst",
+  "Title": "HEATGRID - Urban Land Surface Temperature Projections",
+  "ShortDescription": "The map provides 70 m resolution land surface temperature (LST) projections for Vienna, Graz and Innsbruck from 2000 to 2049 with the ECMWF model IFS-NEMO, based on the SSP3-7.0 scenario (Shared Socioeconomic Pathway, high-emission future with continuous increases in CO₂ emissions and limited global mitigation efforts) and its implication for the climate. Decadal outputs show mean LST during summer hot spells, separately for morning and afternoon. Additional visualization variables simulate four LULUCF land-use transitions to estimate their potential effects on surface temperatures. The results support heat hotspot identification, urban heat mitigation, climate adaptation and spatial planning.",
+  "Description": "The map provides high-resolution (70 m) land surface temperature (LST) projections for Vienna, Graz and Innsbruck from 2000 to 2049 with the ECMWF model IFS-NEMO, based on the SSP3-7.0 scenario (Shared Socioeconomic Pathway, high-emission future with continuous increases in CO₂ emissions and limited global mitigation efforts) and its implication for the climate. Decadal outputs show mean LST during summer hot spells, separately for morning and afternoon. Additional maps simulate four LULUCF land-use transitions to estimate their potential effects on surface temperatures. The results support heat hotspot identification, urban heat mitigation, climate adaptation and spatial planning.\n\n### Displayed variables\nLand Surface Temperature projection under the climate scenario IFS-NEMO, depending on:\n* **Areas of Interest**: Vienna, Graz, Innsbruck\n* **Decade**: 2000-2009, 2010-2019, 2020-2029, 2030-2039, 2040-2049\n* **Daytime**: coldest hour of the morning during hot spells, hottest hour of the afternoon during hot spells\n* **Land Use Change**:\n  * unvegetated settlement (511) -> settlement with trees (521)\n  * unvegetated settlement (511) -> settlement with grassland (522)\n  * deciduous forest (120) -> unvegetated settlement (511)\n  * grassland (311) -> unvegetated settlement (511)\n\n### Resolution\n70 m, coldest hot-spell morning hour and hottest hot-spell afternoon hour from 2000 to 2049 aggregated by decade.\n\n### Note\nOnly the outputs with the climate scenario IFS-NEMO are displayed. Results for ICON model available under request.\n\n### Purpose\n* **Target groups**: Municipalities and regional authorities, urban planners and landscape architects, real estate developers, healthcare and education facilities, and infrastructure operators.\n* **Potential use**: Identifying urban heat hotspots, assessing the thermal effects of land-use changes, supporting greening and de-sealing measures, informing climate-resilient spatial planning, and exploring future urban heat patterns under climate scenarios.",
+  "CollectionGroup": "Climate Change & Tourism",
+  "Themes": [
+    "Climate Change & Tourism"
+  ],
+  "Tags": [
+    "LST",
+    "Urban Heat",
+    "Climate Projections",
+    "LULUCF"
+  ],
+  "Provider": [
+    {
+      "Name": "GeoVille",
+      "Url": "https://www.geoville.com/"
+    }
+  ],
+  "Locations": [
+    {
+      "Identifier": "vienna",
+      "Name": "Vienna",
+      "Country": "AT",
+      "Point": [16.3443, 48.22813],
+      "Bbox": [16.20831, 48.11691, 16.48089, 48.33919],
+      "TimeEntries": [
+        {
+          "Time": "2000-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33UWP_2000_2009.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2010-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33UWP_2010_2019.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2020-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33UWP_2020_2029.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2030-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33UWP_2030_2039.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2040-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33UWP_2040_2049.tif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Identifier": "graz",
+      "Name": "Graz",
+      "Country": "AT",
+      "Point": [15.45964, 46.99931],
+      "Bbox": [15.32762, 46.86559, 15.59232, 47.13287],
+      "TimeEntries": [
+        {
+          "Time": "2000-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33TWN_2000_2009.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2010-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33TWN_2010_2019.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2020-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33TWN_2020_2029.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2030-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33TWN_2030_2039.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2040-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_33TWN_2040_2049.tif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Identifier": "innsbruck",
+      "Name": "Innsbruck",
+      "Country": "AT",
+      "Point": [11.41204, 47.26617],
+      "Bbox": [11.31017, 47.20055, 11.51417, 47.33169],
+      "TimeEntries": [
+        {
+          "Time": "2000-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_32TPT_2000_2009.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2010-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_32TPT_2010_2019.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2020-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_32TPT_2020_2029.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2030-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_32TPT_2030_2039.tif"
+            }
+          ]
+        },
+        {
+          "Time": "2040-01-01",
+          "Assets": [
+            {
+              "Identifier": "lst_stack",
+              "Title": "Land Surface Temperature (IFS-NEMO)",
+              "File": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/cog_3857/heatgrid_32TPT_2040_2049.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "DataProjection": "EPSG:3857",
+      "Style": "styles/heatgrid_lst_style.json"
+    }
+  ],
+  "Process": {
+    "Name": "heatgrid_lst_timeseries",
+    "JsonForm": "forms/heatgrid_form.json",
+    "VegaDefinition": "charts/heatgrid_vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "heatgrid_stats",
+        "Url": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/gtif-at-ea-heatgrid/heatgrid_stats.csv",
+        "Type": "text/csv",
+        "Method": "GET"
+      }
+    ]
+  }
+}

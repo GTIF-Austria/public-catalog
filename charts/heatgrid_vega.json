@@ -1,0 +1,135 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "background": "transparent",
+  "title": {
+    "text": "Mean Land Surface Temperature by Decade",
+    "anchor": "start",
+    "fontSize": 13,
+    "fontWeight": "bold"
+  },
+  "data": {
+    "name": "heatgrid_stats"
+  },
+  "params": [
+    {
+      "name": "grid",
+      "select": {
+        "type": "interval",
+        "encodings": ["x", "y"]
+      },
+      "bind": "scales"
+    },
+    {
+      "name": "show_luc",
+      "value": true,
+      "bind": {
+        "input": "checkbox",
+        "name": "LUC Scenarios"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.luc === 'no_change' || (show_luc && datum.luc !== 'no_change')"
+    },
+    {
+      "calculate": "toNumber(datum.mean)",
+      "as": "mean_num"
+    },
+    {
+      "calculate": "toNumber(datum.min)",
+      "as": "min_num"
+    },
+    {
+      "calculate": "toNumber(datum.max)",
+      "as": "max_num"
+    },
+    {
+      "calculate": "toDate(split(datum.decade, '-')[0] + '-01-01')",
+      "as": "decade_date"
+    },
+    {
+      "calculate": "datum.luc_label + ' (' + datum.daytime + ')'",
+      "as": "scenario_daytime_label"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size": 45
+    },
+    "strokeWidth": 2,
+    "clip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "decade_date",
+      "type": "temporal",
+      "title": "Decade",
+      "axis": {
+        "format": "%Y",
+        "tickCount": 5,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "mean_num",
+      "type": "quantitative",
+      "title": "Mean LST (°C)",
+      "scale": {
+        "zero": false
+      }
+    },
+    "color": {
+      "field": "scenario_daytime_label",
+      "type": "nominal",
+      "title": "Scenario & Daytime",
+      "scale": {
+        "domain": [
+          "No change (Baseline) (afternoon)",
+          "No change (Baseline) (morning)",
+          "unvegetated settlement (511) -> settlement with trees (521) (afternoon)",
+          "unvegetated settlement (511) -> settlement with trees (521) (morning)",
+          "unvegetated settlement (511) -> settlement with grassland (522) (afternoon)",
+          "unvegetated settlement (511) -> settlement with grassland (522) (morning)",
+          "deciduous forest (120) -> unvegetated settlement (511) (afternoon)",
+          "deciduous forest (120) -> unvegetated settlement (511) (morning)",
+          "grassland (311) -> unvegetated settlement (511) (afternoon)",
+          "grassland (311) -> unvegetated settlement (511) (morning)"
+        ],
+        "range": [
+          "#111111",
+          "#888888",
+          "#1b7837",
+          "#7fbf7b",
+          "#d9a404",
+          "#f7e379",
+          "#2166ac",
+          "#92c5de",
+          "#b2182b",
+          "#f4a582"
+        ]
+      }
+    },
+    "strokeDash": {
+      "field": "city",
+      "type": "nominal",
+      "title": "City",
+      "scale": {
+        "domain": ["Vienna", "Graz", "Innsbruck"],
+        "range": [[1, 0], [6, 4], [2, 3]]
+      }
+    },
+    "tooltip": [
+      { "field": "city", "type": "nominal", "title": "City" },
+      { "field": "decade", "type": "nominal", "title": "Decade" },
+      { "field": "daytime", "type": "nominal", "title": "Daytime" },
+      { "field": "luc_label", "type": "nominal", "title": "LUC Scenario" },
+      { "field": "mean_num", "type": "quantitative", "format": ".3f", "title": "Mean LST (°C)" },
+      { "field": "min_num", "type": "quantitative", "format": ".2f", "title": "Min LST (°C)" },
+      { "field": "max_num", "type": "quantitative", "format": ".2f", "title": "Max LST (°C)" }
+    ]
+  }
+}
