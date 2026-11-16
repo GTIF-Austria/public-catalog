@@ -1231,11 +1231,14 @@
       ],
       "cities": [
         "Vienna",
-        "Innsbruck",
-        "Graz"
+        "Graz",
+        "Innsbruck"
       ],
       "countries": [
         "AT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/gtif-austria/public-narratives/refs/heads/main/assets/gofweiss-source/heatgrid-cover-image.png"
       ],
       "tags": [
         "LST",
