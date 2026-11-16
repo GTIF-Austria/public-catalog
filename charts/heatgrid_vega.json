@@ -88,16 +88,16 @@
       "title": "Scenario & Daytime",
       "scale": {
         "domain": [
-          "No change (Baseline) (afternoon)",
-          "No change (Baseline) (morning)",
-          "unvegetated settlement (511) -> settlement with trees (521) (afternoon)",
-          "unvegetated settlement (511) -> settlement with trees (521) (morning)",
-          "unvegetated settlement (511) -> settlement with grassland (522) (afternoon)",
-          "unvegetated settlement (511) -> settlement with grassland (522) (morning)",
-          "deciduous forest (120) -> unvegetated settlement (511) (afternoon)",
-          "deciduous forest (120) -> unvegetated settlement (511) (morning)",
-          "grassland (311) -> unvegetated settlement (511) (afternoon)",
-          "grassland (311) -> unvegetated settlement (511) (morning)"
+          "No change (afternoon)",
+          "No change (morning)",
+          "LUC 511 -> 521 (afternoon)",
+          "LUC 511 -> 521 (morning)",
+          "LUC 511 -> 522 (afternoon)",
+          "LUC 511 -> 522 (morning)",
+          "LUC 120 -> 511 (afternoon)",
+          "LUC 120 -> 511 (morning)",
+          "LUC 311 -> 511 (afternoon)",
+          "LUC 311 -> 511 (morning)"
         ],
         "range": [
           "#111111",
