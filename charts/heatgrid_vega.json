@@ -13,14 +13,6 @@
   },
   "params": [
     {
-      "name": "grid",
-      "select": {
-        "type": "interval",
-        "encodings": ["x", "y"]
-      },
-      "bind": "scales"
-    },
-    {
       "name": "show_luc",
       "value": true,
       "bind": {
@@ -54,15 +46,50 @@
       "as": "scenario_daytime_label"
     }
   ],
-  "mark": {
-    "type": "line",
-    "point": {
-      "filled": true,
-      "size": 45
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "grid",
+          "select": {
+            "type": "interval",
+            "encodings": ["x", "y"]
+          },
+          "bind": "scales"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2,
+        "clip": true
+      },
+      "encoding": {
+        "strokeDash": {
+          "field": "city",
+          "type": "nominal",
+          "title": "City",
+          "scale": {
+            "domain": ["Vienna", "Graz", "Innsbruck"],
+            "range": [[1, 0], [6, 4], [2, 3]]
+          },
+          "legend": {
+            "symbolType": "stroke",
+            "symbolSize": 900,
+            "symbolStrokeColor": "#111111",
+            "symbolStrokeWidth": 2
+          }
+        }
+      }
     },
-    "strokeWidth": 2,
-    "clip": true
-  },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 45,
+        "clip": true
+      }
+    }
+  ],
   "encoding": {
     "x": {
       "field": "decade_date",
@@ -111,15 +138,6 @@
           "#b2182b",
           "#f4a582"
         ]
-      }
-    },
-    "strokeDash": {
-      "field": "city",
-      "type": "nominal",
-      "title": "City",
-      "scale": {
-        "domain": ["Vienna", "Graz", "Innsbruck"],
-        "range": [[1, 0], [6, 4], [2, 3]]
       }
     },
     "tooltip": [
