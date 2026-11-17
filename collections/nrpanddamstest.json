@@ -1,6 +1,6 @@
 {
-  "Name": "nrp_and_dams_test",
-  "Title": "nrp_and_dams_test",
+  "Name": "nrp_austria",
+  "Title": "Natural Retention Ponds Austria",
   "Description": "",
   "Resources": [
     {
@@ -11,12 +11,12 @@
           "Assets": [
             {
               "Identifier": "nrp",
-              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif.fgb",
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_austria.fgb",
               "Title": "Natural Retention Ponds"
             },
             {
               "Identifier": "dams",
-              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_500_100_gtif_dams.fgb"
+              "File": "https://raw.githubusercontent.com/smfloery/moniQue/refs/heads/uncertainty/tests/nrp_austria_dams.fgb"
             }
           ]
         }
