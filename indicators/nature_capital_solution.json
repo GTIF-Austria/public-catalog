@@ -30,7 +30,7 @@
     ],
     "Process": {
         "Name": "timeseries",
-        "JsonForm": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/NCS/process/form.json",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/process/form.json",
         "EndPoints": [
             {
                 "Identifier": "bcfi",
@@ -38,6 +38,6 @@
                 "Method": "GET"
             }
         ],
-        "VegaDefinition": "https://workspace-ui-public.gtif-at-get-it.hub-otc.eox.at/api/public/share/public-ebxe9szx-v1/NCS/process/chart_BCFI_impact_category.json"
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/process/chart_BCFI_impact_category.json"
     }
 }
