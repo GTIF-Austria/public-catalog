@@ -27,5 +27,17 @@
     "Disable": [
         "ncs_landscape_feature",
         "ncs_LULUCFgsa"
-    ]
+    ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/process/form.json",
+        "EndPoints": [
+            {
+                "Identifier": "bcfi",
+                "Url": "https://eoapi.workspace.gtif-eox.hub-otc.eox.at/vector/collections/public.ncs_bcfi_al_nuat1_{{year}}/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Method": "GET"
+            }
+        ],
+        "VegaDefinition": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/process/chart_BCFI_impact_category.json"
+    }
 }
