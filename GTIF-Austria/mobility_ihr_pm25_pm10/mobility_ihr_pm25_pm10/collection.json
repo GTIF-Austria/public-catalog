@@ -17,9 +17,6 @@
       "title": "Mobility Impact on PM2.5 and PM10 Concentrations"
     }
   ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
-  ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg",
   "themes": [
     "mobility-transition"
@@ -34,18 +31,18 @@
     "spatial": {
       "bbox": [
         [
-          15.0,
-          47.69,
-          17.7,
-          48.5
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2021-07-01T00:00:00Z",
-          "2022-12-18T00:00:00Z"
+          "2026-11-25T15:54:32.762637Z",
+          null
         ]
       ]
     }
@@ -58,15 +55,6 @@
     }
   ],
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "file:size": 70262,
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "thumbnail": {
       "href": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-09-Human-Mobility-Data/thumbnails/Gemini_Generated_Image_pm2-5-10.jpg",
       "type": "image/png",
